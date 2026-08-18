@@ -1,0 +1,15 @@
+.venv/
+.pip-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/raw/*.zip
+data/raw/*.parquet
+outputs/models/
+tmp/
+498R_COLAB_BUNDLE.zip
+
+# Local source documents used during project development; the public repository
+# contains the derived traceability and publication reports instead.
+Lit_Review_498R__IDS_.pdf
+proposal.pdf
