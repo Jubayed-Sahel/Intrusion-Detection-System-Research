@@ -1,0 +1,202 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\CIC_IDS2017_multiclass_xgboost.joblib",
+    "dataset": "CIC-IDS2017",
+    "task": "multiclass",
+    "model_family": "xgboost",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\CIC-IDS2017_multiclass.csv",
+    "row_index": 0,
+    "predicted_class": "FTP-Patator",
+    "predicted_probability": 0.9998656511306763,
+    "class_probabilities": {
+      "BENIGN": 3.74212977476418e-05,
+      "Bot": 2.604880819490063e-06,
+      "DDoS": 1.1496397746668663e-05,
+      "DoS GoldenEye": 2.8919735086674336e-06,
+      "DoS Hulk": 2.9449431622197153e-06,
+      "DoS Slowhttptest": 5.786404926766409e-06,
+      "DoS slowloris": 1.6444726497866213e-05,
+      "FTP-Patator": 0.9998656511306763,
+      "Heartbleed": 1.5409229945362313e-06,
+      "Infiltration": 1.8797140910464805e-06,
+      "PortScan": 1.6023224816308357e-05,
+      "SSH-Patator": 1.8966740753967315e-05,
+      "Web Attack - Brute Force": 6.746193321305327e-06,
+      "Web Attack - Sql Injection": 2.5953711428883253e-06,
+      "Web Attack - XSS": 6.968423349462682e-06
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "Destination Port",
+      "observed_value": "21",
+      "transformed_value": 21.0,
+      "attribution": 6.020391941070557,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "Init_Win_bytes_backward",
+      "observed_value": "0",
+      "transformed_value": 0.0,
+      "attribution": 1.1733373403549194,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "Packet Length Std",
+      "observed_value": "8.082903769",
+      "transformed_value": 8.082903769,
+      "attribution": 0.33275696635246277,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "Flow IAT Max",
+      "observed_value": "144",
+      "transformed_value": 144.0,
+      "attribution": 0.30414721369743347,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "Fwd Packet Length Max",
+      "observed_value": "14",
+      "transformed_value": 14.0,
+      "attribution": 0.3014568090438843,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "Init_Win_bytes_forward",
+      "observed_value": "229",
+      "transformed_value": 229.0,
+      "attribution": 0.27008333802223206,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "Packet Length Mean",
+      "observed_value": "7.0",
+      "transformed_value": 7.0,
+      "attribution": 0.17730796337127686,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "SYN Flag Count",
+      "observed_value": "1",
+      "transformed_value": 1.0,
+      "attribution": 0.09344924241304398,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "Flow Duration",
+      "observed_value": "231",
+      "transformed_value": 231.0,
+      "attribution": -0.08952847123146057,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "Max Packet Length",
+      "observed_value": "14",
+      "transformed_value": 14.0,
+      "attribution": 0.07121102511882782,
+      "direction": "supports prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.8782064144033939,
+    "bottom_deletion_score": 0.0026714354753494263,
+    "random_mean_deletion_score": 0.14361135256993293,
+    "random_p95_deletion_score": 0.6844100435002473,
+    "top_minus_random_lift": 0.7345950618334609,
+    "local_empirical_one_sided_p": 0.004975124378109453,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.32938024401664734,
+        "probability_drop": 0.6704854071140289,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.08492539823055267,
+        "probability_drop": 0.9149402529001236,
+        "prediction_flipped": true
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.06417280435562134,
+        "probability_drop": 0.9356928467750549,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.00815850030630827,
+        "probability_drop": 0.991707150824368,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.9979208111763,
+        "probability_drop": 0.0019448399543762207,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.9978761672973633,
+        "probability_drop": 0.0019894838333129883,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.9978761672973633,
+        "probability_drop": 0.0019894838333129883,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.9951037168502808,
+        "probability_drop": 0.004761934280395508,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.3525481941709586,
+    "global_lift_ci": [
+      0.2578345024878035,
+      0.4468516737001027
+    ],
+    "global_holm_adjusted_p": 1.4551915228366852e-11,
+    "neighborhood_cosine_mean": 0.9162531817516668,
+    "neighborhood_top5_jaccard_mean": 0.7301587301587301,
+    "median_explanation_latency_ms": 10.18775,
+    "p95_explanation_latency_ms": 11.7381,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.6711018092751715,
+      "nearest_opposite_prediction": 0.5003300314125075,
+      "nearest_same_prediction": -0.010093382249275836,
+      "training_median_mode": 0.6369950513114114,
+      "zero": 0.627431577850075
+    }
+  }
+}

@@ -1,0 +1,2 @@
+dataset,task,model,seed,accuracy,balanced_accuracy,macro_f1,weighted_f1,macro_f1_supported_classes,macro_f1_training_vocabulary,training_seconds,train_rows,test_rows,feature_count,test_classes_with_support,training_classes
+Gotham2025,multiclass,random_forest,42,0.967614713689799,0.9109809378336932,0.8233270720575008,0.9682790274976422,0.8747850140610947,0.8233270720575008,1.9668578000000707,107120,26370,13,16,17

@@ -1,0 +1,4 @@
+dataset,model,bin,count,mean_attack_probability,observed_attack_frequency
+Gotham2025,xgboost,0,2812,8.340540080098435e-05,0.0
+Gotham2025,xgboost,3,1,0.3694186210632324,1.0
+Gotham2025,xgboost,9,23557,0.9998655319213867,1.0

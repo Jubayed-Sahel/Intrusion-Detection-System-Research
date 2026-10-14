@@ -111,6 +111,7 @@
     "top_minus_random_lift": 0.07384563326835632,
     "local_empirical_one_sided_p": 0.1890547263681592,
     "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
     "top_masking_details": [
       {
         "k": 1,

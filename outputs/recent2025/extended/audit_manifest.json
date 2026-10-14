@@ -1,0 +1,73 @@
+{
+  "config": {
+    "seed": 42,
+    "output_dir": "outputs/recent2025",
+    "datasets": [
+      "GeNIS2025",
+      "Gotham2025"
+    ],
+    "predictive_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "explanation_model_seeds": [
+      42,
+      52,
+      62
+    ],
+    "models": {
+      "random_forest": {
+        "n_estimators": 120,
+        "max_depth": 18,
+        "min_samples_leaf": 2
+      },
+      "xgboost": {
+        "n_estimators": 160,
+        "max_depth": 7,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      }
+    },
+    "evaluation": {
+      "explanation_samples": 100,
+      "lime_samples": 350,
+      "self_stability_samples": 6,
+      "lime_repeat_seeds": 5,
+      "fidelity_k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "feature_ablation_k": [
+        5,
+        10,
+        20
+      ]
+    }
+  },
+  "source_code": {
+    "C:/Users/User/Desktop/498R/run_recent_audit.py": "2b66eba170420c3518efe009fff7c1aa680923d1da259745deba0427d3548991",
+    "src/xai_ids/extended_audit.py": "7350c4b246e372c8fcdcc6bcf140f0f02c854b70fca69e3031c3a7093169586b",
+    "src/xai_ids/benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "src/xai_ids/transparency.py": "3815785bbb3f5a9c6c586e4ca927db6f8a5034a54bbaac15884c988b02521f26"
+  },
+  "inputs": {
+    "data/prepared/GeNIS2025/train.parquet": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+    "data/prepared/GeNIS2025/test.parquet": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f",
+    "outputs/recent2025/models/GeNIS2025_binary_random_forest.joblib": "404f908e45bcbe3202d2f16f2d6d21b07f0426fabac21f0df28177a63f34f5fe",
+    "outputs/recent2025/models/GeNIS2025_binary_xgboost.joblib": "7a539be9a2c934cfed4db3db906bf5ec8e3e197e0beb117b042937ebccea6257",
+    "outputs/recent2025/models/GeNIS2025_multiclass_random_forest.joblib": "b0f4e5d3ec1a806bf0f96341ff03b302844d0600cfc519b51a26e3cd3f6689b4",
+    "outputs/recent2025/models/GeNIS2025_multiclass_xgboost.joblib": "1d23fd6ae470f265b3695e70299d9b3a60cca55e557786047ebdbbf3f0e914fd",
+    "data/prepared/Gotham2025/train.parquet": "a92f5ff86c7cf0aca15079cb339cbfc92cf0e9b05079f5ef4f367d88e7d0467e",
+    "data/prepared/Gotham2025/test.parquet": "fb7636e1ff573d2a0fef78f7ca864f1e7d703a28b903749a79e7346cfa6dbf57",
+    "outputs/recent2025/models/Gotham2025_binary_random_forest.joblib": "048b03d82da9fbab7cf638166b450ddfce258b050343a513ed10f7617c5722af",
+    "outputs/recent2025/models/Gotham2025_binary_xgboost.joblib": "41b68c685de8bebcae1b05690b33598e7b127723e849b7b83e9cdc1ce8c407d6",
+    "outputs/recent2025/models/Gotham2025_multiclass_random_forest.joblib": "b55df764283a637ac0a0082bff6ba578b6f223473cac531588ad08f52c861e2b",
+    "outputs/recent2025/models/Gotham2025_multiclass_xgboost.joblib": "71c4b4ad5a5103ad96ee67e6322d739baf0d93fd0f24c394a27a9f31dffb81ad"
+  }
+}

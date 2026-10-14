@@ -1,0 +1,17 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.zip binary
+*.parquet binary
+*.joblib binary
+# Byte-hashed experiment and acquisition snapshots must keep their line endings.
+outputs/**/source_snapshots/*.py -text whitespace=cr-at-eol,-blank-at-eof
+outputs/**/benchmark_source_at_run_start.py -text whitespace=cr-at-eol
+outputs/**/acquisition_snapshots/** -text whitespace=cr-at-eol
+# The executing sources are hashed too; fresh checkouts must keep those bytes.
+src/xai_ids/benchmark.py -text whitespace=cr-at-eol
+src/xai_ids/recent_data.py -text whitespace=cr-at-eol,-blank-at-eof
+run_recent_benchmark.py -text whitespace=cr-at-eol
+src/xai_ids/extended_audit.py -text whitespace=cr-at-eol
+src/xai_ids/transparency.py -text whitespace=cr-at-eol
+run_recent_audit.py -text whitespace=cr-at-eol

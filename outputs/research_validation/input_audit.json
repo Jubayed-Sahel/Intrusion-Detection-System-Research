@@ -1,0 +1,30 @@
+{
+  "feature_overlap": [
+    {
+      "dataset": "CIC-IDS2017",
+      "task": "binary",
+      "raw_test_overlap_rows": 0,
+      "transformed_test_overlap_rows": 0
+    },
+    {
+      "dataset": "CIC-IDS2017",
+      "task": "multiclass",
+      "raw_test_overlap_rows": 0,
+      "transformed_test_overlap_rows": 0
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "task": "binary",
+      "raw_test_overlap_rows": 0,
+      "transformed_test_overlap_rows": 0
+    },
+    {
+      "dataset": "UNSW-NB15",
+      "task": "multiclass",
+      "raw_test_overlap_rows": 0,
+      "transformed_test_overlap_rows": 0
+    }
+  ],
+  "method": "64-bit pandas row hashes, target columns excluded; hash-based screening",
+  "minority_scope": "five committed predictive seeds; confusion destinations seed 42 only"
+}

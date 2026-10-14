@@ -1,0 +1,2 @@
+dataset,task,model,seed,accuracy,balanced_accuracy,macro_f1,weighted_f1,macro_f1_supported_classes,macro_f1_training_vocabulary,training_seconds,train_rows,test_rows,feature_count,test_classes_with_support,training_classes
+GeNIS2025,multiclass,xgboost,72,1.0,1.0,1.0,1.0,1.0,1.0,1.3075172000001203,32346,7654,69,4,4

@@ -1,0 +1,1688 @@
+{
+  "config": {
+    "seed": 42,
+    "output_dir": "outputs/recent2025",
+    "datasets": [
+      "GeNIS2025",
+      "Gotham2025"
+    ],
+    "predictive_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "explanation_model_seeds": [
+      42,
+      52,
+      62
+    ],
+    "models": {
+      "random_forest": {
+        "n_estimators": 120,
+        "max_depth": 18,
+        "min_samples_leaf": 2
+      },
+      "xgboost": {
+        "n_estimators": 160,
+        "max_depth": 7,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      }
+    },
+    "evaluation": {
+      "explanation_samples": 100,
+      "lime_samples": 350,
+      "self_stability_samples": 6,
+      "lime_repeat_seeds": 5,
+      "fidelity_k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "feature_ablation_k": [
+        5,
+        10,
+        20
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.0.2",
+      "shap": "0.47.2",
+      "lime": "0.2.0.1",
+      "matplotlib": "3.10.3",
+      "seaborn": "0.13.2",
+      "pyarrow": "20.0.0",
+      "joblib": "1.5.1",
+      "PyYAML": "6.0.2",
+      "reportlab": "4.4.1",
+      "pypdf": "5.5.0",
+      "pdfplumber": "0.11.6",
+      "python-docx": "1.1.2"
+    }
+  },
+  "sources": {
+    "GeNIS2025": {
+      "dataset": "GeNIS2025",
+      "author_record": 14919237,
+      "acquisition": {
+        "record_id": 14919237,
+        "metadata_url": "https://zenodo.org/api/records/14919237",
+        "files": [
+          {
+            "filename": "0-info.zip",
+            "url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+            "final_url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+            "acquired_utc": "2026-10-13T21:40:09.967576+00:00",
+            "bytes": 3308,
+            "provider_checksum": "md5:432ada3813f0261ac8b5e371ea4d729e",
+            "checksum_verified": true,
+            "sha256": "7ef636cc758586f18a5d9958e68eede9b85925610331283cce802f45542701bc",
+            "response_headers": {},
+            "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+          },
+          {
+            "filename": "3-scenarios.zip",
+            "url": "https://zenodo.org/api/records/14919237/files/3-scenarios.zip/content",
+            "final_url": "https://zenodo.org/records/14919237/files/3-scenarios.zip?download=1",
+            "acquired_utc": "2026-10-13T21:57:47.811116+00:00",
+            "bytes": 491738368,
+            "provider_checksum": "md5:7c560f37af540c9e65abae813bdacab4",
+            "checksum_verified": true,
+            "sha256": "8a56adc70d4400786b774012c69af1d5264d6733986d5a6d5d500e66b57cf246",
+            "response_headers": {
+              "transfer": "verified-length HTTP byte ranges; six workers"
+            },
+            "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+          }
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "source_files": [
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-1-disrupt.csv",
+          "parsed_rows": 138400,
+          "sha256": "b677e4aae6395ef8f95aacfeaa27edd78ca37b71f4724a3b72eee7b3dc341cbd"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv",
+          "parsed_rows": 301235,
+          "sha256": "1013f774038b53839ac7042a70ec56c06334c83778c5adbf135dcbfebb991aa8"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-3-disrupt.csv",
+          "parsed_rows": 828896,
+          "sha256": "6882cd3e417cb3326975036b04c75648f4eadf2c0dad4ba58b15dd6e3d44fea6"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-4-disrupt.csv",
+          "parsed_rows": 828886,
+          "sha256": "5f76afcc4b25f4fbb3fd783e8467aead4dd0682970287398f32dd08eeffa4f91"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-5-disrupt.csv",
+          "parsed_rows": 828888,
+          "sha256": "3adc79035d71970801a8caf9401dfaaa478e86200d5692f6d4cdf8a9db7da29b"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-6-authtest.csv",
+          "parsed_rows": 52521,
+          "sha256": "bba15e9bbb89409f418ed47aa621b69a030b33a961add41c4a11bff66446e66d"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-7-authtest.csv",
+          "parsed_rows": 49024,
+          "sha256": "b3ace87c6d2ae2dbc199c2a50410c8cc061eda7dd0c1e3bafcaad43638831fd1"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-8-authtest.csv",
+          "parsed_rows": 60131,
+          "sha256": "e6660c1cf1a8b26b043c9b197c18e8d455354504bdc52a518caffa6764319881"
+        }
+      ],
+      "source_label_counts": {
+        "benign": 326929,
+        "recon": 27733,
+        "dos": 2707585,
+        "bruteforce": 25734
+      },
+      "supervised_excluded_label_counts": {},
+      "label_scope": "known provider labels only; Unknown is excluded from both supervised tasks, not relabeled as Attack",
+      "sampled_label_counts": {
+        "benign": 10000,
+        "dos": 10000,
+        "recon": 10000,
+        "bruteforce": 10000
+      },
+      "per_class_cap": 10000,
+      "sampling": "global per-label lowest independent RNG priorities; all selected official members scanned",
+      "source_date_range_utc": [
+        null,
+        null
+      ],
+      "features": [
+        "Proto",
+        "Sport",
+        "Dport",
+        "Flgs",
+        "Dur",
+        "RunTime",
+        "Mean",
+        "Sum",
+        "Min",
+        "Max",
+        "sTos",
+        "dTos",
+        "sDSb",
+        "dDSb",
+        "sTtl",
+        "dTtl",
+        "sHops",
+        "dHops",
+        "Cause",
+        "TotPkts",
+        "SrcPkts",
+        "DstPkts",
+        "TotBytes",
+        "SrcBytes",
+        "DstBytes",
+        "TotAppByte",
+        "SAppBytes",
+        "DAppBytes",
+        "PCRatio",
+        "Load",
+        "SrcLoad",
+        "DstLoad",
+        "Loss",
+        "SrcLoss",
+        "DstLoss",
+        "pLoss",
+        "SrcGap",
+        "DstGap",
+        "Rate",
+        "SrcRate",
+        "DstRate",
+        "Dir",
+        "SIntPkt",
+        "SIntPktMin",
+        "SIntPktMax",
+        "SIntPktAct",
+        "SIntPktIdl",
+        "DIntPkt",
+        "DIntPktMin",
+        "DIntPktMax",
+        "DIntPktAct",
+        "DIntPktIdl",
+        "SrcJitter",
+        "SrcJitAct",
+        "DstJitter",
+        "DstJitAct",
+        "State",
+        "SrcWin",
+        "DstWin",
+        "TcpRtt",
+        "SynAck",
+        "AckDat",
+        "TcpOpt",
+        "sMeanPktSz",
+        "dMeanPktSz",
+        "sMaxPktSz",
+        "dMaxPktSz",
+        "sMinPktSz",
+        "dMinPktSz"
+      ],
+      "excluded_identifier_or_payload_columns": [
+        "AutoId",
+        "BinaryLabel",
+        "CategoryLabel",
+        "DstAddr",
+        "DstMac",
+        "DstOui",
+        "DstTCPBase",
+        "ERange",
+        "FlowID",
+        "IdleTime",
+        "Inode",
+        "LastTime",
+        "Offset",
+        "Rank",
+        "SRange",
+        "Sdaddr",
+        "Seq",
+        "SrcAddr",
+        "SrcMac",
+        "SrcOui",
+        "SrcTCPBase",
+        "Ssaddr",
+        "StartTime",
+        "SubCategoryLabel",
+        "dAS",
+        "dCo",
+        "dIpId",
+        "dMpls",
+        "dVid",
+        "dVlan",
+        "dVpri",
+        "dstUdata",
+        "iAS",
+        "sAS",
+        "sCo",
+        "sIpId",
+        "sMpls",
+        "sVid",
+        "sVlan",
+        "sVpri",
+        "srcUdata"
+      ],
+      "training_constant_columns_removed": [
+        "Trans",
+        "StdDev",
+        "NStrok",
+        "sNStrok",
+        "dNStrok",
+        "Retrans",
+        "SrcRetra",
+        "DstRetra",
+        "pRetran",
+        "SIntDist",
+        "SIntActDist",
+        "SIntIdlDist",
+        "DIntDist",
+        "DIntActDist",
+        "DIntIdlDist"
+      ],
+      "split_audit": {
+        "split": "connection-group holdout; first label-covered GroupShuffleSplit candidate",
+        "seed": 42,
+        "candidate": 0,
+        "requested_test_group_fraction": 0.2,
+        "singleton_labels_training_only": [],
+        "test_labels": [
+          "benign",
+          "bruteforce",
+          "dos",
+          "recon"
+        ],
+        "training_labels": [
+          "benign",
+          "bruteforce",
+          "dos",
+          "recon"
+        ],
+        "training_groups": 23487,
+        "testing_groups": 5872,
+        "train_rows": 32346,
+        "test_rows": 7654,
+        "overlapping_groups": 0
+      },
+      "test_feature_vectors_also_present_in_training": 379,
+      "feature_overlap_policy": "retained; independently captured equal patterns are not automatically duplicate source records; connection groups must be disjoint",
+      "conversion": "provider CSV -> known-label scope -> deterministic class cap -> group split -> training-only constant removal -> parquet; no scaling or imputation before split",
+      "preparation_source_sha256": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1",
+      "prepared_files": {
+        "test.parquet": {
+          "sha256": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f",
+          "bytes": 1106130
+        },
+        "train.parquet": {
+          "sha256": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+          "bytes": 4459169
+        }
+      }
+    },
+    "Gotham2025": {
+      "dataset": "Gotham2025",
+      "author_record": 14502760,
+      "acquisition": {
+        "record_id": 14502760,
+        "source_url": "https://zenodo.org/records/14502760/files/GothamDataset2025.zip?download=1",
+        "provider_archive_checksum": "md5:7ca78c0517ccb3d2854e823678e0f206",
+        "full_archive_checksum_verified": false,
+        "method": "official ZIP members via HTTP ranges; full-member CRC32 and local SHA-256",
+        "files": [
+          {
+            "filename": "README.md",
+            "bytes": 4047,
+            "compressed_bytes": 1647,
+            "compressed_offset": 67,
+            "sha256": "f72a7c6bfa8e8f9b81e3c91abf90a52a84e26c921d8d9baad6dd2d03d449b67c",
+            "crc32": 3992064293,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:44:32.565752+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-15.csv",
+            "bytes": 4915203,
+            "compressed_bytes": 445869,
+            "compressed_offset": 1876,
+            "sha256": "6997b088f9137f3e7ca47bc74abf5eaca9605622e43340ad1037e2ad59964969",
+            "crc32": 918268812,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:44:39.294740+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-14.csv",
+            "bytes": 4916759,
+            "compressed_bytes": 446191,
+            "compressed_offset": 447839,
+            "sha256": "ae651d0b17851d41d04e6bdf6943a89c63e3df364c67a19febc2814e6837e825",
+            "crc32": 1492323659,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:44:44.945978+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-13.csv",
+            "bytes": 4915861,
+            "compressed_bytes": 445367,
+            "compressed_offset": 894124,
+            "sha256": "9faee0ca875028da8ecf3a4190f745b5c58806516ae4f26ad17760f57978dd20",
+            "crc32": 2709183433,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:44:53.896461+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-8.csv",
+            "bytes": 4958705,
+            "compressed_bytes": 461863,
+            "compressed_offset": 1339584,
+            "sha256": "c44ba9e955f6746a7b3600b8b82f09ff22d8c7bfad545ca09a9218ce611e3c97",
+            "crc32": 1052102138,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:45:07.087143+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-9.csv",
+            "bytes": 4960033,
+            "compressed_bytes": 461734,
+            "compressed_offset": 1801540,
+            "sha256": "619293970c5974ce68961236add46b855b6f77f71e8e1ef4f655340ccfa6fbed",
+            "crc32": 69590168,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:45:30.511885+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-12.csv",
+            "bytes": 4915445,
+            "compressed_bytes": 445853,
+            "compressed_offset": 2263368,
+            "sha256": "5e99d67ac866abadbaef524ec324b18db3a113fa685fcefb6764a64429ddd6ed",
+            "crc32": 1893353926,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:45:46.441745+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-10.csv",
+            "bytes": 4960921,
+            "compressed_bytes": 462597,
+            "compressed_offset": 2709315,
+            "sha256": "fd5789e2650b8f835937bf5b44a1e4194d7fc40ac8873cb968581f3f0e3173bc",
+            "crc32": 1764752751,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:01.999204+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-8.csv",
+            "bytes": 529710,
+            "compressed_bytes": 47134,
+            "compressed_offset": 3172009,
+            "sha256": "52d7d48e943c0de85b8640e0846a09ca7cf374d6f1908918a893398c9b23ff70",
+            "crc32": 746423401,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:06.071659+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-9.csv",
+            "bytes": 526829,
+            "compressed_bytes": 46798,
+            "compressed_offset": 3219240,
+            "sha256": "ae8c5fee9d3a05eff99f32cc772c9a78a747d0837d1c720dcfcf21bfa3494ef6",
+            "crc32": 3828895451,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:10.082183+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-11.csv",
+            "bytes": 4916083,
+            "compressed_bytes": 446047,
+            "compressed_offset": 3266132,
+            "sha256": "cd35abcbe66c9955aa65e8492dff6a4ee2d82300bf0a113093d2c4b7ab64642b",
+            "crc32": 602668557,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:15.975669+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-12.csv",
+            "bytes": 521602,
+            "compressed_bytes": 45065,
+            "compressed_offset": 3712277,
+            "sha256": "778eeb7c300de42c841721a36921f26223d60711862c2b6ec8b3e55ce97bd14a",
+            "crc32": 336011085,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:19.105033+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-8.csv",
+            "bytes": 2840764,
+            "compressed_bytes": 262247,
+            "compressed_offset": 3757445,
+            "sha256": "cbd5a2a8928e10d5ea6384b526369681d920923056fb73b47a18e0c5b5bbc8a3",
+            "crc32": 1249448990,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:46:23.906968+00:00"
+          },
+          {
+            "filename": "processed/iotsim-ip-camera-museum-1.csv",
+            "bytes": 2039489365,
+            "compressed_bytes": 129974415,
+            "compressed_offset": 4019789,
+            "sha256": "969b62ee9d0bd5ca0dc5aee8a3e9d0974d6e9ceadecb57a679a1b805e3bd7aa5",
+            "crc32": 2257600395,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:54:37.089353+00:00"
+          },
+          {
+            "filename": "processed/iotsim-building-monitor-3.csv",
+            "bytes": 310279,
+            "compressed_bytes": 26793,
+            "compressed_offset": 133994301,
+            "sha256": "2efc46ab4fac7d0353a6df3246038b689b60f63dd83862e9e03acc9dd5e95185",
+            "crc32": 202801965,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:54:45.034920+00:00"
+          },
+          {
+            "filename": "processed/iotsim-building-monitor-2.csv",
+            "bytes": 310279,
+            "compressed_bytes": 26787,
+            "compressed_offset": 134021191,
+            "sha256": "3ef7e4c369a4fa62b26901f8727c0cf7dc00c722883df77e2c5797c3f4c073e2",
+            "crc32": 1574384825,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:54:55.340298+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-9.csv",
+            "bytes": 2838765,
+            "compressed_bytes": 262255,
+            "compressed_offset": 134048081,
+            "sha256": "bbb0d9f22fc9005325804774f1ad0a6ef2d03a0035c863638d0d301d4d5c8043",
+            "crc32": 3012668920,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:55:19.652247+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-13.csv",
+            "bytes": 518375,
+            "compressed_bytes": 44974,
+            "compressed_offset": 134310434,
+            "sha256": "5d7c460e9815a41883c56f480fbf736cd8feaeebdc1bb2e9df54e8af6a99dc50",
+            "crc32": 3231455008,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:55:27.917538+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-11.csv",
+            "bytes": 515108,
+            "compressed_bytes": 44867,
+            "compressed_offset": 134355506,
+            "sha256": "0cc90f573d457db2f3745bbeb073b78b43bc3f9c71ee7b8ec89e91b555f52ad4",
+            "crc32": 1772491294,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:55:35.011844+00:00"
+          },
+          {
+            "filename": "processed/iotsim-ip-camera-museum-2.csv",
+            "bytes": 221773679,
+            "compressed_bytes": 10663952,
+            "compressed_offset": 134400470,
+            "sha256": "43b7504b1f9a768463934d4088065a2644c3ce35dd9e169c599bd5be17aa547d",
+            "crc32": 871668021,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:56:51.596593+00:00"
+          },
+          {
+            "filename": "processed/iotsim-building-monitor-1.csv",
+            "bytes": 1143874019,
+            "compressed_bytes": 83698554,
+            "compressed_offset": 145064519,
+            "sha256": "550be51a7c02ae6be5677bc54e30af2b4a65646320d21c8d5e5b481606bdeedd",
+            "crc32": 2409866216,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:58:56.188854+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-10.csv",
+            "bytes": 526150,
+            "compressed_bytes": 46905,
+            "compressed_offset": 228763171,
+            "sha256": "cadd93e57365bab92c6478839e445ff6f2e88655cd484b14d63b5701b1a2be14",
+            "crc32": 3712884412,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:58:59.552725+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-9.csv",
+            "bytes": 47039,
+            "compressed_bytes": 4484,
+            "compressed_offset": 228810171,
+            "sha256": "4e229d40e27542bd0f46542b64e5b7e4e7281a12bc95835ab76060fdf4242fd3",
+            "crc32": 4033668820,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:59:02.376830+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-14.csv",
+            "bytes": 518353,
+            "compressed_bytes": 44925,
+            "compressed_offset": 228814753,
+            "sha256": "467175f2bfa9237d9f14f3a4faa8298367122f61d71d9cd73486c5e69935a04b",
+            "crc32": 2066710921,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T21:59:05.306311+00:00"
+          },
+          {
+            "filename": "processed/iotsim-ip-camera-street-2.csv",
+            "bytes": 140934396,
+            "compressed_bytes": 6785238,
+            "compressed_offset": 228859775,
+            "sha256": "fc79de5e6175cae09060c2345c4ce25204b51fefdd288875120689f05ec10f42",
+            "crc32": 1363480446,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:00:42.096673+00:00"
+          },
+          {
+            "filename": "processed/iotsim-building-monitor-5.csv",
+            "bytes": 310279,
+            "compressed_bytes": 26827,
+            "compressed_offset": 235645110,
+            "sha256": "0901e48b4efe9d60e5a3bb69b07c7a79e9bc70b3236b8f25b965f4966ad4e1ca",
+            "crc32": 2025145326,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:00:48.734374+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-10.csv",
+            "bytes": 29397370,
+            "compressed_bytes": 2699361,
+            "compressed_offset": 235672033,
+            "sha256": "3f8281eeaaa4cd68173409a65f5cb97b8b39aea4b78a7b5c94eea1be15531dba",
+            "crc32": 2815704124,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:01:21.070046+00:00"
+          },
+          {
+            "filename": "processed/iotsim-building-monitor-4.csv",
+            "bytes": 310279,
+            "compressed_bytes": 26834,
+            "compressed_offset": 238371491,
+            "sha256": "99daa43ccb55224a724033e47840f6ec232e81b4e1ca9afc01cb7839dfd7e3f1",
+            "crc32": 2893203205,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:01:32.783195+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-15.csv",
+            "bytes": 521667,
+            "compressed_bytes": 45206,
+            "compressed_offset": 238398423,
+            "sha256": "eb3e0ffe164c5262f018544a0a79647a7b61cf21b555d7a8e6e1763a0ab0d7c9",
+            "crc32": 3947670014,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:01:41.304027+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-8.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4431,
+            "compressed_offset": 238443724,
+            "sha256": "4b21ad842fc2b07767fb51e845d042c9076a08688daf44de35207f43ffb1c593",
+            "crc32": 2058027245,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:01:46.297238+00:00"
+          },
+          {
+            "filename": "processed/iotsim-ip-camera-street-1.csv",
+            "bytes": 1026726456,
+            "compressed_bytes": 59259343,
+            "compressed_offset": 238448252,
+            "sha256": "b529a610ff6914b6998073d240e42a8351f828a313cc9c5f0a2ca1dc8cc962ae",
+            "crc32": 2338132965,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:04:37.666972+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-6.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4440,
+            "compressed_offset": 297707690,
+            "sha256": "20292c28074ca2941bb5a88e376398dd3ba706117ddc8e52a67aed4057d68184",
+            "crc32": 4079854861,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:04:40.118180+00:00"
+          },
+          {
+            "filename": "processed/iotsim-stream-consumer-1.csv",
+            "bytes": 83191930,
+            "compressed_bytes": 4123490,
+            "compressed_offset": 297712226,
+            "sha256": "035d4c869d76c5ca0a7e143e53f47b0f46d07a2a670467b6fa333d9be64f1e71",
+            "crc32": 3514322373,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:05:07.147153+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-1.csv",
+            "bytes": 28806150,
+            "compressed_bytes": 2563872,
+            "compressed_offset": 301835819,
+            "sha256": "8f46f043dea6eab9dcf72687a0bc17022ea2857c3c61b24ff6554d7b1a8a4e38",
+            "crc32": 2611365398,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:05:31.981237+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-7.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4410,
+            "compressed_offset": 304399786,
+            "sha256": "cfc5a45ae19a5b034ce076e0a4190c4198e005f90f352a41467160e8572b8751",
+            "crc32": 3421404597,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:05:38.954608+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-5.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4431,
+            "compressed_offset": 304404291,
+            "sha256": "f5c09c2714fed1e4e8f629aefee36a62c249368d2816ddcf4446889faeacd33c",
+            "crc32": 2878666736,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:05:44.356558+00:00"
+          },
+          {
+            "filename": "processed/iotsim-stream-consumer-2.csv",
+            "bytes": 83235352,
+            "compressed_bytes": 4121008,
+            "compressed_offset": 304408818,
+            "sha256": "da2b8db69a7b41373f065fd7298b7dd91173da519e335498bba796ad1b37bb23",
+            "crc32": 988138379,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:06:33.200309+00:00"
+          },
+          {
+            "filename": "processed/iotsim-domotic-monitor-5.csv",
+            "bytes": 294977,
+            "compressed_bytes": 25535,
+            "compressed_offset": 308529922,
+            "sha256": "4d0c30bad83af70c5799237edaf9bf0f859677b111d8d990f9352cd58c871f4f",
+            "crc32": 540674957,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:06:37.531708+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-2.csv",
+            "bytes": 2840982,
+            "compressed_bytes": 262600,
+            "compressed_offset": 308555560,
+            "sha256": "015362fd441202e6125e69efcaa57bc1ebc2dc781850765a131b0f9ed79f5148",
+            "crc32": 1423415653,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:06:50.772374+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-3.csv",
+            "bytes": 2841902,
+            "compressed_bytes": 262111,
+            "compressed_offset": 308818263,
+            "sha256": "094cf6bda89773cccfa7094f750e1c059b90c014f38347b7fb5a9680e3f7ebd3",
+            "crc32": 3324473506,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:06:57.458557+00:00"
+          },
+          {
+            "filename": "processed/iotsim-domotic-monitor-4.csv",
+            "bytes": 294056,
+            "compressed_bytes": 25700,
+            "compressed_offset": 309080470,
+            "sha256": "bd2a3ce159f43eecbc5f1066a8ee3f4659692eaf3c013b95ab55b13856975af9",
+            "crc32": 172097960,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:06:59.853536+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-4.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4419,
+            "compressed_offset": 309106265,
+            "sha256": "476a9bd4422d5e51c434524141cbe96deb85197c91bc002ed833967d40e1aff4",
+            "crc32": 3623289826,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:07:02.139004+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-7.csv",
+            "bytes": 2841442,
+            "compressed_bytes": 262814,
+            "compressed_offset": 309110787,
+            "sha256": "c9fba36d196363c8069cf987d7869017e2a9f8a461b4b15013745f5639a6734b",
+            "crc32": 2756274788,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:07:06.246281+00:00"
+          },
+          {
+            "filename": "processed/iotsim-domotic-monitor-1.csv",
+            "bytes": 436779632,
+            "compressed_bytes": 33206902,
+            "compressed_offset": 309373697,
+            "sha256": "507eb43773afd96e47b2df4956c9f574de6bae8c4fe14615b351ec40cfd9068b",
+            "crc32": 751571542,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:08:10.864188+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-6.csv",
+            "bytes": 2841902,
+            "compressed_bytes": 262647,
+            "compressed_offset": 342580702,
+            "sha256": "2f8b1e94f0cf6b3c425bfcf467b360caa15b21ac6c43430e23e49914bd81a4b8",
+            "crc32": 2950003392,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:08:17.438591+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-1.csv",
+            "bytes": 1230589804,
+            "compressed_bytes": 88858856,
+            "compressed_offset": 342843444,
+            "sha256": "c3a7838b2855cb9f22567324f935b92c70262e0f1ccaa6135063a46d11facbb0",
+            "crc32": 2643195774,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:11:53.483996+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-3.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4404,
+            "compressed_offset": 431702395,
+            "sha256": "666c7c3a10b28edba6116ecfbd1cd24e4e2b46e9bf4a64ecc5b98ffacfc87a9c",
+            "crc32": 3365294261,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:11:58.654732+00:00"
+          },
+          {
+            "filename": "processed/iotsim-air-quality-1.csv",
+            "bytes": 12198548,
+            "compressed_bytes": 1078485,
+            "compressed_offset": 431706891,
+            "sha256": "c834955c89c799d4fec26256974015c4e58277b129e54dda0f6577d301854f41",
+            "crc32": 3264231116,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:12:27.887487+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-4.csv",
+            "bytes": 2841902,
+            "compressed_bytes": 262659,
+            "compressed_offset": 432785479,
+            "sha256": "0a0f26d55786efd9fe0ea47fc8a5fcf426795343832573dbae8f7e94bf71cd77",
+            "crc32": 260051503,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:12:37.820441+00:00"
+          },
+          {
+            "filename": "processed/iotsim-domotic-monitor-3.csv",
+            "bytes": 294977,
+            "compressed_bytes": 25610,
+            "compressed_offset": 433048234,
+            "sha256": "22b9640f9c7941cc06654ff599b01a54bb1e52ba61a5a30b0bc6d892164e0046",
+            "crc32": 4294598317,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:12:42.694084+00:00"
+          },
+          {
+            "filename": "processed/iotsim-domotic-monitor-2.csv",
+            "bytes": 293596,
+            "compressed_bytes": 25510,
+            "compressed_offset": 433073940,
+            "sha256": "16a937a6c8d2280a571378ab2d60e429271deb6b648473ae904f6bb5e51378a2",
+            "crc32": 3586854331,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:12:49.607942+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-5.csv",
+            "bytes": 2838523,
+            "compressed_bytes": 262093,
+            "compressed_offset": 433099553,
+            "sha256": "6bd1592d5b5d09f733c161ec9acc5822bb7c4ef90184ac094e7b95089c673835",
+            "crc32": 589089875,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:12:57.404603+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-2.csv",
+            "bytes": 46311,
+            "compressed_bytes": 4414,
+            "compressed_offset": 433361741,
+            "sha256": "3a1239a279f9883a73db9bb36949eab7a0ba6c9d3acc6cb2ecba0a57aa3debc9",
+            "crc32": 559634289,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:01.177208+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-tls-2.csv",
+            "bytes": 339851,
+            "compressed_bytes": 23068,
+            "compressed_offset": 433366254,
+            "sha256": "411906cb3b8104665c3f8049319444f71b5560c723a89db957df258485284cb2",
+            "crc32": 3937024400,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:06.390858+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-10.csv",
+            "bytes": 2840522,
+            "compressed_bytes": 261719,
+            "compressed_offset": 433389426,
+            "sha256": "a6f7eb8a824ee6a7401d2ff514bb646be27f7ba59670392c91e852ce80f6b7c7",
+            "crc32": 1727275323,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:12.455770+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-4.csv",
+            "bytes": 527288,
+            "compressed_bytes": 46990,
+            "compressed_offset": 433651242,
+            "sha256": "d297d7af4a18a8765123ca0e9d6a5007245718ba2192117fce53dd1996a10527",
+            "crc32": 3951722211,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:16.225410+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-7.csv",
+            "bytes": 4960694,
+            "compressed_bytes": 461752,
+            "compressed_offset": 433698325,
+            "sha256": "5d7a6a6ad66f0be03f9ba8d3f069713fd4eab7151c171c4f732837976eeb6dfc",
+            "crc32": 2012870771,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:23.354355+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-6.csv",
+            "bytes": 4959145,
+            "compressed_bytes": 461365,
+            "compressed_offset": 434160170,
+            "sha256": "562d7357e5bfd379a4b1b3101ef745a95fad6efa07b43d3fa0747ee99ad7b60e",
+            "crc32": 3995604014,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:32.404775+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-5.csv",
+            "bytes": 525542,
+            "compressed_bytes": 46709,
+            "compressed_offset": 434621632,
+            "sha256": "4c0fbc918fab22d030b5a6271fcab2ad9304028c701c2a1139b3fe6b39887438",
+            "crc32": 3441502706,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:36.818253+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-11.csv",
+            "bytes": 4622872,
+            "compressed_bytes": 407990,
+            "compressed_offset": 434668445,
+            "sha256": "e3da6f4a2fcd9e2c87a8738539bd3a92ef10b79fc1b2441a395ec5d62f54fa8d",
+            "crc32": 3106321309,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:42.529892+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-tls-3.csv",
+            "bytes": 339851,
+            "compressed_bytes": 23133,
+            "compressed_offset": 435076534,
+            "sha256": "e247aa98b280e32e7d8662f349c77008030c5a51d08ede36d1e19e1bfa401286",
+            "crc32": 229295677,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:45.683992+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-tls-1.csv",
+            "bytes": 339851,
+            "compressed_bytes": 23157,
+            "compressed_offset": 435099766,
+            "sha256": "cadb868288c4749acd9198251d5ea8584cd3f00a4b68cd0c7635905bafdddb6f",
+            "crc32": 4070255357,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:49.010743+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-13.csv",
+            "bytes": 4624914,
+            "compressed_bytes": 407934,
+            "compressed_offset": 435123027,
+            "sha256": "f56c6af65f0de3943b26387daa5f5cd26f026613710bdc0ef9d87af0264d0c27",
+            "crc32": 3574550852,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:54.174751+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-7.csv",
+            "bytes": 525085,
+            "compressed_bytes": 46655,
+            "compressed_offset": 435531058,
+            "sha256": "00cbd3a07a10f68d7764bab6e70f0e180fa09c680e91b118e97f82bb04a1b92f",
+            "crc32": 2013807234,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:13:57.018772+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-4.csv",
+            "bytes": 4961380,
+            "compressed_bytes": 461792,
+            "compressed_offset": 435577806,
+            "sha256": "a85e8989f5ba51a0822e209766c779fb16b8268014afe6caea21bd23d63f1a5f",
+            "crc32": 340091363,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:02.809537+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-5.csv",
+            "bytes": 4959806,
+            "compressed_bytes": 461724,
+            "compressed_offset": 436039691,
+            "sha256": "e411fc39880ac206272146167c936b4da7e0b11d7e65da426e9c11d31cecffca",
+            "crc32": 3103722006,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:15.491777+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-6.csv",
+            "bytes": 525352,
+            "compressed_bytes": 46744,
+            "compressed_offset": 436501512,
+            "sha256": "099ecb4d54a40fa957ed16a6c64c6a26744fc9fa2c8499f6d710573706d32f74",
+            "crc32": 3984851047,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:19.751691+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-12.csv",
+            "bytes": 4626184,
+            "compressed_bytes": 408529,
+            "compressed_offset": 436548360,
+            "sha256": "f6c404f5d95b617ad89a31da2b870acae8c5257b8813ca9fe93859793b332914",
+            "crc32": 176046005,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:25.383603+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-tls-4.csv",
+            "bytes": 339851,
+            "compressed_bytes": 23112,
+            "compressed_offset": 436956988,
+            "sha256": "a354d0eb91d9f45e13f6af0aabbe40e88bd85625af132792347952e31a664f5c",
+            "crc32": 1057754199,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:28.059687+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-2.csv",
+            "bytes": 525058,
+            "compressed_bytes": 46493,
+            "compressed_offset": 436980197,
+            "sha256": "38432713ac898449a835586367f019d7d5d646fcacaeb9e4f9394731ff6c41b9",
+            "crc32": 730397680,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:31.242758+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-1.csv",
+            "bytes": 34500276,
+            "compressed_bytes": 3152519,
+            "compressed_offset": 437026783,
+            "sha256": "146338ff20ba101702dcd80398091bc6c09d4c04af241e28889d9a20369c9408",
+            "crc32": 2421801010,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:49.601962+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-3.csv",
+            "bytes": 524649,
+            "compressed_bytes": 46581,
+            "compressed_offset": 440179399,
+            "sha256": "14c53ac9d22700fdc1548c178bacd50c2c1fcc4336d8be7b6dfe37c304ff7329",
+            "crc32": 2817171243,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:52.467719+00:00"
+          },
+          {
+            "filename": "processed/iotsim-combined-cycle-tls-5.csv",
+            "bytes": 339851,
+            "compressed_bytes": 23123,
+            "compressed_offset": 440226079,
+            "sha256": "462637d4a082b2aa1d064c6a91e0a5214f00bd9f2f88b4f8b18d8ae30f4119c9",
+            "crc32": 78162643,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:14:55.641156+00:00"
+          },
+          {
+            "filename": "processed/iotsim-hydraulic-system-1.csv",
+            "bytes": 3645829,
+            "compressed_bytes": 317063,
+            "compressed_offset": 440249299,
+            "sha256": "4abbab244a466310d2dab88a60131a2058082994a45211b1ca4355a9ed90c41e",
+            "crc32": 448506853,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:15:01.890110+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-15.csv",
+            "bytes": 4627064,
+            "compressed_bytes": 408449,
+            "compressed_offset": 440566466,
+            "sha256": "d6394b39ef5137b9b0f722c11f26598d101dff760b01cc83308aa44f9203bc1c",
+            "crc32": 2606559543,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:15:07.070598+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-2.csv",
+            "bytes": 4959145,
+            "compressed_bytes": 461929,
+            "compressed_offset": 440975008,
+            "sha256": "761d2cf1d36040a86a75a260846f3a095f63696f9560b8c737a3aaa2febc1003",
+            "crc32": 1900352573,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:15:12.535242+00:00"
+          },
+          {
+            "filename": "processed/iotsim-cooler-motor-3.csv",
+            "bytes": 4961380,
+            "compressed_bytes": 461891,
+            "compressed_offset": 441437030,
+            "sha256": "620916f1accc4875780ba67fff533c33e7cf6ddcaac3f52095aa7084c3d4a8cd",
+            "crc32": 2547661976,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:15:17.885237+00:00"
+          },
+          {
+            "filename": "processed/iotsim-predictive-maintenance-14.csv",
+            "bytes": 4621970,
+            "compressed_bytes": 408420,
+            "compressed_offset": 441899025,
+            "sha256": "2ed2f1453e3abba5b1a6d579cd118dd12b2dfede695e9ecfafd906dade2746f2",
+            "crc32": 4222824268,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:15:23.027889+00:00"
+          },
+          {
+            "filename": "processed/iotsim-city-power-1.csv",
+            "bytes": 314386978,
+            "compressed_bytes": 23946665,
+            "compressed_offset": 442307536,
+            "sha256": "5d486c77bd1ac5e0342b1aa9468e6badfb4cc5d939955c26d164e0499ea358f2",
+            "crc32": 4270351059,
+            "member_crc_verified": true,
+            "acquired_utc": "2026-10-13T22:16:15.730898+00:00"
+          }
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "source_files": [
+        {
+          "member": "processed/iotsim-air-quality-1.csv",
+          "parsed_rows": 55052,
+          "sha256": "c834955c89c799d4fec26256974015c4e58277b129e54dda0f6577d301854f41"
+        },
+        {
+          "member": "processed/iotsim-building-monitor-1.csv",
+          "parsed_rows": 5550987,
+          "sha256": "550be51a7c02ae6be5677bc54e30af2b4a65646320d21c8d5e5b481606bdeedd"
+        },
+        {
+          "member": "processed/iotsim-building-monitor-2.csv",
+          "parsed_rows": 1740,
+          "sha256": "3ef7e4c369a4fa62b26901f8727c0cf7dc00c722883df77e2c5797c3f4c073e2"
+        },
+        {
+          "member": "processed/iotsim-building-monitor-3.csv",
+          "parsed_rows": 1740,
+          "sha256": "2efc46ab4fac7d0353a6df3246038b689b60f63dd83862e9e03acc9dd5e95185"
+        },
+        {
+          "member": "processed/iotsim-building-monitor-4.csv",
+          "parsed_rows": 1740,
+          "sha256": "99daa43ccb55224a724033e47840f6ec232e81b4e1ca9afc01cb7839dfd7e3f1"
+        },
+        {
+          "member": "processed/iotsim-building-monitor-5.csv",
+          "parsed_rows": 1740,
+          "sha256": "0901e48b4efe9d60e5a3bb69b07c7a79e9bc70b3236b8f25b965f4966ad4e1ca"
+        },
+        {
+          "member": "processed/iotsim-city-power-1.csv",
+          "parsed_rows": 1516431,
+          "sha256": "5d486c77bd1ac5e0342b1aa9468e6badfb4cc5d939955c26d164e0499ea358f2"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-1.csv",
+          "parsed_rows": 5974887,
+          "sha256": "c3a7838b2855cb9f22567324f935b92c70262e0f1ccaa6135063a46d11facbb0"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-10.csv",
+          "parsed_rows": 138509,
+          "sha256": "3f8281eeaaa4cd68173409a65f5cb97b8b39aea4b78a7b5c94eea1be15531dba"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-2.csv",
+          "parsed_rows": 254,
+          "sha256": "3a1239a279f9883a73db9bb36949eab7a0ba6c9d3acc6cb2ecba0a57aa3debc9"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-3.csv",
+          "parsed_rows": 254,
+          "sha256": "666c7c3a10b28edba6116ecfbd1cd24e4e2b46e9bf4a64ecc5b98ffacfc87a9c"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-4.csv",
+          "parsed_rows": 254,
+          "sha256": "476a9bd4422d5e51c434524141cbe96deb85197c91bc002ed833967d40e1aff4"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-5.csv",
+          "parsed_rows": 254,
+          "sha256": "f5c09c2714fed1e4e8f629aefee36a62c249368d2816ddcf4446889faeacd33c"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-6.csv",
+          "parsed_rows": 254,
+          "sha256": "20292c28074ca2941bb5a88e376398dd3ba706117ddc8e52a67aed4057d68184"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-7.csv",
+          "parsed_rows": 254,
+          "sha256": "cfc5a45ae19a5b034ce076e0a4190c4198e005f90f352a41467160e8572b8751"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-8.csv",
+          "parsed_rows": 254,
+          "sha256": "4b21ad842fc2b07767fb51e845d042c9076a08688daf44de35207f43ffb1c593"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-9.csv",
+          "parsed_rows": 258,
+          "sha256": "4e229d40e27542bd0f46542b64e5b7e4e7281a12bc95835ab76060fdf4242fd3"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-tls-1.csv",
+          "parsed_rows": 1944,
+          "sha256": "cadb868288c4749acd9198251d5ea8584cd3f00a4b68cd0c7635905bafdddb6f"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-tls-2.csv",
+          "parsed_rows": 1944,
+          "sha256": "411906cb3b8104665c3f8049319444f71b5560c723a89db957df258485284cb2"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-tls-3.csv",
+          "parsed_rows": 1944,
+          "sha256": "e247aa98b280e32e7d8662f349c77008030c5a51d08ede36d1e19e1bfa401286"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-tls-4.csv",
+          "parsed_rows": 1944,
+          "sha256": "a354d0eb91d9f45e13f6af0aabbe40e88bd85625af132792347952e31a664f5c"
+        },
+        {
+          "member": "processed/iotsim-combined-cycle-tls-5.csv",
+          "parsed_rows": 1944,
+          "sha256": "462637d4a082b2aa1d064c6a91e0a5214f00bd9f2f88b4f8b18d8ae30f4119c9"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-1.csv",
+          "parsed_rows": 157310,
+          "sha256": "146338ff20ba101702dcd80398091bc6c09d4c04af241e28889d9a20369c9408"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-10.csv",
+          "parsed_rows": 22476,
+          "sha256": "fd5789e2650b8f835937bf5b44a1e4194d7fc40ac8873cb968581f3f0e3173bc"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-11.csv",
+          "parsed_rows": 22472,
+          "sha256": "cd35abcbe66c9955aa65e8492dff6a4ee2d82300bf0a113093d2c4b7ab64642b"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-12.csv",
+          "parsed_rows": 22469,
+          "sha256": "5e99d67ac866abadbaef524ec324b18db3a113fa685fcefb6764a64429ddd6ed"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-13.csv",
+          "parsed_rows": 22471,
+          "sha256": "9faee0ca875028da8ecf3a4190f745b5c58806516ae4f26ad17760f57978dd20"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-14.csv",
+          "parsed_rows": 22475,
+          "sha256": "ae651d0b17851d41d04e6bdf6943a89c63e3df364c67a19febc2814e6837e825"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-15.csv",
+          "parsed_rows": 22468,
+          "sha256": "6997b088f9137f3e7ca47bc74abf5eaca9605622e43340ad1037e2ad59964969"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-2.csv",
+          "parsed_rows": 22468,
+          "sha256": "761d2cf1d36040a86a75a260846f3a095f63696f9560b8c737a3aaa2febc1003"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-3.csv",
+          "parsed_rows": 22478,
+          "sha256": "620916f1accc4875780ba67fff533c33e7cf6ddcaac3f52095aa7084c3d4a8cd"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-4.csv",
+          "parsed_rows": 22478,
+          "sha256": "a85e8989f5ba51a0822e209766c779fb16b8268014afe6caea21bd23d63f1a5f"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-5.csv",
+          "parsed_rows": 22471,
+          "sha256": "e411fc39880ac206272146167c936b4da7e0b11d7e65da426e9c11d31cecffca"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-6.csv",
+          "parsed_rows": 22468,
+          "sha256": "562d7357e5bfd379a4b1b3101ef745a95fad6efa07b43d3fa0747ee99ad7b60e"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-7.csv",
+          "parsed_rows": 22475,
+          "sha256": "5d7a6a6ad66f0be03f9ba8d3f069713fd4eab7151c171c4f732837976eeb6dfc"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-8.csv",
+          "parsed_rows": 22466,
+          "sha256": "c44ba9e955f6746a7b3600b8b82f09ff22d8c7bfad545ca09a9218ce611e3c97"
+        },
+        {
+          "member": "processed/iotsim-cooler-motor-9.csv",
+          "parsed_rows": 22472,
+          "sha256": "619293970c5974ce68961236add46b855b6f77f71e8e1ef4f655340ccfa6fbed"
+        },
+        {
+          "member": "processed/iotsim-domotic-monitor-1.csv",
+          "parsed_rows": 2114866,
+          "sha256": "507eb43773afd96e47b2df4956c9f574de6bae8c4fe14615b351ec40cfd9068b"
+        },
+        {
+          "member": "processed/iotsim-domotic-monitor-2.csv",
+          "parsed_rows": 1660,
+          "sha256": "16a937a6c8d2280a571378ab2d60e429271deb6b648473ae904f6bb5e51378a2"
+        },
+        {
+          "member": "processed/iotsim-domotic-monitor-3.csv",
+          "parsed_rows": 1668,
+          "sha256": "22b9640f9c7941cc06654ff599b01a54bb1e52ba61a5a30b0bc6d892164e0046"
+        },
+        {
+          "member": "processed/iotsim-domotic-monitor-4.csv",
+          "parsed_rows": 1662,
+          "sha256": "bd2a3ce159f43eecbc5f1066a8ee3f4659692eaf3c013b95ab55b13856975af9"
+        },
+        {
+          "member": "processed/iotsim-domotic-monitor-5.csv",
+          "parsed_rows": 1668,
+          "sha256": "4d0c30bad83af70c5799237edaf9bf0f859677b111d8d990f9352cd58c871f4f"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-1.csv",
+          "parsed_rows": 17432,
+          "sha256": "4abbab244a466310d2dab88a60131a2058082994a45211b1ca4355a9ed90c41e"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-10.csv",
+          "parsed_rows": 2506,
+          "sha256": "cadd93e57365bab92c6478839e445ff6f2e88655cd484b14d63b5701b1a2be14"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-11.csv",
+          "parsed_rows": 2466,
+          "sha256": "0cc90f573d457db2f3745bbeb073b78b43bc3f9c71ee7b8ec89e91b555f52ad4"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-12.csv",
+          "parsed_rows": 2496,
+          "sha256": "778eeb7c300de42c841721a36921f26223d60711862c2b6ec8b3e55ce97bd14a"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-13.csv",
+          "parsed_rows": 2481,
+          "sha256": "5d7c460e9815a41883c56f480fbf736cd8feaeebdc1bb2e9df54e8af6a99dc50"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-14.csv",
+          "parsed_rows": 2481,
+          "sha256": "467175f2bfa9237d9f14f3a4faa8298367122f61d71d9cd73486c5e69935a04b"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-15.csv",
+          "parsed_rows": 2496,
+          "sha256": "eb3e0ffe164c5262f018544a0a79647a7b61cf21b555d7a8e6e1763a0ab0d7c9"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-2.csv",
+          "parsed_rows": 2501,
+          "sha256": "38432713ac898449a835586367f019d7d5d646fcacaeb9e4f9394731ff6c41b9"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-3.csv",
+          "parsed_rows": 2499,
+          "sha256": "14c53ac9d22700fdc1548c178bacd50c2c1fcc4336d8be7b6dfe37c304ff7329"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-4.csv",
+          "parsed_rows": 2511,
+          "sha256": "d297d7af4a18a8765123ca0e9d6a5007245718ba2192117fce53dd1996a10527"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-5.csv",
+          "parsed_rows": 2503,
+          "sha256": "4c0fbc918fab22d030b5a6271fcab2ad9304028c701c2a1139b3fe6b39887438"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-6.csv",
+          "parsed_rows": 2502,
+          "sha256": "099ecb4d54a40fa957ed16a6c64c6a26744fc9fa2c8499f6d710573706d32f74"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-7.csv",
+          "parsed_rows": 2501,
+          "sha256": "00cbd3a07a10f68d7764bab6e70f0e180fa09c680e91b118e97f82bb04a1b92f"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-8.csv",
+          "parsed_rows": 2522,
+          "sha256": "52d7d48e943c0de85b8640e0846a09ca7cf374d6f1908918a893398c9b23ff70"
+        },
+        {
+          "member": "processed/iotsim-hydraulic-system-9.csv",
+          "parsed_rows": 2509,
+          "sha256": "ae8c5fee9d3a05eff99f32cc772c9a78a747d0837d1c720dcfcf21bfa3494ef6"
+        },
+        {
+          "member": "processed/iotsim-ip-camera-museum-1.csv",
+          "parsed_rows": 10447197,
+          "sha256": "969b62ee9d0bd5ca0dc5aee8a3e9d0974d6e9ceadecb57a679a1b805e3bd7aa5"
+        },
+        {
+          "member": "processed/iotsim-ip-camera-museum-2.csv",
+          "parsed_rows": 1232612,
+          "sha256": "43b7504b1f9a768463934d4088065a2644c3ce35dd9e169c599bd5be17aa547d"
+        },
+        {
+          "member": "processed/iotsim-ip-camera-street-1.csv",
+          "parsed_rows": 5469337,
+          "sha256": "b529a610ff6914b6998073d240e42a8351f828a313cc9c5f0a2ca1dc8cc962ae"
+        },
+        {
+          "member": "processed/iotsim-ip-camera-street-2.csv",
+          "parsed_rows": 783243,
+          "sha256": "fc79de5e6175cae09060c2345c4ce25204b51fefdd288875120689f05ec10f42"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-1.csv",
+          "parsed_rows": 137502,
+          "sha256": "8f46f043dea6eab9dcf72687a0bc17022ea2857c3c61b24ff6554d7b1a8a4e38"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-10.csv",
+          "parsed_rows": 13720,
+          "sha256": "a6f7eb8a824ee6a7401d2ff514bb646be27f7ba59670392c91e852ce80f6b7c7"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-11.csv",
+          "parsed_rows": 22001,
+          "sha256": "e3da6f4a2fcd9e2c87a8738539bd3a92ef10b79fc1b2441a395ec5d62f54fa8d"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-12.csv",
+          "parsed_rows": 22016,
+          "sha256": "f6c404f5d95b617ad89a31da2b870acae8c5257b8813ca9fe93859793b332914"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-13.csv",
+          "parsed_rows": 22011,
+          "sha256": "f56c6af65f0de3943b26387daa5f5cd26f026613710bdc0ef9d87af0264d0c27"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-14.csv",
+          "parsed_rows": 21997,
+          "sha256": "2ed2f1453e3abba5b1a6d579cd118dd12b2dfede695e9ecfafd906dade2746f2"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-15.csv",
+          "parsed_rows": 22021,
+          "sha256": "d6394b39ef5137b9b0f722c11f26598d101dff760b01cc83308aa44f9203bc1c"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-2.csv",
+          "parsed_rows": 13722,
+          "sha256": "015362fd441202e6125e69efcaa57bc1ebc2dc781850765a131b0f9ed79f5148"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-3.csv",
+          "parsed_rows": 13726,
+          "sha256": "094cf6bda89773cccfa7094f750e1c059b90c014f38347b7fb5a9680e3f7ebd3"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-4.csv",
+          "parsed_rows": 13726,
+          "sha256": "0a0f26d55786efd9fe0ea47fc8a5fcf426795343832573dbae8f7e94bf71cd77"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-5.csv",
+          "parsed_rows": 13710,
+          "sha256": "6bd1592d5b5d09f733c161ec9acc5822bb7c4ef90184ac094e7b95089c673835"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-6.csv",
+          "parsed_rows": 13726,
+          "sha256": "2f8b1e94f0cf6b3c425bfcf467b360caa15b21ac6c43430e23e49914bd81a4b8"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-7.csv",
+          "parsed_rows": 13724,
+          "sha256": "c9fba36d196363c8069cf987d7869017e2a9f8a461b4b15013745f5639a6734b"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-8.csv",
+          "parsed_rows": 13721,
+          "sha256": "cbd5a2a8928e10d5ea6384b526369681d920923056fb73b47a18e0c5b5bbc8a3"
+        },
+        {
+          "member": "processed/iotsim-predictive-maintenance-9.csv",
+          "parsed_rows": 13711,
+          "sha256": "bbb0d9f22fc9005325804774f1ad0a6ef2d03a0035c863638d0d301d4d5c8043"
+        },
+        {
+          "member": "processed/iotsim-stream-consumer-1.csv",
+          "parsed_rows": 465094,
+          "sha256": "035d4c869d76c5ca0a7e143e53f47b0f46d07a2a670467b6fa333d9be64f1e71"
+        },
+        {
+          "member": "processed/iotsim-stream-consumer-2.csv",
+          "parsed_rows": 465335,
+          "sha256": "da2b8db69a7b41373f065fd7298b7dd91173da519e335498bba796ad1b37bb23"
+        }
+      ],
+      "source_label_counts": {
+        "Benign": 12256883,
+        "Telnet Brute Force": 227649,
+        "TCP Scan": 737764,
+        "Ingress Tool Transfer": 21587,
+        "Unknown": 7670,
+        "File Download": 7196,
+        "C&C Communication": 528,
+        "Reporting": 450,
+        "Mirai C&C Communication": 1074,
+        "Mirai UDP Flooding": 8897895,
+        "Mirai TCP Flooding": 6548173,
+        "Mirai GRE Flooding": 5911401,
+        "Merlin C&C Communication": 29356,
+        "Merlin ICMP Flooding": 57580,
+        "Merlin UDP Flooding": 29996,
+        "Merlin TCP Flooding": 120000,
+        "UDP Scan": 4242,
+        "CoAP Amplification": 274837
+      },
+      "supervised_excluded_label_counts": {
+        "Unknown": 7670
+      },
+      "label_scope": "known provider labels only; Unknown is excluded from both supervised tasks, not relabeled as Attack",
+      "sampled_label_counts": {
+        "Benign": 10000,
+        "Ingress Tool Transfer": 10000,
+        "TCP Scan": 10000,
+        "Telnet Brute Force": 10000,
+        "Mirai UDP Flooding": 10000,
+        "Merlin ICMP Flooding": 10000,
+        "Merlin C&C Communication": 10000,
+        "Mirai GRE Flooding": 10000,
+        "Mirai TCP Flooding": 10000,
+        "Merlin TCP Flooding": 10000,
+        "Merlin UDP Flooding": 10000,
+        "CoAP Amplification": 10000,
+        "File Download": 7196,
+        "UDP Scan": 4242,
+        "Mirai C&C Communication": 1074,
+        "C&C Communication": 528,
+        "Reporting": 450
+      },
+      "per_class_cap": 10000,
+      "sampling": "global per-label lowest independent RNG priorities; all selected official members scanned",
+      "source_date_range_utc": [
+        "2025-01-14T18:39:55.330053+00:00",
+        "2025-01-25T19:46:06.049464+00:00"
+      ],
+      "features": [
+        "frame.len",
+        "frame.protocols",
+        "ip.flags",
+        "ip.ttl",
+        "ip.proto",
+        "tcp.srcport",
+        "tcp.dstport",
+        "tcp.flags",
+        "tcp.window_size_value",
+        "tcp.window_size_scalefactor",
+        "tcp.pdu.size",
+        "udp.srcport",
+        "udp.dstport"
+      ],
+      "excluded_identifier_or_payload_columns": [
+        "eth.dst",
+        "eth.src",
+        "frame.time",
+        "ip.checksum",
+        "ip.dst",
+        "ip.src",
+        "label",
+        "tcp.checksum",
+        "tcp.options"
+      ],
+      "training_constant_columns_removed": [
+        "ip.tos"
+      ],
+      "split_audit": {
+        "split": "connection-group holdout; first label-covered GroupShuffleSplit candidate",
+        "seed": 42,
+        "candidate": 11,
+        "requested_test_group_fraction": 0.2,
+        "singleton_labels_training_only": [
+          "CoAP Amplification"
+        ],
+        "test_labels": [
+          "Benign",
+          "C&C Communication",
+          "File Download",
+          "Ingress Tool Transfer",
+          "Merlin C&C Communication",
+          "Merlin ICMP Flooding",
+          "Merlin TCP Flooding",
+          "Merlin UDP Flooding",
+          "Mirai C&C Communication",
+          "Mirai GRE Flooding",
+          "Mirai TCP Flooding",
+          "Mirai UDP Flooding",
+          "Reporting",
+          "TCP Scan",
+          "Telnet Brute Force",
+          "UDP Scan"
+        ],
+        "training_labels": [
+          "Benign",
+          "C&C Communication",
+          "CoAP Amplification",
+          "File Download",
+          "Ingress Tool Transfer",
+          "Merlin C&C Communication",
+          "Merlin ICMP Flooding",
+          "Merlin TCP Flooding",
+          "Merlin UDP Flooding",
+          "Mirai C&C Communication",
+          "Mirai GRE Flooding",
+          "Mirai TCP Flooding",
+          "Mirai UDP Flooding",
+          "Reporting",
+          "TCP Scan",
+          "Telnet Brute Force",
+          "UDP Scan"
+        ],
+        "training_groups": 46615,
+        "testing_groups": 11654,
+        "train_rows": 107120,
+        "test_rows": 26370,
+        "overlapping_groups": 0
+      },
+      "test_feature_vectors_also_present_in_training": 1914,
+      "feature_overlap_policy": "retained; independently captured equal patterns are not automatically duplicate source records; connection groups must be disjoint",
+      "conversion": "provider CSV -> known-label scope -> deterministic class cap -> group split -> training-only constant removal -> parquet; no scaling or imputation before split",
+      "preparation_source_sha256": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1",
+      "prepared_files": {
+        "test.parquet": {
+          "sha256": "fb7636e1ff573d2a0fef78f7ca864f1e7d703a28b903749a79e7346cfa6dbf57",
+          "bytes": 531535
+        },
+        "train.parquet": {
+          "sha256": "a92f5ff86c7cf0aca15079cb339cbfc92cf0e9b05079f5ef4f367d88e7d0467e",
+          "bytes": 2022473
+        }
+      }
+    }
+  },
+  "source_code": {
+    "C:\\Users\\User\\Desktop\\498R\\run_recent_benchmark.py": "27e459cf7e530a35a94cb65d1a1453d68f13e1261f67f9d33c17a1833fedfdea",
+    "src\\xai_ids\\benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "src\\xai_ids\\recent_data.py": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1"
+  }
+}

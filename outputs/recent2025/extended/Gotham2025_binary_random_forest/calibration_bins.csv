@@ -1,0 +1,6 @@
+dataset,model,bin,count,mean_attack_probability,observed_attack_frequency
+Gotham2025,random_forest,0,2803,0.011832665819817663,0.0
+Gotham2025,random_forest,1,8,0.13290338649701106,0.0
+Gotham2025,random_forest,3,1,0.3632946121955438,0.0
+Gotham2025,random_forest,8,5,0.8698934716563608,1.0
+Gotham2025,random_forest,9,23553,0.9985852778265252,1.0

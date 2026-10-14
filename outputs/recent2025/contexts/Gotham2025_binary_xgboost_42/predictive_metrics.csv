@@ -1,0 +1,2 @@
+dataset,task,model,seed,accuracy,balanced_accuracy,macro_f1,weighted_f1,false_positive_rate,false_negative_rate,pr_auc,macro_f1_supported_classes,macro_f1_training_vocabulary,training_seconds,train_rows,test_rows,feature_count,test_classes_with_support,training_classes
+Gotham2025,binary,xgboost,42,0.9999620781190747,0.9999787757874183,0.9999004987795819,0.9999620810874691,0.0,4.2448425163426435e-05,1.0,0.9999004987795819,0.9999004987795819,0.33956499999999323,107120,26370,13,2,2

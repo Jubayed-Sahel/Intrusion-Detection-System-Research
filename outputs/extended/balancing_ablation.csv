@@ -3,10 +3,10 @@ CIC-IDS2017,binary,random_forest,none,42,0.9961316238931215
 CIC-IDS2017,binary,random_forest,class_weighted,42,0.9965805233228733
 CIC-IDS2017,binary,xgboost,none,42,0.9967652869400704
 CIC-IDS2017,binary,xgboost,class_weighted,42,0.9974670543132395
-CIC-IDS2017,multiclass,random_forest,none,42,0.8914826222358697
-CIC-IDS2017,multiclass,random_forest,class_weighted,42,0.9238108842073197
-CIC-IDS2017,multiclass,xgboost,none,42,0.9079857092865684
-CIC-IDS2017,multiclass,xgboost,class_weighted,42,0.932485049727556
+CIC-IDS2017,multiclass,random_forest,none,42,0.8914826063525303
+CIC-IDS2017,multiclass,random_forest,class_weighted,42,0.9238108700855465
+CIC-IDS2017,multiclass,xgboost,none,42,0.9079856987001116
+CIC-IDS2017,multiclass,xgboost,class_weighted,42,0.9324850356057829
 UNSW-NB15,binary,random_forest,none,42,0.8042475913980596
 UNSW-NB15,binary,random_forest,class_weighted,42,0.8028672442781748
 UNSW-NB15,binary,xgboost,none,42,0.8179984947264886

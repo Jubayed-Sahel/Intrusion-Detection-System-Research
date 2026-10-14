@@ -969,10 +969,20 @@ def prepare_dataset(
             float(config["data"]["cicids2017"]["test_size"]),
             seed,
         )
+        # Deduplicating whole rows does not exclude identical feature vectors
+        # with conflicting labels. Apply the target-independent overlap check
+        # to CIC as well, then derive labels from the retained rows.
+        train, test, cic_audit = clean_unsw_partitions(train, test, label_col, label_col)
+        y_train_raw = train[label_col].to_numpy()
+        y_test_raw = test[label_col].to_numpy()
+        if task == "binary":
+            y_train_raw = np.where(y_train_raw == "BENIGN", "Normal", "Attack")
+            y_test_raw = np.where(y_test_raw == "BENIGN", "Normal", "Attack")
         metadata = {
             "sampled_rows_after_deduplication": len(source),
             "duplicates_removed_after_sampling": source.attrs.get("duplicates_removed", 0),
-            "split_protocol": "stratified random 80/20 after per-class cap and deduplication",
+            **cic_audit,
+            "split_protocol": "stratified random 80/20 after per-class cap and deduplication, followed by target-independent test feature-overlap removal",
         }
         excluded = {label_col}
     else:
@@ -1026,6 +1036,8 @@ def run(config_path: Path) -> None:
 
     for dataset in ("CIC-IDS2017", "UNSW-NB15"):
         for task in ("binary", "multiclass"):
+            if config.get("contexts") and f"{dataset}/{task}" not in config["contexts"]:
+                continue
             print(f"[prepare] {dataset} / {task}", flush=True)
             train, test, y_train, y_test, classes, metadata = prepare_dataset(
                 dataset, task, config, seed
@@ -1203,7 +1215,10 @@ def run(config_path: Path) -> None:
     (output_dir / "run_manifest.json").write_text(
         json.dumps(manifest, indent=2), encoding="utf-8"
     )
-    make_summary_plots(output_dir)
+    # Aggregate plots require both datasets and tasks. A scoped correction is
+    # plotted after its rows are merged into the complete result tables.
+    if not config.get("contexts"):
+        make_summary_plots(output_dir)
     print(f"[done] Results written to {output_dir.resolve()}", flush=True)
 
 

@@ -6,6 +6,8 @@ This document maps the implementation plan and success criteria in `Lit_Review_4
 
 ## Overall result
 
+The 14 October 2026 correction removes an additional CIC multiclass test feature vector shared with training, even though its label differs. The resulting multiclass test set has 24,902 rows. `DATA_PROVENANCE.md` documents the missing parquet conversion history, which remains a submission limitation. New 100-flow model-seed validation is recorded separately from the original 40-flow primary protocol.
+
 - 11 literature requirements are completed with machine-readable evidence.
 - 1 requirement is partially completed with a documented safety reason.
 - Human usefulness remains future work because it requires a task-based analyst study.
@@ -91,4 +93,4 @@ Run the complete checks with:
 .\.venv\Scripts\python.exe verify_outputs.py
 ```
 
-The current project passes five unit tests and all output, extended-audit, manifest, and paper checks.
+The current project passes eight unit tests and all primary output, extended-audit, manifest, and paper checks. Separate verifiers confirm 24 expanded model/seed contexts with 100 matched flows each and eight clean-environment contexts. Independent predictive reproduction covers seed 42; it does not establish official-source acquisition equivalence.

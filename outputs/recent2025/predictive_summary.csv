@@ -1,0 +1,9 @@
+dataset,task,model,mean,std
+GeNIS2025,binary,random_forest,0.9998394954276432,0.0
+GeNIS2025,binary,xgboost,0.9997752491362542,8.791196780106446e-05
+GeNIS2025,multiclass,random_forest,0.9996611081116047,6.564392293432404e-05
+GeNIS2025,multiclass,xgboost,1.0,0.0
+Gotham2025,binary,random_forest,1.0,0.0
+Gotham2025,binary,xgboost,0.999900498779582,0.0
+Gotham2025,multiclass,random_forest,0.8754505545083896,0.0004595513904421797
+Gotham2025,multiclass,xgboost,0.8664521085529657,0.00178642074767526

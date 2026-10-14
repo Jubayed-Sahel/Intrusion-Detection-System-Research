@@ -1,0 +1,14 @@
+{
+  "mode": "sequential offline CLI-style invocations; artifact and input read on every call; OS cache not flushed",
+  "scope": "model load, CSV load, preprocessing, prediction, SHAP, 200 local random controls, context read, JSON/Markdown serialization",
+  "samples_per_configuration": 3,
+  "host": "Windows-11-10.0.26300-SP0",
+  "excluded": [
+    "network ingestion",
+    "queueing",
+    "concurrency",
+    "live traffic",
+    "drift"
+  ],
+  "interpretation": "small pilot; do not estimate tail percentiles or sustained throughput"
+}

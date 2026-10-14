@@ -1,0 +1,189 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\CIC_IDS2017_binary_random_forest.joblib",
+    "dataset": "CIC-IDS2017",
+    "task": "binary",
+    "model_family": "random_forest",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\CIC-IDS2017_binary.csv",
+    "row_index": 0,
+    "predicted_class": "Attack",
+    "predicted_probability": 1.0,
+    "class_probabilities": {
+      "Attack": 1.0,
+      "Normal": 0.0
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "Bwd Packet Length Std",
+      "observed_value": "2544.918912",
+      "transformed_value": 2544.918912,
+      "attribution": 0.09011379098638908,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "Bwd Packet Length Max",
+      "observed_value": "5792",
+      "transformed_value": 5792.0,
+      "attribution": 0.0811688230121603,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "Packet Length Std",
+      "observed_value": "1803.026788",
+      "transformed_value": 1803.026788,
+      "attribution": 0.06431165011783933,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "Destination Port",
+      "observed_value": "80",
+      "transformed_value": 80.0,
+      "attribution": 0.05974942518616521,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "Bwd Packet Length Mean",
+      "observed_value": "1938.666667",
+      "transformed_value": 1938.666667,
+      "attribution": 0.04606068044642397,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "Init_Win_bytes_forward",
+      "observed_value": "29200",
+      "transformed_value": 29200.0,
+      "attribution": 0.04277422759648451,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "Init_Win_bytes_backward",
+      "observed_value": "235",
+      "transformed_value": 235.0,
+      "attribution": 0.03444965624116186,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "Fwd Packet Length Min",
+      "observed_value": "0",
+      "transformed_value": 0.0,
+      "attribution": 0.027555557769308053,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "Average Packet Size",
+      "observed_value": "853.7142857",
+      "transformed_value": 853.7142857,
+      "attribution": 0.02098481980341135,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "Max Packet Length",
+      "observed_value": "5792",
+      "transformed_value": 5792.0,
+      "attribution": 0.01703969530396425,
+      "direction": "supports prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.4595687189820408,
+    "bottom_deletion_score": 0.012597009850122326,
+    "random_mean_deletion_score": 0.13615504310275217,
+    "random_p95_deletion_score": 0.29536284691355,
+    "top_minus_random_lift": 0.32341367587928865,
+    "local_empirical_one_sided_p": 0.004975124378109453,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.7003486203627834,
+        "probability_drop": 0.29965137963721655,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.5387667581500295,
+        "probability_drop": 0.4612332418499705,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.48197561576469955,
+        "probability_drop": 0.5180243842353005,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.44063412979432415,
+        "probability_drop": 0.5593658702056759,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 1.0,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 1.0,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 1.0,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.9496119605995107,
+        "probability_drop": 0.050388039400489304,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.1130339888622686,
+    "global_lift_ci": [
+      0.078137884527204,
+      0.1500249746749155
+    ],
+    "global_holm_adjusted_p": 5.271130248729605e-06,
+    "neighborhood_cosine_mean": 0.9015065891018976,
+    "neighborhood_top5_jaccard_mean": 0.7140873015873016,
+    "median_explanation_latency_ms": 15.86145,
+    "p95_explanation_latency_ms": 17.196215,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.3382831777993362,
+      "nearest_opposite_prediction": 0.3054394470973369,
+      "nearest_same_prediction": 0.002477962714856787,
+      "training_median_mode": 0.30434515069088186,
+      "zero": 0.37275029390412984
+    }
+  }
+}

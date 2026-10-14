@@ -1,0 +1,5 @@
+dataset,task,model,feature_count,macro_f1,weighted_f1,training_seconds,shap_latency_ms,selected_features
+Gotham2025,binary,xgboost,5,0.9946193512369983,0.9979509337168441,0.2816116999999849,0.31052,frame.len | frame.protocols | ip.flags | udp.dstport | tcp.window_size_scalefactor
+Gotham2025,binary,xgboost,10,0.9994030861239653,0.9997725043278873,0.4061457000000246,0.18735,frame.len | frame.protocols | ip.flags | udp.dstport | tcp.window_size_scalefactor | tcp.pdu.size | tcp.flags | ip.ttl | tcp.dstport | ip.proto
+Gotham2025,binary,xgboost,13,0.9999004987795819,0.9999620810874691,0.33324259999994865,0.19367,frame.len | frame.protocols | ip.flags | udp.dstport | tcp.window_size_scalefactor | tcp.pdu.size | tcp.flags | ip.ttl | tcp.dstport | ip.proto | tcp.window_size_value | tcp.srcport | udp.srcport
+Gotham2025,binary,xgboost,13,0.9999004987795819,0.9999620810874691,0.39329019999991033,0.18772,frame.len | frame.protocols | ip.flags | udp.dstport | tcp.window_size_scalefactor | tcp.pdu.size | tcp.flags | ip.ttl | tcp.dstport | ip.proto | tcp.window_size_value | tcp.srcport | udp.srcport

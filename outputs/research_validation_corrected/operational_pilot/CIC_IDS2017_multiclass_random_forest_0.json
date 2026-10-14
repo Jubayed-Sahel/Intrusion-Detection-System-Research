@@ -1,0 +1,202 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\CIC_IDS2017_multiclass_random_forest.joblib",
+    "dataset": "CIC-IDS2017",
+    "task": "multiclass",
+    "model_family": "random_forest",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\CIC-IDS2017_multiclass.csv",
+    "row_index": 0,
+    "predicted_class": "FTP-Patator",
+    "predicted_probability": 0.999992719836239,
+    "class_probabilities": {
+      "BENIGN": 2.7850953425873e-06,
+      "Bot": 0.0,
+      "DDoS": 0.0,
+      "DoS GoldenEye": 0.0,
+      "DoS Hulk": 0.0,
+      "DoS Slowhttptest": 0.0,
+      "DoS slowloris": 0.0,
+      "FTP-Patator": 0.999992719836239,
+      "Heartbleed": 0.0,
+      "Infiltration": 0.0,
+      "PortScan": 4.495068418371854e-06,
+      "SSH-Patator": 0.0,
+      "Web Attack - Brute Force": 0.0,
+      "Web Attack - Sql Injection": 0.0,
+      "Web Attack - XSS": 0.0
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "Destination Port",
+      "observed_value": "21",
+      "transformed_value": 21.0,
+      "attribution": 0.4893794460586687,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "Init_Win_bytes_backward",
+      "observed_value": "0",
+      "transformed_value": 0.0,
+      "attribution": 0.07379271857154196,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "Fwd Packet Length Max",
+      "observed_value": "14",
+      "transformed_value": 14.0,
+      "attribution": 0.04051350717926705,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "Bwd Packets/s",
+      "observed_value": "4329.004329",
+      "transformed_value": 4329.004329,
+      "attribution": 0.03526981465064718,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "Flow IAT Mean",
+      "observed_value": "115.5",
+      "transformed_value": 115.5,
+      "attribution": 0.028383126786734058,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "Bwd Packet Length Max",
+      "observed_value": "0",
+      "transformed_value": 0.0,
+      "attribution": 0.025645902547099607,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "Average Packet Size",
+      "observed_value": "9.333333333",
+      "transformed_value": 9.333333333,
+      "attribution": 0.021750170600550518,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "Bwd Packet Length Mean",
+      "observed_value": "0.0",
+      "transformed_value": 0.0,
+      "attribution": 0.020909866723309453,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "Total Length of Fwd Packets",
+      "observed_value": "14",
+      "transformed_value": 14.0,
+      "attribution": 0.020748127941015417,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "Max Packet Length",
+      "observed_value": "14",
+      "transformed_value": 14.0,
+      "attribution": 0.020119018564061793,
+      "direction": "supports prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.8891204966930031,
+    "bottom_deletion_score": 0.030957820130634417,
+    "random_mean_deletion_score": 0.2550857086694777,
+    "random_p95_deletion_score": 0.6784641429231172,
+    "top_minus_random_lift": 0.6340347880235253,
+    "local_empirical_one_sided_p": 0.014925373134328358,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.15,
+        "probability_drop": 0.849992719836239,
+        "prediction_flipped": true
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.125,
+        "probability_drop": 0.874992719836239,
+        "prediction_flipped": true
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.125,
+        "probability_drop": 0.874992719836239,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.0434888925729443,
+        "probability_drop": 0.9565038272632947,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.999992719836239,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.999992719836239,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.999992719836239,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.8761614393137014,
+        "probability_drop": 0.12383128052253767,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.2675746024941831,
+    "global_lift_ci": [
+      0.2283320943915836,
+      0.3053713810037764
+    ],
+    "global_holm_adjusted_p": 1.4551915228366852e-11,
+    "neighborhood_cosine_mean": 0.946509523827239,
+    "neighborhood_top5_jaccard_mean": 0.7117180205415499,
+    "median_explanation_latency_ms": 32.93955,
+    "p95_explanation_latency_ms": 35.58212999999999,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.68017178819365,
+      "nearest_opposite_prediction": 0.44525907829243794,
+      "nearest_same_prediction": 0.02032252043202406,
+      "training_median_mode": 0.6820727501480063,
+      "zero": 0.5759455067963247
+    }
+  }
+}

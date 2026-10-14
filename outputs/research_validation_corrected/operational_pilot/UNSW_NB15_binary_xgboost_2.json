@@ -1,0 +1,189 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\UNSW_NB15_binary_xgboost.joblib",
+    "dataset": "UNSW-NB15",
+    "task": "binary",
+    "model_family": "xgboost",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\UNSW-NB15_binary.csv",
+    "row_index": 2,
+    "predicted_class": "Attack",
+    "predicted_probability": 0.6047892570495605,
+    "class_probabilities": {
+      "Attack": 0.6047892570495605,
+      "Normal": 0.39521077275276184
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "ackdat",
+      "observed_value": "0.070003",
+      "transformed_value": 0.070003,
+      "attribution": 0.6275649666786194,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "tcprtt",
+      "observed_value": "0.170814",
+      "transformed_value": 0.170814,
+      "attribution": 0.28426089882850647,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "sbytes",
+      "observed_value": "586",
+      "transformed_value": 586.0,
+      "attribution": -0.2816311717033386,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "service",
+      "observed_value": "-",
+      "transformed_value": 0.0,
+      "attribution": -0.25311988592147827,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "synack",
+      "observed_value": "0.100811",
+      "transformed_value": 0.100811,
+      "attribution": 0.1745663732290268,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "dload",
+      "observed_value": "2405.0908",
+      "transformed_value": 2405.0908,
+      "attribution": 0.14032264053821564,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "ct_src_dport_ltm",
+      "observed_value": "1",
+      "transformed_value": 1.0,
+      "attribution": 0.11148978024721146,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "smean",
+      "observed_value": "59",
+      "transformed_value": 59.0,
+      "attribution": -0.09264427423477173,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "sinpkt",
+      "observed_value": "110.06067",
+      "transformed_value": 110.06067,
+      "attribution": -0.08970090001821518,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "dur",
+      "observed_value": "1.031146",
+      "transformed_value": 1.031146,
+      "attribution": -0.0768841877579689,
+      "direction": "opposes prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.2429044544696808,
+    "bottom_deletion_score": -0.05903881788253784,
+    "random_mean_deletion_score": -0.02102112948894501,
+    "random_p95_deletion_score": 0.16631182208657247,
+    "top_minus_random_lift": 0.2639255839586258,
+    "local_empirical_one_sided_p": 0.009950248756218905,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.39064711332321167,
+        "probability_drop": 0.21414214372634888,
+        "prediction_flipped": true
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.4194566607475281,
+        "probability_drop": 0.18533259630203247,
+        "prediction_flipped": true
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.296333372592926,
+        "probability_drop": 0.3084558844566345,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.34110206365585327,
+        "probability_drop": 0.2636871933937073,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.6047892570495605,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.6308106184005737,
+        "probability_drop": -0.026021361351013184,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.6308106184005737,
+        "probability_drop": -0.026021361351013184,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.7889018058776855,
+        "probability_drop": -0.184112548828125,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.1994345006998628,
+    "global_lift_ci": [
+      0.1082122138433624,
+      0.2912035283702425
+    ],
+    "global_holm_adjusted_p": 0.0008768060579313,
+    "neighborhood_cosine_mean": 0.5433622450864946,
+    "neighborhood_top5_jaccard_mean": 0.5078373015873016,
+    "median_explanation_latency_ms": 2.7809,
+    "p95_explanation_latency_ms": 2.93671,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.18939467333257198,
+      "nearest_opposite_prediction": 0.2366650040494278,
+      "nearest_same_prediction": -0.005703782041867579,
+      "training_median_mode": 0.23267133720219135,
+      "zero": 0.27716747516145307
+    }
+  }
+}

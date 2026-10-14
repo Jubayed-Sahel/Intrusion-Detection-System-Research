@@ -1,5 +1,7 @@
 # Complete Project Handbook
 
+> Historical CIC-IDS2017/UNSW-NB15 walkthrough. The current primary study uses official GeNIS/Gotham 2025 sources; see [README.md](README.md) and [RECENT_DATASET_PROVENANCE.md](RECENT_DATASET_PROVENANCE.md) for its preparation, commands, and results. The historical parquet transformation history remains unknown.
+
 ## A Quantitative Framework for Evaluating Explainable AI in Network Intrusion Detection Systems
 
 This handbook explains the complete CSE 498R project from the basic idea to the finished IEEE-style paper. It is written so that a reader who is new to machine learning, intrusion detection, and explainable AI can understand what was built, why each decision was made, how the experiments were conducted, and how the numerical results became the claims in the paper.
@@ -119,7 +121,7 @@ CIC-IDS2017 represents benign traffic and multiple modern attack types. The loca
 To keep computation manageable while retaining minority classes, the implementation samples at most 25,000 rows from each class. It then removes 15,103 sampled duplicate rows and creates a stratified 80/20 split:
 
 - Training rows: 99,610
-- Test rows: 24,903
+- Test rows: 24,903 for binary; 24,902 for multiclass after removing one target-independent feature overlap with training (14 October 2026 correction).
 - Features: 28
 - Binary classes: 2
 - Multiclass labels: 15
@@ -685,7 +687,7 @@ Good research does not hide these limitations. It states precisely what the evid
 |   |-- run_manifest.json               Hashes, versions, configuration, hardware
 |   `-- figures/                         Generated experimental/paper plots
 `-- output/pdf/
-    `-- xai_ids_ieee_paper.pdf          Final five-page paper
+    `-- xai_ids_ieee_paper.pdf          Final six-page peer-review draft
 ```
 
 ---
@@ -826,7 +828,7 @@ This evidence-first workflow reduces copy/paste mistakes and prevents the paper 
 
 ### 22.2 Paper structure
 
-The five-page manuscript follows a compact IEEE-style research structure:
+The six-page manuscript follows a compact IEEE-style research structure:
 
 1. **Title and abstract:** problem, methods, central numerical findings, and conclusion.
 2. **Introduction:** motivation, research gap, and contributions.
@@ -835,7 +837,7 @@ The five-page manuscript follows a compact IEEE-style research structure:
 5. **Experimental results:** prediction, XAI fidelity/stability, latency, ablation, and error analysis.
 6. **Discussion:** direct answers to the research questions and interpretation of why explainers differ.
 7. **Deployment recommendations:** what the measurements imply for operational use.
-8. **Threats to validity:** boundaries of the evidence.
+8. **Threats to validity:** boundaries of the evidence, ethics, and artifact availability.
 9. **Reproducibility:** software, hardware, hashes, files, and seeds.
 10. **Conclusion:** concise answer to the research problem and future work.
 11. **References:** primary dataset, model, explainer, IDS, and evaluation sources.
@@ -882,7 +884,7 @@ After generation, the PDF was checked in two ways:
 - Programmatically: page count, headings, output files, hashes, table lengths, and interval direction.
 - Visually: every rendered page was inspected for clipping, overlap, unreadable text, broken tables, and reference overflow.
 
-The final reference style was tightened so all references fit on page five instead of leaving two lines on an otherwise blank sixth page.
+The final manuscript uses six balanced pages so the validity, ethics, reproducibility, conclusion, and references remain readable without compressing the text. All used PDF fonts are embedded or subset for IEEE Xplore compatibility.
 
 ---
 

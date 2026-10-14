@@ -1,0 +1,146 @@
+{
+  "created": "2025-02-05T14:05:46.854189+00:00",
+  "modified": "2026-04-17T23:14:28.018777+00:00",
+  "id": 14502760,
+  "conceptrecid": "14502759",
+  "doi": "10.5281/zenodo.14502760",
+  "conceptdoi": "10.5281/zenodo.14502759",
+  "doi_url": "https://doi.org/10.5281/zenodo.14502760",
+  "metadata": {
+    "title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+    "doi": "10.5281/zenodo.14502760",
+    "publication_date": "2025-02-05",
+    "description": "<h3>Overview</h3>\n<p class=\"p1\">This dataset provides a large-scale benchmark for developing and evaluating Intrusion Detection Systems (IDS) in Internet of Things (IoT) environments. It is designed to capture the heterogeneity and distributed nature of IoT network traffic, which are often not represented in existing datasets.</p>\n<p class=\"p1\">The dataset was generated using the open-source Gotham testbed and consists of network traffic collected at the interface level of 78 heterogeneous IoT devices within a virtualised smart city environment. Unlike traditional datasets based on centralised traffic aggregation, this dataset preserves device-level traffic traces and captures naturally non-Independent and Identically Distributed (non-IID) data across devices, making it uniquely suitable for validating distributed AI privacy-preserving security mechanisms.</p>\n<p class=\"p1\">Ground-truth labels are assigned using a deterministic process based on testbed orchestration logs, ensuring precise alignment between network traffic and attack events.</p>\n<h3>Dataset Contents</h3>\n<p>The dataset is organised by device identifier. Each file contains packet features extracted from the network interface of a specific IoT node.</p>\n<p class=\"p1\"><strong>Data Formats:</strong></p>\n<ol>\n<li class=\"p1\"><strong>PCAP:</strong> Raw network traffic captures</li>\n<li class=\"p1\"><strong>CSV:</strong> Processed packet-level feature representations (UTF-8 encoded, comma-separated)</li>\n</ol>\n<p class=\"p1\">Each CSV file corresponds directly to a PCAP file, while metadata files provide contextual information (timestamps, attacker IPs, attack types) used for deterministic labelling.</p>\n<p><strong>Attack Types Included:</strong></p>\n<ol>\n<li>\n<p><strong>Mirai Botnet:</strong> Full kill-chain simulation (Scanning, Brute Force, Infection, Volumetric Flooding).</p>\n</li>\n<li>\n<p><strong>Merlin C2:</strong> HTTP/1.1, HTTP/2, and HTTP/3 (QUIC) command and control traffic.</p>\n</li>\n<li>\n<p><strong>Network Reconnaissance:</strong> Masscan (TCP) and Nmap (UDP) sweeping at varying rates.</p>\n</li>\n<li>\n<p><strong>Amplification:</strong> CoAP reflection attacks generate DDoS traffic.</p>\n</li>\n<li>\n<p><strong>Denial of Service:</strong> UDP Floods, TCP SYN/ACK Floods, DNS Water Torture.</p>\n</li>\n</ol>\n<h3>Usage</h3>\n<p class=\"p1\">The dataset is provided in CSV format, where each file contains packet-level features extracted from raw network traffic. Each CSV file corresponds to a single IoT device, enabling device-level analysis.&nbsp;<br><br>For centralised analysis, CSV files can be concatenated to form a unified dataset. For distributed or decentralised settings, each file (or group of files) can be treated as an independent data source, reflecting realistic variations in traffic distributions across devices.</p>\n<p class=\"p1\">Users interested in custom feature extraction or protocol-level analysis may refer to the corresponding raw PCAP files.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Belarbi, Othmane",
+        "affiliation": "Cardiff University",
+        "orcid": "0000-0002-6106-7669"
+      },
+      {
+        "name": "Spyridopoulos, Theodoros",
+        "affiliation": "Cardiff University"
+      },
+      {
+        "name": "Anthi, Eirini",
+        "affiliation": "Cardiff University"
+      },
+      {
+        "name": "Rana, Omer",
+        "affiliation": "Cardiff University"
+      },
+      {
+        "name": "Carnelli, Pietro",
+        "affiliation": "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+      },
+      {
+        "name": "Khan, Aftab",
+        "affiliation": "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+      }
+    ],
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/othmbela/gotham-network-packet-labeller",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ],
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14502759"
+          }
+        }
+      ]
+    }
+  },
+  "title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+  "links": {
+    "self": "https://zenodo.org/api/records/14502760",
+    "self_html": "https://zenodo.org/records/14502760",
+    "preview_html": "https://zenodo.org/records/14502760?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14502760",
+    "self_doi": "https://doi.org/10.5281/zenodo.14502760",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14502760",
+    "reserve_doi": "https://zenodo.org/api/records/14502760/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14502759",
+    "parent_html": "https://zenodo.org/records/14502759",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14502759",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14502759",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14502760/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14502760/sequence/default",
+    "files": "https://zenodo.org/api/records/14502760/files",
+    "media_files": "https://zenodo.org/api/records/14502760/media-files",
+    "latest": "https://zenodo.org/api/records/14502760/versions/latest",
+    "latest_html": "https://zenodo.org/records/14502760/latest",
+    "versions": "https://zenodo.org/api/records/14502760/versions",
+    "draft": "https://zenodo.org/api/records/14502760/draft",
+    "access_links": "https://zenodo.org/api/records/14502760/access/links",
+    "access_grants": "https://zenodo.org/api/records/14502760/access/grants",
+    "access_users": "https://zenodo.org/api/records/14502760/access/users",
+    "access_request": "https://zenodo.org/api/records/14502760/access/request",
+    "access": "https://zenodo.org/api/records/14502760/access",
+    "communities": "https://zenodo.org/api/records/14502760/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14502760/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14502760/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14502760/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14502760/quota-increase",
+    "requests": "https://zenodo.org/api/records/14502760/requests"
+  },
+  "updated": "2026-04-17T23:14:28.018777+00:00",
+  "recid": "14502760",
+  "revision": 10,
+  "files": [
+    {
+      "id": "3799efb3-3e0c-4a0d-8ada-69070c61a663",
+      "key": "GothamDataset2025.zip",
+      "size": 23824968355,
+      "checksum": "md5:7ca78c0517ccb3d2854e823678e0f206",
+      "links": {
+        "self": "https://zenodo.org/api/records/14502760/files/GothamDataset2025.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1236412"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 9111,
+    "unique_downloads": 2614,
+    "views": 6966,
+    "unique_views": 6232,
+    "version_downloads": 9111,
+    "version_unique_downloads": 2614,
+    "version_unique_views": 6232,
+    "version_views": 6966
+  },
+  "state": "done",
+  "submitted": true
+}

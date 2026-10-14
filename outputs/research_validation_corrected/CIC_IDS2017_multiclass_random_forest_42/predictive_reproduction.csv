@@ -1,0 +1,5 @@
+dataset,task,model,model_seed,metric,recorded,reproduced,absolute_difference
+CIC-IDS2017,multiclass,random_forest,42,accuracy,0.9906838533510018,0.9906834792386153,3.7411238651419154e-07
+CIC-IDS2017,multiclass,random_forest,42,balanced_accuracy,0.9279021514224856,0.9279021267434698,2.467901571989728e-08
+CIC-IDS2017,multiclass,random_forest,42,macro_f1,0.9238108842073196,0.9238108700855465,1.412177308424134e-08
+CIC-IDS2017,multiclass,random_forest,42,weighted_f1,0.9910330942242794,0.9910327341109851,3.601132942954166e-07

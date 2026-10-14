@@ -70,7 +70,14 @@
     "CIC-IDS2017/multiclass": {
       "sampled_rows_after_deduplication": 124513,
       "duplicates_removed_after_sampling": 15103,
-      "split_protocol": "stratified random 80/20 after per-class cap and deduplication"
+      "original_training_rows": 99610,
+      "original_testing_rows": 24903,
+      "training_exact_duplicates_removed": 0,
+      "testing_exact_duplicates_removed": 0,
+      "cross_partition_feature_overlaps_removed_from_test": 1,
+      "clean_training_rows": 99610,
+      "clean_testing_rows": 24902,
+      "split_protocol": "stratified random 80/20 after per-class cap and deduplication, followed by target-independent test feature-overlap removal"
     },
     "UNSW-NB15/binary": {
       "original_training_rows": 175341,
@@ -122,5 +129,26 @@
     "scikit_learn": "1.6.1",
     "xgboost": "3.0.2",
     "shap": "0.47.2"
-  }
+  },
+  "corrections": [
+    {
+      "date": "2026-10-14",
+      "context": "CIC-IDS2017/multiclass",
+      "reason": "target-independent feature overlap in one test row",
+      "source_manifest": "outputs\\cic_multiclass_correction\\run_manifest.json",
+      "environment": {
+        "platform": "Windows-11-10.0.26300-SP0",
+        "processor": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+        "logical_cpu_count": 12,
+        "python": "3.12.14",
+        "numpy": "2.2.6",
+        "pandas": "2.2.3",
+        "scipy": "1.15.3",
+        "scikit_learn": "1.6.1",
+        "xgboost": "3.0.2",
+        "shap": "0.47.2"
+      },
+      "latency_note": "correction and validation jobs may contend for CPU; new latency is descriptive"
+    }
+  ]
 }

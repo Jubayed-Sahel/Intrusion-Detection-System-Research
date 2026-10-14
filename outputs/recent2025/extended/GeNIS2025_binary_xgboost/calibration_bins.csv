@@ -1,0 +1,4 @@
+dataset,model,bin,count,mean_attack_probability,observed_attack_frequency
+GeNIS2025,xgboost,0,2175,0.0003281707176938653,0.0
+GeNIS2025,xgboost,5,1,0.5032763481140137,1.0
+GeNIS2025,xgboost,9,5478,0.999816358089447,0.9998174516246805

@@ -1,0 +1,3 @@
+dataset,task,model,seed,training_weighting,macro_f1,macro_f1_supported_classes
+GeNIS2025,multiclass,random_forest,42,none,0.9997330174263133,0.9997330174263133
+GeNIS2025,multiclass,random_forest,42,class_weighted,0.9997330174263133,0.9997330174263133

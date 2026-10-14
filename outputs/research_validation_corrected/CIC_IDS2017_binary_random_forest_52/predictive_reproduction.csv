@@ -1,0 +1,8 @@
+dataset,task,model,model_seed,metric,recorded,reproduced,absolute_difference
+CIC-IDS2017,binary,random_forest,52,accuracy,0.9975906517287074,0.9975906517287074,0.0
+CIC-IDS2017,binary,random_forest,52,balanced_accuracy,0.995745940389275,0.995745940389275,0.0
+CIC-IDS2017,binary,random_forest,52,macro_f1,0.996201163449055,0.996201163449055,0.0
+CIC-IDS2017,binary,random_forest,52,weighted_f1,0.9975895446402434,0.9975895446402434,0.0
+CIC-IDS2017,binary,random_forest,52,false_positive_rate,0.007306677491374,0.007306677491374061,6.158268339717665e-17
+CIC-IDS2017,binary,random_forest,52,false_negative_rate,0.001201441730076,0.0012014417300760913,9.128982292327947e-17
+CIC-IDS2017,binary,random_forest,52,pr_auc,0.9999479307289756,0.9999479307289757,1.1102230246251565e-16

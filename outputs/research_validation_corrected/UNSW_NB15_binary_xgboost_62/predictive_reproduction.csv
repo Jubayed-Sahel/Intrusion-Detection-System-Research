@@ -1,0 +1,8 @@
+dataset,task,model,model_seed,metric,recorded,reproduced,absolute_difference
+UNSW-NB15,binary,xgboost,62,accuracy,0.8187400452678347,0.8187400452678347,0.0
+UNSW-NB15,binary,xgboost,62,balanced_accuracy,0.8480601699819608,0.8480601699819608,0.0
+UNSW-NB15,binary,xgboost,62,macro_f1,0.8144432812969435,0.8144432812969435,0.0
+UNSW-NB15,binary,xgboost,62,weighted_f1,0.8228060231281834,0.8228060231281834,0.0
+UNSW-NB15,binary,xgboost,62,false_positive_rate,0.2509377829517527,0.2509377829517527,0.0
+UNSW-NB15,binary,xgboost,62,false_negative_rate,0.0529418770843258,0.05294187708432587,6.938893903907228e-17
+UNSW-NB15,binary,xgboost,62,pr_auc,0.941542593576147,0.941542593576147,0.0

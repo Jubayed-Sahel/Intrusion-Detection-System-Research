@@ -1,0 +1,17 @@
+dataset,task,model,seed,training_weighting,macro_f1,macro_f1_supported_classes
+GeNIS2025,binary,random_forest,42,none,0.9998394954276432,0.9998394954276432
+GeNIS2025,binary,random_forest,42,class_weighted,0.9998394954276432,0.9998394954276432
+GeNIS2025,binary,xgboost,42,none,0.99983945096004,0.99983945096004
+GeNIS2025,binary,xgboost,42,class_weighted,0.99983945096004,0.99983945096004
+GeNIS2025,multiclass,random_forest,42,none,0.9997330174263132,0.9997330174263132
+GeNIS2025,multiclass,random_forest,42,class_weighted,0.9997330174263132,0.9997330174263132
+GeNIS2025,multiclass,xgboost,42,none,1.0,1.0
+GeNIS2025,multiclass,xgboost,42,class_weighted,1.0,1.0
+Gotham2025,binary,random_forest,42,none,1.0,1.0
+Gotham2025,binary,random_forest,42,class_weighted,1.0,1.0
+Gotham2025,binary,xgboost,42,none,1.0,1.0
+Gotham2025,binary,xgboost,42,class_weighted,0.999900498779582,0.999900498779582
+Gotham2025,multiclass,random_forest,42,none,0.8273961679106221,0.8791084284050361
+Gotham2025,multiclass,random_forest,42,class_weighted,0.8233270720575008,0.8747850140610947
+Gotham2025,multiclass,xgboost,42,none,0.868605629274307,0.868605629274307
+Gotham2025,multiclass,xgboost,42,class_weighted,0.8658613177664778,0.8658613177664778

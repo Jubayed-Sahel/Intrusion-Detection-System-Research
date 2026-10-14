@@ -1,0 +1,1301 @@
+dataset,task,model,explainer,explanation_id,source_test_index,actual_class,predicted_class,correct,confidence,feature,attribution,model_seed
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,frame.len,0.18635620805822967,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,frame.protocols,0.18106851176363412,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,ip.flags,0.3457063347010758,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,ip.ttl,-0.046545033340782256,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,ip.proto,0.02610062503721056,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.srcport,-0.1440909761753143,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.dstport,-0.11627229188425675,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.flags,-0.05063701619462102,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.window_size_value,0.21224849922916297,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,udp.srcport,-0.055772482656172205,42
+Gotham2025,multiclass,xgboost,LIME,0,22555,Benign,Benign,1,0.9999356269836426,udp.dstport,0.1286730184802011,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,frame.len,0.22499719699583604,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,frame.protocols,0.08950564486357449,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,ip.flags,0.3661184355859735,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,ip.ttl,-0.14785292442028516,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,ip.proto,0.042108011200006505,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.srcport,-0.06556913448142454,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.dstport,-0.041430074946311804,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.flags,0.029568109553138693,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.window_size_value,0.24488809941408632,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,udp.srcport,-0.06288382807082193,42
+Gotham2025,multiclass,xgboost,LIME,1,23847,Benign,Benign,1,0.99993896484375,udp.dstport,-0.01423106018767635,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,frame.len,0.18487475249313068,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,frame.protocols,0.11444988562555097,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,ip.flags,0.3785449217954742,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,ip.ttl,-0.06888980061268696,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,ip.proto,0.05322700502974442,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.srcport,-0.16331323088565103,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.dstport,-0.09544442638468964,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.flags,-0.019667369295674704,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.window_size_value,0.1430167923231559,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,udp.srcport,0.06839760842794282,42
+Gotham2025,multiclass,xgboost,LIME,2,24181,Benign,Benign,1,0.9999324083328247,udp.dstport,0.09138537533442868,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,frame.len,0.13807793272283464,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,frame.protocols,0.14793522960552166,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,ip.flags,0.35074695181148985,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,ip.ttl,-0.07740287075763265,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,ip.proto,0.031141335684635587,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.srcport,-0.02309926692845163,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.dstport,-0.058287245976334605,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.flags,-0.07723212133976944,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.window_size_value,0.2078070909926277,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,udp.srcport,0.01984387295294491,42
+Gotham2025,multiclass,xgboost,LIME,3,20153,Benign,Benign,1,0.9999337196350098,udp.dstport,0.009677959151702756,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,frame.len,0.12761269861334723,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,frame.protocols,0.16655527968473668,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,ip.flags,0.37980761909197136,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,ip.ttl,-0.049835380276428316,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,ip.proto,0.07195582450522865,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.srcport,-0.0648368978382095,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.dstport,-0.11676582647707051,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.flags,-0.050047963494939236,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.window_size_value,0.2046558232777528,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,udp.srcport,-0.0005830797213392824,42
+Gotham2025,multiclass,xgboost,LIME,4,19837,Benign,Benign,1,0.9999337196350098,udp.dstport,0.09270693139781952,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,frame.len,0.1250508374619105,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,frame.protocols,0.12172808551223573,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,ip.flags,0.34917167418956835,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,ip.ttl,-0.10589144646249371,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,ip.proto,0.04280157920930072,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.srcport,-0.06817317276980517,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.dstport,-0.09621234869960156,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.flags,0.03256394842149191,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.window_size_value,0.15602897258649873,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,udp.srcport,-0.0032275126525170617,42
+Gotham2025,multiclass,xgboost,LIME,5,22571,Benign,Benign,1,0.9999356269836426,udp.dstport,0.04568554628539311,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,frame.len,0.20619181258440417,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,frame.protocols,0.20159879848052992,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,ip.flags,0.32639704694028754,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,ip.ttl,-0.15025464900370178,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,ip.proto,0.0076054433784783935,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.srcport,-0.08284238960993914,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.dstport,-0.07363017997909155,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.flags,-0.027810180151362947,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.window_size_value,0.1691526188728973,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,udp.srcport,0.01975001999591133,42
+Gotham2025,multiclass,xgboost,LIME,6,19851,Benign,Benign,1,0.9999337196350098,udp.dstport,0.009808918904740446,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,frame.len,0.18426121003946624,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,frame.protocols,0.14966806194044432,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,ip.flags,0.30693758878283806,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,ip.ttl,-0.093261358724358,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,ip.proto,0.015799973164905622,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.srcport,-0.12152490755672504,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.dstport,-0.04460489872512673,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.flags,-0.05549700061488581,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.window_size_value,0.22370621324370865,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,udp.srcport,0.03019219537458021,42
+Gotham2025,multiclass,xgboost,LIME,7,24422,Benign,Benign,1,0.9999324083328247,udp.dstport,0.03395403911448019,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,frame.len,0.09145096426382188,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,frame.protocols,0.16780964603827317,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,ip.flags,0.377708976378001,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,ip.ttl,-0.07236053462124226,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,ip.proto,0.029745934906077975,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.srcport,-0.13004226636098576,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.dstport,-0.12470628111243909,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.flags,0.0693086469517941,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.window_size_value,0.16971452884735838,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,udp.srcport,0.022404581363611727,42
+Gotham2025,multiclass,xgboost,LIME,8,19828,Benign,Benign,1,0.9999337196350098,udp.dstport,0.11922457956083213,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,frame.len,0.10050651800851183,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,frame.protocols,0.15013934973348167,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,ip.flags,0.387648691931872,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,ip.ttl,-0.04777786570331139,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,ip.proto,0.05519126543507265,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.srcport,-0.06953127137907014,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.dstport,-0.09950337606466192,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.flags,-0.11160621504299174,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.window_size_value,0.1941246522969549,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,udp.srcport,0.06100029667081925,42
+Gotham2025,multiclass,xgboost,LIME,9,23970,Benign,Benign,1,0.9999324083328247,udp.dstport,0.11429705730600535,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,frame.len,0.11828578344408572,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,frame.protocols,0.25957902320822435,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,ip.flags,0.35127386118024195,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,ip.ttl,-0.03882083003960268,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,ip.proto,-0.000297965946354735,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.srcport,-0.12332098118687217,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.dstport,-0.11896888864843994,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.flags,-0.07693342245835542,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.window_size_value,0.12394129160397359,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,udp.srcport,0.04190670561407968,42
+Gotham2025,multiclass,xgboost,LIME,10,22820,Benign,Benign,1,0.9999356269836426,udp.dstport,-0.011643815863541641,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,frame.len,0.0156679850816072,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,frame.protocols,0.010473943266041525,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,ip.flags,0.003957422960789764,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,ip.ttl,0.008622083344310782,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,ip.proto,0.005153852124486851,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.srcport,0.0035854485552601263,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.dstport,0.012309215674541683,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.flags,0.0011631413292905479,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.window_size_value,0.00321952069226614,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,udp.srcport,0.0035200177820897426,42
+Gotham2025,multiclass,xgboost,LIME,11,18007,C&C Communication,C&C Communication,1,0.9994593262672424,udp.dstport,0.0027851464716950295,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,frame.len,0.020022887278459255,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,frame.protocols,0.013907031244343986,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,ip.flags,0.0037049516828297677,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,ip.ttl,0.014435490480868694,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,ip.proto,0.00582021519628171,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.srcport,-6.58485118441235e-05,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.dstport,0.017425790526931672,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.flags,0.005803896143062661,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.window_size_value,0.0058061492445805225,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,udp.srcport,0.003001628203020281,42
+Gotham2025,multiclass,xgboost,LIME,12,15757,File Download,File Download,1,0.9999117851257324,udp.dstport,0.0036886938788824957,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,frame.len,0.01221188370998756,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,frame.protocols,0.008191398212660001,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,ip.flags,0.0016309196713353603,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,ip.ttl,0.013454656298325053,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,ip.proto,-0.00314036743841184,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.srcport,0.02937542893878147,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.dstport,0.010331404566429983,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.flags,-0.0036534951612435733,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.window_size_value,0.021987776847317994,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,udp.srcport,0.0002893315107129915,42
+Gotham2025,multiclass,xgboost,LIME,13,5255,File Download,File Download,1,0.999783456325531,udp.dstport,0.002179183404715428,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,frame.len,0.013787247547106866,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,frame.protocols,0.01711513728848611,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,ip.flags,0.010038100364382019,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,ip.ttl,0.0032094249636694227,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,ip.proto,0.011690222956993464,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.srcport,-0.010375744273340926,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.dstport,0.013215521156107997,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.flags,0.007962668348849705,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.window_size_value,0.011116599617960224,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,udp.srcport,-0.007509090247198661,42
+Gotham2025,multiclass,xgboost,LIME,14,5373,File Download,File Download,1,0.9999117851257324,udp.dstport,0.004298353552750769,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,frame.len,0.018453416916280267,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,frame.protocols,0.009955434843479969,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,ip.flags,0.002703013394486273,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,ip.ttl,0.011043499184906108,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,ip.proto,0.004882398033553643,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.srcport,0.0059772201174745,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.dstport,0.015491381586450336,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.flags,0.0038844409427339003,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.window_size_value,0.0066143802493003,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,udp.srcport,0.004025900768149338,42
+Gotham2025,multiclass,xgboost,LIME,15,14838,File Download,File Download,1,0.9999117851257324,udp.dstport,0.0011417794533629625,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,frame.len,0.013045641994049855,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,frame.protocols,0.007974411674417195,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,ip.flags,0.008185415537349094,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,ip.ttl,0.01374047513742018,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,ip.proto,0.008005020080748711,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.srcport,-0.005075720261048447,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.dstport,0.013450709235439732,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.flags,0.005795698211028489,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.window_size_value,0.007710124848819096,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,udp.srcport,0.006399052019034235,42
+Gotham2025,multiclass,xgboost,LIME,16,5355,File Download,File Download,1,0.9999117851257324,udp.dstport,0.004631733856271014,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,frame.len,0.02277600271791366,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,frame.protocols,0.005658294235868462,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,ip.flags,0.010735634932331527,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,ip.ttl,0.01001646592491818,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,ip.proto,-0.008011561871046255,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.srcport,0.03513019561459154,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.dstport,0.011843130850092271,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.flags,-0.005793016067098095,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.window_size_value,0.016965776874995248,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,udp.srcport,-0.016298282286744785,42
+Gotham2025,multiclass,xgboost,LIME,17,15509,File Download,File Download,1,0.999783456325531,udp.dstport,0.006291731327500789,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,frame.len,0.01384451586874861,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,frame.protocols,0.021529925560994805,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,ip.flags,-0.007670058810584123,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,ip.ttl,0.014035110327053874,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,ip.proto,0.004909887052318459,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.srcport,0.024243060421886346,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.dstport,0.003906287847253864,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.flags,0.005821234340093126,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.window_size_value,0.014460332038840881,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,udp.srcport,0.009208908019079753,42
+Gotham2025,multiclass,xgboost,LIME,18,15075,File Download,File Download,1,0.999783456325531,udp.dstport,-0.009442444339246294,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,frame.len,0.015723096433208725,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,frame.protocols,0.011546474106259698,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,ip.flags,0.005446543234672626,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,ip.ttl,0.007140007754471878,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,ip.proto,0.00680696786513307,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.srcport,-0.0007091993242582517,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.dstport,0.01932915490305876,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.flags,0.003649495317900179,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.window_size_value,0.005158590756351711,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,udp.srcport,0.00606862663729104,42
+Gotham2025,multiclass,xgboost,LIME,19,4723,File Download,File Download,1,0.9999117851257324,udp.dstport,0.002002543356395302,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,frame.len,0.011661206858548278,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,frame.protocols,0.009106608842092107,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,ip.flags,0.0042298675995483355,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,ip.ttl,0.004195355158208141,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,ip.proto,0.0031131129082313112,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.srcport,0.0126311347894232,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.dstport,0.0008776897742703857,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.flags,0.0066560345592489405,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.window_size_value,0.016089532545348065,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,udp.srcport,0.004912758800982867,42
+Gotham2025,multiclass,xgboost,LIME,20,15407,File Download,File Download,1,0.999783456325531,udp.dstport,0.004133153328350944,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,frame.len,0.016035924322314987,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,frame.protocols,0.009118357747609954,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,ip.flags,0.007070334034888301,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,ip.ttl,0.01170187871277805,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,ip.proto,0.006871887967362137,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.srcport,0.014584501482040746,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.dstport,0.0034393116988690343,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.flags,0.004641717094553664,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.window_size_value,0.006341722457260514,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,udp.srcport,0.002044633330552465,42
+Gotham2025,multiclass,xgboost,LIME,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997095465660095,udp.dstport,0.004273559849207038,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.len,0.013677864106590887,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.protocols,0.03867593394894033,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.flags,0.007818128500507877,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.ttl,0.0063142184691656255,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.proto,0.005057573449493967,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.srcport,-0.0030855688555812572,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.dstport,0.009193217692663692,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.flags,0.022637069935743666,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_value,0.008593615436499712,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.srcport,0.003612815265881725,42
+Gotham2025,multiclass,xgboost,LIME,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.dstport,0.0033449309073012275,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,frame.len,0.018236923748314204,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,frame.protocols,0.011579510746702208,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,ip.flags,0.004465482798724888,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,ip.ttl,0.011317289061444672,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,ip.proto,0.005489692318811981,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.srcport,0.015235670865657558,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.dstport,0.0019204006070315523,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.flags,0.006557407014627849,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.window_size_value,0.006909822149075012,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,udp.srcport,0.007908102452126614,42
+Gotham2025,multiclass,xgboost,LIME,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9997280240058899,udp.dstport,0.0038575512210545677,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,frame.len,0.014153267601441253,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,frame.protocols,0.03568933713592766,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,ip.flags,0.0044451699205563236,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,ip.ttl,0.0060876251920681185,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,ip.proto,0.0063175434159776665,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.srcport,-0.0027778289424947177,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.dstport,0.014449231947707768,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.flags,0.030877693988299162,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.window_size_value,0.005235869084328755,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,udp.srcport,0.0016222431941772548,42
+Gotham2025,multiclass,xgboost,LIME,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9938923120498657,udp.dstport,0.0020938068241236397,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,frame.len,0.010947646560122138,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,frame.protocols,0.004051475911541661,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.flags,0.006228728360635901,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.ttl,0.015592543165039286,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.proto,-0.00042136233997345075,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.srcport,0.01519456042416045,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.dstport,0.004412228918546648,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.flags,-0.00607640862383514,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.window_size_value,0.012859969438731224,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,udp.srcport,0.0036605111880324047,42
+Gotham2025,multiclass,xgboost,LIME,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,udp.dstport,-0.005311436541952204,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,frame.len,0.01623613629293289,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,frame.protocols,0.006332359513172261,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.flags,0.004919721921038279,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.ttl,0.010955646401362313,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.proto,0.00815956562582728,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.srcport,0.018795357372577936,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.dstport,0.0030354062834130812,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.flags,0.00407821473539636,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.window_size_value,0.010554419301728827,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,udp.srcport,0.00406805801220272,42
+Gotham2025,multiclass,xgboost,LIME,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,udp.dstport,0.006163270362485501,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,frame.len,0.012079740207240404,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,frame.protocols,0.04132037723277265,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,ip.flags,0.006038382838910702,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,ip.ttl,0.0009163217650295094,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,ip.proto,0.009287585345048905,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.srcport,0.006025024456344542,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.dstport,0.015889141788108185,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.flags,0.02797965208358658,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.window_size_value,0.011469065433646031,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,udp.srcport,0.007309229224492897,42
+Gotham2025,multiclass,xgboost,LIME,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9856356382369995,udp.dstport,0.00852753930983199,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,frame.len,0.01233352264809166,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,frame.protocols,0.00825949026753868,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.flags,0.0038644165266807405,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.ttl,0.011304438903301052,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,ip.proto,0.008920507281489755,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.srcport,0.014493921478332885,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.dstport,0.003358312164064548,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.flags,0.005551121192225146,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.window_size_value,0.016241400474072337,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,udp.srcport,0.0037801643295667727,42
+Gotham2025,multiclass,xgboost,LIME,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998180270195007,udp.dstport,0.004556243276512084,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,frame.len,0.014720233999882223,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,frame.protocols,0.01617077671114213,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.flags,0.0059997056648634466,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.ttl,0.011978616165710214,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,ip.proto,0.006727202815625781,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.srcport,0.01539021067207235,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.dstport,0.0033378341593487465,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.flags,0.005718047248097779,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.window_size_value,0.019206662503266067,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,udp.srcport,0.0011911904073333929,42
+Gotham2025,multiclass,xgboost,LIME,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9998170733451843,udp.dstport,0.0010204711579510951,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.len,0.010624689690860948,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.protocols,0.03647938543110601,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.flags,0.005043125558870821,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.ttl,0.0049967034869101605,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.proto,0.005815444962225762,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.srcport,0.0021460004207003694,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.dstport,0.015320560635798355,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.flags,0.02178297109499656,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_value,0.00503433566414346,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.srcport,0.006536572713801899,42
+Gotham2025,multiclass,xgboost,LIME,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.dstport,0.005896998078069213,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.len,0.017794529873229804,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,frame.protocols,0.04208532891831969,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.flags,0.004945271559255885,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.ttl,0.006199464632420506,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,ip.proto,0.007424289089296229,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.srcport,0.008881270134559376,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.dstport,0.014106208285965935,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.flags,0.02559214779069903,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_value,0.002897408566930039,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.srcport,0.005839604728131974,42
+Gotham2025,multiclass,xgboost,LIME,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.997005045413971,udp.dstport,0.006290318858915988,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.len,0.010388923218656313,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.protocols,0.013756809347253792,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.flags,0.009586693984267354,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.ttl,0.005117091392169452,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.proto,0.0020423712435838513,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.srcport,-0.00028646852245099654,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.dstport,0.007279273130180833,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.flags,0.010538414942332729,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_value,0.022109045027476966,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.srcport,-0.006874311965651339,42
+Gotham2025,multiclass,xgboost,LIME,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.dstport,0.008022846535758686,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.len,0.012915915622580217,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.protocols,0.01197337399435871,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.flags,0.012017859889860847,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.ttl,0.0034285113488030827,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.proto,-0.00030662841091269236,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.srcport,0.005579223624971132,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.dstport,0.003522837432720606,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.flags,0.004024804803205918,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_value,0.03230991905676399,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.srcport,0.006059089408736368,42
+Gotham2025,multiclass,xgboost,LIME,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.dstport,0.004203667783031882,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,frame.len,0.018774485288920846,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,frame.protocols,0.008229299102642225,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,ip.flags,0.01645153438450656,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,ip.ttl,0.007208561799667964,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,ip.proto,-0.0054206662070313185,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.srcport,-0.004101518706966511,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.dstport,0.015809758040868004,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.flags,-0.0029602043068461615,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.window_size_value,0.029685472218981067,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,udp.srcport,0.0063466535631154525,42
+Gotham2025,multiclass,xgboost,LIME,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.9996594190597534,udp.dstport,-0.008853390902148133,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,frame.len,0.007460746717620433,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,frame.protocols,0.023162322397048435,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,ip.flags,0.01770501117750739,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,ip.ttl,0.010522273277608173,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,ip.proto,0.005472673496434896,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.srcport,0.007767662113023248,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.dstport,0.00520988366441421,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.flags,0.005118983211183283,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.window_size_value,0.034131077747952036,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,udp.srcport,0.0064381561885231055,42
+Gotham2025,multiclass,xgboost,LIME,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9996248483657837,udp.dstport,0.014922034939847733,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.len,0.00882632704154573,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.protocols,0.011829407788990364,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.flags,0.010929618302921133,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.ttl,0.007879860084078292,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.proto,0.006218194296525438,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.srcport,0.005511915459690359,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.dstport,0.013445561643509513,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.flags,0.008371028244549763,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_value,0.027207988309592143,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.srcport,0.002702918845038307,42
+Gotham2025,multiclass,xgboost,LIME,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.dstport,0.006309778950050541,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.len,0.015715393959737454,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.protocols,0.021481460829642307,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.flags,0.006577065310459147,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.ttl,0.002535711272312252,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.proto,0.008058571388307022,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.srcport,0.02282088764750928,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.dstport,0.011728200629875795,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.flags,0.017624400633417133,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_value,0.028160665524237016,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.srcport,-0.000576550405725892,42
+Gotham2025,multiclass,xgboost,LIME,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.dstport,0.005214111362193168,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.len,0.015668047405918546,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.protocols,0.009865652342157534,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.flags,0.01763175667105901,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.ttl,0.0027129876295900494,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.proto,-0.003320585263870526,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.srcport,0.016401262223828164,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.dstport,0.006736322992090323,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.flags,-9.174447323606177e-05,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_value,0.04544599379479655,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.srcport,-0.003284111652299983,42
+Gotham2025,multiclass,xgboost,LIME,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.dstport,0.010149074808488699,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.len,0.028851364527720427,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,frame.protocols,0.023132790089629384,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.flags,0.01080234997543188,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.ttl,-0.0003432506640635679,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,ip.proto,0.008039944574555306,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.srcport,0.014039701813111016,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.dstport,0.011456684586642433,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.flags,0.007815584839326437,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_value,0.04057855713428791,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.srcport,0.006179913970339906,42
+Gotham2025,multiclass,xgboost,LIME,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.9976205229759216,udp.dstport,-0.00562159485506285,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.len,0.010545436917441933,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,frame.protocols,0.017750910908558775,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.flags,0.01979856553380186,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.ttl,0.013238440772800465,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,ip.proto,0.011760574384001776,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.srcport,-0.0022368565202201527,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.dstport,0.015940901422333908,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.flags,0.010924233269164712,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_value,0.04668520940418127,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.srcport,0.009960401793710836,42
+Gotham2025,multiclass,xgboost,LIME,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9998770952224731,udp.dstport,0.00026915709187092055,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.len,0.019894360169127566,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.protocols,0.030680796005014457,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.flags,0.012799865758686461,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.ttl,0.0057706231862669445,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.proto,0.014827961701332713,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.srcport,0.01712327090801103,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.dstport,0.011392356599069285,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.flags,0.03360709023761509,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_value,0.02982933288358372,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.srcport,0.014550105794672766,42
+Gotham2025,multiclass,xgboost,LIME,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.dstport,0.008786963337652607,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,frame.len,0.012166660952418425,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,frame.protocols,0.013158319171262305,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,ip.flags,0.010408426134132863,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,ip.ttl,-0.0040978066687925125,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,ip.proto,0.002778359084585359,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.srcport,0.014289411153938109,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.dstport,0.010173064737639823,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.flags,0.005675018016692998,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.window_size_value,0.027950347872535496,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,udp.srcport,0.008705203563614395,42
+Gotham2025,multiclass,xgboost,LIME,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.9975570440292358,udp.dstport,0.004601151419497109,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,frame.len,0.02117930437164803,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,frame.protocols,0.020051404721501985,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,ip.flags,0.011089575855865138,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,ip.ttl,0.01096786069577884,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,ip.proto,-0.0018548792752179168,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.srcport,0.0032331238544317104,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.dstport,0.006298189276517145,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.flags,0.013771764937673618,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.window_size_value,0.03397916959412069,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,udp.srcport,0.00441439428751058,42
+Gotham2025,multiclass,xgboost,LIME,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.999647855758667,udp.dstport,-0.008882881300214952,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.len,0.01462660618284654,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,frame.protocols,0.021822641763118295,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.flags,0.020371062364846582,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.ttl,0.011180262405866441,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,ip.proto,-0.002421253961116868,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.srcport,0.027915768493708932,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.dstport,0.013407525885557605,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.flags,0.024501828705307687,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_value,0.03338947928401497,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.srcport,0.007877749350294576,42
+Gotham2025,multiclass,xgboost,LIME,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9995951056480408,udp.dstport,0.00804770096937106,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,frame.len,-0.03756618011651808,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,frame.protocols,0.3997445761258593,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,ip.flags,0.01132539001025663,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,ip.ttl,0.04858622529975754,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,ip.proto,0.04551642951774053,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.srcport,0.006812518718472037,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.dstport,-0.0344924751078644,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.flags,0.025248688485072543,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.window_size_value,-0.02611991571472675,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,udp.srcport,0.029752115021770376,42
+Gotham2025,multiclass,xgboost,LIME,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8645801544189453,udp.dstport,0.0282832582483221,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,frame.len,-0.025365213628128613,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,frame.protocols,0.03232278889819317,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,ip.flags,0.08345854429836942,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,ip.ttl,0.04223594227176831,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,ip.proto,0.01262052215200097,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.srcport,0.21755031054478988,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.dstport,0.22077799074385882,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.flags,0.08796028141018845,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.window_size_value,-0.13263762136212656,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,udp.srcport,-0.055986835353873554,42
+Gotham2025,multiclass,xgboost,LIME,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997301697731018,udp.dstport,-0.0380539882219595,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,frame.len,0.0009882277871114673,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,frame.protocols,0.16604428640557795,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,ip.flags,0.018777334992999967,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,ip.ttl,0.08514381889153617,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,ip.proto,-0.03317582141822227,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.srcport,0.22490986260337037,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.dstport,0.21596662941782666,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.flags,0.03518189860058746,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.window_size_value,-0.17520816754824428,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,udp.srcport,0.010075716516165753,42
+Gotham2025,multiclass,xgboost,LIME,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9997237324714661,udp.dstport,-0.026925418480206954,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,frame.len,0.0016019919756393877,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,frame.protocols,0.08173561207164529,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,ip.flags,0.017168404329952574,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,ip.ttl,-0.09726572428732319,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,ip.proto,-0.04402784939804277,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.srcport,0.21262459525863175,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.dstport,0.22280272802455486,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.flags,0.10685203904174226,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.window_size_value,0.16160615669702144,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,udp.srcport,0.015528056771073544,42
+Gotham2025,multiclass,xgboost,LIME,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9963692426681519,udp.dstport,-0.009633275562214163,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,frame.len,0.06221285003135938,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,frame.protocols,0.09360209634378427,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,ip.flags,-0.012539210627904508,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,ip.ttl,0.03157581089774612,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,ip.proto,0.013006392810891538,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.srcport,0.22283994992285674,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.dstport,0.21793994591644164,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.flags,-0.08915079621304815,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.window_size_value,0.1692387896607646,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,udp.srcport,-0.01730519735962311,42
+Gotham2025,multiclass,xgboost,LIME,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.999691367149353,udp.dstport,-0.05221831156731115,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,frame.len,-0.0070144891687691415,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,frame.protocols,0.0301080138063499,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,ip.flags,0.04184080719643089,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,ip.ttl,0.05905276465663756,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,ip.proto,-0.07540097830193422,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.srcport,0.24955826007580842,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.dstport,0.23940705671115806,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.flags,-0.0042645017470198795,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.window_size_value,0.20352381827448204,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,udp.srcport,0.03472355639958829,42
+Gotham2025,multiclass,xgboost,LIME,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996222257614136,udp.dstport,0.07834242087322887,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,frame.len,0.01913528981746866,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,frame.protocols,0.05624134714384151,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,ip.flags,-0.0348214173265123,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,ip.ttl,0.052276055514951215,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,ip.proto,-0.02210211850410868,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.srcport,0.23523963572624704,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.dstport,-0.22843119298475034,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.flags,0.00878305951332368,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.window_size_value,0.19664125695255297,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,udp.srcport,-0.013715587041228121,42
+Gotham2025,multiclass,xgboost,LIME,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969483017921448,udp.dstport,-0.02286710658573197,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,frame.len,-0.039039396285412725,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,frame.protocols,0.07818417365571065,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,ip.flags,-0.010428066816694665,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,ip.ttl,-0.024782394289349915,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,ip.proto,-0.01076749957164337,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.srcport,0.2479871744613145,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.dstport,0.27829102819680834,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.flags,-0.006516288443672463,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.window_size_value,0.19660038395049312,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,udp.srcport,0.030657658833751253,42
+Gotham2025,multiclass,xgboost,LIME,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9996545314788818,udp.dstport,0.04467073587484314,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,frame.len,-0.0049456938054366914,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,frame.protocols,0.050428301477601675,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,ip.flags,-0.07360864629500273,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,ip.ttl,-0.03496606015949195,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,ip.proto,-0.010024446720312002,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.srcport,0.25254121490034387,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.dstport,-0.2160930123306186,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.flags,-0.0257158359154242,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.window_size_value,0.21626532129171008,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,udp.srcport,0.022196150368527665,42
+Gotham2025,multiclass,xgboost,LIME,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9998067021369934,udp.dstport,-0.014079820860939667,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,frame.len,0.012702565870323035,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,frame.protocols,0.015457249346342227,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,ip.flags,0.010725925546134085,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,ip.ttl,0.006990937059239394,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,ip.proto,0.00986399645924217,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.srcport,0.004533494684860479,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.dstport,0.003578120264073372,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.flags,0.00531064798791576,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.window_size_value,0.006413684102280724,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,udp.srcport,0.007313716831193711,42
+Gotham2025,multiclass,xgboost,LIME,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998875856399536,udp.dstport,0.005145460963028131,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,frame.len,0.015328448936594623,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,frame.protocols,0.01695905678122276,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,ip.flags,0.010198284011777569,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,ip.ttl,0.010365520666065647,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,ip.proto,0.010539173302561464,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.srcport,0.005961386129281453,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.dstport,0.003147429984316899,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.flags,0.006694239603409106,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.window_size_value,0.0077335962178124015,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,udp.srcport,0.005439330870615268,42
+Gotham2025,multiclass,xgboost,LIME,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9998950958251953,udp.dstport,0.005857973726769817,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.len,0.015040312110915029,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.protocols,0.014420238839565105,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.flags,0.010893222802823977,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.ttl,0.00929182953459711,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.proto,0.012113941190113931,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.srcport,0.005583357319114387,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.dstport,0.00038989672186932217,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.flags,0.0008173043655152735,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_value,0.004459503757816629,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.srcport,0.005373888790075191,42
+Gotham2025,multiclass,xgboost,LIME,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.dstport,0.0038558016903304684,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,frame.len,0.013431834429175324,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,frame.protocols,0.019818897506841973,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,ip.flags,0.013384820470916518,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,ip.ttl,0.00790871717426651,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,ip.proto,0.008989994093758492,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.srcport,0.002383525172967579,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.dstport,0.0054692789493784155,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.flags,0.005706565841057044,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.window_size_value,0.0044575980479006115,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,udp.srcport,0.002112006563939612,42
+Gotham2025,multiclass,xgboost,LIME,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999869704246521,udp.dstport,0.007642194075230531,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,frame.len,0.013916684574451667,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,frame.protocols,0.01584840029160697,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,ip.flags,0.01051988170136259,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,ip.ttl,0.006175254979579546,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,ip.proto,0.00798002115479879,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.srcport,0.005291172722752618,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.dstport,0.0016452117453855278,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.flags,0.001982705571891222,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.window_size_value,0.005029084292781812,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,udp.srcport,0.0020582425034945694,42
+Gotham2025,multiclass,xgboost,LIME,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893307685852,udp.dstport,0.0046300725115689416,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.len,0.016706273243132314,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.protocols,0.014882216727900943,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.flags,0.010787185247278865,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.ttl,0.005847458771190425,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.proto,0.011931861245566435,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.srcport,0.0039185488319242925,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.dstport,0.00211025427390838,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.flags,0.003235256864916194,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_value,0.004075239000682862,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.srcport,0.0030626247633869226,42
+Gotham2025,multiclass,xgboost,LIME,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.dstport,0.0038048715785762082,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.len,0.012444689267783462,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,frame.protocols,0.015387239430222625,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.flags,0.00907842359216618,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.ttl,0.005812907662131306,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,ip.proto,0.012595643182551877,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.srcport,0.005241211707333938,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.dstport,0.003842070271704231,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.flags,0.003085430889125298,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_value,0.000623679463129598,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.srcport,0.003820869582540524,42
+Gotham2025,multiclass,xgboost,LIME,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999893069267273,udp.dstport,0.005019311077849195,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,frame.len,0.0217142904284333,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,frame.protocols,0.037234921607252704,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,ip.flags,0.008586415723917908,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,ip.ttl,0.010857835672248644,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,ip.proto,0.005532287285495089,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.srcport,0.0015133905644641409,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.dstport,0.016326922330609856,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.flags,0.022758889887188303,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.window_size_value,0.004678678385938499,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,udp.srcport,0.010721531453516986,42
+Gotham2025,multiclass,xgboost,LIME,61,8777,Mirai C&C Communication,C&C Communication,0,0.999658465385437,udp.dstport,0.0017679483794429604,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,frame.len,0.0055924549741144395,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,frame.protocols,0.767619058550259,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,ip.flags,-0.021864089404053457,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,ip.ttl,0.002048963396813735,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,ip.proto,0.055172729637082384,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.srcport,-0.0007702111188374992,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.dstport,0.016952792422881724,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.flags,-0.012147854555632677,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.window_size_value,-0.01094108010310632,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,udp.srcport,0.029734990546597194,42
+Gotham2025,multiclass,xgboost,LIME,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999443292617798,udp.dstport,0.0019913433292894204,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,frame.len,0.01335412862271134,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,frame.protocols,0.7699356479527253,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.flags,-0.035232670964473724,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.ttl,0.03777858775623426,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.proto,0.0024189903622635445,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.srcport,-0.007823968441362366,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.dstport,0.006744117958233552,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.flags,0.016881073578606895,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.window_size_value,0.009849944569783903,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,udp.srcport,-0.005473241856285449,42
+Gotham2025,multiclass,xgboost,LIME,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,udp.dstport,0.024549530739580414,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,frame.len,-0.018978189682480644,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,frame.protocols,0.7051116277449435,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,ip.flags,0.03458619318783858,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,ip.ttl,0.005775455821379508,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,ip.proto,0.0006972657218061939,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.srcport,0.024021961938983018,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.dstport,-0.04706685402247644,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.flags,-0.09333374730842706,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.window_size_value,-0.0015056374407370337,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,udp.srcport,0.009172140405144002,42
+Gotham2025,multiclass,xgboost,LIME,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999362230300903,udp.dstport,0.0014489109998235212,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,frame.len,-0.0016560002826072264,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,frame.protocols,0.6736313137953097,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,ip.flags,0.011230760648325507,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,ip.ttl,-0.015442198161920653,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,ip.proto,0.033886309194590826,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.srcport,-0.009199257319586106,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.dstport,0.016213943726204397,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.flags,0.041379245550553376,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.window_size_value,-0.00018390198758594376,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,udp.srcport,0.05050160473098854,42
+Gotham2025,multiclass,xgboost,LIME,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999130964279175,udp.dstport,-0.021804813185815303,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,frame.len,-0.0028789034233817653,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,frame.protocols,0.6707834692712672,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.flags,-0.004360129820813667,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.ttl,0.006811727562209501,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.proto,0.051484615241124264,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.srcport,-0.01925394993563233,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.dstport,-0.0019786835004173393,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.flags,-0.0004300730077140665,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.window_size_value,0.0197828876043854,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,udp.srcport,0.011944343576472298,42
+Gotham2025,multiclass,xgboost,LIME,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,udp.dstport,0.009527531954067834,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,frame.len,0.014235906192425749,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,frame.protocols,0.6769507115053697,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.flags,0.026866955645250063,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.ttl,0.020696824338425727,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,ip.proto,-0.0045905136241021416,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.srcport,-0.010407296245687921,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.dstport,-0.03770610252758797,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.flags,-0.052038930081199176,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.window_size_value,0.0024522100514390707,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,udp.srcport,0.05844458096754282,42
+Gotham2025,multiclass,xgboost,LIME,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999446868896484,udp.dstport,-0.012846333254397798,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,frame.len,-0.004408241977759945,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,frame.protocols,0.6627032677899625,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,ip.flags,0.02273643189844247,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,ip.ttl,0.00961344561872854,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,ip.proto,0.0796669832391246,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.srcport,0.022785756046702445,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.dstport,-0.009273799000432686,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.flags,-0.0063930102738151496,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.window_size_value,-0.02917390821461186,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,udp.srcport,0.00822351471481637,42
+Gotham2025,multiclass,xgboost,LIME,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999397993087769,udp.dstport,-0.015523188140271168,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,frame.len,0.00990279081837723,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,frame.protocols,0.695359665153146,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.flags,0.012883678310266818,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.ttl,0.01983477050176644,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,ip.proto,0.019751225674259503,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.srcport,-0.01647707957734027,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.dstport,-0.022674795088588162,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.flags,-0.005431130171356408,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.window_size_value,0.0315654267927293,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,udp.srcport,-0.0029851597872765905,42
+Gotham2025,multiclass,xgboost,LIME,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.999944806098938,udp.dstport,0.028530971327970365,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,frame.len,-0.07681564519862932,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,frame.protocols,0.02469173637218899,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,ip.flags,-0.08041916026159056,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,ip.ttl,0.09912477488350084,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,ip.proto,-0.045411784411603,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.srcport,0.07361859952361029,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.dstport,0.04535318462985416,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.flags,-0.0006134425142862708,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.window_size_value,-0.4376291722274559,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,udp.srcport,0.04584122711828816,42
+Gotham2025,multiclass,xgboost,LIME,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998284578323364,udp.dstport,-0.001711323388065727,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,frame.len,-0.04342221033272672,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,frame.protocols,0.07244635357938055,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,ip.flags,-0.04853555289836813,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,ip.ttl,-0.10652910002631051,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,ip.proto,-0.014663698341260696,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.srcport,0.04487630621950491,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.dstport,0.0036069324992684436,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.flags,-0.010334404668861602,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.window_size_value,-0.3730062687222121,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,udp.srcport,0.05121147707813114,42
+Gotham2025,multiclass,xgboost,LIME,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9996824264526367,udp.dstport,0.03548490963174915,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,frame.len,-0.041372186712840146,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,frame.protocols,0.04848360945607572,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,ip.flags,-0.08045978408965657,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,ip.ttl,0.10050875321474853,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,ip.proto,-0.023302821755478847,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.srcport,0.04628970146925737,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.dstport,-0.012929074336650383,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.flags,0.025961859049678158,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.window_size_value,-0.39329036475735163,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,udp.srcport,0.01062817767265881,42
+Gotham2025,multiclass,xgboost,LIME,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9988982677459717,udp.dstport,0.017545544137431424,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,frame.len,-0.05966262814640103,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,frame.protocols,0.026024303759805693,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,ip.flags,-0.013917986616794435,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,ip.ttl,0.07085041730753253,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,ip.proto,-0.040909442971787856,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.srcport,0.03620393540255768,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.dstport,0.02312165326886077,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.flags,-0.025834308443563467,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.window_size_value,-0.41023899278435194,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,udp.srcport,-0.013127565759423001,42
+Gotham2025,multiclass,xgboost,LIME,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9998956918716431,udp.dstport,0.014726743500647815,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,frame.len,-0.020779926972239935,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,frame.protocols,0.038341335114294876,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,ip.flags,-0.05950199973925148,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,ip.ttl,0.09887382497089374,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,ip.proto,-0.01009316261493726,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.srcport,0.02016341015005695,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.dstport,0.03156780496000863,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.flags,0.0032241845900015226,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.window_size_value,-0.42044404278405106,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,udp.srcport,0.020235990461532193,42
+Gotham2025,multiclass,xgboost,LIME,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9995630383491516,udp.dstport,0.028693755273509387,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,frame.len,-0.08876900012203576,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,frame.protocols,0.027743946101114414,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,ip.flags,-0.061758379799775526,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,ip.ttl,0.056210559602230856,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,ip.proto,-0.018889509511900812,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.srcport,0.02908900772249781,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.dstport,0.020908404797503905,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.flags,0.029178130171255826,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.window_size_value,-0.4392584993734196,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,udp.srcport,0.05480045572780274,42
+Gotham2025,multiclass,xgboost,LIME,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997974038124084,udp.dstport,0.02946696883937874,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,frame.len,-0.05122072733269788,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,frame.protocols,0.04829428552396419,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,ip.flags,-0.0524335430306751,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,ip.ttl,0.11886457181885235,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,ip.proto,-0.0018264101807216914,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.srcport,0.010941317761307946,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.dstport,0.05160181704291793,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.flags,-0.020371095059120072,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.window_size_value,-0.4018285428221751,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,udp.srcport,-0.014468094275667946,42
+Gotham2025,multiclass,xgboost,LIME,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9997900128364563,udp.dstport,-0.004369691022089225,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,frame.len,0.05355676018916902,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,frame.protocols,0.08249633716263041,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,ip.flags,0.06201614620286702,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,ip.ttl,0.10388869879642486,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,ip.proto,0.002065067882118098,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.srcport,0.026425655472877754,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.dstport,0.05469813954745425,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.flags,0.007789877218549146,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.window_size_value,0.43806934309188567,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,udp.srcport,-0.011611679314898916,42
+Gotham2025,multiclass,xgboost,LIME,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9999146461486816,udp.dstport,0.03336872623645106,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,frame.len,0.00329356767837807,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,frame.protocols,0.25882253229990515,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,ip.flags,0.10765479793512917,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,ip.ttl,0.04729784027529672,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,ip.proto,0.02262038617169755,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.srcport,0.0067184587376147385,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.dstport,-0.03456411133635365,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.flags,-0.056761956036733355,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.window_size_value,0.022728930357176057,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,udp.srcport,0.0027693898426549715,42
+Gotham2025,multiclass,xgboost,LIME,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9997878670692444,udp.dstport,0.06862957310130836,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,frame.len,0.04585116127900822,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,frame.protocols,0.30478598496637715,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,ip.flags,0.08864601633053769,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,ip.ttl,0.0748671400598149,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,ip.proto,0.018585758929473183,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.srcport,-0.01091689693821453,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.dstport,-0.005018868674551906,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.flags,0.017645713711624093,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.window_size_value,0.03645064185768061,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,udp.srcport,-0.01019581901618738,42
+Gotham2025,multiclass,xgboost,LIME,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999322891235352,udp.dstport,0.0675778685024134,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,frame.len,0.015386660029009831,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,frame.protocols,0.2361604899562746,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,ip.flags,0.11113990449215294,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,ip.ttl,0.04328212319997712,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,ip.proto,0.014670247304872415,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.srcport,0.009683536590439978,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.dstport,0.000240051366837188,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.flags,0.013306734596811066,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.window_size_value,0.04816122204376743,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,udp.srcport,0.018855077994252362,42
+Gotham2025,multiclass,xgboost,LIME,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999312162399292,udp.dstport,0.09794786426529173,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,frame.len,0.06050033732358965,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,frame.protocols,0.29034911612424485,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,ip.flags,0.08683573433765433,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,ip.ttl,0.07076233062545347,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,ip.proto,-0.017788587850035405,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.srcport,-0.04253292599449035,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.dstport,0.023876710683577662,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.flags,0.018652682313242217,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.window_size_value,0.05049262928807007,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,udp.srcport,0.03742607805316132,42
+Gotham2025,multiclass,xgboost,LIME,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999387264251709,udp.dstport,0.13810205320368746,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,frame.len,0.013945458814035038,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,frame.protocols,0.22241980028932423,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,ip.flags,0.08855420181598302,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,ip.ttl,0.05831658559388525,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,ip.proto,-0.03455183522952777,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.srcport,-0.02037163931319676,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.dstport,-0.026152296434337072,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.flags,0.024177483882542313,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.window_size_value,0.05815921389926647,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,udp.srcport,-0.009892717082210867,42
+Gotham2025,multiclass,xgboost,LIME,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9999488592147827,udp.dstport,0.14991619041341478,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,frame.len,0.026480807955619363,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,frame.protocols,0.017976138361522963,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,ip.flags,0.0054220277392813656,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,ip.ttl,0.0011990493920306284,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,ip.proto,0.0057875314648708435,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.srcport,0.04109314618664966,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.dstport,0.03851858481655185,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.flags,-0.0015215749753061966,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.window_size_value,0.010216620584495191,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,udp.srcport,0.0040720543181631385,42
+Gotham2025,multiclass,xgboost,LIME,83,7582,Reporting,Reporting,1,0.9997231364250183,udp.dstport,0.008482965732235495,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,frame.len,0.022074330215840772,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,frame.protocols,0.014235077588126893,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,ip.flags,0.022079501355807687,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,ip.ttl,0.020606868248206314,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,ip.proto,0.009887798361080799,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.srcport,0.024405769958683286,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.dstport,-0.0012235434499072062,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.flags,-0.003608380797267956,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.window_size_value,0.010911890588197219,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,udp.srcport,0.006768761545066405,42
+Gotham2025,multiclass,xgboost,LIME,84,528,TCP Scan,TCP Scan,1,0.999883770942688,udp.dstport,0.0077072388834404735,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,frame.len,0.008934922492074948,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,frame.protocols,0.04381799001759072,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,ip.flags,-0.00432218923867592,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,ip.ttl,0.0030234024252253854,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,ip.proto,0.0030016167226645475,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.srcport,-0.0026421773796676327,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.dstport,0.021480302621783826,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.flags,0.029249383864084242,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.window_size_value,0.003916262293606575,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,udp.srcport,0.004818627439875879,42
+Gotham2025,multiclass,xgboost,LIME,85,18240,TCP Scan,TCP Scan,1,0.9990875720977783,udp.dstport,-0.002692676250454757,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,frame.len,0.01538403130713237,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,frame.protocols,0.016047454844987784,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,ip.flags,0.021606773307496906,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,ip.ttl,0.019252316961980345,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,ip.proto,0.007634700078266962,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.srcport,0.0319927531098997,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.dstport,-0.0028774567544692015,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.flags,0.0018980578194171995,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.window_size_value,0.012544481874853245,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,udp.srcport,0.0068326961148286024,42
+Gotham2025,multiclass,xgboost,LIME,86,17649,TCP Scan,TCP Scan,1,0.9998317956924438,udp.dstport,0.00315503460757416,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,frame.len,0.002203869635404987,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,frame.protocols,0.47193896624146303,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,ip.flags,0.018466443986815906,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,ip.ttl,0.013450328427079822,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,ip.proto,0.0031592547699256417,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.srcport,0.024793663809665595,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.dstport,0.00016065713554085407,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.flags,0.012533905850442327,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.window_size_value,0.004076832788547106,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,udp.srcport,0.004716140367505605,42
+Gotham2025,multiclass,xgboost,LIME,87,7744,TCP Scan,TCP Scan,1,0.9993807077407837,udp.dstport,0.00543121854360785,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,frame.len,0.031215450361841632,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,frame.protocols,0.028090510720017694,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,ip.flags,-0.009676211945166012,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,ip.ttl,-0.009201512683683641,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,ip.proto,-0.012953285331487764,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.srcport,0.03213396418708686,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.dstport,-0.007444763132702673,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.flags,0.0156443624064241,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.window_size_value,0.014506883309073204,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,udp.srcport,0.014776125098852734,42
+Gotham2025,multiclass,xgboost,LIME,88,24970,TCP Scan,TCP Scan,1,0.9998581409454346,udp.dstport,0.006723821816008846,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,frame.len,0.01180190356718098,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,frame.protocols,0.015036877706300423,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,ip.flags,0.016325974054744282,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,ip.ttl,0.015544524547368075,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,ip.proto,0.010595253156887046,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.srcport,0.018900157545347542,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.dstport,-2.956901599098739e-05,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.flags,0.005686072017326054,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.window_size_value,0.015816324665473114,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,udp.srcport,0.004828674359746155,42
+Gotham2025,multiclass,xgboost,LIME,89,17667,TCP Scan,TCP Scan,1,0.9998317956924438,udp.dstport,0.008578388946129646,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,frame.len,0.02927624429855502,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,frame.protocols,0.02307576392024759,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,ip.flags,0.005255339120423725,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,ip.ttl,-0.005977664164009434,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,ip.proto,-0.005535349901553099,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.srcport,0.02618101468399544,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.dstport,0.013409280757775796,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.flags,-0.001847638262370026,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.window_size_value,0.016833609531400777,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,udp.srcport,0.011886811108785575,42
+Gotham2025,multiclass,xgboost,LIME,90,16009,TCP Scan,TCP Scan,1,0.9998144507408142,udp.dstport,0.00977407013019546,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,frame.len,0.014348533633639667,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,frame.protocols,0.00950276327245951,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,ip.flags,0.00899507244119617,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,ip.ttl,0.012364447220850942,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,ip.proto,0.0021750850172412577,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.srcport,0.013467146881487767,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.dstport,0.001600808793433486,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.flags,0.00950181959609695,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.window_size_value,0.013197673657332909,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,udp.srcport,0.0010653248240343495,42
+Gotham2025,multiclass,xgboost,LIME,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9995996356010437,udp.dstport,0.007205386392452992,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,frame.len,0.017884491945307616,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,frame.protocols,0.0464414675858725,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,ip.flags,-0.0009322935787569382,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,ip.ttl,0.013715922663594182,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,ip.proto,0.010496954445533842,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.srcport,0.020243607210507282,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.dstport,-0.0010664843267833336,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.flags,0.020240090279844435,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.window_size_value,0.008045920082842559,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,udp.srcport,0.00010734151593294117,42
+Gotham2025,multiclass,xgboost,LIME,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9998034834861755,udp.dstport,0.006754333179157556,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,frame.len,0.009906304808859933,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,frame.protocols,0.02718962888576846,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,ip.flags,0.001951615275020485,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,ip.ttl,0.003130917654187946,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,ip.proto,0.0033115304961502524,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.srcport,0.0013154729324675307,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.dstport,0.012428092582112598,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.flags,0.014087045006837086,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.window_size_value,0.006109822351239946,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,udp.srcport,0.0017146647885296475,42
+Gotham2025,multiclass,xgboost,LIME,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.7614964246749878,udp.dstport,0.005133144658650921,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,frame.len,0.013022490255944364,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,frame.protocols,0.02497726316552447,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,ip.flags,0.003436363845018273,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,ip.ttl,0.004936114836408676,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,ip.proto,0.005806366537389991,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.srcport,-0.002760803657547537,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.dstport,0.01322772062636089,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.flags,0.01983319907967757,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.window_size_value,0.006024706287550098,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,udp.srcport,0.004147553327259669,42
+Gotham2025,multiclass,xgboost,LIME,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7534872889518738,udp.dstport,0.0005154675019879683,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,frame.len,0.012424356410998129,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,frame.protocols,0.036686485331757564,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,ip.flags,0.004428727816183537,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,ip.ttl,0.01222836461951049,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,ip.proto,-0.0019439427179909002,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.srcport,0.015013240302362122,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.dstport,1.548935975046495e-05,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.flags,0.02599605591217892,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.window_size_value,0.004747764931965899,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,udp.srcport,0.009314665034700928,42
+Gotham2025,multiclass,xgboost,LIME,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9998674392700195,udp.dstport,0.006659286264462117,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,frame.len,0.008728588675103897,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,frame.protocols,0.0359540868454671,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,ip.flags,-0.0067738894072759855,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,ip.ttl,-0.003743847999007765,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,ip.proto,-0.0009541432686385246,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.srcport,-0.0069199654387580726,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.dstport,0.018581436411905898,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.flags,0.010834771709348219,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.window_size_value,0.008296192799196588,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,udp.srcport,-0.008682146530571715,42
+Gotham2025,multiclass,xgboost,LIME,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6406160593032837,udp.dstport,0.004809352160137715,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,frame.len,0.012469217121280875,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,frame.protocols,0.022785225103953404,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,ip.flags,0.011689040182276787,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,ip.ttl,0.017852045288733354,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,ip.proto,0.011315562864124917,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.srcport,0.02496303185035496,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.dstport,0.013657762991001096,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.flags,0.00792397300003273,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.window_size_value,0.01108988339824636,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,udp.srcport,0.013909927802656959,42
+Gotham2025,multiclass,xgboost,LIME,97,58,Telnet Brute Force,Telnet Brute Force,1,0.9997074007987976,udp.dstport,0.011815985761595822,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,frame.len,0.014137198392081982,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,frame.protocols,0.04010115613492344,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,ip.flags,0.010814155505174599,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,ip.ttl,0.016211322228689717,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,ip.proto,-0.002016451766417075,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.srcport,0.022814061572521173,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.dstport,0.004657125924303503,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.flags,0.02883782222833831,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.window_size_value,0.006778717693411788,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,udp.srcport,0.009575135526656061,42
+Gotham2025,multiclass,xgboost,LIME,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9998631477355957,udp.dstport,0.00775889424954363,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,frame.len,0.04334927998860564,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,frame.protocols,-0.023996450740367003,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,ip.flags,0.19776793211736846,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,ip.ttl,0.23422596130385556,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,ip.proto,-0.06288454080346297,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.srcport,-0.06311315083310569,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.dstport,-0.021193811641060205,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.flags,-0.021206980989093287,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.window_size_value,0.06157843015779371,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.window_size_scalefactor,0.0,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,tcp.pdu.size,0.0,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,udp.srcport,0.01812188937694474,42
+Gotham2025,multiclass,xgboost,LIME,99,14310,UDP Scan,UDP Scan,1,0.9998489618301392,udp.dstport,0.07247151512690832,42

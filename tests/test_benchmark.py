@@ -11,10 +11,49 @@ from src.xai_ids.benchmark import (
     nearest_neighbor_stability,
     safe_cosine,
 )
-from src.xai_ids.transparency import evidence_decision
+from src.xai_ids.transparency import evidence_decision, local_deletion_evidence
+from sklearn.ensemble import RandomForestClassifier
 
 
 class BenchmarkUnitTests(unittest.TestCase):
+    def test_batched_alert_controls_match_serial_predictions(self):
+        rng = np.random.default_rng(7)
+        features = rng.normal(size=(80, 5))
+        labels = (features[:, 0] + features[:, 1] > 0).astype(int)
+        model = RandomForestClassifier(n_estimators=8, max_depth=3, random_state=7, n_jobs=1).fit(features, labels)
+        row, baseline = features[0], np.zeros(5)
+        prediction = int(model.predict(row.reshape(1, -1))[0])
+        attribution = np.array([5., 4., 3., 2., 1.])
+        original = model.predict_proba(row.reshape(1, -1))[0, prediction]
+        def serial_score(ranking):
+            drops = []
+            for k in (1, 3, 5, 10):
+                masked = row.copy()
+                selected = ranking[:min(k, len(row))]
+                masked[selected] = baseline[selected]
+                drops.append(original - model.predict_proba(masked.reshape(1, -1))[0, prediction])
+            return np.mean(drops)
+        top = serial_score(np.arange(5))
+        bottom = serial_score(np.arange(5)[::-1])
+        control_rng = np.random.default_rng(42)
+        controls = np.array([serial_score(control_rng.permutation(5)) for _ in range(20)])
+        result = local_deletion_evidence(model, row, attribution, prediction, baseline, [1, 3, 5, 10], 20, 42)
+        self.assertAlmostEqual(result["top_deletion_score"], top)
+        self.assertAlmostEqual(result["bottom_deletion_score"], bottom)
+        self.assertAlmostEqual(result["random_mean_deletion_score"], controls.mean())
+        expected_p = (1 + np.sum(controls >= top - 1e-12)) / 21
+        self.assertEqual(result["local_empirical_one_sided_p"], expected_p)
+        with self.assertRaises(ValueError):
+            local_deletion_evidence(model, row, attribution, prediction, baseline, [1], 0, 42)
+
+    def test_overlap_cleaning_excludes_conflicting_single_target_labels(self):
+        train = pd.DataFrame({"feature": [1, 2], "Label": ["BENIGN", "AttackA"]})
+        test = pd.DataFrame({"feature": [1, 3], "Label": ["AttackB", "AttackA"]})
+        _, retained, audit = clean_unsw_partitions(train, test, "Label", "Label")
+        self.assertEqual(retained.feature.tolist(), [3])
+        self.assertEqual(retained.Label.tolist(), ["AttackA"])
+        self.assertEqual(audit["cross_partition_feature_overlaps_removed_from_test"], 1)
+
     def test_unsw_cleaning_removes_duplicates_and_cross_partition_vectors(self):
         train = pd.DataFrame(
             {

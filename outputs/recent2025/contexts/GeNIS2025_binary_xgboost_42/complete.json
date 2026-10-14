@@ -1,0 +1,1 @@
+{"dataset": "GeNIS2025", "task": "binary", "model": "xgboost", "seed": 42}

@@ -1,0 +1,3 @@
+dataset,task,model,seed,training_weighting,macro_f1,macro_f1_supported_classes
+Gotham2025,binary,xgboost,42,none,1.0,1.0
+Gotham2025,binary,xgboost,42,class_weighted,0.9999004987795819,0.9999004987795819

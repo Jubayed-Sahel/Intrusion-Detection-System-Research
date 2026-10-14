@@ -1,0 +1,5 @@
+dataset,task,model,model_seed,metric,recorded,reproduced,absolute_difference
+UNSW-NB15,multiclass,random_forest,42,accuracy,0.6640120714225837,0.6640120714225837,0.0
+UNSW-NB15,multiclass,random_forest,42,balanced_accuracy,0.6278875826535602,0.6278875826535602,0.0
+UNSW-NB15,multiclass,random_forest,42,macro_f1,0.5133944168073217,0.5133944168073217,0.0
+UNSW-NB15,multiclass,random_forest,42,weighted_f1,0.7166756095325277,0.7166756095325277,0.0

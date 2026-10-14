@@ -1,0 +1,3 @@
+dataset,task,model,model_seed,class,precision,recall,f1,support
+UNSW-NB15,binary,random_forest,42,Attack,0.6541914945718716,0.954561696045736,0.7763355451155132,16792
+UNSW-NB15,binary,random_forest,42,Normal,0.967131903161885,0.7260056913723968,0.8293989434408364,30924

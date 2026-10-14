@@ -1,0 +1,329 @@
+{
+  "model_seeds": [
+    42,
+    52,
+    62
+  ],
+  "explanation_samples": 100,
+  "dataset_split_seed": 42,
+  "explanation_sample_seed": 42,
+  "selection": "label-stratified with available error-case coverage; model-dependent",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": {
+      "expected": "2.2.6",
+      "installed": "2.2.6",
+      "matches": true
+    },
+    "pandas": {
+      "expected": "2.2.3",
+      "installed": "2.2.3",
+      "matches": true
+    },
+    "scipy": {
+      "expected": "1.15.3",
+      "installed": "1.15.3",
+      "matches": true
+    },
+    "scikit-learn": {
+      "expected": "1.6.1",
+      "installed": "1.6.1",
+      "matches": true
+    },
+    "xgboost": {
+      "expected": "3.0.2",
+      "installed": "3.0.2",
+      "matches": true
+    },
+    "shap": {
+      "expected": "0.47.2",
+      "installed": "0.47.2",
+      "matches": true
+    },
+    "lime": {
+      "expected": "0.2.0.1",
+      "installed": "0.2.0.1",
+      "matches": true
+    },
+    "matplotlib": {
+      "expected": "3.10.3",
+      "installed": "3.10.3",
+      "matches": true
+    },
+    "seaborn": {
+      "expected": "0.13.2",
+      "installed": "0.13.2",
+      "matches": true
+    },
+    "pyarrow": {
+      "expected": "20.0.0",
+      "installed": "20.0.0",
+      "matches": true
+    },
+    "joblib": {
+      "expected": "1.5.1",
+      "installed": "1.5.1",
+      "matches": true
+    },
+    "PyYAML": {
+      "expected": "6.0.2",
+      "installed": "6.0.2",
+      "matches": true
+    },
+    "reportlab": {
+      "expected": "4.4.1",
+      "installed": "4.4.1",
+      "matches": true
+    },
+    "pypdf": {
+      "expected": "5.5.0",
+      "installed": "5.5.0",
+      "matches": true
+    },
+    "pdfplumber": {
+      "expected": "0.11.6",
+      "installed": "0.11.6",
+      "matches": true
+    },
+    "python-docx": {
+      "expected": "1.1.2",
+      "installed": "1.1.2",
+      "matches": true
+    }
+  },
+  "files": [
+    {
+      "path": "data\\raw\\cic_train_0000.parquet",
+      "sha256": "b6c36df6a5fb334339c6b7b549c619ebe4ab96c7dceb61cd167d1f4fd5ecfdbe",
+      "matches_committed_hash": true,
+      "rows": 2140000,
+      "columns": [
+        "Flow Duration",
+        "Flow IAT Mean",
+        "Flow IAT Std",
+        "Flow IAT Max",
+        "Fwd IAT Std",
+        "Idle Mean",
+        "Active Std",
+        "Average Packet Size",
+        "Packet Length Mean",
+        "Packet Length Std",
+        "Max Packet Length",
+        "Fwd Packet Length Max",
+        "Fwd Packet Length Min",
+        "Bwd Packet Length Mean",
+        "Bwd Packet Length Std",
+        "Bwd Packet Length Max",
+        "Flow Bytes/s",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Total Length of Fwd Packets",
+        "Total Length of Bwd Packets",
+        "Bwd Packets/s",
+        "PSH Flag Count",
+        "FIN Flag Count",
+        "SYN Flag Count",
+        "Init_Win_bytes_forward",
+        "Init_Win_bytes_backward",
+        "Destination Port",
+        "Label"
+      ],
+      "provenance_status": "source conversion history undocumented"
+    },
+    {
+      "path": "data\\raw\\cic_train_0001.parquet",
+      "sha256": "6167864da5a37b32b23c980d4fcc3c5eea8f3b6103d31bc16286725ae6a35d22",
+      "matches_committed_hash": true,
+      "rows": 690743,
+      "columns": [
+        "Flow Duration",
+        "Flow IAT Mean",
+        "Flow IAT Std",
+        "Flow IAT Max",
+        "Fwd IAT Std",
+        "Idle Mean",
+        "Active Std",
+        "Average Packet Size",
+        "Packet Length Mean",
+        "Packet Length Std",
+        "Max Packet Length",
+        "Fwd Packet Length Max",
+        "Fwd Packet Length Min",
+        "Bwd Packet Length Mean",
+        "Bwd Packet Length Std",
+        "Bwd Packet Length Max",
+        "Flow Bytes/s",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Total Length of Fwd Packets",
+        "Total Length of Bwd Packets",
+        "Bwd Packets/s",
+        "PSH Flag Count",
+        "FIN Flag Count",
+        "SYN Flag Count",
+        "Init_Win_bytes_forward",
+        "Init_Win_bytes_backward",
+        "Destination Port",
+        "Label"
+      ],
+      "provenance_status": "source conversion history undocumented"
+    },
+    {
+      "path": "data\\raw\\unsw_test.parquet",
+      "sha256": "f6989e65032e75770f37a5fa64d1d556effd6ac6240c99b0ab4df73b490c1918",
+      "matches_committed_hash": true,
+      "rows": 175341,
+      "columns": [
+        "dur",
+        "proto",
+        "service",
+        "state",
+        "spkts",
+        "dpkts",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "sload",
+        "dload",
+        "sloss",
+        "dloss",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "swin",
+        "stcpb",
+        "dtcpb",
+        "dwin",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "smean",
+        "dmean",
+        "trans_depth",
+        "response_body_len",
+        "ct_src_dport_ltm",
+        "ct_dst_sport_ltm",
+        "is_ftp_login",
+        "ct_ftp_cmd",
+        "ct_flw_http_mthd",
+        "is_sm_ips_ports",
+        "attack_cat",
+        "label"
+      ],
+      "provenance_status": "source conversion history undocumented"
+    },
+    {
+      "path": "data\\raw\\unsw_train.parquet",
+      "sha256": "a0270aeb2219aaa686551cdf6d4f94c4478b69f819225176149606cd1492d5e1",
+      "matches_committed_hash": true,
+      "rows": 82332,
+      "columns": [
+        "dur",
+        "proto",
+        "service",
+        "state",
+        "spkts",
+        "dpkts",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "sload",
+        "dload",
+        "sloss",
+        "dloss",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "swin",
+        "stcpb",
+        "dtcpb",
+        "dwin",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "smean",
+        "dmean",
+        "trans_depth",
+        "response_body_len",
+        "ct_src_dport_ltm",
+        "ct_dst_sport_ltm",
+        "is_ftp_login",
+        "ct_ftp_cmd",
+        "ct_flw_http_mthd",
+        "is_sm_ips_ports",
+        "attack_cat",
+        "label"
+      ],
+      "provenance_status": "source conversion history undocumented"
+    }
+  ],
+  "config": {
+    "seed": 42,
+    "predictive_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "output_dir": "outputs",
+    "data": {
+      "cicids2017": {
+        "shards": [
+          "data/raw/cic_train_0000.parquet",
+          "data/raw/cic_train_0001.parquet"
+        ],
+        "label_column": "Label",
+        "normal_label": "BENIGN",
+        "per_class_cap": 25000,
+        "test_size": 0.2
+      },
+      "unsw_nb15": {
+        "train": "data/raw/unsw_test.parquet",
+        "test": "data/raw/unsw_train.parquet",
+        "label_column": "label",
+        "multiclass_column": "attack_cat",
+        "normal_label": "Normal"
+      }
+    },
+    "models": {
+      "random_forest": {
+        "n_estimators": 120,
+        "max_depth": 18,
+        "min_samples_leaf": 2
+      },
+      "xgboost": {
+        "n_estimators": 160,
+        "max_depth": 7,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      }
+    },
+    "evaluation": {
+      "explanation_samples": 40,
+      "lime_samples": 350,
+      "self_stability_samples": 6,
+      "lime_repeat_seeds": 5,
+      "fidelity_k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "feature_ablation_k": [
+        5,
+        10,
+        20
+      ]
+    }
+  },
+  "inference": "paired flow-level comparisons separately by model seed; no independent pooling across seeds",
+  "limitations": [
+    "not temporal or session-separated",
+    "no analyst participants",
+    "no live deployment"
+  ]
+}

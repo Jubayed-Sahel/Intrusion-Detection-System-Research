@@ -1,86 +1,86 @@
 # Publication Readiness Report
 
-**Project:** Explainable Machine-Learning Intrusion Detection on CIC-IDS2017 and UNSW-NB15  
-**Audit date:** 17 August 2026  
-**Status:** Technically ready for peer-review preparation; author, venue, and archival-repository details remain to be supplied before submission.
+**Audit date:** 14 October 2026.
 
-## Executive verdict
+**Status:** the local research replacement and verification are complete: official acquisition, corrected preparation, all 40 predictive fits, 24 paired explanation contexts, 48 control comparisons, and eight extended audits. The full source/inference verifier passes with raw-byte checks, and all 17 unit tests pass. Gotham's ambiguous `Unknown` label is excluded from both supervised tasks. The six-page recent manuscript is generated and visually reviewed. Submission still requires a specific venue and author/supervisor review; this is a technical assessment, not peer review or IEEE acceptance.
 
-The project now answers its research question with a reproducible, leakage-audited comparison of Random Forest and XGBoost across binary and multiclass intrusion detection. It does not claim to make the models intrinsically transparent. Instead, it addresses the operational black-box problem by attaching local TreeSHAP and LIME explanations, testing whether those rankings affect model confidence when important features are removed, measuring stability and latency, comparing against random-feature controls, and rejecting weak alert-level evidence.
+## Dataset-provenance gap and replacement
 
-The strongest publication-critical defect found during this audit was data leakage in the accessible UNSW-NB15 parquet mirror. The original files contained 78,519 exact duplicate training rows, 32,361 exact duplicate testing rows, and 2,255 test feature vectors also present in training after within-partition deduplication. The pipeline now removes all three forms of duplication before fitting or evaluation. The cleaned predefined partition contains 96,822 training rows and 47,716 testing rows, with zero exact feature-vector overlap. All UNSW metrics, explanations, figures, audits, and paper claims were regenerated from this cleaned partition.
+The historical CIC-IDS2017 and UNSW-NB15 parquet files reproduce against their saved hashes, but the original download/conversion history is unavailable. The primary study now uses independently acquired author-published [GeNIS2025](https://zenodo.org/records/14919237) and [Gotham2025](https://zenodo.org/records/14502760) instead. Their provider records specify CC BY 4.0; source URLs, metadata, checksums, parsed member counts, preparation code, exclusions, deterministic sampling, group splits, and prepared hashes are recorded.
 
-## What was corrected
+GeNIS's complete selected archives pass the provider's published MD5 checks. Gotham's 78 retrieved CSVs plus README pass ZIP CRC32/length checks and have local SHA-256 hashes; the whole archive's MD5 is not recomputed. All eight GeNIS five-second scenario CSVs and all 78 Gotham processed device CSVs are included in source scanning. Post-acquisition provider/ledger/retrieval-code snapshots have explicit copy-time hashes; benchmark and extended-audit sources have separate run-start snapshots. These claims concern the official authors' supplied CSVs and do not imply a fresh packet-to-feature reconstruction or independent validation of all labels.
 
-- Added explicit within-partition deduplication and cross-partition feature-overlap removal for UNSW-NB15, with counts written to the run manifest.
-- Replaced the unsupported description of the UNSW split as “temporal” with “predefined.”
-- Re-ran 40 predictive experiments: 2 datasets × 2 tasks × 2 models × 5 seeds.
-- Re-ran paired TreeSHAP/LIME deletion tests on the same 40 flows per configuration.
-- Re-ran random-ranking controls, neighborhood and repeated-LIME stability checks, latency measurements, masking-baseline sensitivity, calibration, class-weighting, class/error breakdowns, and feature ablations.
-- Removed a class-weighting confound: weighted and unweighted models now use the same seed (42).
-- Changed the alert explanation policy so weak random-control evidence receives `REVIEW_REQUIRED` or `UNSUPPORTED`, rather than being presented as automatically trustworthy.
-- Corrected stale metrics and overclaims throughout the paper, handbook, traceability document, and notebook.
-- Anonymized the manuscript metadata for peer review and moved identity fields to `paper_metadata.yaml`.
-- Clarified that latency covers the explainer call only, neighborhood stability uses the 40-flow audit subset, and feature ablation is exploratory rather than nested model selection.
+This recorded replacement resolves source history for the new primary inputs. It does not certify the old parquet files or transfer their results to the new study. Exact details are in [RECENT_DATASET_PROVENANCE.md](RECENT_DATASET_PROVENANCE.md), with historical issues preserved in [DATA_PROVENANCE.md](DATA_PROVENANCE.md).
 
-## Reproduced headline results
+## Current design
 
-Mean macro-F1 over five seeds:
+- Fixed deterministic sampling cap of 10,000 records per observed source label, with all chosen source members scanned. The derivative has altered class priors.
+- Explicit exclusion of Gotham's ambiguous `Unknown` label from both supervised tasks, with full source counts and excluded-label counts retained. CoAP Amplification has only one sampled group and no held-out claim. Primary `macro_f1_supported_classes` averages test-supported classes; `macro_f1_training_vocabulary` and the original actual/predicted-label-union `macro_f1` are also retained.
+- Whole connection-group holdout, using global GeNIS flow IDs and bidirectional Gotham endpoint/protocol groups across all device files. No source group may appear on both sides; single-group labels are explicitly training-only.
+- Declared identifier, target, timestamp, and exporter/payload exclusions. Constant removal, imputation, and category mapping use training data only.
+- Binary and multiclass tasks, Random Forest and XGBoost, five predictive seeds, majority and shallow-tree baselines: 40 completed primary predictive fits.
+- TreeSHAP and LIME on 100 matched held-out records per context across three model seeds. Primary paired and control inference uses equal-weight explained connection-group means, with Holm correction across the complete 24 and 48 comparison families.
+- Seed-42 calibration, weighting, masking-reference, LIME-budget, and feature-ablation audits, with source snapshots and an integrity verifier.
 
-| Dataset | Task | Random Forest | XGBoost |
-|---|---:|---:|---:|
-| CIC-IDS2017 | Binary | 0.9965 | 0.9974 |
-| CIC-IDS2017 | Multiclass | 0.9254 | 0.9324 |
-| UNSW-NB15 (cleaned) | Binary | 0.8013 | 0.8156 |
-| UNSW-NB15 (cleaned) | Multiclass | 0.5140 | 0.5083 |
+Per-record summary confidence intervals are descriptive; the group-level paired and control tables carry the primary inference. The complete source counts, test-supported metric definition, context counts, and numerical conclusions are recorded in `outputs/recent2025/summary.json` and `predictive_summary.csv`.
 
-TreeSHAP produced higher paired top-5 deletion fidelity than LIME in all 8 configurations. Every bootstrap confidence interval for the paired difference was above zero; Holm-adjusted one-sided Wilcoxon p-values were at most 0.00319, and paired effect sizes ranged from 0.382 to 0.974. TreeSHAP beat the random-ranking control in 8/8 configurations. LIME did so in 7/8; the failed case was CIC-IDS2017 binary Random Forest (mean lift 0.01393, Holm-adjusted p = 0.33763).
+## Current findings
 
-These results support a bounded conclusion: in this experimental protocol, TreeSHAP rankings are more faithful and more consistently distinguishable from random rankings than LIME rankings. They do not prove that either explanation is causal, universally valid, or sufficient for autonomous security decisions.
+Five-seed mean supported-class macro-F1 for GeNIS is 0.9998/0.9998 for binary Random Forest/XGBoost and 0.9997/1.0000 for multiclass. Gotham means are 1.0000/0.9999 for binary and 0.8755/0.8665 for multiclass, where 16 labels have test support. GeNIS's depth-five tree already scores 0.9906 on multiclass; its near-perfect ensemble scores describe a highly separable sampled testbed derivative. Gotham's depth-five multiclass baseline is 0.3589. Its zero-scoring majority baseline predicts training-only CoAP Amplification, so that baseline is affected by the split's class coverage.
 
-## How the black-box problem is addressed
+TreeSHAP has positive group-mean fidelity differences versus LIME in 24/24 contexts; all paired bootstrap intervals are above zero and all directional Wilcoxon tests pass Holm correction across the 24 comparisons. Mean differences range from 0.0570 to 0.3058 probability-drop units. For top-versus-random controls, the strict joint criterion of a positive bootstrap interval and study-wide corrected significance passes TreeSHAP in 24/24 and LIME in 20/24. The explained samples contain 57-95 connection groups per context; repeated model seeds are not pooled as independent traffic.
 
-The project provides five layers of transparency:
+Seed-42 calibration, weighting, masking-reference, LIME-budget, and feature-ablation audits are complete. Weighting is not uniformly beneficial: on Gotham multiclass, the unweighted Random Forest scores 0.8791 versus 0.8748 for the weighted primary model, and unweighted XGBoost scores 0.8686 versus 0.8659. These are diagnostic fixed-test comparisons, not a justification for test-driven model selection. Current latency was measured during concurrent jobs and is descriptive.
 
-1. **Local attribution:** each prediction receives signed feature contributions from TreeSHAP and LIME.
-2. **Behavioral validation:** top-ranked features are masked and the predicted-class probability change is measured.
-3. **Negative control:** the same test is performed with random feature rankings.
-4. **Reliability checks:** explanation stability, masking assumptions, class/error behavior, and latency are reported.
-5. **Conservative alert evidence:** alert reports expose the predicted class, confidence, top contributors, deletion effect, random-control lift, empirical p-value, and an evidence tier.
+Statistical recomputation uses original per-context fidelity CSVs with round-trip float parsing. The aggregated convenience CSV passes through default parsing and rewriting, which can perturb near-ties and alter Wilcoxon ranks. Recorded endpoints are recomputed from the original precision-preserving context evidence, with aggregate consistency checked separately.
 
-This reduces opacity and makes individual predictions auditable. It does not “solve” black-box inference in the absolute sense: post-hoc feature attribution remains dependent on the model, background/masking distribution, dataset, and explanation method. The paper now states that limitation explicitly.
+## Completed verification
 
-## Reproducibility and integrity controls
+`verify_recent_benchmark.py --verify-raw` passes in the fresh Python 3.12.14 environment. It checks the author-record chain, acquisition snapshots, GeNIS provider MD5s, every acquired source SHA-256, Gotham member CRC32/lengths, prepared-file hashes, source-group separation, source-row identities, frozen benchmark/audit code, model/input hashes, complete context coverage, matched explanations, group-level statistical recomputation, and study-wide corrections. All 17 unit tests pass, including the near-tie round-trip CSV and floating-point portability regressions. Frozen metadata and hashed runtime sources have Git byte-preservation rules. No hosted GitHub CI run is claimed because the current work remains local.
 
-- Fixed five-seed predictive protocol: 42, 52, 62, 72, and 82.
-- Training-only preprocessing, including categorical mappings and numeric medians.
-- Dataset-file SHA-256 hashes and software versions in `outputs/run_manifest.json`.
-- Exact paired source-flow matching between TreeSHAP and LIME enforced by `verify_outputs.py`.
-- Unit test for removal of duplicate and cross-partition UNSW feature vectors.
-- Raw datasets and trained models excluded from the publication repository; acquisition paths and hashes remain documented.
-- Generated tables, figures, alert reports, and the PDF derive from machine-readable outputs.
+All six manuscript pages were rendered and visually inspected. Columns, tables, and figures were checked; searchable text, embedded fonts, formatted predictive means, and cohort counts agree with the verified outputs. This visual/technical review does not replace the target venue's PDF or submission checks.
 
-## Remaining submission actions
+The recent experiment was executed in the recorded fresh environment. Reusing its completed checkpoints does not constitute another independent retraining. A separate reproduction must use a copied configuration with a fresh output directory for both benchmark and extended-audit runners.
 
-The research artifacts are internally consistent, but the manuscript should not be sent to a venue until these external details are completed:
+## Historical work retained
 
-1. Select the target IEEE journal or conference and apply its exact template, page limit, taxonomy, and anonymization rules.
-2. For double-blind review, retain `Anonymous Author(s)`. For camera-ready submission, replace it with the real author names, affiliations, emails, and acknowledgments in `paper_metadata.yaml`.
-3. Publish the code and non-restricted artifacts to a stable repository, ideally with a Zenodo DOI, then add the archival URL to the paper. Do not redistribute datasets unless their licenses permit it.
-4. Confirm the target venue's disclosure policy for AI-assisted writing and code.
-5. Run the venue's PDF compliance checker, plagiarism/similarity check, and reference validator after final template conversion.
-6. Have the named authors read and approve every claim; authors remain responsible for the manuscript and experimental validity.
+The old study remains available for comparison and traceability:
 
-## Deliverable map
+- Corrected CIC multiclass cross-partition feature overlap, leaving 24,902 test rows, and reran affected models and explanations.
+- Corrected duplicates and feature-vector overlap in the reduced UNSW mirror. The cleaned derivative has 96,822 training and 47,716 test rows; class proportions differ substantially from the mirror.
+- Completed 100-flow explanations across three model seeds for 24 historical contexts, with matched pairs and study-wide Holm correction. Historical TreeSHAP-versus-LIME results passed in 24/24 contexts; TreeSHAP and LIME top-versus-random passed in 24/24 and 21/24, respectively, under that masking reference.
+- Reproduced all eight corrected historical seed-42 predictive contexts exactly in a fresh Python 3.12 environment. Recorded package lists disclose transitive version differences.
+- Audited minority labels and reduced-feature ambiguity. Multiple historical UNSW attack labels share 302 test feature vectors involving 1,274 rows; the unknown conversion prevents a diagnosis of source-label error versus feature aliasing.
+- Batched the alert-report masking controls and measured a historical three-alert-per-context report pilot. Its 67.2-845.4 ms configuration medians are not recent-data timing, tail-latency, or throughput evidence.
+- Repaired historical manuscript generation and retained the six-page draft, reference metadata, old audit evidence, and independent-environment results.
 
-- Final manuscript: `output/pdf/xai_ids_ieee_paper.pdf`
-- Reproducible learning notebook: `PROJECT_WALKTHROUGH.ipynb`
-- Complete beginner-to-end explanation: `PROJECT_HANDBOOK.md`
-- Literature-to-experiment traceability: `LITERATURE_REQUIREMENTS_TRACEABILITY.md`
-- Machine-readable experiment outputs: `outputs/`
-- Integrity verifier: `verify_outputs.py`
-- Editable anonymous/camera-ready identity metadata: `paper_metadata.yaml`
+The historical bibliography identity checks do not by themselves establish support for every new claim. The recent manuscript must cite and discuss its new dataset sources and actual findings.
 
-## Final assessment
+## Material limits for the current paper
 
-The project is substantially stronger and more defensible than the pre-audit version. The corrected UNSW scores are lower, but they are scientifically more credible because the leakage has been removed. The paper now presents a transparent, testable contribution with negative controls and appropriately bounded claims. Subject to the venue-specific and authorship actions above, it is suitable for peer-review submission preparation.
+GeNIS provides flows and Gotham provides packets; scores are reported separately, without treating the units as interchangeable. Each is a controlled testbed with connection holdout within its own capture environment. Sampling alters priors. Rare labels may not have an independent test connection, so test support and training-only labels are central to interpretation.
+
+Connection-level inference reduces packet/window dependence but does not eliminate campaign or capture dependence. Five predictive seeds and three explanation model seeds describe algorithmic variation on a fixed split, not repeated independent datasets. Deletion fidelity remains dependent on reference values and may mask features into implausible combinations. It is a behavioral test, not causal evidence.
+
+No temporal holdout, cross-organization evaluation, human analyst experiment, live security deployment, production drift, or recent-data throughput study has been completed. A claim of operational benefit would require the corresponding evidence rather than only an explanation score.
+
+## Remaining submission work
+
+1. Choose a specific IEEE journal or conference and apply its exact template, page limit, anonymity, and disclosure requirements. The current generated draft is IEEE-style, not venue-certified.
+2. Have the supervisor and named authors review the design, source-label limitations, claims, references, novelty, and AI-assisted contributions.
+3. Populate author/affiliation metadata, complete any venue-required similarity and PDF checks, and arrange a reviewed versioned release and archival DOI if appropriate.
+4. Upload the reviewed local work to the user's GitHub when requested and authentication is available. No changes from this work have been uploaded and no hosted CI run is claimed.
+5. Conduct the prepared analyst or live/drift studies if the eventual submission makes those claims. Existing protocols are plans, not observations.
+
+## Local deliverables
+
+- Current manuscript: `output/pdf/xai_ids_recent2025_paper.pdf` (six-page anonymous draft, visually reviewed).
+- Current results, manifest, prepared-input provenance, source snapshots, and connection-group statistics: `outputs/recent2025/`.
+- Current numerical and predictive summaries: `outputs/recent2025/summary.json` and `predictive_summary.csv`.
+- Current alert examples: `outputs/recent2025/alert_reports/genis_binary_xgb_example.md` (`SUPPORTED_FOR_THIS_ALERT`) and `gotham_binary_xgb_example.md` (`REVIEW_REQUIRED`).
+- Current acquisition and conversion notes: `RECENT_DATASET_PROVENANCE.md`.
+- Primary versus historical source status: `DATA_PROVENANCE.md`.
+- Historical manuscript: `output/pdf/xai_ids_ieee_paper.pdf`.
+- Historical expanded validation and independent environment: `outputs/research_validation_corrected/` and `outputs/clean_reproduction/`.
+- Historical source/minority audits, bibliography metadata, and environment locks: `outputs/research_validation/`.
+- Submission and follow-up preparation: `IEEE_SUBMISSION_NOTES.md`, `RESEARCH_NEXT_STUDIES.md`, and `REFERENCE_VALIDATION.md`.

@@ -1,0 +1,3 @@
+dataset,task,model,model_seed,class,precision,recall,f1,support
+UNSW-NB15,binary,xgboost,42,Attack,0.672927241962775,0.9473558837541687,0.7869014641867828,16792
+UNSW-NB15,binary,xgboost,42,Normal,0.9632829373650108,0.7499676626568361,0.8433454545454545,30924

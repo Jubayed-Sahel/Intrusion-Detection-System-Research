@@ -1,0 +1,189 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\CIC_IDS2017_binary_xgboost.joblib",
+    "dataset": "CIC-IDS2017",
+    "task": "binary",
+    "model_family": "xgboost",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\CIC-IDS2017_binary.csv",
+    "row_index": 0,
+    "predicted_class": "Attack",
+    "predicted_probability": 0.9999303221702576,
+    "class_probabilities": {
+      "Attack": 0.9999303221702576,
+      "Normal": 6.96908391546458e-05
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "Bwd Packet Length Std",
+      "observed_value": "2544.918912",
+      "transformed_value": 2544.918912,
+      "attribution": 4.326295852661133,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "Destination Port",
+      "observed_value": "80",
+      "transformed_value": 80.0,
+      "attribution": 1.8198422193527222,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "Init_Win_bytes_forward",
+      "observed_value": "29200",
+      "transformed_value": 29200.0,
+      "attribution": 1.4188921451568604,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "Init_Win_bytes_backward",
+      "observed_value": "235",
+      "transformed_value": 235.0,
+      "attribution": 1.270742654800415,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "Flow Duration",
+      "observed_value": "12435266",
+      "transformed_value": 12435266.0,
+      "attribution": 0.614271342754364,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "Bwd Packets/s",
+      "observed_value": "0.482498726",
+      "transformed_value": 0.482498726,
+      "attribution": -0.42713919281959534,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "Total Fwd Packets",
+      "observed_value": "8",
+      "transformed_value": 8.0,
+      "attribution": 0.34156885743141174,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "Bwd Packet Length Mean",
+      "observed_value": "1938.666667",
+      "transformed_value": 1938.666667,
+      "attribution": -0.2611580491065979,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "Packet Length Std",
+      "observed_value": "1803.026788",
+      "transformed_value": 1803.026788,
+      "attribution": 0.248036727309227,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "Flow IAT Max",
+      "observed_value": "7430112",
+      "transformed_value": 7430112.0,
+      "attribution": -0.23098218441009521,
+      "direction": "opposes prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.30584415793418884,
+    "bottom_deletion_score": 1.017749309539795e-05,
+    "random_mean_deletion_score": 0.011570703461766243,
+    "random_p95_deletion_score": 0.05455674901604638,
+    "top_minus_random_lift": 0.2942734544724226,
+    "local_empirical_one_sided_p": 0.009950248756218905,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.9829563498497009,
+        "probability_drop": 0.01697397232055664,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.9624716639518738,
+        "probability_drop": 0.03745865821838379,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.37650376558303833,
+        "probability_drop": 0.6234265565872192,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.45441287755966187,
+        "probability_drop": 0.5455174446105957,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.9999276399612427,
+        "probability_drop": 2.682209014892578e-06,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.9999276399612427,
+        "probability_drop": 2.682209014892578e-06,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.9999276399612427,
+        "probability_drop": 2.682209014892578e-06,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.9998976588249207,
+        "probability_drop": 3.266334533691406e-05,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.1677467422094196,
+    "global_lift_ci": [
+      0.1121015668706968,
+      0.2301698250509798
+    ],
+    "global_holm_adjusted_p": 9.806390153244138e-07,
+    "neighborhood_cosine_mean": 0.8777555712502239,
+    "neighborhood_top5_jaccard_mean": 0.7594246031746031,
+    "median_explanation_latency_ms": 1.5531,
+    "p95_explanation_latency_ms": 1.815195,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.23747025957951942,
+      "nearest_opposite_prediction": 0.2664058456818263,
+      "nearest_same_prediction": -0.04688975090781847,
+      "training_median_mode": 0.3022060743533075,
+      "zero": 0.4217548643549283
+    }
+  }
+}

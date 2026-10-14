@@ -1,0 +1,3 @@
+dataset,task,model,explainer,n_pairs,mean_lift_top_minus_random,ci_low,ci_high,wilcoxon_one_sided_p,holm_adjusted_p,inference_unit,insufficient_groups,model_seed
+Gotham2025,multiclass,random_forest,LIME,63,0.17750627870174268,0.12038554473081466,0.23591903039484063,5.404293041237689e-08,5.404293041237689e-08,explained connection-group mean,False,42
+Gotham2025,multiclass,random_forest,TreeSHAP,63,0.39097893995112704,0.3425235972316803,0.43965324729048794,2.9856065422472088e-12,5.9712130844944176e-12,explained connection-group mean,False,42

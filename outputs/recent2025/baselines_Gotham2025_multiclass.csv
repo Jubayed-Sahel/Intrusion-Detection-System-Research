@@ -1,0 +1,3 @@
+dataset,task,model,accuracy,balanced_accuracy,macro_f1,weighted_f1,macro_f1_supported_classes,macro_f1_training_vocabulary
+Gotham2025,multiclass,majority,0.0,0.0,0.0,0.0,0.0,0.0
+Gotham2025,multiclass,depth5_tree,0.44182783466059916,0.4425915604576858,0.33777773918731646,0.38087282115216553,0.35888884788652375,0.33777773918731646

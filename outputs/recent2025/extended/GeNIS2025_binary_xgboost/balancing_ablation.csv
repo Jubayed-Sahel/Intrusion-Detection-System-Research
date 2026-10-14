@@ -1,0 +1,3 @@
+dataset,task,model,seed,training_weighting,macro_f1,macro_f1_supported_classes
+GeNIS2025,binary,xgboost,42,none,0.9998394509600399,0.9998394509600399
+GeNIS2025,binary,xgboost,42,class_weighted,0.9998394509600399,0.9998394509600399

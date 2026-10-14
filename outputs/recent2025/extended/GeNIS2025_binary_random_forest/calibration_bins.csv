@@ -1,0 +1,8 @@
+dataset,model,bin,count,mean_attack_probability,observed_attack_frequency
+GeNIS2025,random_forest,0,2173,0.001188074059480882,0.0
+GeNIS2025,random_forest,2,2,0.24447593899463643,0.0
+GeNIS2025,random_forest,3,1,0.34353335734584756,1.0
+GeNIS2025,random_forest,4,1,0.4977592264086577,0.0
+GeNIS2025,random_forest,7,1,0.7880925501908026,1.0
+GeNIS2025,random_forest,8,5,0.8671953930649938,1.0
+GeNIS2025,random_forest,9,5471,0.9994840107032148,1.0

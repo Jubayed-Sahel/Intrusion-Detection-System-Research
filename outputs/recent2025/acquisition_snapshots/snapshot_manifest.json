@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-14T04:41:22.758393+00:00",
+  "scope": "Post-acquisition copies of provider metadata, acquisition ledgers and reproducible retrieval scripts; script execution-time hashes are not asserted.",
+  "files": {
+    "GeNIS2025/provider_record.json": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a",
+    "GeNIS2025/acquisition.json": "929ce03e52566467dfcb2f31ce2bf1a7ef1888cfc19f55d7fd97051700687dcc",
+    "Gotham2025/provider_record.json": "6c728ace1307afbee42b685f4b309868e4a9dcefa9746d084cf67e3a2b5bd49a",
+    "Gotham2025/acquisition.json": "73e8af41988372f7836bb399f28fed0233053e77e2de293c5f643e127fce062b",
+    "Gotham2025/member_index.json": "e5646bff43cefa8aa18de5718152731f3200347c1af9d3ab95dfa25ee9dd9b7b",
+    "fetch_recent_datasets.py": "8d9b538d7c87163f3b4f71ef61656a565d8caeeeee160e888cf2b3d8c4a5e8a3",
+    "fetch_gotham_members.py": "e24e6f54b96fb01a53eb51b7d98ea9eb8e95f478135ff4d3c3303c7348d75e22",
+    "inspect_gotham_archive.py": "5863e1d8ca01cd12065e25a8f98e595ad1599c06de703b2f60ef26c9122a0d59"
+  }
+}

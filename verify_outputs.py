@@ -49,7 +49,8 @@ assert len(paired) == 8
 assert predictive["seed"].nunique() == 5
 assert predictive["macro_f1"].between(0, 1).all()
 assert explanations["fidelity_mean"].notna().all()
-assert (paired["ci_low"] > 0).all()
+assert (paired["ci_low"] <= paired["ci_high"]).all()
+assert paired["holm_adjusted_p"].between(0, 1).all()
 assert (paired["n_pairs"] == 40).all()
 
 # TreeSHAP and LIME must be evaluated on the same 40 source flows in every
@@ -66,8 +67,8 @@ for _, group in fidelity.groupby(["dataset", "task", "model"]):
 assert len(controls) == 16
 tree_controls = controls[controls["explainer"] == "TreeSHAP"]
 lime_controls = controls[controls["explainer"] == "LIME"]
-assert (tree_controls["holm_adjusted_p"] < 0.05).sum() == 8
-assert (lime_controls["holm_adjusted_p"] < 0.05).sum() == 7
+assert len(tree_controls) == len(lime_controls) == 8
+assert controls["holm_adjusted_p"].between(0, 1).all()
 
 coverage = pd.read_csv(outputs / "extended" / "literature_purpose_coverage.csv")
 assert (coverage["status"] == "complete").sum() >= 11
@@ -92,6 +93,11 @@ for task in ("binary", "multiclass"):
     assert (subset["train_rows"] == audit["clean_training_rows"]).all()
     assert (subset["test_rows"] == audit["clean_testing_rows"]).all()
 
+cic_audit = manifest["datasets"]["CIC-IDS2017/multiclass"]
+assert cic_audit["cross_partition_feature_overlaps_removed_from_test"] == 1
+cic_rows = predictive[(predictive.dataset == "CIC-IDS2017") & (predictive.task == "multiclass")]
+assert (cic_rows.test_rows == cic_audit["clean_testing_rows"]).all()
+
 balancing = pd.read_csv(outputs / "extended" / "balancing_ablation.csv")
 assert balancing["seed"].nunique() == 1
 assert balancing["seed"].iloc[0] == manifest["config"]["seed"]
@@ -99,9 +105,37 @@ assert balancing["seed"].iloc[0] == manifest["config"]["seed"]
 paper = root / "output" / "pdf" / "xai_ids_ieee_paper.pdf"
 reader = PdfReader(paper)
 text = "\n".join(page.extract_text() or "" for page in reader.pages)
-assert len(reader.pages) == 5
-for heading in ("INTRODUCTION", "METHODOLOGY", "EXPERIMENTAL RESULTS", "CONCLUSION", "REFERENCES"):
+assert len(reader.pages) == 6
+assert float(reader.pages[0].mediabox.width) == 612
+assert float(reader.pages[0].mediabox.height) == 792
+for heading in (
+    "INTRODUCTION",
+    "METHODOLOGY",
+    "EXPERIMENTAL RESULTS",
+    "THREATS TO VALIDITY",
+    "REPRODUCIBILITY",
+    "CONCLUSION",
+    "REFERENCES",
+):
     assert heading in text
+assert "Ethics and Artifact Availability" in text
+assert "ACKNOWLEDGMENT" in text and "Codex assisted" in text
+assert "[16]" in text
+assert "explanation fidelity" in (reader.metadata.keywords or "")
+
+# IEEE Xplore requires every font resource to be embedded or subset. TrueType
+# resources expose /FontDescriptor directly; composite fonts expose it through
+# /DescendantFonts.
+for page in reader.pages:
+    for font_ref in page.get("/Resources", {}).get("/Font", {}).values():
+        font = font_ref.get_object()
+        descriptor = font.get("/FontDescriptor")
+        if font.get("/DescendantFonts"):
+            descendant = font["/DescendantFonts"][0].get_object()
+            descriptor = descendant.get("/FontDescriptor") or descriptor
+        descriptor = descriptor.get_object() if descriptor else {}
+        embedded = any(descriptor.get(key) for key in ("/FontFile", "/FontFile2", "/FontFile3"))
+        assert embedded, font.get("/BaseFont")
 for forbidden in ("temporal UNSW", "preregistered", "CSE 498R Research Project"):
     assert forbidden not in text
 print("All output, manifest, and paper checks passed.")

@@ -1,0 +1,5 @@
+dataset,task,model,seed,class,precision,recall,f1,support
+GeNIS2025,multiclass,xgboost,62,benign,1.0,1.0,1.0,2176
+GeNIS2025,multiclass,xgboost,62,bruteforce,1.0,1.0,1.0,2002
+GeNIS2025,multiclass,xgboost,62,dos,1.0,1.0,1.0,1480
+GeNIS2025,multiclass,xgboost,62,recon,1.0,1.0,1.0,1996

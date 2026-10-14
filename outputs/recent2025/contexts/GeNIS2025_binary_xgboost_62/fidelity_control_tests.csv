@@ -1,0 +1,3 @@
+dataset,task,model,explainer,n_pairs,mean_lift_top_minus_random,ci_low,ci_high,wilcoxon_one_sided_p,holm_adjusted_p,inference_unit,insufficient_groups,model_seed
+GeNIS2025,binary,xgboost,LIME,93,0.03606566499149273,0.020349448497029937,0.055057374723497636,6.505781501152511e-12,6.505781501152511e-12,explained connection-group mean,False,62
+GeNIS2025,binary,xgboost,TreeSHAP,93,0.27015409748988745,0.2269776178744211,0.3158915414209684,2.785073822217335e-17,5.57014764443467e-17,explained connection-group mean,False,62

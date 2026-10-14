@@ -1,0 +1,1301 @@
+dataset,task,model,explainer,explanation_id,source_test_index,actual_class,predicted_class,correct,confidence,feature,attribution,model_seed
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,frame.len,0.12991018590142683,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18130545340716878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,ip.flags,0.08738075136013508,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,ip.ttl,0.028925750205911527,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,ip.proto,0.16380345283540637,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.045776185616440715,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04848830558270953,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005857009539469051,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.02757029912905081,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.005132381275516343,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11927608589276242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,0,22555,Benign,Benign,1,0.9998724863335753,udp.dstport,0.09769154857976137,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,frame.len,0.12951074631740767,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,frame.protocols,0.1759805258691549,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,ip.flags,0.08771018138866872,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,ip.ttl,0.02630472822686714,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,ip.proto,0.16362946642746382,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.04472586166893638,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.050656184029343396,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.flags,0.006933801630011247,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.02779114567475443,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.005343249409978589,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-0.00038747000792559383,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,udp.srcport,0.12213597482041075,62
+Gotham2025,multiclass,random_forest,TreeSHAP,1,23847,Benign,Benign,1,0.9998724863335753,udp.dstport,0.1007145614667387,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,frame.len,0.13162713907219148,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,frame.protocols,0.18385867242534285,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,ip.flags,0.08706903520017581,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,ip.ttl,0.02995433432646573,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,ip.proto,0.16346916452206242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.srcport,0.049294068418736015,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.dstport,0.049592727488298495,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.flags,0.006338218717035606,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.window_size_value,0.027831618474935288,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.window_size_scalefactor,0.005285384466923094,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,tcp.pdu.size,-6.857120292278326e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,udp.srcport,0.10153908259685053,62
+Gotham2025,multiclass,random_forest,TreeSHAP,2,24181,Benign,Benign,1,0.9915391530002419,udp.dstport,0.09692474908238248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,frame.len,0.13398505042713424,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18091253964533804,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,ip.flags,0.08599536921149341,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,ip.ttl,0.02901990733614973,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,ip.proto,0.1626150561807609,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.04577420518800161,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04844735250817732,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005856422373146629,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.027461071974649906,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.00510393217207397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11707840607779248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,3,20153,Benign,Benign,1,0.9998724863335753,udp.dstport,0.0988680962310406,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,frame.len,0.13398505042713424,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18091253964533804,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,ip.flags,0.08599536921149341,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,ip.ttl,0.02901990733614973,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,ip.proto,0.1626150561807609,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.04577420518800161,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04844735250817732,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005856422373146629,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.027461071974649906,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.00510393217207397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11707840607779248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,4,19837,Benign,Benign,1,0.9998724863335753,udp.dstport,0.0988680962310406,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,frame.len,0.12991018590142683,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18130545340716878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,ip.flags,0.08738075136013508,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,ip.ttl,0.028925750205911527,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,ip.proto,0.16380345283540637,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.045776185616440715,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04848830558270953,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005857009539469051,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.02757029912905081,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.005132381275516343,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11927608589276242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,5,22571,Benign,Benign,1,0.9998724863335753,udp.dstport,0.09769154857976137,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,frame.len,0.13398505042713424,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18091253964533804,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,ip.flags,0.08599536921149341,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,ip.ttl,0.02901990733614973,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,ip.proto,0.1626150561807609,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.04577420518800161,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04844735250817732,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005856422373146629,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.027461071974649906,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.00510393217207397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11707840607779248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,6,19851,Benign,Benign,1,0.9998724863335753,udp.dstport,0.0988680962310406,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,frame.len,0.13162713907219148,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,frame.protocols,0.18385867242534285,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,ip.flags,0.08706903520017581,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,ip.ttl,0.02995433432646573,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,ip.proto,0.16346916452206242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.srcport,0.049294068418736015,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.dstport,0.049592727488298495,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.flags,0.006338218717035606,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.window_size_value,0.027831618474935288,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.window_size_scalefactor,0.005285384466923094,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,tcp.pdu.size,-6.857120292278326e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,udp.srcport,0.10153908259685053,62
+Gotham2025,multiclass,random_forest,TreeSHAP,7,24422,Benign,Benign,1,0.9915391530002419,udp.dstport,0.09692474908238248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,frame.len,0.13398505042713424,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18091253964533804,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,ip.flags,0.08599536921149341,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,ip.ttl,0.02901990733614973,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,ip.proto,0.1626150561807609,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.04577420518800161,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04844735250817732,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005856422373146629,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.027461071974649906,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.00510393217207397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11707840607779248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,8,19828,Benign,Benign,1,0.9998724863335753,udp.dstport,0.0988680962310406,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,frame.len,0.13162713907219148,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,frame.protocols,0.18385867242534285,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,ip.flags,0.08706903520017581,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,ip.ttl,0.02995433432646573,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,ip.proto,0.16346916452206242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.srcport,0.049294068418736015,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.dstport,0.049592727488298495,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.flags,0.006338218717035606,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.window_size_value,0.027831618474935288,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.window_size_scalefactor,0.005285384466923094,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,tcp.pdu.size,-6.857120292278326e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,udp.srcport,0.10153908259685053,62
+Gotham2025,multiclass,random_forest,TreeSHAP,9,23970,Benign,Benign,1,0.9915391530002419,udp.dstport,0.09692474908238248,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,frame.len,0.12991018590142683,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,frame.protocols,0.18130545340716878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,ip.flags,0.08738075136013508,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,ip.ttl,0.028925750205911527,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,ip.proto,0.16380345283540637,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.srcport,0.045776185616440715,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.dstport,0.04848830558270953,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.flags,0.005857009539469051,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.window_size_value,0.02757029912905081,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.window_size_scalefactor,0.005132381275516343,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,tcp.pdu.size,-6.84524039484462e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,udp.srcport,0.11927608589276242,62
+Gotham2025,multiclass,random_forest,TreeSHAP,10,22820,Benign,Benign,1,0.9998724863335753,udp.dstport,0.09769154857976137,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,frame.len,0.06886808057635761,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,frame.protocols,0.044240689000406855,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,ip.flags,0.028459524087080218,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,ip.ttl,0.15630725096416176,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,ip.proto,0.04318773376348809,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.srcport,0.16626007621150557,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.dstport,0.15222910816087443,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.flags,0.016117828506863042,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.window_size_value,0.0686018032730119,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.window_size_scalefactor,0.014676845514308305,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,tcp.pdu.size,9.872683138250368e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,udp.srcport,0.02915143001475885,62
+Gotham2025,multiclass,random_forest,TreeSHAP,11,18007,C&C Communication,C&C Communication,1,0.8641120545869645,udp.dstport,0.01717828241924443,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,frame.len,0.22561388365991775,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,frame.protocols,0.0657551165504626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,ip.flags,0.036775632882492054,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,ip.ttl,0.06237907513645431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,ip.proto,0.061757057004998756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.srcport,0.17356943372183878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.dstport,0.07720807478275162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.flags,0.019555340486050347,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.window_size_value,0.12977462168594847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.window_size_scalefactor,0.018672697385662938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,tcp.pdu.size,3.877895331452434e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,udp.srcport,0.0401389413425162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,12,15757,File Download,File Download,1,0.994174164942233,udp.dstport,0.024111981938059256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,frame.len,0.0615859682648313,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,frame.protocols,0.062161441673835784,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,ip.flags,0.045410784968452786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,ip.ttl,0.035835630417110326,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,ip.proto,0.049972469317672186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.srcport,0.07826809321003352,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.dstport,0.28737306011277663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.flags,0.030525188087969116,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.window_size_value,0.17360114723116155,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.window_size_scalefactor,0.019949704140777787,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,tcp.pdu.size,9.793601172416562e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,udp.srcport,0.033030936077634826,62
+Gotham2025,multiclass,random_forest,TreeSHAP,13,5255,File Download,File Download,1,0.9581823158670192,udp.dstport,0.021546426941274077,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,frame.len,0.22561388365991775,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,frame.protocols,0.0657551165504626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,ip.flags,0.036775632882492054,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,ip.ttl,0.06237907513645431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,ip.proto,0.061757057004998756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.srcport,0.17356943372183878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.dstport,0.07720807478275162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.flags,0.019555340486050347,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.window_size_value,0.12977462168594847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.window_size_scalefactor,0.018672697385662938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,tcp.pdu.size,3.877895331452434e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,udp.srcport,0.0401389413425162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,14,5373,File Download,File Download,1,0.994174164942233,udp.dstport,0.024111981938059256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,frame.len,0.22561388365991775,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,frame.protocols,0.0657551165504626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,ip.flags,0.036775632882492054,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,ip.ttl,0.06237907513645431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,ip.proto,0.061757057004998756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.srcport,0.17356943372183878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.dstport,0.07720807478275162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.flags,0.019555340486050347,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.window_size_value,0.12977462168594847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.window_size_scalefactor,0.018672697385662938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,tcp.pdu.size,3.877895331452434e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,udp.srcport,0.0401389413425162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,15,14838,File Download,File Download,1,0.994174164942233,udp.dstport,0.024111981938059256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,frame.len,0.22561388365991775,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,frame.protocols,0.0657551165504626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,ip.flags,0.036775632882492054,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,ip.ttl,0.06237907513645431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,ip.proto,0.061757057004998756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.srcport,0.17356943372183878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.dstport,0.07720807478275162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.flags,0.019555340486050347,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.window_size_value,0.12977462168594847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.window_size_scalefactor,0.018672697385662938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,tcp.pdu.size,3.877895331452434e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,udp.srcport,0.0401389413425162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,16,5355,File Download,File Download,1,0.994174164942233,udp.dstport,0.024111981938059256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,frame.len,0.0615859682648313,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,frame.protocols,0.062161441673835784,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,ip.flags,0.045410784968452786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,ip.ttl,0.035835630417110326,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,ip.proto,0.049972469317672186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.srcport,0.07826809321003352,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.dstport,0.28737306011277663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.flags,0.030525188087969116,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.window_size_value,0.17360114723116155,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.window_size_scalefactor,0.019949704140777787,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,tcp.pdu.size,9.793601172416562e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,udp.srcport,0.033030936077634826,62
+Gotham2025,multiclass,random_forest,TreeSHAP,17,15509,File Download,File Download,1,0.9581823158670192,udp.dstport,0.021546426941274077,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,frame.len,0.0615859682648313,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,frame.protocols,0.062161441673835784,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,ip.flags,0.045410784968452786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,ip.ttl,0.035835630417110326,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,ip.proto,0.049972469317672186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.srcport,0.07826809321003352,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.dstport,0.28737306011277663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.flags,0.030525188087969116,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.window_size_value,0.17360114723116155,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.window_size_scalefactor,0.019949704140777787,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,tcp.pdu.size,9.793601172416562e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,udp.srcport,0.033030936077634826,62
+Gotham2025,multiclass,random_forest,TreeSHAP,18,15075,File Download,File Download,1,0.9581823158670192,udp.dstport,0.021546426941274077,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,frame.len,0.22561388365991775,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,frame.protocols,0.0657551165504626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,ip.flags,0.036775632882492054,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,ip.ttl,0.06237907513645431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,ip.proto,0.061757057004998756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.srcport,0.17356943372183878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.dstport,0.07720807478275162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.flags,0.019555340486050347,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.window_size_value,0.12977462168594847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.window_size_scalefactor,0.018672697385662938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,tcp.pdu.size,3.877895331452434e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,udp.srcport,0.0401389413425162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,19,4723,File Download,File Download,1,0.994174164942233,udp.dstport,0.024111981938059256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,frame.len,0.0615859682648313,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,frame.protocols,0.062161441673835784,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,ip.flags,0.045410784968452786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,ip.ttl,0.035835630417110326,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,ip.proto,0.049972469317672186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.srcport,0.07826809321003352,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.dstport,0.28737306011277663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.flags,0.030525188087969116,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.window_size_value,0.17360114723116155,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.window_size_scalefactor,0.019949704140777787,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,tcp.pdu.size,9.793601172416562e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,udp.srcport,0.033030936077634826,62
+Gotham2025,multiclass,random_forest,TreeSHAP,20,15407,File Download,File Download,1,0.9581823158670192,udp.dstport,0.021546426941274077,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,frame.len,0.04909551192849275,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,frame.protocols,0.04156877224211385,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.flags,0.03453954082590447,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.ttl,0.2578830312206945,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.proto,0.04344334759281817,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.srcport,0.024650539424572425,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.dstport,0.2296260209016238,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.flags,0.03150913633262135,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.window_size_value,0.06950781440083925,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.window_size_scalefactor,0.013933802641230215,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.pdu.size,4.184173130455534e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,udp.srcport,0.029372247976654182,62
+Gotham2025,multiclass,random_forest,TreeSHAP,21,17540,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,udp.dstport,0.01778185318645752,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,frame.len,0.12194785273307436,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,frame.protocols,0.12262593250748331,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.flags,0.03696964617203391,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.ttl,0.05882247473098517,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.proto,0.052323071000143884,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.srcport,0.12122542812440955,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.dstport,0.054226908441315676,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.flags,0.023308397555005356,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.window_size_value,0.17649695519590025,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.window_size_scalefactor,0.01824205818103109,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.pdu.size,3.0969903469397786e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,udp.srcport,0.033741802514450366,62
+Gotham2025,multiclass,random_forest,TreeSHAP,22,16491,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,udp.dstport,0.021364554394413475,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,frame.len,0.049031873888933736,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,frame.protocols,0.0414990071917793,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.flags,0.0345461138036133,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.ttl,0.2577550003120709,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,ip.proto,0.043453913108622094,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.srcport,0.024600065067970953,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.dstport,0.22949817283541776,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.flags,0.031530105527446485,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.window_size_value,0.06989952726357786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.window_size_scalefactor,0.01393442152124183,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,tcp.pdu.size,4.189795528113672e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,udp.srcport,0.029376953497063003,62
+Gotham2025,multiclass,random_forest,TreeSHAP,23,6713,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9017393322589186,udp.dstport,0.01778645903388748,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,frame.len,0.11947628720301001,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,frame.protocols,0.12220202084131843,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,ip.flags,0.03683677215898441,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,ip.ttl,0.05910803402780333,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,ip.proto,0.052131561576719845,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.srcport,0.1210537130931711,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.dstport,0.05622326690436961,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.flags,0.023113054270503246,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.window_size_value,0.17784632464886707,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.window_size_scalefactor,0.018202327543861974,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,tcp.pdu.size,3.08867041331938e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,udp.srcport,0.033654950639575146,62
+Gotham2025,multiclass,random_forest,TreeSHAP,24,5684,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9000312451900848,udp.dstport,0.021328516166001864,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,frame.len,0.0555811408601232,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,frame.protocols,0.04248863594105671,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.flags,0.040195357824817236,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.ttl,0.21366846102513684,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.proto,0.04647404055634268,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.srcport,0.043981927071342915,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.dstport,0.2432304422350819,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.flags,0.0274648090746824,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.window_size_value,0.12192126225458491,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.window_size_scalefactor,0.0145301128672892,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.pdu.size,3.532973551963697e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,udp.srcport,0.0315608977725952,62
+Gotham2025,multiclass,random_forest,TreeSHAP,25,16766,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,udp.dstport,0.019421616807800843,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,frame.len,0.05584764814995584,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,frame.protocols,0.042935942324654405,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.flags,0.04044860711331729,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.ttl,0.21162457161064044,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.proto,0.04659948102070614,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.srcport,0.04279395546977067,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.dstport,0.2414732082733358,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.flags,0.027261846000802798,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.window_size_value,0.12575255988589998,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.window_size_scalefactor,0.014600166602857933,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.pdu.size,3.5305914615129606e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,udp.srcport,0.03166460183954049,62
+Gotham2025,multiclass,random_forest,TreeSHAP,26,16314,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,udp.dstport,0.01948566169383504,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,frame.len,0.08991575615960097,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,frame.protocols,0.11547451371652323,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,ip.flags,0.03528802001620538,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,ip.ttl,0.05942318937358851,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,ip.proto,0.04994055525887717,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.srcport,0.12140109571687731,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.dstport,0.05769221543238818,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.flags,0.022144555851988934,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.window_size_value,0.1799811979335304,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.window_size_scalefactor,0.01693958298594381,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,tcp.pdu.size,2.4730252762965572e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,udp.srcport,0.03210667983644608,62
+Gotham2025,multiclass,random_forest,TreeSHAP,27,7041,Ingress Tool Transfer,Ingress Tool Transfer,1,0.8594415717195534,udp.dstport,0.020285949773054524,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,frame.len,0.055318545019797334,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,frame.protocols,0.0427994434698906,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.flags,0.040210345787104716,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.ttl,0.21370442494991682,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,ip.proto,0.04646987820478614,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.srcport,0.04368951228844288,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.dstport,0.24308712045094166,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.flags,0.02788925508042009,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.window_size_value,0.12188317583974131,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.window_size_scalefactor,0.014515252922646686,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,tcp.pdu.size,3.533723507761873e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,udp.srcport,0.0315285483702262,62
+Gotham2025,multiclass,random_forest,TreeSHAP,28,16838,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593457666761693,udp.dstport,0.01942320115698381,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,frame.len,0.05588477266832765,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,frame.protocols,0.04293409589658806,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.flags,0.04044822350552689,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.ttl,0.21161596262122243,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,ip.proto,0.04659573109493143,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.srcport,0.04278299234772092,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.dstport,0.24146808527878671,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.flags,0.02728738056155582,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.window_size_value,0.12572403149537556,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.window_size_scalefactor,0.014598682421803351,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,tcp.pdu.size,3.5281548264954526e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,udp.srcport,0.031663196585860386,62
+Gotham2025,multiclass,random_forest,TreeSHAP,29,16565,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9593153099885418,udp.dstport,0.01948509794425265,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,frame.len,0.11967169750053591,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,frame.protocols,0.1222665063133933,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,ip.flags,0.036855581847750896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,ip.ttl,0.05913630514690768,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,ip.proto,0.0521369570411878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.srcport,0.1211001892528143,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.dstport,0.05592614414382919,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.flags,0.023126458931020576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.window_size_value,0.1778660704377204,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.window_size_scalefactor,0.01821003035971033,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,tcp.pdu.size,3.088621764953435e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,udp.srcport,0.0336593549382662,62
+Gotham2025,multiclass,random_forest,TreeSHAP,30,6030,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654816,udp.dstport,0.02133986932292964,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,frame.len,0.11967169750053591,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,frame.protocols,0.1222665063133933,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.flags,0.036855581847750896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.ttl,0.05913630514690768,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,ip.proto,0.0521369570411878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.srcport,0.1211001892528143,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.dstport,0.05592614414382919,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.flags,0.023126458931020576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.window_size_value,0.1778660704377204,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.window_size_scalefactor,0.01821003035971033,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,tcp.pdu.size,3.088621764953435e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,udp.srcport,0.0336593549382662,62
+Gotham2025,multiclass,random_forest,TreeSHAP,31,17254,Ingress Tool Transfer,Ingress Tool Transfer,1,0.9001495808654814,udp.dstport,0.02133986932292964,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.len,0.11772826783019345,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.protocols,0.044815971176325346,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.flags,0.04124855129358405,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.ttl,0.040003008824007126,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.proto,0.06063380494899323,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.srcport,0.14817905505553064,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.dstport,0.051443092519727,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.flags,0.02648768990658165,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_value,0.22866010394147082,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_scalefactor,0.01925641218456416,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.pdu.size,5.412587492613786e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.srcport,0.041599167331579576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,32,11287,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.dstport,0.023228633329688747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.len,0.00963196689959099,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.protocols,0.04580763086915677,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.flags,0.04772798774861426,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.ttl,0.02494099211162167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.proto,0.04851830864520924,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.srcport,0.034195770449311096,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.dstport,0.21110273655519896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.flags,0.046564112383164276,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_value,0.24385417934700507,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_scalefactor,0.022915469711245653,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.pdu.size,2.4869563784665422e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.srcport,0.030794313421868252,62
+Gotham2025,multiclass,random_forest,TreeSHAP,33,11266,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.dstport,0.021569596593332966,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,frame.len,0.007516194245516376,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,frame.protocols,0.03736700110825939,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,ip.flags,0.04225011200497239,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,ip.ttl,0.05026722548462881,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,ip.proto,0.04574833685765102,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.srcport,0.13248799644705167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.dstport,0.06426356556122645,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.flags,0.04699819824284235,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.window_size_value,0.24731799927548187,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.window_size_scalefactor,0.01852451728745601,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,tcp.pdu.size,1.774157885305169e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,udp.srcport,0.03152209719371556,62
+Gotham2025,multiclass,random_forest,TreeSHAP,34,13418,Merlin C&C Communication,Merlin C&C Communication,1,0.801700279859541,udp.dstport,0.018595765160120653,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,frame.len,0.13407585001227904,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,frame.protocols,0.056725874505044245,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,ip.flags,0.04730885867514282,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,ip.ttl,0.015742077707225573,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,ip.proto,0.0640873155132108,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.srcport,0.0812276542200289,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.dstport,0.16219852591178147,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.flags,0.0319926233874592,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.window_size_value,0.2148311765133465,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.window_size_scalefactor,0.023123712275431484,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,tcp.pdu.size,7.02692248036768e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,udp.srcport,0.04277532981855802,62
+Gotham2025,multiclass,random_forest,TreeSHAP,35,13470,Merlin C&C Communication,Merlin C&C Communication,1,0.9582606281451149,udp.dstport,0.02527783096903746,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.len,0.11772826783019345,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.protocols,0.044815971176325346,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.flags,0.04124855129358405,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.ttl,0.040003008824007126,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.proto,0.06063380494899323,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.srcport,0.14817905505553064,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.dstport,0.051443092519727,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.flags,0.02648768990658165,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_value,0.22866010394147082,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_scalefactor,0.01925641218456416,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.pdu.size,5.412587492613786e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.srcport,0.041599167331579576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,36,10340,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.dstport,0.023228633329688747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.len,0.15797823148721085,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.protocols,0.054240810259651925,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.flags,0.046428557391795355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.ttl,0.018046443574896917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.proto,0.061877126476675634,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.srcport,0.0800352328355643,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.dstport,0.1586392840801962,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.flags,0.021638378498403988,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_value,0.2112952006499553,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_scalefactor,0.022402181729203205,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.pdu.size,6.407033149006172e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.srcport,0.04226120590875455,62
+Gotham2025,multiclass,random_forest,TreeSHAP,37,12870,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.dstport,0.024533668006848943,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.len,0.00963196689959099,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.protocols,0.04580763086915677,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.flags,0.04772798774861426,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.ttl,0.02494099211162167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.proto,0.04851830864520924,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.srcport,0.034195770449311096,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.dstport,0.21110273655519896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.flags,0.046564112383164276,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_value,0.24385417934700507,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_scalefactor,0.022915469711245653,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.pdu.size,2.4869563784665422e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.srcport,0.030794313421868252,62
+Gotham2025,multiclass,random_forest,TreeSHAP,38,10951,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.dstport,0.021569596593332966,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.len,0.00963196689959099,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.protocols,0.04580763086915677,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.flags,0.04772798774861426,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.ttl,0.02494099211162167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.proto,0.04851830864520924,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.srcport,0.034195770449311096,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.dstport,0.21110273655519896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.flags,0.046564112383164276,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_value,0.24385417934700507,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_scalefactor,0.022915469711245653,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.pdu.size,2.4869563784665422e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.srcport,0.030794313421868252,62
+Gotham2025,multiclass,random_forest,TreeSHAP,39,11087,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.dstport,0.021569596593332966,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.len,0.11772826783019345,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,frame.protocols,0.044815971176325346,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.flags,0.04124855129358405,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.ttl,0.040003008824007126,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,ip.proto,0.06063380494899323,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.srcport,0.14817905505553064,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.dstport,0.051443092519727,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.flags,0.02648768990658165,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_value,0.22866010394147082,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.window_size_scalefactor,0.01925641218456416,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,tcp.pdu.size,5.412587492613786e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.srcport,0.041599167331579576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,40,10937,Merlin C&C Communication,Merlin C&C Communication,1,0.9021614136289375,udp.dstport,0.023228633329688747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.len,0.15797823148721085,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.protocols,0.054240810259651925,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.flags,0.046428557391795355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.ttl,0.018046443574896917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.proto,0.061877126476675634,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.srcport,0.0800352328355643,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.dstport,0.1586392840801962,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.flags,0.021638378498403988,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_value,0.2112952006499553,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_scalefactor,0.022402181729203205,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.pdu.size,6.407033149006172e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.srcport,0.04226120590875455,62
+Gotham2025,multiclass,random_forest,TreeSHAP,41,13625,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.dstport,0.024533668006848943,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.len,0.009618946287662857,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,frame.protocols,0.04606343866489706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.flags,0.04792122869114299,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.ttl,0.024941325380796433,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,ip.proto,0.048467347528286284,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.srcport,0.03416338071746914,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.dstport,0.21115005180823943,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.flags,0.04654291751771109,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_value,0.2434748506195102,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.window_size_scalefactor,0.022915583930794202,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,tcp.pdu.size,2.4869563784665422e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.srcport,0.030794395029874896,62
+Gotham2025,multiclass,random_forest,TreeSHAP,42,10800,Merlin C&C Communication,Merlin C&C Communication,1,0.8464714637108692,udp.dstport,0.021569598558934575,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,frame.len,0.006968411199514658,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,frame.protocols,0.035930408210579814,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,ip.flags,0.04195766433226641,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,ip.ttl,0.05307011300351481,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,ip.proto,0.04556223797787046,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.srcport,0.1402411761806654,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.dstport,0.07773820343122859,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.flags,0.046636733031829476,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.window_size_value,0.23901796440083686,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.window_size_scalefactor,0.018398519880140244,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,tcp.pdu.size,2.2115233628812708e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,udp.srcport,0.03115856343839798,62
+Gotham2025,multiclass,random_forest,TreeSHAP,43,9958,Merlin C&C Communication,Merlin C&C Communication,1,0.8139920895876191,udp.dstport,0.0184664498553803,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.len,0.15797823148721085,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,frame.protocols,0.054240810259651925,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.flags,0.046428557391795355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.ttl,0.018046443574896917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,ip.proto,0.061877126476675634,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.srcport,0.0800352328355643,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.dstport,0.1586392840801962,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.flags,0.021638378498403988,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_value,0.2112952006499553,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.window_size_scalefactor,0.022402181729203205,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,tcp.pdu.size,6.407033149006172e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.srcport,0.04226120590875455,62
+Gotham2025,multiclass,random_forest,TreeSHAP,44,12692,Merlin C&C Communication,Merlin C&C Communication,1,0.9582639206424126,udp.dstport,0.024533668006848943,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,frame.len,0.08973415523681014,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,frame.protocols,0.11864602605803859,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,ip.flags,0.06335556949665891,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,ip.ttl,0.005971677548116516,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,ip.proto,0.16639755076243729,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.srcport,0.00896267406742929,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.dstport,0.013161192882923377,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.flags,0.002389096101711886,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.window_size_value,0.009249507866856048,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.window_size_scalefactor,0.004067777208227367,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,udp.srcport,0.10151060050692223,62
+Gotham2025,multiclass,random_forest,TreeSHAP,45,25494,Merlin ICMP Flooding,Merlin ICMP Flooding,1,0.8275813773435841,udp.dstport,0.18531202019568727,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,frame.len,0.061844866644948614,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,frame.protocols,0.0499522339174112,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,ip.flags,0.138029432117162,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,ip.ttl,0.0164701930285962,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,ip.proto,0.04796180840938533,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.srcport,0.10403286534053006,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.dstport,0.10240729702033916,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.flags,0.011015925682440008,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.window_size_value,0.12206513913953917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.window_size_scalefactor,0.19920733552729955,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,tcp.pdu.size,4.074846386168672e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,udp.srcport,0.0464068519694609,62
+Gotham2025,multiclass,random_forest,TreeSHAP,46,13133,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9796671764848097,udp.dstport,0.02140894981207043,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,frame.len,0.07236664013147319,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,frame.protocols,0.049694569338257145,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,ip.flags,0.14287110696014035,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,ip.ttl,0.016533161545994407,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,ip.proto,0.04750757822939281,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.srcport,0.08663891884484594,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.dstport,0.10454036216579797,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.flags,0.014786335846433608,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.window_size_value,0.1256967190021569,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.window_size_scalefactor,0.19200374296485964,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,tcp.pdu.size,3.8733023108588085e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,udp.srcport,0.045712160398954274,62
+Gotham2025,multiclass,random_forest,TreeSHAP,47,23638,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9782611928940568,udp.dstport,0.02104763503087614,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,frame.len,0.14018872976008911,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,frame.protocols,0.0364557987276322,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,ip.flags,0.02428087129897748,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,ip.ttl,0.015828293160241185,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,ip.proto,0.04428570682423842,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.srcport,0.14828047287798687,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.dstport,0.12279819730661704,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.flags,0.08413005049566294,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.window_size_value,0.09392441671946684,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.window_size_scalefactor,0.17305480420435415,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,tcp.pdu.size,2.5185455862709516e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,udp.srcport,0.03486004239480007,62
+Gotham2025,multiclass,random_forest,TreeSHAP,48,2650,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950912856094646,udp.dstport,0.01815518697176998,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,frame.len,0.14112788072783236,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,frame.protocols,0.03889899969059253,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,ip.flags,0.016399458256142446,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,ip.ttl,0.010781998134278655,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,ip.proto,0.0455590186188756,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.srcport,0.10898148059192012,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.dstport,0.11903663570502056,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.flags,-0.015459310137310415,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.window_size_value,0.12320535670200287,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.window_size_scalefactor,0.29432200774026007,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,tcp.pdu.size,8.441112184603512e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,udp.srcport,0.03513154520398235,62
+Gotham2025,multiclass,random_forest,TreeSHAP,49,25787,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9950925681529055,udp.dstport,0.018275526395358687,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,frame.len,0.14029334555797593,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,frame.protocols,0.03868638097314397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,ip.flags,0.016244686202959917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,ip.ttl,0.010618434603541671,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,ip.proto,0.045466622707840604,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.srcport,0.10733726925090407,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.dstport,0.11892072584578359,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.flags,-0.01533709735112038,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.window_size_value,0.12636839521097235,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.window_size_scalefactor,0.2943578367271048,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,tcp.pdu.size,8.007934622123766e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,udp.srcport,0.0351054903834204,62
+Gotham2025,multiclass,random_forest,TreeSHAP,50,25766,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9951302283272078,udp.dstport,0.01823660086829378,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,frame.len,0.1476082750675845,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,frame.protocols,0.0360025948498301,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,ip.flags,0.031022532556021092,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,ip.ttl,0.00807898309691309,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,ip.proto,0.043348238980037576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.srcport,0.14930290402321458,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.dstport,0.11844462566035492,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.flags,0.07754506914227158,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.window_size_value,0.10000050640151964,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.window_size_scalefactor,0.1715466763523321,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,tcp.pdu.size,2.6573290316054018e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,udp.srcport,0.033854878274819825,62
+Gotham2025,multiclass,random_forest,TreeSHAP,51,4084,Merlin TCP Flooding,Merlin TCP Flooding,1,0.993336211868792,udp.dstport,0.01773082476181222,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,frame.len,0.14068238314292142,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,frame.protocols,0.0361193067657955,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,ip.flags,0.02207845208298691,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,ip.ttl,0.016337598639254033,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,ip.proto,0.044507509831288435,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.srcport,0.14880412916165664,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.dstport,0.12707507016464029,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.flags,0.0801315162230455,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.window_size_value,0.09448202484283212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.window_size_scalefactor,0.17316333462360048,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,tcp.pdu.size,2.622816088326404e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,udp.srcport,0.03502799114112554,62
+Gotham2025,multiclass,random_forest,TreeSHAP,52,23561,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9955154652886882,udp.dstport,0.018256391096892546,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,frame.len,0.14566951638417072,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,frame.protocols,0.03810495679109769,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,ip.flags,0.020736516002281154,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,ip.ttl,0.018043884472602103,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,ip.proto,0.045326106214995616,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.srcport,0.11167740041704957,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.dstport,0.10820276215329003,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.flags,-0.011532489506231747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.window_size_value,0.1258944949656067,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.window_size_scalefactor,0.2828317447716812,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,tcp.pdu.size,6.618877866284407e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,udp.srcport,0.034714081151646856,62
+Gotham2025,multiclass,random_forest,TreeSHAP,53,12642,Merlin TCP Flooding,Merlin TCP Flooding,1,0.9969316958851785,udp.dstport,0.01843257377735668,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,frame.len,0.04336774323720937,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,frame.protocols,0.05508888482433604,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,ip.flags,0.0647525613542075,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,ip.ttl,0.013645120159035651,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,ip.proto,0.07137448958259186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.srcport,0.0006898290325881828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.dstport,0.003994008358483868,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.window_size_value,0.0025136670525443853,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.window_size_scalefactor,0.0036583192536711225,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,udp.srcport,0.23346119766427179,62
+Gotham2025,multiclass,random_forest,TreeSHAP,54,2156,Merlin UDP Flooding,Merlin UDP Flooding,1,0.999335880581004,udp.dstport,0.4469633601521474,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,frame.len,0.043581578191807684,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,frame.protocols,0.05161043195238996,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,ip.flags,0.0650266965124782,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,ip.ttl,0.017396465654592266,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,ip.proto,0.07190791148336755,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.srcport,0.0007019836402719791,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.dstport,0.004009266705418597,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.window_size_value,0.0025437176051486673,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.window_size_scalefactor,0.0036635311122249657,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,udp.srcport,0.23663413097644187,62
+Gotham2025,multiclass,random_forest,TreeSHAP,55,3549,Merlin UDP Flooding,Merlin UDP Flooding,1,0.99933916965494,udp.dstport,0.4424367559108816,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.len,0.04345874189202436,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.protocols,0.054256694264350126,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.flags,0.06219623038405958,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.ttl,0.013771669835484076,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.proto,0.07202390472355487,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.srcport,0.0006898290325881828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.dstport,0.003994561540494747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_value,0.0025136821419884706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_scalefactor,0.0036583192536711225,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.srcport,0.23938093006814934,62
+Gotham2025,multiclass,random_forest,TreeSHAP,56,23108,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.dstport,0.4427868518550936,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,frame.len,0.04326607251779139,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,frame.protocols,0.05482971197763053,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,ip.flags,0.06435690038105431,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,ip.ttl,0.013063903692437909,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,ip.proto,0.07112495085585173,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.srcport,0.000733373168707527,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.dstport,0.004027391900630161,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.window_size_value,0.0025135932807643074,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.window_size_scalefactor,0.00366364275234212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,udp.srcport,0.2312116819151245,62
+Gotham2025,multiclass,random_forest,TreeSHAP,57,22882,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9969050502161332,udp.dstport,0.44828712786388175,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.len,0.043456622014903745,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.protocols,0.05610669144692925,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.flags,0.06219483356938001,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.ttl,0.013769536000390227,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.proto,0.071976371377744,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.srcport,0.0006898290325881828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.dstport,0.003994561540494747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_value,0.0025136821419884706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_scalefactor,0.0036583192536711225,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.srcport,0.23758411611135005,62
+Gotham2025,multiclass,random_forest,TreeSHAP,58,23153,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.dstport,0.44278685250201866,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.len,0.04345874189202436,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.protocols,0.054256694264350126,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.flags,0.06219623038405958,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.ttl,0.013771669835484076,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.proto,0.07202390472355487,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.srcport,0.0006898290325881828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.dstport,0.003994561540494747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_value,0.0025136821419884706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_scalefactor,0.0036583192536711225,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.srcport,0.23938093006814934,62
+Gotham2025,multiclass,random_forest,TreeSHAP,59,23120,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.dstport,0.4427868518550936,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.len,0.043458107774785454,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,frame.protocols,0.05426384972013131,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.flags,0.0621946613195338,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.ttl,0.013771622198725625,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,ip.proto,0.07202324151023372,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.srcport,0.0006898290325881828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.dstport,0.003994561540494747,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.flags,0.0010031704981513336,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_value,0.0025136821419884706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.window_size_scalefactor,0.0036583192536711225,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.srcport,0.23937668864421238,62
+Gotham2025,multiclass,random_forest,TreeSHAP,60,23139,Merlin UDP Flooding,Merlin UDP Flooding,1,0.9985581149013751,udp.dstport,0.4427868518550936,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,frame.len,0.09868227506412815,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,frame.protocols,0.041107991612702746,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,ip.flags,0.029724316019023665,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,ip.ttl,0.191293830229697,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,ip.proto,0.04424734658452333,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.srcport,0.13598840553262231,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.dstport,0.18307087033325534,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.flags,0.012851584921413845,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.window_size_value,0.06908444322773584,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.window_size_scalefactor,0.014977943314634047,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,tcp.pdu.size,1.3067106466387903e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,udp.srcport,0.03009840881773002,62
+Gotham2025,multiclass,random_forest,TreeSHAP,61,8777,Mirai C&C Communication,C&C Communication,0,0.9279833501489664,udp.dstport,0.018019337973267362,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.028339912577131247,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.37095719840097585,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.019488722526686115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.0020134146732267125,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.44819933153520936,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0016877602818888367,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.005298783439622735,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008017727161013223,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.0031061858892476005,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.0030031929005558183,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.02191300811819934,62
+Gotham2025,multiclass,random_forest,TreeSHAP,62,1858,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.03636718752938966,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.027077204330413596,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.37055548762712776,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.019860988009710274,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.0016027005303663644,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.44575200242101437,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0017469638517844186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.005570250539149212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008304869708766355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003162258047260618,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.003035725919616663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.024175114998218585,62
+Gotham2025,multiclass,random_forest,TreeSHAP,63,1908,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.037807287342696144,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.04172357818910724,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.3827343573234386,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.027672677203823107,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.00415823841536377,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.42238263984327235,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0025333798034873197,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.006603307060190499,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.000902923085298086,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003643725781263012,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.0032954991847264858,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.0055877070598209285,62
+Gotham2025,multiclass,random_forest,TreeSHAP,64,1705,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.039938437638443035,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.028381216248699166,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.37541693652202085,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.01939567842032763,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.0020305282107864575,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.4464671429700695,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0016877602818888367,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.0053233792723936905,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008017727161013223,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003109607830751658,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.003009024305229952,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.020621791761090257,62
+Gotham2025,multiclass,random_forest,TreeSHAP,65,21847,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.034931632048875304,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.027077204330413596,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.37055548762712776,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.019860988009710274,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.0016027005303663644,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.44575200242101437,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0017469638517844186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.005570250539149212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008304869708766355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003162258047260618,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.003035725919616663,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.024175114998218585,62
+Gotham2025,multiclass,random_forest,TreeSHAP,66,9548,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.037807287342696144,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.027076760972939568,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.37055547037247855,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.01986098800971027,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.001602709921506942,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.44575200242101437,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0017469638517844184,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.005570250539149212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008304869708766355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003162258047260618,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.0030357259196166627,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.024175340608709916,62
+Gotham2025,multiclass,random_forest,TreeSHAP,67,21820,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.03780751295318746,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.len,0.028206602280207212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,frame.protocols,0.3676120065378693,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.flags,0.02234422351318921,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.ttl,0.0027197997999808057,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,ip.proto,0.4469607029556505,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.srcport,0.0017469638517844184,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.dstport,0.005570250539149212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.flags,0.0008304869708766355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_value,0.003126243463983367,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.window_size_scalefactor,0.0030357259196166627,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.srcport,0.02199394405418786,62
+Gotham2025,multiclass,random_forest,TreeSHAP,68,9283,Mirai GRE Flooding,Mirai GRE Flooding,1,1.0,udp.dstport,0.037029520701739524,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,frame.len,0.05028827052300386,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,frame.protocols,0.37791506130164226,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,ip.flags,0.02656185980777128,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,ip.ttl,0.005244548967337212,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,ip.proto,0.4134224879174157,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.srcport,0.003785520846148042,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.dstport,0.009573402554479112,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.flags,0.0015637818660181404,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.window_size_value,0.005458818347037176,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.window_size_scalefactor,0.0038043961514067424,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,udp.srcport,0.0005895334507541217,62
+Gotham2025,multiclass,random_forest,TreeSHAP,69,2119,Mirai GRE Flooding,Mirai GRE Flooding,1,0.9999691889075689,udp.dstport,0.04293797776278976,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,frame.len,0.05456630476684043,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,frame.protocols,0.040789675932033254,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.flags,0.029295497012165394,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.ttl,0.012739347923000254,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.proto,0.0465712753469682,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.srcport,0.09284154279535917,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.dstport,0.11789971710631351,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.flags,0.03846689529973615,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.window_size_value,0.2138483291929565,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.window_size_scalefactor,0.23305216047349175,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.pdu.size,1.9848535594562377e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,udp.srcport,0.03641345500376341,62
+Gotham2025,multiclass,random_forest,TreeSHAP,70,18602,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,udp.dstport,0.018559941736543937,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,frame.len,0.056150211544946024,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,frame.protocols,0.04122297386959525,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,ip.flags,0.031467104107642675,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,ip.ttl,0.01647342453739167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,ip.proto,0.046716669511067115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.srcport,0.09430012185093997,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.dstport,0.11351059024111068,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.flags,0.04074256962647783,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.window_size_value,0.21574893064860082,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.window_size_scalefactor,0.22348696218792882,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,tcp.pdu.size,1.8344432809541918e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,udp.srcport,0.0366033633136506,62
+Gotham2025,multiclass,random_forest,TreeSHAP,71,1214,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938224725740269,udp.dstport,0.0185576772901006,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,frame.len,0.03576475276409915,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,frame.protocols,0.03836640936075975,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,ip.flags,0.02529436243769612,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,ip.ttl,0.009831141535914169,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,ip.proto,0.04250220043797421,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.srcport,0.2715298673629117,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.dstport,0.013190660580775063,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.flags,0.026400388358708643,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.window_size_value,0.19146708035176813,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.window_size_scalefactor,0.2085907524631413,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,tcp.pdu.size,3.730002883767587e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,udp.srcport,0.03220870902824985,62
+Gotham2025,multiclass,random_forest,TreeSHAP,72,18682,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9713130981999777,udp.dstport,0.017305944077376696,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,frame.len,0.08839562413382918,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,frame.protocols,0.04439036371236549,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,ip.flags,0.03444811858397096,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,ip.ttl,0.020164013526702725,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,ip.proto,0.049181322177552646,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.srcport,0.043877526868136174,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.dstport,0.08590906257106426,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.flags,0.2058163370592142,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.window_size_value,0.3148885323634835,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.window_size_scalefactor,-0.007412313596437544,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,tcp.pdu.size,8.888614780133728e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,udp.srcport,0.036609013091161664,62
+Gotham2025,multiclass,random_forest,TreeSHAP,73,21545,Mirai TCP Flooding,Mirai TCP Flooding,1,0.994691524914847,udp.dstport,0.019591506397257707,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,frame.len,0.05545922831722079,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,frame.protocols,0.04053381694184033,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,ip.flags,0.028816878563407797,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,ip.ttl,0.011591256794527272,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,ip.proto,0.046237747703082546,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.srcport,0.10313023319069368,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.dstport,0.10800433419601414,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.flags,0.040206705170441885,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.window_size_value,0.2170288342820676,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.window_size_scalefactor,0.2297559754456442,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,tcp.pdu.size,1.874003523223032e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,udp.srcport,0.03610433560193095,62
+Gotham2025,multiclass,random_forest,TreeSHAP,74,18579,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9939596950697733,udp.dstport,0.018248079415905092,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,frame.len,0.09484992428221048,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,frame.protocols,0.0412224231542479,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,ip.flags,0.01791801620836754,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,ip.ttl,0.016567063733765357,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,ip.proto,0.04501785627503204,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.srcport,0.07188545611953559,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.dstport,0.10200055456919774,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.flags,0.007865744671060788,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.window_size_value,0.21766260346452876,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.window_size_scalefactor,0.2630838078886216,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,tcp.pdu.size,2.4087451138631946e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,udp.srcport,0.03510649449824862,62
+Gotham2025,multiclass,random_forest,TreeSHAP,75,3326,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9908289110855456,udp.dstport,0.018801349357825767,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,frame.len,0.054514383614912766,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,frame.protocols,0.04087762112131737,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.flags,0.029198652959317034,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.ttl,0.012683374081057321,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,ip.proto,0.04681023456022555,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.srcport,0.09633330840051295,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.dstport,0.12438472645565482,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.flags,0.03883569803827002,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.window_size_value,0.21100368944887382,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.window_size_scalefactor,0.22517595536467128,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,tcp.pdu.size,1.91760787586517e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,udp.srcport,0.036561898938370994,62
+Gotham2025,multiclass,random_forest,TreeSHAP,76,18591,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9938875205365314,udp.dstport,0.018665272062823857,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,frame.len,0.06850742919705587,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,frame.protocols,0.05763519282671288,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,ip.flags,0.16049780493089802,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,ip.ttl,0.019788883361445325,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,ip.proto,0.0499281273867434,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.srcport,0.045526981237124946,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.dstport,0.07071827640909281,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.flags,0.025088797864922865,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.window_size_value,0.09547352595537123,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.window_size_scalefactor,0.26740135094671286,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,tcp.pdu.size,2.818686606516608e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,udp.srcport,0.048010731223472575,62
+Gotham2025,multiclass,random_forest,TreeSHAP,77,1336,Mirai TCP Flooding,Mirai TCP Flooding,1,0.9899681996551537,udp.dstport,0.02253938203777044,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,frame.len,0.09819328655736641,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,frame.protocols,0.22054304969397265,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,ip.flags,0.10412124314370581,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,ip.ttl,0.0814144895490115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,ip.proto,0.17651050620543363,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.srcport,0.006109964384893648,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.dstport,0.007910907023083166,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.flags,0.0063745475557130185,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.window_size_value,0.014403856017430149,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.window_size_scalefactor,0.009359369198035762,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,udp.srcport,0.03854168035290282,62
+Gotham2025,multiclass,random_forest,TreeSHAP,78,21105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9984416720257335,udp.dstport,0.17613524293242022,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,frame.len,0.08605561974360496,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,frame.protocols,0.2047843224038847,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,ip.flags,0.12274299349027179,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,ip.ttl,0.058318799792386904,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,ip.proto,0.1755531798361462,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.srcport,0.007379803200620715,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.dstport,0.008823682032423237,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.flags,0.008337951530273759,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.window_size_value,0.017663609928434715,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.window_size_scalefactor,0.011349832853672462,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,udp.srcport,0.058182109034129875,62
+Gotham2025,multiclass,random_forest,TreeSHAP,79,21145,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9985486328560085,udp.dstport,0.18053319959839417,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,frame.len,0.08675125378298011,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,frame.protocols,0.20326604606679913,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,ip.flags,0.12181443731631385,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,ip.ttl,0.05821583959948729,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,ip.proto,0.17553867663414754,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.srcport,0.007451495787104115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.dstport,0.009199423398486457,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.flags,0.00826249493216934,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.window_size_value,0.017787966468658337,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.window_size_scalefactor,0.011337943580099806,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,udp.srcport,0.05607268853217423,62
+Gotham2025,multiclass,random_forest,TreeSHAP,80,1105,Mirai UDP Flooding,Mirai UDP Flooding,1,0.998661872285557,udp.dstport,0.18414007677537167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,frame.len,0.12396414915635286,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,frame.protocols,0.20332455362740642,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,ip.flags,0.09120887850796798,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,ip.ttl,0.06384497723576661,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,ip.proto,0.18833497839909055,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.srcport,0.008472262969958464,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.dstport,0.01040649488838177,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.flags,0.00762023725392601,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.window_size_value,0.01950664944468445,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.window_size_scalefactor,0.011718047753016828,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,udp.srcport,0.05496527500047034,62
+Gotham2025,multiclass,random_forest,TreeSHAP,81,836,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9989426584720372,udp.dstport,0.1567526248232497,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,frame.len,0.1186784494594365,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,frame.protocols,0.2107812836728948,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,ip.flags,0.1364486306716039,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,ip.ttl,0.06084025549198073,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,ip.proto,0.17673181066262258,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.srcport,0.007914215811609657,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.dstport,0.00937526749843093,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.flags,0.007456200922678549,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.window_size_value,0.018675051694648878,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.window_size_scalefactor,0.011507108931274221,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,tcp.pdu.size,0.0,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,udp.srcport,0.05618666505344689,62
+Gotham2025,multiclass,random_forest,TreeSHAP,82,868,Mirai UDP Flooding,Mirai UDP Flooding,1,0.9988194448663933,udp.dstport,0.12540097558400023,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,frame.len,0.08523188603678243,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,frame.protocols,0.07542842805010075,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,ip.flags,0.03948027924772633,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,ip.ttl,0.028293583681296385,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,ip.proto,0.04866495538805536,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.srcport,0.14640580551400303,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.dstport,0.2686012917468006,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.flags,0.01432519273559532,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.window_size_value,0.10510436731940428,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.window_size_scalefactor,0.023619857001812464,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,tcp.pdu.size,6.412027683027873e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,udp.srcport,0.03303292777486526,62
+Gotham2025,multiclass,random_forest,TreeSHAP,83,7582,Reporting,Reporting,1,0.9481326326367719,udp.dstport,0.021056408451734402,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,frame.len,0.11333431001603358,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,frame.protocols,0.05501544969661882,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,ip.flags,0.21004024610972358,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,ip.ttl,0.03420603441778271,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,ip.proto,0.045488220869055344,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.srcport,0.04471162607111607,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.dstport,0.10622923230794412,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.flags,0.141733965907519,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.window_size_value,0.08991321411027657,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.window_size_scalefactor,0.023280149428053617,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,tcp.pdu.size,1.1466069834225381e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,udp.srcport,0.04927426896158105,62
+Gotham2025,multiclass,random_forest,TreeSHAP,84,528,TCP Scan,TCP Scan,1,0.9979680904153798,udp.dstport,0.02590637703807806,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,frame.len,0.06955348879281395,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,frame.protocols,0.07847755435992827,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,ip.flags,0.017025588229395993,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,ip.ttl,0.31852280535700134,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,ip.proto,0.04807934549582759,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.srcport,0.12308823610973546,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.dstport,0.004899756890382774,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.flags,0.020062421756858462,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.window_size_value,0.06886737608891576,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.window_size_scalefactor,0.011005967867431835,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,tcp.pdu.size,7.471243166832234e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,udp.srcport,0.03427665483506851,62
+Gotham2025,multiclass,random_forest,TreeSHAP,85,18240,TCP Scan,TCP Scan,1,0.872084068650731,udp.dstport,0.019326631023937255,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,frame.len,0.10585121164583039,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,frame.protocols,0.05620602618267545,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,ip.flags,0.20525879312109427,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,ip.ttl,0.033305335170183005,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,ip.proto,0.04625458131951186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.srcport,0.07162120326869302,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.dstport,0.1081399344198975,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.flags,0.13925146089930363,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.window_size_value,0.07503254830228469,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.window_size_scalefactor,0.023451936732446506,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.pdu.size,8.276792028851269e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,udp.srcport,0.05024338248009213,62
+Gotham2025,multiclass,random_forest,TreeSHAP,86,17649,TCP Scan,TCP Scan,1,0.9998662045013457,udp.dstport,0.026417984755540545,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,frame.len,0.06376999763392814,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,frame.protocols,0.07582955099514843,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,ip.flags,0.11695158844131137,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,ip.ttl,0.11242734054404822,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,ip.proto,0.060651622556556595,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.srcport,0.0377315915074497,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.dstport,0.14107816994389014,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.flags,0.13158450097018984,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.window_size_value,0.08485516655580226,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.window_size_scalefactor,0.01963756565351492,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,tcp.pdu.size,8.705047988811266e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,udp.srcport,0.06360232402505583,62
+Gotham2025,multiclass,random_forest,TreeSHAP,87,7744,TCP Scan,TCP Scan,1,0.9967644569148125,udp.dstport,0.029812803628162615,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,frame.len,0.031095875935822626,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,frame.protocols,0.029553494794955216,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,ip.flags,0.003491512684037907,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,ip.ttl,0.28171885307532696,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,ip.proto,0.036472990967928075,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.srcport,0.02287095387469077,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.dstport,0.1456044765067438,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.flags,-0.0013994526868840724,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.window_size_value,0.04130216343116236,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.window_size_scalefactor,0.010277343978464559,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,tcp.pdu.size,4.064518760340083e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,udp.srcport,0.0275290999675652,62
+Gotham2025,multiclass,random_forest,TreeSHAP,88,24970,TCP Scan,TCP Scan,1,0.7020870986069888,udp.dstport,0.014705611477806082,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,frame.len,0.10585121164583039,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,frame.protocols,0.05620602618267545,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,ip.flags,0.20525879312109427,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,ip.ttl,0.033305335170183005,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,ip.proto,0.04625458131951186,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.srcport,0.07162120326869302,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.dstport,0.1081399344198975,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.flags,0.13925146089930363,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.window_size_value,0.07503254830228469,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.window_size_scalefactor,0.023451936732446506,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,tcp.pdu.size,8.276792028851269e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,udp.srcport,0.05024338248009213,62
+Gotham2025,multiclass,random_forest,TreeSHAP,89,17667,TCP Scan,TCP Scan,1,0.9998662045013457,udp.dstport,0.026417984755540545,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,frame.len,0.030458157340608156,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,frame.protocols,0.02867324627900173,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,ip.flags,-0.0012916508367233825,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,ip.ttl,0.2786428181758151,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,ip.proto,0.037178531893819235,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.srcport,0.024968291754947164,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.dstport,0.14620008843081728,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.flags,-0.00010359200366990834,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.window_size_value,0.04573129214768518,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.window_size_scalefactor,0.01028824412606472,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,tcp.pdu.size,4.261882633420063e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,udp.srcport,0.027137204371134302,62
+Gotham2025,multiclass,random_forest,TreeSHAP,90,16009,TCP Scan,TCP Scan,1,0.7019675209233428,udp.dstport,0.015218741005742817,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,frame.len,0.04527281174756438,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,frame.protocols,0.03832529935714174,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,ip.flags,0.04845059213489839,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,ip.ttl,0.3072511178033499,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,ip.proto,0.03891367867268837,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.srcport,0.11827969822052001,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.dstport,0.11156736858988521,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.flags,0.05833163461008418,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.window_size_value,0.05672104460053958,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.window_size_scalefactor,0.014689004197660782,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,tcp.pdu.size,7.539177540575829e-06,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,udp.srcport,0.03443550726731191,62
+Gotham2025,multiclass,random_forest,TreeSHAP,91,17828,Telnet Brute Force,Telnet Brute Force,1,0.9504221049935743,udp.dstport,0.01935327920262392,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,frame.len,0.04913800773065267,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,frame.protocols,0.05647399017756452,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,ip.flags,0.03535577816212483,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,ip.ttl,0.30164158511190975,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,ip.proto,0.04800582832367537,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.srcport,0.0293252016810938,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.dstport,0.16468714376098176,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.flags,0.014822130921955482,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.window_size_value,0.07942305168845884,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.window_size_scalefactor,0.013104252239046897,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,tcp.pdu.size,2.836885891284826e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,udp.srcport,0.03276062821604247,62
+Gotham2025,multiclass,random_forest,TreeSHAP,92,18373,Telnet Brute Force,Telnet Brute Force,1,0.9021175584343591,udp.dstport,0.01852806215017355,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,frame.len,0.05471843997923045,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,frame.protocols,0.05795037985388779,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,ip.flags,0.028822934471681612,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,ip.ttl,0.10188556093731167,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,ip.proto,0.04028924861840795,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.srcport,0.12595367416950523,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.dstport,0.06906431281995166,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.flags,0.025702271793989543,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.window_size_value,0.049823587805742885,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.window_size_scalefactor,0.01379580032825215,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,tcp.pdu.size,2.6638099791185184e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,udp.srcport,0.02627512345438628,62
+Gotham2025,multiclass,random_forest,TreeSHAP,93,4194,Telnet Brute Force,Telnet Brute Force,1,0.6695550743130186,udp.dstport,0.016423572569116297,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,frame.len,0.09105767215408256,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,frame.protocols,0.05916294654688921,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,ip.flags,0.02887663764815604,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,ip.ttl,0.10156166308285115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,ip.proto,0.04137823579317797,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.srcport,0.11814605093897101,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.dstport,0.052755145050512875,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.flags,0.02763987421354874,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.window_size_value,0.07134942339176177,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.window_size_scalefactor,0.014332904754222086,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,tcp.pdu.size,2.727233265315846e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,udp.srcport,0.027070348683150874,62
+Gotham2025,multiclass,random_forest,TreeSHAP,94,252,Telnet Brute Force,Telnet Brute Force,1,0.7086005633954572,udp.dstport,0.016418859393716095,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,frame.len,0.04935131356239155,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,frame.protocols,0.05501021478491991,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,ip.flags,0.03481562826341407,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,ip.ttl,0.3004715234845,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,ip.proto,0.048881428318507364,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.srcport,0.038367771111536095,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.dstport,0.1670796728289101,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.flags,0.01733296433519572,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.window_size_value,0.08162696437299904,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.window_size_scalefactor,0.013459741114699528,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,tcp.pdu.size,3.0492881453437176e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,udp.srcport,0.03354804089300692,62
+Gotham2025,multiclass,random_forest,TreeSHAP,95,334,Telnet Brute Force,Telnet Brute Force,1,0.9176782883096083,udp.dstport,0.01887900294630724,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,frame.len,0.09665728228972711,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,frame.protocols,0.06274538825796992,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,ip.flags,0.027012992277438707,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,ip.ttl,0.1029839425087564,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,ip.proto,0.03856711119122487,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.srcport,0.1056001422092332,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.dstport,0.01914639883381914,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.flags,0.024971432005336285,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.window_size_value,0.07929701790188148,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.window_size_scalefactor,0.013169507947936096,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,tcp.pdu.size,1.5324603345475243e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,udp.srcport,0.024989125366399936,62
+Gotham2025,multiclass,random_forest,TreeSHAP,96,7692,Telnet Brute Force,Telnet Brute Force,1,0.6690748716452322,udp.dstport,0.01509567684039962,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,frame.len,0.044012568582681974,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,frame.protocols,0.034170295940193524,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,ip.flags,0.03167408872679991,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,ip.ttl,0.3240169077562233,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,ip.proto,0.045083574901104165,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.srcport,0.02721625289035619,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.dstport,0.17328417177490488,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.flags,0.004436997233179188,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.window_size_value,0.08761389098798214,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.window_size_scalefactor,0.012113256238567115,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,tcp.pdu.size,2.8560270066972184e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,udp.srcport,0.030092993866959523,62
+Gotham2025,multiclass,random_forest,TreeSHAP,97,58,Telnet Brute Force,Telnet Brute Force,1,0.8905751451448186,udp.dstport,0.018008056564035622,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,frame.len,0.06612020676985937,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,frame.protocols,0.06155372410398981,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,ip.flags,0.03631290771642397,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,ip.ttl,0.292837689809388,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,ip.proto,0.049431259790038526,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.srcport,0.022744686535136616,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.dstport,0.16751160665028197,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.flags,0.022721828412232928,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.window_size_value,0.08562651456528766,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.window_size_scalefactor,0.013646165631219287,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,tcp.pdu.size,2.7418425600608732e-05,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,udp.srcport,0.03290371118268104,62
+Gotham2025,multiclass,random_forest,TreeSHAP,98,17892,Telnet Brute Force,Telnet Brute Force,1,0.9293547913695259,udp.dstport,0.019093542365620678,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,frame.len,0.07295033423420204,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,frame.protocols,0.022660870348249238,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,ip.flags,0.14662715174343421,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,ip.ttl,0.2137341527228061,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,ip.proto,0.05609783689512452,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.srcport,0.0070921444604855706,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.dstport,0.010902465986279548,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.flags,0.004305748988513494,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.window_size_value,0.0133634544806049,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.window_size_scalefactor,0.007655803826026509,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,tcp.pdu.size,1.403296403378074e-07,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,udp.srcport,0.2949941533260047,62
+Gotham2025,multiclass,random_forest,TreeSHAP,99,14310,UDP Scan,UDP Scan,1,0.9927203729911692,udp.dstport,0.08351258623803222,62

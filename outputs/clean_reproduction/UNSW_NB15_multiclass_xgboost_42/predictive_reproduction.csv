@@ -1,0 +1,5 @@
+dataset,task,model,model_seed,metric,recorded,reproduced,absolute_difference
+UNSW-NB15,multiclass,xgboost,42,accuracy,0.652317880794702,0.652317880794702,0.0
+UNSW-NB15,multiclass,xgboost,42,balanced_accuracy,0.6857491775341864,0.6857491775341864,0.0
+UNSW-NB15,multiclass,xgboost,42,macro_f1,0.5085050428398065,0.5085050428398065,0.0
+UNSW-NB15,multiclass,xgboost,42,weighted_f1,0.7116581827590494,0.7116581827590494,0.0

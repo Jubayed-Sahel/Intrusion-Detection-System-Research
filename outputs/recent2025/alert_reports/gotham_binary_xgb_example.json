@@ -1,0 +1,191 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "REVIEW_REQUIRED",
+  "evidence_meaning": "The explainer passed globally, but this alert did not clear the strict local random-ranking test.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\recent2025\\models\\Gotham2025_binary_xgboost.joblib",
+    "dataset": "Gotham2025",
+    "task": "binary",
+    "model_family": "xgboost",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\data\\prepared\\Gotham2025\\test.parquet",
+    "row_index": 0,
+    "predicted_class": "Attack",
+    "predicted_probability": 0.9999195337295532,
+    "class_probabilities": {
+      "Attack": 0.9999195337295532,
+      "Normal": 8.046187576837838e-05
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "tcp.dstport",
+      "observed_value": "23.0",
+      "transformed_value": 23.0,
+      "attribution": 6.496610641479492,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "frame.protocols",
+      "observed_value": "eth:ethertype:ip:tcp:telnet",
+      "transformed_value": 104.0,
+      "attribution": 3.0106630325317383,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "frame.len",
+      "observed_value": "68",
+      "transformed_value": 68.0,
+      "attribution": 2.6764302253723145,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "ip.ttl",
+      "observed_value": "61",
+      "transformed_value": 61.0,
+      "attribution": -1.88881516456604,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "tcp.window_size_value",
+      "observed_value": "502.0",
+      "transformed_value": 502.0,
+      "attribution": -0.6753111481666565,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "ip.proto",
+      "observed_value": "6",
+      "transformed_value": 6.0,
+      "attribution": 0.29942548274993896,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "ip.flags",
+      "observed_value": "2",
+      "transformed_value": 2.0,
+      "attribution": -0.27703988552093506,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "tcp.srcport",
+      "observed_value": "48424.0",
+      "transformed_value": 48424.0,
+      "attribution": -0.21632727980613708,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "udp.dstport",
+      "observed_value": null,
+      "transformed_value": 8000.0,
+      "attribution": -0.21619334816932678,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "tcp.window_size_scalefactor",
+      "observed_value": "128.0",
+      "transformed_value": 128.0,
+      "attribution": 0.15662026405334473,
+      "direction": "supports prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.697649285197258,
+    "bottom_deletion_score": 1.5020370483398438e-05,
+    "random_mean_deletion_score": 0.28362945437431336,
+    "random_p95_deletion_score": 0.8715557701885698,
+    "top_minus_random_lift": 0.41401983082294463,
+    "local_empirical_one_sided_p": 0.12935323383084577,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.0112152099609375,
+        "probability_drop": 0.9887043237686157,
+        "prediction_flipped": true
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.00986337661743164,
+        "probability_drop": 0.9900561571121216,
+        "prediction_flipped": true
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.2940211296081543,
+        "probability_drop": 0.7058984041213989,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.8939812779426575,
+        "probability_drop": 0.10593825578689575,
+        "prediction_flipped": false
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.9999195337295532,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.9998827576637268,
+        "probability_drop": 3.6776065826416016e-05,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.9998827576637268,
+        "probability_drop": 3.6776065826416016e-05,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.9999330043792725,
+        "probability_drop": -1.3470649719238281e-05,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.1291379422713476,
+    "global_lift_ci": [
+      0.0678698420836955,
+      0.190898219321918
+    ],
+    "global_holm_adjusted_p": 1.4206651905371366e-05,
+    "validation_inference_group_count": 57,
+    "validation_inference_unit": "explained connection-group mean",
+    "neighborhood_cosine_mean": 0.9809425709959924,
+    "neighborhood_top5_jaccard_mean": 0.933452380952381,
+    "median_explanation_latency_ms": 1.0545,
+    "p95_explanation_latency_ms": 1.4415049999999985,
+    "validation_sample_count": 100,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.22674732555530375,
+      "nearest_opposite_prediction": 0.7663431086223985,
+      "nearest_same_prediction": -0.014612430085738494,
+      "training_median_mode": 0.27142391625966406,
+      "zero": 0.10912430179306887
+    }
+  }
+}

@@ -33,33 +33,44 @@ def evidence_decision(
     )
 
 
-def _ranking_score(
+def _ranking_scores(
     model,
     row: np.ndarray,
     predicted_class: int,
     baseline: np.ndarray,
-    ranking: np.ndarray,
+    rankings: list[np.ndarray],
     k_values: list[int],
-) -> tuple[float, list[dict[str, Any]]]:
-    original = float(model.predict_proba(row.reshape(1, -1))[0, predicted_class])
-    records = []
-    drops = []
-    for k in k_values:
-        k_eff = min(int(k), len(row))
-        masked = row.copy()
-        masked[ranking[:k_eff]] = baseline[ranking[:k_eff]]
-        probability = float(model.predict_proba(masked.reshape(1, -1))[0, predicted_class])
-        drop = original - probability
-        drops.append(drop)
-        records.append(
-            {
-                "k": k_eff,
-                "probability_after_masking": probability,
-                "probability_drop": drop,
-                "prediction_flipped": bool(np.argmax(model.predict_proba(masked.reshape(1, -1))[0]) != predicted_class),
-            }
-        )
-    return float(np.mean(drops)), records
+) -> tuple[np.ndarray, list[list[dict[str, Any]]]]:
+    if not k_values or any(int(k) < 1 for k in k_values):
+        raise ValueError("Masking requires positive k values")
+    masked_rows = [row]
+    for ranking in rankings:
+        for k in k_values:
+            k_eff = min(int(k), len(row))
+            masked = row.copy()
+            masked[ranking[:k_eff]] = baseline[ranking[:k_eff]]
+            masked_rows.append(masked)
+    probabilities = model.predict_proba(np.asarray(masked_rows))
+    original = float(probabilities[0, predicted_class])
+    details, scores = [], []
+    for index in range(len(rankings)):
+        records, drops = [], []
+        for offset, k in enumerate(k_values):
+            result = probabilities[1 + index * len(k_values) + offset]
+            probability = float(result[predicted_class])
+            drop = original - probability
+            drops.append(drop)
+            records.append({"k": min(int(k), len(row)), "probability_after_masking": probability,
+                            "probability_drop": drop,
+                            "prediction_flipped": bool(np.argmax(result) != predicted_class)})
+        scores.append(float(np.mean(drops)))
+        details.append(records)
+    return np.asarray(scores), details
+
+
+def _ranking_score(model, row, predicted_class, baseline, ranking, k_values):
+    scores, details = _ranking_scores(model, row, predicted_class, baseline, [ranking], k_values)
+    return float(scores[0]), details[0]
 
 
 def local_deletion_evidence(
@@ -73,24 +84,19 @@ def local_deletion_evidence(
     seed: int,
 ) -> dict[str, Any]:
     """Test an alert's attribution ranking against bottom and randomized rankings."""
+    if random_trials < 1:
+        raise ValueError("random_trials must be positive")
     ranking = np.argsort(-np.abs(attribution))
     bottom_ranking = ranking[::-1]
-    top_score, top_details = _ranking_score(
-        model, row, predicted_class, baseline, ranking, k_values
-    )
-    bottom_score, bottom_details = _ranking_score(
-        model, row, predicted_class, baseline, bottom_ranking, k_values
-    )
     rng = np.random.default_rng(seed)
-    random_scores = []
-    for _ in range(random_trials):
-        random_ranking = rng.permutation(len(row))
-        score, _ = _ranking_score(
-            model, row, predicted_class, baseline, random_ranking, k_values
-        )
-        random_scores.append(score)
-    random_array = np.asarray(random_scores, dtype=float)
-    empirical_p = float((1 + np.sum(random_array >= top_score)) / (random_trials + 1))
+    rankings = [ranking, bottom_ranking] + [rng.permutation(len(row)) for _ in range(random_trials)]
+    scores, details = _ranking_scores(model, row, predicted_class, baseline, rankings, k_values)
+    top_score, bottom_score = float(scores[0]), float(scores[1])
+    top_details, bottom_details = details[:2]
+    random_array = scores[2:]
+    # Treat floating-point near-ties conservatively as control scores at least
+    # as large as the top score; batching must not create false significance.
+    empirical_p = float((1 + np.sum(random_array >= top_score - 1e-12)) / (random_trials + 1))
     return {
         "top_deletion_score": top_score,
         "bottom_deletion_score": bottom_score,
@@ -99,6 +105,7 @@ def local_deletion_evidence(
         "top_minus_random_lift": float(top_score - random_array.mean()),
         "local_empirical_one_sided_p": empirical_p,
         "random_trials": random_trials,
+        "random_tie_tolerance": 1e-12,
         "top_masking_details": top_details,
         "bottom_masking_details": bottom_details,
     }
@@ -117,7 +124,7 @@ def _load_frame(path: Path) -> pd.DataFrame:
     raise ValueError("Input must be CSV, Parquet, or JSON.")
 
 
-def _benchmark_context(results_dir: Path, dataset: str, task: str, model_name: str) -> dict[str, Any]:
+def _benchmark_context(results_dir: Path, dataset: str, task: str, model_name: str, model_seed: int = 42) -> dict[str, Any]:
     controls = pd.read_csv(results_dir / "fidelity_control_tests.csv")
     summaries = pd.read_csv(results_dir / "explanation_summary.csv")
     selector = (
@@ -126,6 +133,8 @@ def _benchmark_context(results_dir: Path, dataset: str, task: str, model_name: s
         & controls["model"].eq(model_name)
         & controls["explainer"].eq("TreeSHAP")
     )
+    if "model_seed" in controls:
+        selector &= controls.model_seed.eq(model_seed)
     control = controls.loc[selector].iloc[0]
     selector = (
         summaries["dataset"].eq(dataset)
@@ -133,13 +142,18 @@ def _benchmark_context(results_dir: Path, dataset: str, task: str, model_name: s
         & summaries["model"].eq(model_name)
         & summaries["explainer"].eq("TreeSHAP")
     )
+    if "model_seed" in summaries:
+        selector &= summaries.model_seed.eq(model_seed)
     summary = summaries.loc[selector].iloc[0]
-    passed = bool(control["holm_adjusted_p"] < 0.05 and control["ci_low"] > 0)
+    p_column = "holm_adjusted_p_all_contexts" if "holm_adjusted_p_all_contexts" in controls else "holm_adjusted_p"
+    passed = bool(control[p_column] < 0.05 and control["ci_low"] > 0)
     context = {
         "global_random_control_passed": passed,
         "global_top_minus_random_lift": float(control["mean_lift_top_minus_random"]),
         "global_lift_ci": [float(control["ci_low"]), float(control["ci_high"])],
-        "global_holm_adjusted_p": float(control["holm_adjusted_p"]),
+        "global_holm_adjusted_p": float(control[p_column]),
+        "validation_inference_group_count": int(control["n_pairs"]),
+        "validation_inference_unit": str(control.get("inference_unit", "explained flow")),
         "neighborhood_cosine_mean": float(summary["stability_cosine_mean"]),
         "neighborhood_top5_jaccard_mean": float(summary["stability_jaccard_mean"]),
         "median_explanation_latency_ms": float(summary["latency_median_ms"]),
@@ -220,7 +234,7 @@ def explain_alert(
         seed,
     )
     results_dir = artifact_path.parent.parent
-    global_context = _benchmark_context(results_dir, dataset, task, model_name)
+    global_context = _benchmark_context(results_dir, dataset, task, model_name, int(artifact["seed"]))
     tier, meaning = evidence_decision(
         global_context["global_random_control_passed"],
         local["top_minus_random_lift"],
@@ -319,6 +333,8 @@ The deletion score is the mean predicted-probability drop after replacing the to
 - Mean top-minus-random lift: {global_context['global_top_minus_random_lift']:.6f}
 - 95% bootstrap interval: [{global_context['global_lift_ci'][0]:.6f}, {global_context['global_lift_ci'][1]:.6f}]
 - Holm-adjusted p-value: {global_context['global_holm_adjusted_p']:.6f}
+- Inference unit: {global_context['validation_inference_unit']}
+- Explained inference units: {global_context['validation_inference_group_count']}
 - Mean neighbor cosine stability: {global_context['neighborhood_cosine_mean']:.6f}
 - Mean top-5 neighbor overlap: {global_context['neighborhood_top5_jaccard_mean']:.6f}
 - Median/P95 explanation latency: {global_context['median_explanation_latency_ms']:.3f} / {global_context['p95_explanation_latency_ms']:.3f} ms

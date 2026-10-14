@@ -1,0 +1,122 @@
+{
+  "source_scope": "Official author CSV derivatives; historical unknown-provenance parquet inputs are not primary evidence.",
+  "sources": {
+    "GeNIS2025": {
+      "author_record": 14919237,
+      "source_rows": 3087981,
+      "supervised_excluded_label_counts": {},
+      "sampled_rows": 40000,
+      "source_date_range_utc": [
+        null,
+        null
+      ],
+      "feature_count": 69,
+      "split": "connection-group holdout; first label-covered GroupShuffleSplit candidate",
+      "seed": 42,
+      "candidate": 0,
+      "requested_test_group_fraction": 0.2,
+      "singleton_labels_training_only": [],
+      "test_labels": [
+        "benign",
+        "bruteforce",
+        "dos",
+        "recon"
+      ],
+      "training_labels": [
+        "benign",
+        "bruteforce",
+        "dos",
+        "recon"
+      ],
+      "training_groups": 23487,
+      "testing_groups": 5872,
+      "train_rows": 32346,
+      "test_rows": 7654,
+      "overlapping_groups": 0
+    },
+    "Gotham2025": {
+      "author_record": 14502760,
+      "source_rows": 35134281,
+      "supervised_excluded_label_counts": {
+        "Unknown": 7670
+      },
+      "sampled_rows": 133490,
+      "source_date_range_utc": [
+        "2025-01-14T18:39:55.330053+00:00",
+        "2025-01-25T19:46:06.049464+00:00"
+      ],
+      "feature_count": 13,
+      "split": "connection-group holdout; first label-covered GroupShuffleSplit candidate",
+      "seed": 42,
+      "candidate": 11,
+      "requested_test_group_fraction": 0.2,
+      "singleton_labels_training_only": [
+        "CoAP Amplification"
+      ],
+      "test_labels": [
+        "Benign",
+        "C&C Communication",
+        "File Download",
+        "Ingress Tool Transfer",
+        "Merlin C&C Communication",
+        "Merlin ICMP Flooding",
+        "Merlin TCP Flooding",
+        "Merlin UDP Flooding",
+        "Mirai C&C Communication",
+        "Mirai GRE Flooding",
+        "Mirai TCP Flooding",
+        "Mirai UDP Flooding",
+        "Reporting",
+        "TCP Scan",
+        "Telnet Brute Force",
+        "UDP Scan"
+      ],
+      "training_labels": [
+        "Benign",
+        "C&C Communication",
+        "CoAP Amplification",
+        "File Download",
+        "Ingress Tool Transfer",
+        "Merlin C&C Communication",
+        "Merlin ICMP Flooding",
+        "Merlin TCP Flooding",
+        "Merlin UDP Flooding",
+        "Mirai C&C Communication",
+        "Mirai GRE Flooding",
+        "Mirai TCP Flooding",
+        "Mirai UDP Flooding",
+        "Reporting",
+        "TCP Scan",
+        "Telnet Brute Force",
+        "UDP Scan"
+      ],
+      "training_groups": 46615,
+      "testing_groups": 11654,
+      "train_rows": 107120,
+      "test_rows": 26370,
+      "overlapping_groups": 0
+    }
+  },
+  "predictive_fits": 40,
+  "predictive_score": "Macro-F1 averaged over the fixed labels with actual held-out support; five seeds on one frozen split.",
+  "paired_group_inference": {
+    "contexts": 24,
+    "positive_mean_difference": 24,
+    "directional_holm_significant": 24,
+    "bootstrap_interval_above_zero": 24,
+    "explained_groups_min": 57,
+    "explained_groups_max": 95
+  },
+  "random_controls": {
+    "LIME": {
+      "contexts": 24,
+      "strict_supported_contexts": 20
+    },
+    "TreeSHAP": {
+      "contexts": 24,
+      "strict_supported_contexts": 24
+    }
+  },
+  "inference_scope": "Equal-weight explained connection-group means on diagnostic class-capped held-out cohorts; Holm families 24 paired and 48 controls, no pooling repeated seeds.",
+  "completed_extended_contexts": 8
+}

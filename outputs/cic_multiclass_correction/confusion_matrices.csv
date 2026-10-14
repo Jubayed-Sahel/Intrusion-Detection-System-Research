@@ -1,0 +1,451 @@
+dataset,task,model,seed,actual_class,predicted_class,count
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,BENIGN,4874
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Bot,28
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,DoS GoldenEye,2
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,DoS Hulk,8
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,DoS Slowhttptest,1
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,PortScan,1
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Web Attack - Brute Force,5
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,BENIGN,Web Attack - XSS,8
+CIC-IDS2017,multiclass,random_forest,42,Bot,BENIGN,1
+CIC-IDS2017,multiclass,random_forest,42,Bot,Bot,390
+CIC-IDS2017,multiclass,random_forest,42,Bot,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,Bot,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,DDoS,5000
+CIC-IDS2017,multiclass,random_forest,42,DDoS,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,DDoS,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,DoS GoldenEye,2055
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,DoS Hulk,1
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,DoS Slowhttptest,1
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,DoS GoldenEye,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,DoS GoldenEye,2
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,DoS Hulk,3816
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Web Attack - Sql Injection,1
+CIC-IDS2017,multiclass,random_forest,42,DoS Hulk,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,DoS Slowhttptest,1031
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,DoS slowloris,5
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,DoS Slowhttptest,Web Attack - XSS,2
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,DoS GoldenEye,1
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,DoS Slowhttptest,4
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,DoS slowloris,1049
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Web Attack - Brute Force,1
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,DoS slowloris,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,FTP-Patator,1187
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,FTP-Patator,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Heartbleed,2
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,Heartbleed,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,BENIGN,1
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Infiltration,6
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,Infiltration,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,BENIGN,3
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,DoS Hulk,4
+CIC-IDS2017,multiclass,random_forest,42,PortScan,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,PortScan,4341
+CIC-IDS2017,multiclass,random_forest,42,PortScan,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,PortScan,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,SSH-Patator,643
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,SSH-Patator,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,BENIGN,3
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Web Attack - Brute Force,177
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Brute Force,Web Attack - XSS,114
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,BENIGN,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,DoS GoldenEye,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Web Attack - Brute Force,1
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Web Attack - Sql Injection,3
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - Sql Injection,Web Attack - XSS,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,BENIGN,1
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Bot,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,DDoS,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,DoS GoldenEye,1
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,DoS Hulk,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,DoS slowloris,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,FTP-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Heartbleed,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Infiltration,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,PortScan,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,SSH-Patator,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Web Attack - Brute Force,32
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,random_forest,42,Web Attack - XSS,Web Attack - XSS,96
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,BENIGN,4902
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Bot,2
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,DoS Hulk,2
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,PortScan,1
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Web Attack - Brute Force,4
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,BENIGN,Web Attack - XSS,16
+CIC-IDS2017,multiclass,xgboost,42,Bot,BENIGN,1
+CIC-IDS2017,multiclass,xgboost,42,Bot,Bot,390
+CIC-IDS2017,multiclass,xgboost,42,Bot,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,Bot,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,DDoS,5000
+CIC-IDS2017,multiclass,xgboost,42,DDoS,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,DDoS,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,DoS GoldenEye,2056
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,DoS Slowhttptest,1
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,DoS GoldenEye,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,DoS GoldenEye,3
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,DoS Hulk,3816
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Hulk,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,DoS GoldenEye,1
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,DoS Slowhttptest,1030
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,DoS slowloris,5
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,DoS Slowhttptest,Web Attack - XSS,2
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,DoS GoldenEye,1
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,DoS Slowhttptest,5
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,DoS slowloris,1049
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,DoS slowloris,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,FTP-Patator,1187
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,FTP-Patator,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Heartbleed,2
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,Heartbleed,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Infiltration,7
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,Infiltration,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,BENIGN,2
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,DoS Hulk,4
+CIC-IDS2017,multiclass,xgboost,42,PortScan,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,PortScan,4341
+CIC-IDS2017,multiclass,xgboost,42,PortScan,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Web Attack - Brute Force,1
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,PortScan,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,SSH-Patator,643
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,SSH-Patator,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Web Attack - Brute Force,178
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Web Attack - Sql Injection,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Brute Force,Web Attack - XSS,116
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,DoS GoldenEye,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,DoS slowloris,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Web Attack - Brute Force,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Web Attack - Sql Injection,4
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - Sql Injection,Web Attack - XSS,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,BENIGN,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Bot,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,DDoS,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,DoS GoldenEye,1
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,DoS Hulk,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,DoS Slowhttptest,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,DoS slowloris,1
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,FTP-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Heartbleed,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Infiltration,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,PortScan,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,SSH-Patator,0
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Web Attack - Brute Force,51
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Web Attack - Sql Injection,1
+CIC-IDS2017,multiclass,xgboost,42,Web Attack - XSS,Web Attack - XSS,76

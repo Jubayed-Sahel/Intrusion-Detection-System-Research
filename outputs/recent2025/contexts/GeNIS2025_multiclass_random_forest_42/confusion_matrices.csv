@@ -1,0 +1,17 @@
+dataset,task,model,seed,actual_class,predicted_class,count
+GeNIS2025,multiclass,random_forest,42,benign,benign,2176
+GeNIS2025,multiclass,random_forest,42,benign,bruteforce,0
+GeNIS2025,multiclass,random_forest,42,benign,dos,0
+GeNIS2025,multiclass,random_forest,42,benign,recon,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,benign,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,bruteforce,2002
+GeNIS2025,multiclass,random_forest,42,bruteforce,dos,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,recon,0
+GeNIS2025,multiclass,random_forest,42,dos,benign,0
+GeNIS2025,multiclass,random_forest,42,dos,bruteforce,1
+GeNIS2025,multiclass,random_forest,42,dos,dos,1479
+GeNIS2025,multiclass,random_forest,42,dos,recon,0
+GeNIS2025,multiclass,random_forest,42,recon,benign,1
+GeNIS2025,multiclass,random_forest,42,recon,bruteforce,0
+GeNIS2025,multiclass,random_forest,42,recon,dos,0
+GeNIS2025,multiclass,random_forest,42,recon,recon,1995

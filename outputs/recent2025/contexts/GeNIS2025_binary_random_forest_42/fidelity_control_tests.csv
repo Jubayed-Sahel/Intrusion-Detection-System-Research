@@ -1,0 +1,3 @@
+dataset,task,model,explainer,n_pairs,mean_lift_top_minus_random,ci_low,ci_high,wilcoxon_one_sided_p,holm_adjusted_p,inference_unit,insufficient_groups,model_seed
+GeNIS2025,binary,random_forest,LIME,93,0.07303687123388727,0.05723395661961642,0.08885931840758185,2.291260988761624e-12,2.291260988761624e-12,explained connection-group mean,False,42
+GeNIS2025,binary,random_forest,TreeSHAP,93,0.2383537100612348,0.21622001420027576,0.2590254392758207,3.2774774270995405e-17,6.554954854199081e-17,explained connection-group mean,False,42

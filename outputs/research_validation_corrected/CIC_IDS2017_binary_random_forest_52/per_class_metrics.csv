@@ -1,0 +1,3 @@
+dataset,task,model,model_seed,class,precision,recall,f1,support
+CIC-IDS2017,binary,random_forest,52,Attack,0.998198919351611,0.9987985582699239,0.9984986487839055,19976
+CIC-IDS2017,binary,random_forest,52,Normal,0.9951169888097661,0.992693322508626,0.9939036781142044,4927

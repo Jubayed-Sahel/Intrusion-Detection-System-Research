@@ -1,0 +1,5 @@
+dataset,task,model,seed,actual_class,predicted_class,count
+GeNIS2025,binary,random_forest,42,Attack,Attack,5477
+GeNIS2025,binary,random_forest,42,Attack,Normal,1
+GeNIS2025,binary,random_forest,42,Normal,Attack,0
+GeNIS2025,binary,random_forest,42,Normal,Normal,2176

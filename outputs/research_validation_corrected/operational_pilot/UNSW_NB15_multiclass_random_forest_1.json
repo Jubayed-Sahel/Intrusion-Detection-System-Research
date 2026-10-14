@@ -1,0 +1,197 @@
+{
+  "black_box_status": "MITIGATED_WITH_TESTED_LOCAL_EVIDENCE_NOT_ELIMINATED",
+  "evidence_scope": "PRIMARY_TRAINING_MEDIAN_MODE_INTERVENTION",
+  "evidence_tier": "SUPPORTED_FOR_THIS_ALERT",
+  "evidence_meaning": "The validated explainer also beat randomized rankings for this alert under the primary training median/mode intervention.",
+  "scope_warning": "This report explains the fitted model under explicit masking tests. It is not a causal explanation and does not replace analyst review.",
+  "model": {
+    "artifact": "C:\\Users\\User\\Desktop\\498R\\outputs\\models\\UNSW_NB15_multiclass_random_forest.joblib",
+    "dataset": "UNSW-NB15",
+    "task": "multiclass",
+    "model_family": "random_forest",
+    "seed": 42
+  },
+  "alert": {
+    "input": "C:\\Users\\User\\Desktop\\498R\\tmp\\operational_pilot\\UNSW-NB15_multiclass.csv",
+    "row_index": 1,
+    "predicted_class": "Fuzzers",
+    "predicted_probability": 0.598527179737966,
+    "class_probabilities": {
+      "Analysis": 0.0,
+      "Backdoor": 0.006094705800776284,
+      "DoS": 0.07819080992268063,
+      "Exploits": 0.03100334814722622,
+      "Fuzzers": 0.598527179737966,
+      "Generic": 0.00899342662085157,
+      "Normal": 0.24247675024217671,
+      "Reconnaissance": 0.0052829129507093375,
+      "Shellcode": 0.029430866577613193,
+      "Worms": 0.0
+    }
+  },
+  "top_signed_features": [
+    {
+      "rank": 1,
+      "feature": "ct_src_dport_ltm",
+      "observed_value": "2",
+      "transformed_value": 2.0,
+      "attribution": 0.15694439196629437,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 2,
+      "feature": "service",
+      "observed_value": "-",
+      "transformed_value": 0.0,
+      "attribution": 0.03413250820875998,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 3,
+      "feature": "sbytes",
+      "observed_value": "566",
+      "transformed_value": 566.0,
+      "attribution": 0.033066017309462646,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 4,
+      "feature": "dmean",
+      "observed_value": "45",
+      "transformed_value": 45.0,
+      "attribution": 0.028417268956492204,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 5,
+      "feature": "spkts",
+      "observed_value": "8",
+      "transformed_value": 8.0,
+      "attribution": -0.026579569344437944,
+      "direction": "opposes prediction"
+    },
+    {
+      "rank": 6,
+      "feature": "ackdat",
+      "observed_value": "0.049494",
+      "transformed_value": 0.049494,
+      "attribution": 0.022610800067255805,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 7,
+      "feature": "dloss",
+      "observed_value": "1",
+      "transformed_value": 1.0,
+      "attribution": 0.020925585509959467,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 8,
+      "feature": "synack",
+      "observed_value": "0.064638",
+      "transformed_value": 0.064638,
+      "attribution": 0.018193872436793705,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 9,
+      "feature": "smean",
+      "observed_value": "71",
+      "transformed_value": 71.0,
+      "attribution": 0.017878123314625422,
+      "direction": "supports prediction"
+    },
+    {
+      "rank": 10,
+      "feature": "dload",
+      "observed_value": "4062.7366",
+      "transformed_value": 4062.7366,
+      "attribution": 0.01786916275601168,
+      "direction": "supports prediction"
+    }
+  ],
+  "local_fidelity_evidence": {
+    "top_deletion_score": 0.3971509199245118,
+    "bottom_deletion_score": 0.004878691394446799,
+    "random_mean_deletion_score": 0.16400721650426295,
+    "random_p95_deletion_score": 0.3245302596812141,
+    "top_minus_random_lift": 0.23314370342024884,
+    "local_empirical_one_sided_p": 0.004975124378109453,
+    "random_trials": 200,
+    "random_tie_tolerance": 1e-12,
+    "top_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.2625804518518577,
+        "probability_drop": 0.3359467278861083,
+        "prediction_flipped": true
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.2762391232916368,
+        "probability_drop": 0.3222880564463292,
+        "prediction_flipped": true
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.20716374742617372,
+        "probability_drop": 0.39136343231179227,
+        "prediction_flipped": true
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.05952171668414862,
+        "probability_drop": 0.5390054630538174,
+        "prediction_flipped": true
+      }
+    ],
+    "bottom_masking_details": [
+      {
+        "k": 1,
+        "probability_after_masking": 0.598527179737966,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 3,
+        "probability_after_masking": 0.598527179737966,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 5,
+        "probability_after_masking": 0.598527179737966,
+        "probability_drop": 0.0,
+        "prediction_flipped": false
+      },
+      {
+        "k": 10,
+        "probability_after_masking": 0.5790124141601788,
+        "probability_drop": 0.019514765577787196,
+        "prediction_flipped": false
+      }
+    ]
+  },
+  "benchmark_validation_context": {
+    "global_random_control_passed": true,
+    "global_top_minus_random_lift": 0.1703129788464365,
+    "global_lift_ci": [
+      0.1283437651100556,
+      0.2142687542808725
+    ],
+    "global_holm_adjusted_p": 1.2639247870538384e-08,
+    "neighborhood_cosine_mean": 0.8378078435338492,
+    "neighborhood_top5_jaccard_mean": 0.6362781954887219,
+    "median_explanation_latency_ms": 324.20565,
+    "p95_explanation_latency_ms": 356.714985,
+    "validation_sample_count": 40,
+    "reference_sensitivity_mean_deletion": {
+      "marginal_training_row": 0.3381908282668155,
+      "nearest_opposite_prediction": 0.2630201003332861,
+      "nearest_same_prediction": 0.034415138594299115,
+      "training_median_mode": 0.3205089945585954,
+      "zero": 0.37564594838546134
+    }
+  }
+}

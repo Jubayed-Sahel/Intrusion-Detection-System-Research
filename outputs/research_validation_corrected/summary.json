@@ -1,0 +1,22 @@
+{
+  "model_seed_contexts": 24,
+  "flows_per_context": 100,
+  "positive_mean_differences": 24,
+  "positive_ci_and_global_holm_significance": 24,
+  "mean_difference_range": [
+    0.057557125605279,
+    0.1827486103709452
+  ],
+  "random_control_passes_global_holm": {
+    "TreeSHAP": 24,
+    "LIME": 21
+  },
+  "clean_primary_seed_predictive_max_absolute_difference": 0.0,
+  "clean_predictive_contexts": 8,
+  "limitations": [
+    "source conversion history unavailable",
+    "flow-level inference may underestimate session dependence",
+    "latency under concurrent jobs is descriptive",
+    "no human usefulness or live deployment evidence"
+  ]
+}

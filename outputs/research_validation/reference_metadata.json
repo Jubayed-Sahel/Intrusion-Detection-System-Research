@@ -1,0 +1,808 @@
+[
+  {
+    "doi": "10.1186/s42400-019-0038-7",
+    "status": "resolved",
+    "title": [
+      "Survey of intrusion detection systems: techniques, datasets and challenges"
+    ],
+    "authors": [
+      {
+        "given": "Ansam",
+        "family": "Khraisat",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Iqbal",
+        "family": "Gondal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Vamplew",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joarder",
+        "family": "Kamruzzaman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          17
+        ]
+      ]
+    },
+    "venue": [
+      "Cybersecurity"
+    ],
+    "volume": "2",
+    "page": null,
+    "article_number": "20",
+    "url": "https://doi.org/10.1186/s42400-019-0038-7"
+  },
+  {
+    "doi": "10.5220/0006639801080116",
+    "status": "resolved",
+    "title": [
+      "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization"
+    ],
+    "authors": [
+      {
+        "given": "Iman",
+        "family": "Sharafaldin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of New Brunswick (UNB), Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arash",
+        "family": "Habibi Lashkari",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of New Brunswick (UNB), Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ali A.",
+        "family": "Ghorbani",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of New Brunswick (UNB), Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 4th International Conference on Information Systems Security and Privacy"
+    ],
+    "volume": null,
+    "page": "108-116",
+    "article_number": null,
+    "url": "https://doi.org/10.5220/0006639801080116"
+  },
+  {
+    "doi": "10.1109/MilCIS.2015.7348942",
+    "status": "resolved",
+    "title": [
+      "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)"
+    ],
+    "authors": [
+      {
+        "given": "Nour",
+        "family": "Moustafa",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jill",
+        "family": "Slay",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          11
+        ]
+      ]
+    },
+    "venue": [
+      "2015 Military Communications and Information Systems Conference (MilCIS)"
+    ],
+    "volume": null,
+    "page": "1-6",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/milcis.2015.7348942"
+  },
+  {
+    "doi": "10.1023/A:1010933404324",
+    "status": "resolved",
+    "title": [
+      "Random Forests"
+    ],
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "venue": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "page": "5-32",
+    "article_number": null,
+    "url": "https://doi.org/10.1023/a:1010933404324"
+  },
+  {
+    "doi": "10.1145/2939672.2939785",
+    "status": "resolved",
+    "title": [
+      "XGBoost"
+    ],
+    "authors": [
+      {
+        "given": "Tianqi",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "volume": null,
+    "page": "785-794",
+    "article_number": null,
+    "url": "https://doi.org/10.1145/2939672.2939785"
+  },
+  {
+    "doi": "10.1145/2939672.2939778",
+    "status": "resolved",
+    "title": [
+      "\"Why Should I Trust You?\""
+    ],
+    "authors": [
+      {
+        "given": "Marco Tulio",
+        "family": "Ribeiro",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sameer",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "volume": null,
+    "page": "1135-1144",
+    "article_number": null,
+    "url": "https://doi.org/10.1145/2939672.2939778"
+  },
+  {
+    "doi": "10.1109/ACCESS.2024.3368377",
+    "status": "resolved",
+    "title": [
+      "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-0654-9344",
+        "authenticated-orcid": false,
+        "given": "Diogo",
+        "family": "Gaspar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paulo",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5656-0061",
+        "authenticated-orcid": false,
+        "given": "Catarina",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Informatics Engineering, CISUC/LASI &#x2013; Centre for Informatics and Systems, University of Coimbra, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "12",
+    "page": "30164-30175",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2024.3368377"
+  },
+  {
+    "doi": "10.1038/s41598-024-81151-1",
+    "status": "resolved",
+    "title": [
+      "Hybrid bagging and boosting with SHAP based feature selection for enhanced predictive modeling in intrusion detection systems"
+    ],
+    "authors": [
+      {
+        "given": "Usman",
+        "family": "Ahmed",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Jiangbin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmad",
+        "family": "Almogren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad",
+        "family": "Sadiq",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ateeq Ur",
+        "family": "Rehman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. T.",
+        "family": "Sadiq",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaeyoung",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "venue": [
+      "Scientific Reports"
+    ],
+    "volume": "14",
+    "page": null,
+    "article_number": "30532",
+    "url": "https://doi.org/10.1038/s41598-024-81151-1"
+  },
+  {
+    "doi": "10.1109/ISCIT.2012.6380910",
+    "status": "resolved",
+    "title": [
+      "Using feature selection for intrusion detection system"
+    ],
+    "authors": [
+      {
+        "given": "Ammar",
+        "family": "Alazab",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Hobbs",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jemal",
+        "family": "Abawajy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Moutaz",
+        "family": "Alazab",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    },
+    "venue": [
+      "2012 International Symposium on Communications and Information Technologies (ISCIT)"
+    ],
+    "volume": null,
+    "page": "296-301",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/iscit.2012.6380910"
+  },
+  {
+    "doi": "10.1186/s40537-020-00379-6",
+    "status": "resolved",
+    "title": [
+      "Performance Analysis of Intrusion Detection Systems Using a Feature Selection Method on the UNSW-NB15 Dataset"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8989-5004",
+        "authenticated-orcid": false,
+        "given": "Sydney M.",
+        "family": "Kasongo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanxia",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          25
+        ]
+      ]
+    },
+    "venue": [
+      "Journal of Big Data"
+    ],
+    "volume": "7",
+    "page": null,
+    "article_number": "105",
+    "url": "https://doi.org/10.1186/s40537-020-00379-6"
+  },
+  {
+    "doi": "10.1109/ACCESS.2022.3216617",
+    "status": "resolved",
+    "title": [
+      "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9260-3914",
+        "authenticated-orcid": false,
+        "given": "Subash",
+        "family": "Neupane",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jesse",
+        "family": "Ables",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9151-8347",
+        "authenticated-orcid": false,
+        "given": "Sudip",
+        "family": "Mittal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shahram",
+        "family": "Rahimi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5206-1436",
+        "authenticated-orcid": false,
+        "given": "Ioana",
+        "family": "Banicescu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria",
+        "family": "Seale",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Army Engineer Research and Development Center, Vicksburg, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "10",
+    "page": "112392-112415",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2022.3216617"
+  }
+]

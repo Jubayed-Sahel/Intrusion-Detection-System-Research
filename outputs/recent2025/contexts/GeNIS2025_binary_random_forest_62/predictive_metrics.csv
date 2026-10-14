@@ -1,0 +1,2 @@
+dataset,task,model,seed,accuracy,balanced_accuracy,macro_f1,weighted_f1,false_positive_rate,false_negative_rate,pr_auc,macro_f1_supported_classes,macro_f1_training_vocabulary,training_seconds,train_rows,test_rows,feature_count,test_classes_with_support,training_classes
+GeNIS2025,binary,random_forest,62,0.9998693493598119,0.9999087258123402,0.9998394954276433,0.9998693584037174,0.0,0.00018254837531945966,0.9999999666821728,0.9998394954276433,0.9998394954276433,1.05757779999999,32346,7654,69,2,2

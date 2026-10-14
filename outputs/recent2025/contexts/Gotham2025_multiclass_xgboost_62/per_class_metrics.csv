@@ -1,0 +1,18 @@
+dataset,task,model,seed,class,precision,recall,f1,support
+Gotham2025,multiclass,xgboost,62,Benign,0.9968096419709322,1.0,0.9984022723238062,2812
+Gotham2025,multiclass,xgboost,62,C&C Communication,0.15254237288135594,0.43902439024390244,0.22641509433962265,82
+Gotham2025,multiclass,xgboost,62,CoAP Amplification,0.0,0.0,0.0,0
+Gotham2025,multiclass,xgboost,62,File Download,0.9995869475423379,1.0,0.999793431109275,2420
+Gotham2025,multiclass,xgboost,62,Ingress Tool Transfer,0.9993129508759876,0.9908038147138964,0.9950401915512228,2936
+Gotham2025,multiclass,xgboost,62,Merlin C&C Communication,1.0,0.9997044917257684,0.999852224028373,3384
+Gotham2025,multiclass,xgboost,62,Merlin ICMP Flooding,1.0,1.0,1.0,3
+Gotham2025,multiclass,xgboost,62,Merlin TCP Flooding,0.9995034756703078,1.0,0.9997516761857462,2013
+Gotham2025,multiclass,xgboost,62,Merlin UDP Flooding,1.0,0.9959287531806615,0.9979602243753187,1965
+Gotham2025,multiclass,xgboost,62,Mirai C&C Communication,0.0,0.0,0.0,358
+Gotham2025,multiclass,xgboost,62,Mirai GRE Flooding,0.9935162094763093,1.0,0.9967475606705029,1992
+Gotham2025,multiclass,xgboost,62,Mirai TCP Flooding,1.0,0.9995102840352595,0.9997550820475141,2042
+Gotham2025,multiclass,xgboost,62,Mirai UDP Flooding,0.9992581602373887,0.996301775147929,0.9977777777777778,1352
+Gotham2025,multiclass,xgboost,62,Reporting,1.0,0.7,0.8235294117647058,80
+Gotham2025,multiclass,xgboost,62,TCP Scan,0.8621399176954733,0.8503297818366311,0.8561941251596424,1971
+Gotham2025,multiclass,xgboost,62,Telnet Brute Force,0.8855721393034826,0.9953401677539608,0.9372531812198333,2146
+Gotham2025,multiclass,xgboost,62,UDP Scan,1.0,0.9987714987714987,0.9993853718500307,814

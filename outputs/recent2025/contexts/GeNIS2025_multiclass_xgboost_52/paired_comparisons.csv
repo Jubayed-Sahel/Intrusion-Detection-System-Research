@@ -1,0 +1,2 @@
+dataset,task,model,n_pairs,mean_difference_shap_minus_lime,median_difference_shap_minus_lime,paired_effect_dz,ci_low,ci_high,wilcoxon_one_sided_p,holm_adjusted_p,inference_unit,insufficient_groups,model_seed
+GeNIS2025,multiclass,xgboost,95,0.21451186942298622,0.18982379510998726,1.170441573711257,0.17937820782740968,0.24967692993912352,1.176887896803371e-15,1.176887896803371e-15,explained connection-group mean,False,52
