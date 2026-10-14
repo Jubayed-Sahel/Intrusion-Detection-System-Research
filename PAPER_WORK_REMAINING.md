@@ -8,19 +8,19 @@ The GeNIS/Gotham 2025 experiments and local integrity checks are complete. The c
 
 - [x] Acquire official datasets and document source identity, checksums, conversion, sampling, exclusions, and group separation.
 - [x] Complete 40 predictive model fits, 24 paired explanation comparisons, 48 control comparisons, and eight sensitivity-audit contexts.
-- [x] Verify raw sources, prepared inputs, frozen code, metrics, statistical calculations, and all 17 unit tests.
+- [x] Verify raw sources, prepared inputs, frozen code, metrics, statistical calculations, and all 18 unit tests.
 - [x] Generate and visually inspect all six manuscript pages, including searchable text and embedded fonts.
 
 Evidence: [current manuscript](output/pdf/xai_ids_recent2025_paper.pdf), [readiness report](PUBLICATION_READINESS_REPORT.md), [dataset provenance](RECENT_DATASET_PROVENANCE.md), and [experiment summary](outputs/recent2025/summary.json).
 
 ## 1. Finish the related work and contribution argument
 
-**Can be completed by Codex, followed by supervisor review.**
+**Completed in the manuscript generator on 14 October 2026; supervisor review of the comparisons is still required.**
 
-- [ ] Review relevant quantitative XAI-for-IDS research and add a substantive related-work comparison. The current seven references cover dataset sources and foundational explainer methods; they do not establish the paper's position against existing IDS/XAI evaluation studies.
-- [ ] Explain the contribution in relation to the closest prior work: traceable source preparation, matched explanation records, connection-group inference, corrected controls, and explicit limitations. Support any novelty statement with the literature review.
-- [ ] Check every factual and comparative claim against its cited primary source. Create a reference-validation and claim-support record for this recent study; the existing historical bibliography checks are separate.
-- [ ] Finish a full editorial pass for terminology, equations, metric definitions, figure/table references, abstract, and conclusions. Keep the claims consistent with the sampled testbed cohorts and measured masking protocol.
+- [x] Review relevant quantitative XAI-for-IDS research and add a substantive related-work comparison. Section II now positions the protocol against Neupane et al., Mane and Rao, Gaspar et al., Warnecke et al., and Arreche et al. (E-XAI), plus Yeh/Adebayo objective-check papers. Dataset and explainer-method sources remain [1]-[7].
+- [x] Explain the contribution in relation to the closest prior work: traceable source preparation, matched explanation records, connection-group inference, corrected controls, and explicit limitations. The manuscript states that SHAP/LIME use, perturbation testing, and metric-based comparison are not claimed as new ideas.
+- [x] Check every factual and comparative claim against its cited primary source. The recent-study record is [RECENT_REFERENCE_VALIDATION.md](RECENT_REFERENCE_VALIDATION.md); historical bibliography checks remain separate.
+- [x] Finish a full editorial pass for terminology, equations, metric definitions, figure/table references, abstract, and conclusions. Keep the claims consistent with the sampled testbed cohorts and measured masking protocol. Supervisor reading of the rebuilt PDF is still required.
 
 ## 2. Choose the exact submission destination
 
@@ -37,16 +37,17 @@ Evidence: [current manuscript](output/pdf/xai_ids_recent2025_paper.pdf), [readin
 - [ ] Confirm the final title, author names and order, affiliations, corresponding author, email addresses, and ORCID identifiers where required.
 - [ ] Confirm contributions, funding, acknowledgments, conflicts of interest, and any applicable ethics statements. Supply only verified information.
 - [ ] Review and finalize the AI-assistance disclosure against the actual tool-use history and the chosen venue's rules.
-- [ ] Make the recent manuscript generator read the approved metadata and apply the venue's anonymity rules. It currently hardcodes the title and anonymous author block; changing the older `paper_metadata.yaml` alone will not update the recent PDF.
+- [x] Make the recent manuscript generator read the approved metadata and apply the venue's anonymity rules. `paper_metadata.yaml` now has `recent_title`, `recent_date`, `recent_footer`, and `anonymous_review`. Author names remain withheld until the authors approve them and set `anonymous_review: false`.
 
 ## 4. Prepare the final manuscript and supplementary package
 
 **Codex can complete this after the venue and metadata decisions.**
 
 - [ ] Convert the manuscript into the venue's editable LaTeX or Word template and supply its source files. The current editable builder is Python/ReportLab; no venue-template `.tex` or `.docx` manuscript has been prepared.
-- [ ] Prepare any required supplementary methods, full per-class results, statistical tables, configuration, environment record, and reproduction instructions.
-- [ ] Include explicit class coverage, the `Unknown` exclusion, training-only CoAP Amplification, changed class priors, and the scope of Gotham member checksum verification.
-- [ ] Rebuild after the final text/formatting changes, check all numerical claims against the verified artifacts, and inspect every rendered page again.
+- [x] Prepare a venue-agnostic index of supplementary methods, full per-class results, statistical tables, configuration, environment record, and reproduction instructions: [SUPPLEMENTARY_INDEX.md](SUPPLEMENTARY_INDEX.md). Convert that index into the selected venue's supplement format after the venue is chosen.
+- [ ] Prepare any additional venue-required supplementary files after the destination is selected.
+- [x] Include explicit class coverage, the `Unknown` exclusion, training-only CoAP Amplification, changed class priors, and the scope of Gotham member checksum verification in the manuscript, provenance record, and supplementary index.
+- [x] Rebuild after the related-work and editorial changes, check numerical claims against the verified artifacts, and inspect every rendered page again. The rebuilt PDF is six US Letter pages with searchable text and embedded fonts. Venue-template conversion remains outstanding.
 
 ## 5. Complete scientific and submission checks
 
@@ -79,4 +80,4 @@ These are possible extensions, rather than unfinished computations in the curren
 
 ## Completion condition
 
-The paper package is complete when the related-work and editorial review is finished, the approved authors and venue are specified, the venue-format source/PDF/supplement are ready, and all required author and submission checks are satisfied. Submission and acceptance are separate statuses and should be recorded only when they occur.
+Related-work, claim-support, editorial, and metadata-wiring items that can be completed without a venue or author names are done. The paper package is complete for submission when the approved authors and venue are specified, the venue-format source/PDF/supplement are ready, and all required author and submission checks are satisfied. Submission and acceptance are separate statuses and should be recorded only when they occur.

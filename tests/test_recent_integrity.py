@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 
 from run_recent_benchmark import group_comparisons, holm
+from src.xai_ids.recent_paper import manuscript_identity
 from src.xai_ids.transparency import _benchmark_context
 from verify_recent_benchmark import _contexts, _inference_matches, read_source_csv, source_basename
 from scipy.stats import wilcoxon
@@ -90,6 +91,15 @@ class RecentIntegrityTests(unittest.TestCase):
         self.assertEqual(context["global_holm_adjusted_p"], .2)
         self.assertEqual(context["validation_inference_group_count"], 30)
         self.assertEqual(context["median_explanation_latency_ms"], 42)
+
+    def test_recent_manuscript_reads_metadata_and_withholds_names_during_anonymous_review(self):
+        identity = manuscript_identity()
+        self.assertIn("TreeSHAP", identity["title"])
+        self.assertIn("2025 Benchmarks", identity["title"])
+        self.assertTrue(identity["anonymous"])
+        self.assertIn("Anonymous research draft", identity["author_line"])
+        self.assertNotIn("Jubayed", identity["author_line"])
+        self.assertIn("venue not selected", identity["footer"])
 
 
 if __name__ == "__main__":

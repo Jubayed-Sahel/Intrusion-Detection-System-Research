@@ -4,7 +4,7 @@ This project measures the quality of feature explanations for intrusion-detectio
 
 **Current primary study:** author-published **GeNIS2025** enterprise network flows and **Gotham2025** IoT packets, acquired from their open official Zenodo records. A documented acquisition and preparation pipeline replaces the earlier parquet inputs whose conversion history was unavailable. These are 2025 releases; this project does not claim that they are the newest datasets in every intrusion-detection domain.
 
-**Research status, 14 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 17 unit tests pass. The six-page recent manuscript has been generated and visually reviewed. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
+**Research status, 14 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 18 unit tests pass. The six-page recent manuscript now includes a related-work comparison against prior XAI-IDS evaluation studies and has been visually reviewed. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
 
 ## Start here
 
@@ -16,6 +16,8 @@ This project measures the quality of feature explanations for intrusion-detectio
 - [Current numerical summary](outputs/recent2025/summary.json)
 - [Five-seed predictive summary](outputs/recent2025/predictive_summary.csv)
 - [IEEE submission preparation](IEEE_SUBMISSION_NOTES.md)
+- [Recent-study reference and claim support](RECENT_REFERENCE_VALIDATION.md)
+- [Supplementary artifact index](SUPPLEMENTARY_INDEX.md)
 - [Analyst and operational follow-up protocols](RESEARCH_NEXT_STUDIES.md)
 
 The earlier [project handbook](PROJECT_HANDBOOK.md), [notebook](PROJECT_WALKTHROUGH.ipynb), [literature traceability](LITERATURE_REQUIREMENTS_TRACEABILITY.md), and [2017/2015 manuscript](output/pdf/xai_ids_ieee_paper.pdf) describe the historical study. Use the recent commands below for the current primary study.

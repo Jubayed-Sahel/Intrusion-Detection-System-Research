@@ -1,6 +1,7 @@
 [
   {
     "doi": "10.1186/s42400-019-0038-7",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Survey of intrusion detection systems: techniques, datasets and challenges"
@@ -74,6 +75,7 @@
   },
   {
     "doi": "10.5220/0006639801080116",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization"
@@ -145,6 +147,7 @@
   },
   {
     "doi": "10.1109/MilCIS.2015.7348942",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)"
@@ -193,6 +196,7 @@
   },
   {
     "doi": "10.1023/A:1010933404324",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Random Forests"
@@ -229,6 +233,7 @@
   },
   {
     "doi": "10.1145/2939672.2939785",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "XGBoost"
@@ -286,6 +291,7 @@
   },
   {
     "doi": "10.1145/2939672.2939778",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "\"Why Should I Trust You?\""
@@ -359,6 +365,7 @@
   },
   {
     "doi": "10.1109/ACCESS.2024.3368377",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
@@ -434,6 +441,7 @@
   },
   {
     "doi": "10.1038/s41598-024-81151-1",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Hybrid bagging and boosting with SHAP based feature selection for enhanced predictive modeling in intrusion detection systems"
@@ -543,6 +551,7 @@
   },
   {
     "doi": "10.1109/ISCIT.2012.6380910",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Using feature selection for intrusion detection system"
@@ -615,6 +624,7 @@
   },
   {
     "doi": "10.1186/s40537-020-00379-6",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Performance Analysis of Intrusion Detection Systems Using a Feature Selection Method on the UNSW-NB15 Dataset"
@@ -666,6 +676,7 @@
   },
   {
     "doi": "10.1109/ACCESS.2022.3216617",
+    "registry": "crossref",
     "status": "resolved",
     "title": [
       "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"

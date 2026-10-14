@@ -1,0 +1,1007 @@
+[
+  {
+    "doi": "10.5281/zenodo.14919237",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "GeNIS: GECAD Network Intrusion Scenarios"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Silva, Miguel",
+        "nameType": "Personal",
+        "givenName": "Miguel",
+        "familyName": "Silva",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0009-0008-6630-9939",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Pinto, Daniela",
+        "nameType": "Personal",
+        "givenName": "Daniela",
+        "familyName": "Pinto",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0009-0000-3003-6694",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Vitorino, Jo\u00e3o",
+        "nameType": "Personal",
+        "givenName": "Jo\u00e3o",
+        "familyName": "Vitorino",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0000-0002-4968-3653",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Gon\u00e7alves, Jos\u00e9",
+        "nameType": "Personal",
+        "givenName": "Jos\u00e9",
+        "familyName": "Gon\u00e7alves",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0009-0004-1038-8384",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Maia, Eva",
+        "nameType": "Personal",
+        "givenName": "Eva",
+        "familyName": "Maia",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0000-0002-8075-531X",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Pra\u00e7a, Isabel",
+        "nameType": "Personal",
+        "givenName": "Isabel",
+        "familyName": "Pra\u00e7a",
+        "affiliation": [
+          "GECAD, ISEP, Polytechnic of Porto, Portugal"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0000-0002-2519-9859",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      }
+    ],
+    "published": "2025",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.14919237"
+  },
+  {
+    "doi": "10.1016/j.dib.2025.111487",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "GeNIS: A modular dataset for network intrusion detection and classification"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-6630-9939",
+        "authenticated-orcid": false,
+        "given": "Miguel",
+        "family": "Silva",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-3003-6694",
+        "authenticated-orcid": false,
+        "given": "Daniela",
+        "family": "Pinto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jo\u00e3o",
+        "family": "Vitorino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-1038-8384",
+        "authenticated-orcid": false,
+        "given": "Jos\u00e9",
+        "family": "Gon\u00e7alves",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eva",
+        "family": "Maia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Isabel",
+        "family": "Pra\u00e7a",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "venue": [
+      "Data in Brief"
+    ],
+    "volume": "60",
+    "page": "111487",
+    "article_number": "111487",
+    "url": "https://doi.org/10.1016/j.dib.2025.111487"
+  },
+  {
+    "doi": "10.5281/zenodo.14502760",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Belarbi, Othmane",
+        "nameType": "Personal",
+        "givenName": "Othmane",
+        "familyName": "Belarbi",
+        "affiliation": [
+          "Cardiff University"
+        ],
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0000-0002-6106-7669",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ]
+      },
+      {
+        "name": "Spyridopoulos, Theodoros",
+        "nameType": "Personal",
+        "givenName": "Theodoros",
+        "familyName": "Spyridopoulos",
+        "affiliation": [
+          "Cardiff University"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Anthi, Eirini",
+        "nameType": "Personal",
+        "givenName": "Eirini",
+        "familyName": "Anthi",
+        "affiliation": [
+          "Cardiff University"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Rana, Omer",
+        "nameType": "Personal",
+        "givenName": "Omer",
+        "familyName": "Rana",
+        "affiliation": [
+          "Cardiff University"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Carnelli, Pietro",
+        "nameType": "Personal",
+        "givenName": "Pietro",
+        "familyName": "Carnelli",
+        "affiliation": [
+          "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Khan, Aftab",
+        "nameType": "Personal",
+        "givenName": "Aftab",
+        "familyName": "Khan",
+        "affiliation": [
+          "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+        ],
+        "nameIdentifiers": []
+      }
+    ],
+    "published": "2025",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.14502760"
+  },
+  {
+    "doi": "10.48550/arXiv.2502.03134",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Belarbi, Othmane",
+        "nameType": "Personal",
+        "givenName": "Othmane",
+        "familyName": "Belarbi",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Spyridopoulos, Theodoros",
+        "nameType": "Personal",
+        "givenName": "Theodoros",
+        "familyName": "Spyridopoulos",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Anthi, Eirini",
+        "nameType": "Personal",
+        "givenName": "Eirini",
+        "familyName": "Anthi",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Rana, Omer",
+        "nameType": "Personal",
+        "givenName": "Omer",
+        "familyName": "Rana",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Carnelli, Pietro",
+        "nameType": "Personal",
+        "givenName": "Pietro",
+        "familyName": "Carnelli",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Khan, Aftab",
+        "nameType": "Personal",
+        "givenName": "Aftab",
+        "familyName": "Khan",
+        "affiliation": [],
+        "nameIdentifiers": []
+      }
+    ],
+    "published": "2025",
+    "url": "https://arxiv.org/abs/2502.03134"
+  },
+  {
+    "doi": "10.1038/s42256-019-0138-9",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "From local explanations to global understanding with explainable AI for trees"
+    ],
+    "authors": [
+      {
+        "given": "Scott M.",
+        "family": "Lundberg",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8741-131X",
+        "authenticated-orcid": false,
+        "given": "Gabriel",
+        "family": "Erion",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugh",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alex",
+        "family": "DeGrave",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jordan M.",
+        "family": "Prutkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bala",
+        "family": "Nair",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ronit",
+        "family": "Katz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Himmelfarb",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nisha",
+        "family": "Bansal",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5833-5215",
+        "authenticated-orcid": false,
+        "given": "Su-In",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          17
+        ]
+      ]
+    },
+    "venue": [
+      "Nature Machine Intelligence"
+    ],
+    "volume": "2",
+    "page": "56-67",
+    "article_number": null,
+    "url": "https://doi.org/10.1038/s42256-019-0138-9"
+  },
+  {
+    "doi": "10.1145/2939672.2939778",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "\"Why Should I Trust You?\""
+    ],
+    "authors": [
+      {
+        "given": "Marco Tulio",
+        "family": "Ribeiro",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sameer",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "volume": null,
+    "page": "1135-1144",
+    "article_number": null,
+    "url": "https://doi.org/10.1145/2939672.2939778"
+  },
+  {
+    "doi": "10.1109/ACCESS.2022.3216617",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9260-3914",
+        "authenticated-orcid": false,
+        "given": "Subash",
+        "family": "Neupane",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jesse",
+        "family": "Ables",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Anderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9151-8347",
+        "authenticated-orcid": false,
+        "given": "Sudip",
+        "family": "Mittal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shahram",
+        "family": "Rahimi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5206-1436",
+        "authenticated-orcid": false,
+        "given": "Ioana",
+        "family": "Banicescu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria",
+        "family": "Seale",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "U.S. Army Engineer Research and Development Center, Vicksburg, Mississippi, MS, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "10",
+    "page": "112392-112415",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2022.3216617"
+  },
+  {
+    "doi": "10.1109/ACCESS.2024.3365140",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8007-754X",
+        "authenticated-orcid": false,
+        "given": "Osvaldo",
+        "family": "Arreche",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-5196-7973",
+        "authenticated-orcid": false,
+        "given": "Tanish R.",
+        "family": "Guntur",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Science, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-7529-7526",
+        "authenticated-orcid": false,
+        "given": "Jack W.",
+        "family": "Roberts",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Technology, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9554-9260",
+        "authenticated-orcid": false,
+        "given": "Mustafa",
+        "family": "Abdallah",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Technology, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "12",
+    "page": "23954-23988",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2024.3365140"
+  },
+  {
+    "doi": "10.1109/ACCESS.2024.3368377",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-0654-9344",
+        "authenticated-orcid": false,
+        "given": "Diogo",
+        "family": "Gaspar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paulo",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5656-0061",
+        "authenticated-orcid": false,
+        "given": "Catarina",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Informatics Engineering, CISUC/LASI &#x2013; Centre for Informatics and Systems, University of Coimbra, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "12",
+    "page": "30164-30175",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2024.3368377"
+  },
+  {
+    "doi": "10.48550/arXiv.2103.07110",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "Explaining Network Intrusion Detection System Using Explainable AI Framework"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Mane, Shraddha",
+        "nameType": "Personal",
+        "givenName": "Shraddha",
+        "familyName": "Mane",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Rao, Dattaraj",
+        "nameType": "Personal",
+        "givenName": "Dattaraj",
+        "familyName": "Rao",
+        "affiliation": [],
+        "nameIdentifiers": []
+      }
+    ],
+    "published": "2021",
+    "url": "https://arxiv.org/abs/2103.07110"
+  },
+  {
+    "doi": "10.1109/EuroSP48549.2020.00018",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Evaluating Explanation Methods for Deep Learning in Security"
+    ],
+    "authors": [
+      {
+        "given": "Alexander",
+        "family": "Warnecke",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Arp",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Wressnegger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Karlsruhe Institute of Technology,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Konrad",
+        "family": "Rieck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9
+        ]
+      ]
+    },
+    "venue": [
+      "2020 IEEE European Symposium on Security and Privacy (EuroS&amp;P)"
+    ],
+    "volume": null,
+    "page": "158-174",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/eurosp48549.2020.00018"
+  }
+]

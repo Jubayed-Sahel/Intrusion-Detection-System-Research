@@ -1,8 +1,14 @@
 title: A Quantitative Framework for Evaluating Explainable AI in Network Intrusion Detection Systems
+recent_title: Provenance-Traceable Evaluation of TreeSHAP and LIME for Intrusion Detection on Two 2025 Benchmarks
 authors: Anonymous Author(s)
 affiliation: Anonymous submission for peer review
 date: ""
+recent_date: "14 October 2026"
 footer: Quantitative XAI for Network Intrusion Detection
+recent_footer: Research draft | official-source 2025 benchmarks | venue not selected
+anonymous_review: true
 
-# Replace authors and affiliation only after the target venue's anonymity rules
-# are known. Add the archival repository URL or DOI during camera-ready preparation.
+# Keep anonymous_review true for double-blind review. After the venue's
+# anonymity rules are known, set it to false and replace authors/affiliation
+# with approved names. Changing this file updates both manuscript generators.
+# Add the archival repository URL or DOI during camera-ready preparation.

@@ -9,6 +9,7 @@ outputs/recent2025_pre_unknown_label_fix/
 outputs/recent2025/extended_pre_dependency_snapshot/
 outputs/research_validation/*/
 tmp/
+output/pdf/page_previews/
 .venv/
 .venv-reproduction/
 friend-project-copy/

@@ -18,6 +18,7 @@ import zlib
 
 import numpy as np
 import pandas as pd
+from pypdf import PdfReader
 
 from run_recent_benchmark import group_comparisons, holm
 from src.xai_ids.recent_data import GENIS_EXCLUDE, GOTHAM_EXCLUDE
@@ -275,6 +276,54 @@ def _verify_audit(output, manifest, predictions, contexts, local_frames):
     assert tables["lime_budget_ablation"].median_latency_ms.ge(0).all()
 
 
+def _verify_manuscript(root=Path(".")):
+    paper = root / "output" / "pdf" / "xai_ids_recent2025_paper.pdf"
+    reader = PdfReader(paper)
+    text = re.sub(r"\s+", " ", "\n".join(page.extract_text() or "" for page in reader.pages))
+    assert 6 <= len(reader.pages) <= 8, len(reader.pages)
+    assert float(reader.pages[0].mediabox.width) == 612
+    assert float(reader.pages[0].mediabox.height) == 792
+    for heading in (
+        "INTRODUCTION",
+        "RELATED WORK",
+        "EXPLANATION METHODS AND EVALUATION SCOPE",
+        "SOURCE PROVENANCE AND DATA PREPARATION",
+        "EXPERIMENTAL PROTOCOL",
+        "RESULTS",
+        "DISCUSSION AND THREATS TO VALIDITY",
+        "REPRODUCIBILITY AND REPORTING STATUS",
+        "CONCLUSION",
+        "REFERENCES",
+    ):
+        assert heading in text, heading
+    for marker in (
+        "E-XAI",
+        "Neupane",
+        "Gaspar",
+        "Warnecke",
+        "does not claim SHAP/LIME use",
+        "D(x,r)",
+        "[14]",
+        "TABLE I",
+        "TABLE X",
+        "Fig. 1",
+        "Fig. 2",
+    ):
+        assert marker in text, marker
+    for forbidden in ("solves the black-box problem", "first to apply SHAP", "live deployment evidence"):
+        assert forbidden not in text, forbidden
+    for page in reader.pages:
+        for font_ref in page.get("/Resources", {}).get("/Font", {}).values():
+            font = font_ref.get_object()
+            descriptor = font.get("/FontDescriptor")
+            if font.get("/DescendantFonts"):
+                descendant = font["/DescendantFonts"][0].get_object()
+                descriptor = descendant.get("/FontDescriptor") or descriptor
+            descriptor = descriptor.get_object() if descriptor else {}
+            embedded = any(descriptor.get(key) for key in ("/FontFile", "/FontFile2", "/FontFile3"))
+            assert embedded, font.get("/BaseFont")
+
+
 def main(verify_raw=False, output=Path("outputs/recent2025")):
     output = Path(output)
     manifest = json.loads((output / "run_manifest.json").read_text())
@@ -375,6 +424,8 @@ def main(verify_raw=False, output=Path("outputs/recent2025")):
         assert file_hash(snapshot) == expected_hash
     _verify_acquisition(output, manifest)
     _verify_audit(output, manifest, predictions, base, local_frames)
+    if output.resolve() == Path("outputs/recent2025").resolve():
+        _verify_manuscript()
     print(f"Verified {len(predictions)} predictive fits, {len(paired)} paired group-aware explanation comparisons, and {len(base)} extended audit contexts on traceable recent data.")
 
 

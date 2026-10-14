@@ -1,6 +1,6 @@
 # IEEE submission preparation
 
-IEEE is the selected publishing direction, but no particular journal or conference has been selected. The current official-source study is described in [the GeNIS/Gotham manuscript](output/pdf/xai_ids_recent2025_paper.pdf), an IEEE-style research draft generated with ReportLab. It is not certified against a venue template or PDF eXpress. The earlier CIC/UNSW manuscript is historical.
+IEEE is the selected publishing direction, but no particular journal or conference has been selected. The current official-source study is described in [the GeNIS/Gotham manuscript](output/pdf/xai_ids_recent2025_paper.pdf), an IEEE-style research draft generated with ReportLab. Section II now compares the protocol with Neupane et al., Gaspar et al., Warnecke et al., and Arreche et al. (E-XAI); claim support is recorded in [RECENT_REFERENCE_VALIDATION.md](RECENT_REFERENCE_VALIDATION.md). It is not certified against a venue template or PDF eXpress. The earlier CIC/UNSW manuscript is historical.
 
 Official resources checked on 14 October 2026:
 
