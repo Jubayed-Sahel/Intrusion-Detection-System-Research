@@ -36,7 +36,7 @@ Statistical recomputation uses original per-context fidelity CSVs with round-tri
 
 ## Completed verification
 
-`verify_recent_benchmark.py --verify-raw` passes in the fresh Python 3.12.14 environment. It checks the author-record chain, acquisition snapshots, GeNIS provider MD5s, every acquired source SHA-256, Gotham member CRC32/lengths, prepared-file hashes, source-group separation, source-row identities, frozen benchmark/audit code, model/input hashes, complete context coverage, matched explanations, group-level statistical recomputation, and study-wide corrections. All 17 unit tests pass, including the near-tie round-trip CSV and floating-point portability regressions. Frozen metadata and hashed runtime sources have Git byte-preservation rules. No hosted GitHub CI run is claimed because the current work remains local.
+`verify_recent_benchmark.py --verify-raw` passes in the fresh Python 3.12.14 environment. It checks the author-record chain, acquisition snapshots, GeNIS provider MD5s, every acquired source SHA-256, Gotham member CRC32/lengths, prepared-file hashes, source-group separation, source-row identities, frozen benchmark/audit code, model/input hashes, complete context coverage, matched explanations, group-level statistical recomputation, and study-wide corrections. All 17 unit tests pass, including the near-tie round-trip CSV and floating-point portability regressions. Frozen metadata and hashed runtime sources have Git byte-preservation rules. The research update was published in [commit 6579189](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/commit/6579189a241cf8e7eeab8792f1b988bef08d5586) on 14 October 2026. Its [hosted research-integrity workflow](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions/runs/38556657111) passed the unit tests and current/historical artifact checks. Raw-data and local model-file rehashing remain local checks because those files are excluded from Git.
 
 All six manuscript pages were rendered and visually inspected. Columns, tables, and figures were checked; searchable text, embedded fonts, formatted predictive means, and cohort counts agree with the verified outputs. This visual/technical review does not replace the target venue's PDF or submission checks.
 
@@ -69,8 +69,7 @@ No temporal holdout, cross-organization evaluation, human analyst experiment, li
 1. Choose a specific IEEE journal or conference and apply its exact template, page limit, anonymity, and disclosure requirements. The current generated draft is IEEE-style, not venue-certified.
 2. Have the supervisor and named authors review the design, source-label limitations, claims, references, novelty, and AI-assisted contributions.
 3. Populate author/affiliation metadata, complete any venue-required similarity and PDF checks, and arrange a reviewed versioned release and archival DOI if appropriate.
-4. Upload the reviewed local work to the user's GitHub when requested and authentication is available. No changes from this work have been uploaded and no hosted CI run is claimed.
-5. Conduct the prepared analyst or live/drift studies if the eventual submission makes those claims. Existing protocols are plans, not observations.
+4. Conduct the prepared analyst or live/drift studies if the eventual submission makes those claims. Existing protocols are plans, not observations.
 
 ## Local deliverables
 

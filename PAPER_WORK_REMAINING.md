@@ -62,7 +62,8 @@ Evidence: [current manuscript](output/pdf/xai_ids_recent2025_paper.pdf), [readin
 **Codex can prepare the files; account access and author authorization are needed for publication actions.**
 
 - [ ] Assemble a versioned release with the approved manuscript sources, code, configuration, verified results, provenance, and reproduction instructions. Confirm licensing and dataset attribution.
-- [ ] Upload the reviewed work to the user's GitHub when requested and authentication is available, then check hosted CI. The latest work is currently local.
+- [x] Publish the research update to the user's GitHub. The code, artifacts, manuscript, and checklist were uploaded on 14 October 2026 in [commit 6579189](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/commit/6579189a241cf8e7eeab8792f1b988bef08d5586).
+- [x] Confirm hosted verification. The [research-integrity run](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions/runs/38556657111) passed on 14 October 2026, including all 17 unit tests and published research-artifact checks.
 - [ ] Obtain an archival DOI if required or chosen for the release, and add the approved availability statement/link while respecting anonymity rules.
 - [ ] Prepare the venue-required cover letter, submission metadata, supplementary uploads, and declarations. Confirm claims about prior publication or concurrent submission with the authors.
 - [ ] Submit through the selected venue's portal after final author authorization. Complete copyright/licensing and camera-ready steps at the applicable stage.
