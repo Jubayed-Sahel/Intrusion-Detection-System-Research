@@ -2,22 +2,28 @@
 
 This project measures the quality of feature explanations for intrusion-detection alerts. Random Forest and XGBoost perform binary and multiclass detection; TreeSHAP and LIME explain matched held-out records. The evaluation measures deletion fidelity, random and bottom-ranked controls, stability, latency, calibration, and sensitivity to the masking reference.
 
+The goal is to reduce the black-box nature of an IDS: show which traffic features support or oppose a warning, then check whether changing the highlighted features affects the model's prediction. The models remain complex; explanations make individual decisions more inspectable. This repository is an offline research pipeline, with no live packet capture or automatic attack blocking.
+
 **Current primary study:** author-published **GeNIS2025** enterprise network flows and **Gotham2025** IoT packets, acquired from their open official Zenodo records. A documented acquisition and preparation pipeline replaces the earlier parquet inputs whose conversion history was unavailable. These are 2025 releases; this project does not claim that they are the newest datasets in every intrusion-detection domain.
 
-**Research status, 14 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 18 unit tests pass. The six-page recent manuscript now includes a related-work comparison against prior XAI-IDS evaluation studies and has been visually reviewed. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
+**Research status, 17 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 21 unit tests pass. A supplementary post-hoc sign-test and connection-influence analysis is complete. All eight saved models have generated fresh alert reports, and a separate four-model small training run completed with both explanation methods. The six-page recent manuscript includes a related-work comparison and has been visually reviewed; the new robustness supplement has not been inserted into that PDF. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
 
 ## Start here
 
 ### Run locally on this Windows computer
 
-From PowerShell in this folder, run ` .\Run-Project.ps1 ` to generate fresh prediction and TreeSHAP explanation reports using all eight saved current-study models. Reports go into a unique folder under `outputs/local_runs/`; the original research results stay intact. This uses labelled held-out examples, not live network traffic.
+From PowerShell in this folder, run `.\Run-Project.ps1` to generate fresh prediction and TreeSHAP explanation reports using all eight saved current-study models. Reports go into a unique folder under `outputs/local_runs/`; the original research results stay intact. This uses labelled held-out examples, not live network traffic.
 
-- ` .\Run-Project.ps1 --check ` also runs dependency, unit-test, and recent-artifact checks first.
-- ` .\Run-Project.ps1 --dataset GeNIS2025 ` runs just that dataset's four saved models.
-- ` .\Run-Project.ps1 --smoke-train ` trains four smaller GeNIS models with ten matched SHAP/LIME explanations per context in a new output folder. This checks training and explanation execution; its smaller settings do not reproduce the paper.
+- `.\Run-Project.ps1 --check` also runs dependency, unit-test, and recent-artifact checks first.
+- `.\Run-Project.ps1 --dataset GeNIS2025` runs just that dataset's four saved models.
+- `.\Run-Project.ps1 --smoke-train` trains four smaller GeNIS models with ten matched SHAP/LIME explanations per context in a new output folder. This checks training and explanation execution; its smaller settings do not reproduce the paper.
 
 If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.exe run_project.py` directly; the same options apply. No environment activation is needed. Full research retraining instructions remain below.
 
+**On a fresh clone:** the Python environment, raw/prepared datasets, and trained models are not downloaded with this repository. Follow the environment, acquisition, preparation, and training instructions below before running the saved-model demo. With another configured environment, use `python run_project.py`. The small training option needs prepared GeNIS inputs but does not need existing models. The removed `friend-project-copy` folder is not a dependency.
+
+- [Step-by-step run guide](RUNNING_THE_PROJECT.md)
+- [Supplementary explanation robustness methods and results](EXPLANATION_ROBUSTNESS.md)
 - [Recent-data manuscript](output/pdf/xai_ids_recent2025_paper.pdf)
 - [Current dataset acquisition and transformation record](RECENT_DATASET_PROVENANCE.md)
 - [Primary and historical provenance overview](DATA_PROVENANCE.md)
@@ -106,6 +112,16 @@ Five-seed mean supported-class macro-F1 is:
 These are connection-holdout results within class-capped testbed data. A depth-five tree already reaches 0.9906 on GeNIS multiclass, showing how separable that derivative is. On Gotham multiclass, its supported-class macro-F1 is 0.3589. Gotham's training-majority baseline predicts the training-only CoAP label and scores zero on test; this follows from the split's class coverage rather than proving that a majority baseline always fails.
 
 TreeSHAP exceeds LIME's group-mean deletion score in 24/24 model/seed contexts, with bootstrap intervals above zero and Holm-adjusted directional tests passing in all 24. Mean differences range from 0.0570 to 0.3058 probability-drop units. TreeSHAP's top-versus-random comparison passes the strict positive-interval plus Holm-significance criterion in 24/24 contexts; LIME passes 20/24. Each context contains 57-95 explained connection groups from the 100 selected records. These findings apply to the declared training median/mode intervention and diagnostic sample.
+
+### Supplementary robustness checks
+
+The post-hoc analysis reconstructs all 24 primary connection-level means and group counts from the saved source records. All 24 contexts favor TreeSHAP under a two-sided sign test with Holm correction across this separate exploratory family. Removing any single explained connection preserves the positive mean difference in every context. These checks concern direction frequency and single-connection influence; they do not establish performance on a new capture or network.
+
+```bash
+python run_explanation_robustness.py
+```
+
+Methods, numerical-tie handling, assumptions, and a manuscript-ready paragraph are in [EXPLANATION_ROBUSTNESS.md](EXPLANATION_ROBUSTNESS.md). Per-context results and input/script hashes are saved under `outputs/explanation_robustness/`. This supplement is separate from the frozen primary experiment and its original hypothesis families.
 
 ## Alert reports
 
