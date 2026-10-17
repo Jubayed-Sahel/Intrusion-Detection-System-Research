@@ -20,7 +20,7 @@ From PowerShell in this folder, run `.\Run-Project.ps1` to generate fresh predic
 
 If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.exe run_project.py` directly; the same options apply. No environment activation is needed. Full research retraining instructions remain below.
 
-**On a fresh clone:** the Python environment, raw/prepared datasets, and trained models are not downloaded with this repository. Follow the environment, acquisition, preparation, and training instructions below before running the saved-model demo. With another configured environment, use `python run_project.py`. The small training option needs prepared GeNIS inputs but does not need existing models. The removed `friend-project-copy` folder is not a dependency.
+**On a fresh clone:** the Python environment, raw/prepared datasets, and trained models are not downloaded with this repository. Follow the environment, acquisition, preparation, and training instructions below before running the saved-model demo. With another configured environment, use `python run_project.py`. The small training option needs prepared GeNIS inputs but does not need existing models. The removed `friend-project-copy` folder and old `498R_COLAB_BUNDLE.zip` export are not dependencies. The project runs directly from this repository; the research documents and literature-review PDF are retained.
 
 - [Step-by-step run guide](RUNNING_THE_PROJECT.md)
 - [Supplementary explanation robustness methods and results](EXPLANATION_ROBUSTNESS.md)
