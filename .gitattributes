@@ -15,3 +15,4 @@ run_recent_benchmark.py -text whitespace=cr-at-eol
 src/xai_ids/extended_audit.py -text whitespace=cr-at-eol
 src/xai_ids/transparency.py -text whitespace=cr-at-eol
 run_recent_audit.py -text whitespace=cr-at-eol
+run_explanation_robustness.py -text whitespace=cr-at-eol

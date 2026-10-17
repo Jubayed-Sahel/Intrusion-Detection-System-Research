@@ -8,6 +8,16 @@ This project measures the quality of feature explanations for intrusion-detectio
 
 ## Start here
 
+### Run locally on this Windows computer
+
+From PowerShell in this folder, run ` .\Run-Project.ps1 ` to generate fresh prediction and TreeSHAP explanation reports using all eight saved current-study models. Reports go into a unique folder under `outputs/local_runs/`; the original research results stay intact. This uses labelled held-out examples, not live network traffic.
+
+- ` .\Run-Project.ps1 --check ` also runs dependency, unit-test, and recent-artifact checks first.
+- ` .\Run-Project.ps1 --dataset GeNIS2025 ` runs just that dataset's four saved models.
+- ` .\Run-Project.ps1 --smoke-train ` trains four smaller GeNIS models with ten matched SHAP/LIME explanations per context in a new output folder. This checks training and explanation execution; its smaller settings do not reproduce the paper.
+
+If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.exe run_project.py` directly; the same options apply. No environment activation is needed. Full research retraining instructions remain below.
+
 - [Recent-data manuscript](output/pdf/xai_ids_recent2025_paper.pdf)
 - [Current dataset acquisition and transformation record](RECENT_DATASET_PROVENANCE.md)
 - [Primary and historical provenance overview](DATA_PROVENANCE.md)

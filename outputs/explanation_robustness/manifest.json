@@ -1,0 +1,42 @@
+{
+  "analysis": "Post-hoc sensitivity, separate from the primary confirmatory families",
+  "tie_tolerance": 1e-12,
+  "sign_null": "Equal positive/negative probability conditional on non-tied explained groups",
+  "caveats": "Sign test targets direction frequency, not mean magnitude. Groups may retain dependence. Seeds share data; no pooling or external generalization. Leave-one-out is descriptive, not a confidence interval.",
+  "summary": {
+    "contexts": 24,
+    "positive_means": 24,
+    "positive_sign_test_holm": 24,
+    "negative_sign_test_holm": 0,
+    "single_group_reversals": 0
+  },
+  "sha256": {
+    "outputs/recent2025/run_manifest.json": "2b572a881e0d9db4b5988646233548d932162d19aa82313b3d51afedb6dc64e8",
+    "outputs/recent2025/paired_comparisons.csv": "cd9fb022c3475835b0d7990b3678f7c6f1cbab7e17c5c115048284dcbbbbd0b9",
+    "run_explanation_robustness.py": "06c95043f61e7e8b0b3e523b8a6ea9c2e4f218eceb3be6631918bca0c4965f15",
+    "outputs/recent2025/contexts/GeNIS2025_binary_random_forest_42/fidelity.csv": "ba1531e8c0737827b4593f56b6b38db7ebbfec9e95edf34b46ae352c18d8b7e7",
+    "outputs/recent2025/contexts/GeNIS2025_binary_random_forest_52/fidelity.csv": "22a4840861429d320de9eeb9bda8da710b9e2d6acea0b9ee2734eb3f2c513bfe",
+    "outputs/recent2025/contexts/GeNIS2025_binary_random_forest_62/fidelity.csv": "74e565093a95c7e2e2ec0dcebe7ecf28ab5a7a93a481c2e040a58e345be1cf6a",
+    "outputs/recent2025/contexts/GeNIS2025_binary_xgboost_42/fidelity.csv": "5eefbf8ba5f1c40612c4b40a0b88d10c7bf767343a9a8c4e0b8633841d874582",
+    "outputs/recent2025/contexts/GeNIS2025_binary_xgboost_52/fidelity.csv": "910bc5190c31f3ed16b39b9e9b2c6e4c32dc4a43c9c958b281aa0566f0eb6dd9",
+    "outputs/recent2025/contexts/GeNIS2025_binary_xgboost_62/fidelity.csv": "4114ef05e730153de63326a83bf29a1203d098af4746434be21bc825f72a653a",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_random_forest_42/fidelity.csv": "bd3b0013a13c17b6406717c5e929e9ef1757af938fe080eecc6d4afa327de3b8",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_random_forest_52/fidelity.csv": "39eb45598094e545e125051a383c695f8d0565278f66bfb7cf50cae50e3e9a00",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_random_forest_62/fidelity.csv": "7e487daf9900c03ac4e3dd38b21626af21f39c176a6d4162221a3828a419d540",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_xgboost_42/fidelity.csv": "c52522eb8cdcc1552de632d990e5ff36a74e5a3be37cf1c3e2b9eab5763fc1b9",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_xgboost_52/fidelity.csv": "82a58eef16f8361a094a4ced58cf69557be5124883654b8f8ec0abbc2c923708",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_xgboost_62/fidelity.csv": "179a6d831a3f45dc48b13b7b563e12a038d7e1a9cd20fc693a45d592351ea1de",
+    "outputs/recent2025/contexts/Gotham2025_binary_random_forest_42/fidelity.csv": "2f495d2c9f66d57e2d310a9598b773773cd58930a329e3b5ef7528927429c649",
+    "outputs/recent2025/contexts/Gotham2025_binary_random_forest_52/fidelity.csv": "874af94755854d3ca4407df39bfabcdec760f4a2ab9e566a1ef56a4dc67aafa2",
+    "outputs/recent2025/contexts/Gotham2025_binary_random_forest_62/fidelity.csv": "fa76f18e2b7da25bb9a2738723bb1800ecbb87e11761cdb939d1995e728d06c1",
+    "outputs/recent2025/contexts/Gotham2025_binary_xgboost_42/fidelity.csv": "1e5f467ef038a2a893e279182bb409f3a27d9c275f0629b612bdd5c5d9f4afa7",
+    "outputs/recent2025/contexts/Gotham2025_binary_xgboost_52/fidelity.csv": "85de1040a6376072fbd6e7144386a4270d5c6de08a1b678d4b5bf32be3758b27",
+    "outputs/recent2025/contexts/Gotham2025_binary_xgboost_62/fidelity.csv": "52f39e0772481b2bc7248ebe314b1e02d678bf9d02625fa2ba3eb63e31be205d",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_random_forest_42/fidelity.csv": "e89b7d88f7a5defeb6da446a2181bbc77351b24463edc1b19abdddf2a10029f9",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_random_forest_52/fidelity.csv": "d7cae740811c0f369032c049160a91da46700456effaddf4a9ac959a9ba12eda",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_random_forest_62/fidelity.csv": "1bddcefa8a1fb1574c60ffaae8d6072d23ddd7b9a02b18e60d2e4e5fb18ee7eb",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_xgboost_42/fidelity.csv": "22739886429410b389dffbae059808dcef4e454de6f6ba5b2b64771ab673858b",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_xgboost_52/fidelity.csv": "af994245da9f96164e52fe0808cab2284b1f76990fbdf84b8b742153eb20092f",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_xgboost_62/fidelity.csv": "81f722b8e9261ac9ff2ecead303a0e15b4d1dcb5715fba705d27b4d0bd757c2b"
+  }
+}

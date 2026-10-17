@@ -24,6 +24,10 @@ Venue-specific supplementary files have not been created because no IEEE journal
 
 ## Sensitivity audits
 
+- `EXPLANATION_ROBUSTNESS.md` — post-hoc two-sided sign and single-connection influence methods/results
+- `outputs/explanation_robustness/sensitivity.csv` — 24 matched-context sensitivity results
+- `outputs/explanation_robustness/manifest.json` — analysis scope, summary, and SHA-256 input/script hashes
+- `run_explanation_robustness.py` — reproducible supplementary analysis, preserving frozen primary outputs
 - `outputs/recent2025/extended/calibration_summary.csv`
 - `outputs/recent2025/extended/masking_baseline_ablation.csv`
 - `outputs/recent2025/extended/lime_budget_ablation.csv`

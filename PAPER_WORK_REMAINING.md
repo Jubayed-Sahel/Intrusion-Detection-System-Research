@@ -2,6 +2,8 @@
 
 **Updated:** 14 October 2026
 
+**17 October 2026 supplementary extension:** Completed a post-hoc two-sided sign and leave-one-connection-out sensitivity analysis across all 24 explainer contexts. All reconstructed means/counts match the primary artifacts; all corrected sign tests favor TreeSHAP, and no single connection reverses a positive mean. Methods, limits, reproduction, and a manuscript-ready paragraph are in [EXPLANATION_ROBUSTNESS.md](EXPLANATION_ROBUSTNESS.md). This supplement has not been inserted into or visually verified in the existing manuscript PDF. The full test suite now passes 21 tests.
+
 The GeNIS/Gotham 2025 experiments and local integrity checks are complete. The current manuscript is a six-page anonymous IEEE-style PDF. The items below cover the remaining writing, author review, formatting, and submission work.
 
 ## Already completed

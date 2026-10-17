@@ -9,6 +9,9 @@ outputs/recent2025_pre_unknown_label_fix/
 outputs/recent2025/extended_pre_dependency_snapshot/
 outputs/research_validation/*/
 tmp/
+# Local demonstrations and small training checks are not primary research artifacts.
+outputs/local_runs/
+outputs/demo_run/
 output/pdf/page_previews/
 .venv/
 .venv-reproduction/
