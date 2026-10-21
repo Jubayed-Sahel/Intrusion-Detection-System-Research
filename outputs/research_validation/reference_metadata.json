@@ -6,6 +6,7 @@
     "title": [
       "Survey of intrusion detection systems: techniques, datasets and challenges"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Ansam",
@@ -80,6 +81,9 @@
     "title": [
       "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization"
     ],
+    "subtitle": [
+      ""
+    ],
     "authors": [
       {
         "given": "Iman",
@@ -152,6 +156,7 @@
     "title": [
       "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Nour",
@@ -201,6 +206,7 @@
     "title": [
       "Random Forests"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Leo",
@@ -237,6 +243,9 @@
     "status": "resolved",
     "title": [
       "XGBoost"
+    ],
+    "subtitle": [
+      "A Scalable Tree Boosting System"
     ],
     "authors": [
       {
@@ -295,6 +304,9 @@
     "status": "resolved",
     "title": [
       "\"Why Should I Trust You?\""
+    ],
+    "subtitle": [
+      "Explaining the Predictions of Any Classifier"
     ],
     "authors": [
       {
@@ -370,6 +382,7 @@
     "title": [
       "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0009-0003-0654-9344",
@@ -446,6 +459,7 @@
     "title": [
       "Hybrid bagging and boosting with SHAP based feature selection for enhanced predictive modeling in intrusion detection systems"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Usman",
@@ -556,6 +570,7 @@
     "title": [
       "Using feature selection for intrusion detection system"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Ammar",
@@ -629,6 +644,7 @@
     "title": [
       "Performance Analysis of Intrusion Detection Systems Using a Feature Selection Method on the UNSW-NB15 Dataset"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0000-0001-8989-5004",
@@ -681,6 +697,7 @@
     "title": [
       "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0000-0001-9260-3914",

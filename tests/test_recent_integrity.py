@@ -92,13 +92,13 @@ class RecentIntegrityTests(unittest.TestCase):
         self.assertEqual(context["validation_inference_group_count"], 30)
         self.assertEqual(context["median_explanation_latency_ms"], 42)
 
-    def test_recent_manuscript_reads_metadata_and_withholds_names_during_anonymous_review(self):
+    def test_recent_manuscript_reads_approved_title_and_author_metadata(self):
         identity = manuscript_identity()
-        self.assertIn("TreeSHAP", identity["title"])
-        self.assertIn("2025 Benchmarks", identity["title"])
-        self.assertTrue(identity["anonymous"])
-        self.assertIn("Anonymous research draft", identity["author_line"])
-        self.assertNotIn("Jubayed", identity["author_line"])
+        self.assertIn("SHAP", identity["title"])
+        self.assertIn("Making Intrusion Detection Understandable", identity["title"])
+        self.assertFalse(identity["anonymous"])
+        self.assertEqual(identity["document_author"], "Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab")
+        self.assertIn("Jubayed Ahmed Sahel", identity["author_line"])
         self.assertIn("venue not selected", identity["footer"])
 
 

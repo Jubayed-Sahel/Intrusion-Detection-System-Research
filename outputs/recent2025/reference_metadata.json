@@ -110,6 +110,7 @@
     "title": [
       "GeNIS: A modular dataset for network intrusion detection and classification"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0009-0008-6630-9939",
@@ -348,12 +349,112 @@
     "url": "https://arxiv.org/abs/2502.03134"
   },
   {
+    "doi": "10.1023/A:1010933404324",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Random Forests"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Breiman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "venue": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "page": "5-32",
+    "article_number": null,
+    "url": "https://doi.org/10.1023/a:1010933404324"
+  },
+  {
+    "doi": "10.1145/2939672.2939785",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "XGBoost"
+    ],
+    "subtitle": [
+      "A Scalable Tree Boosting System"
+    ],
+    "authors": [
+      {
+        "given": "Tianqi",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington, Seattle, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "volume": null,
+    "page": "785-794",
+    "article_number": null,
+    "url": "https://doi.org/10.1145/2939672.2939785"
+  },
+  {
     "doi": "10.1038/s42256-019-0138-9",
     "registry": "crossref",
     "status": "resolved",
     "title": [
       "From local explanations to global understanding with explainable AI for trees"
     ],
+    "subtitle": [],
     "authors": [
       {
         "given": "Scott M.",
@@ -504,6 +605,9 @@
     "title": [
       "\"Why Should I Trust You?\""
     ],
+    "subtitle": [
+      "Explaining the Predictions of Any Classifier"
+    ],
     "authors": [
       {
         "given": "Marco Tulio",
@@ -578,6 +682,7 @@
     "title": [
       "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0000-0001-9260-3914",
@@ -714,12 +819,210 @@
     "url": "https://doi.org/10.1109/access.2022.3216617"
   },
   {
+    "doi": "10.48550/arXiv.2103.07110",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "Explaining Network Intrusion Detection System Using Explainable AI Framework"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Mane, Shraddha",
+        "nameType": "Personal",
+        "givenName": "Shraddha",
+        "familyName": "Mane",
+        "affiliation": [],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Rao, Dattaraj",
+        "nameType": "Personal",
+        "givenName": "Dattaraj",
+        "familyName": "Rao",
+        "affiliation": [],
+        "nameIdentifiers": []
+      }
+    ],
+    "published": "2021",
+    "url": "https://arxiv.org/abs/2103.07110"
+  },
+  {
+    "doi": "10.1109/ACCESS.2024.3368377",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-0654-9344",
+        "authenticated-orcid": false,
+        "given": "Diogo",
+        "family": "Gaspar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paulo",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5656-0061",
+        "authenticated-orcid": false,
+        "given": "Catarina",
+        "family": "Silva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Informatics Engineering, CISUC/LASI &#x2013; Centre for Informatics and Systems, University of Coimbra, Coimbra, Portugal"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Access"
+    ],
+    "volume": "12",
+    "page": "30164-30175",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/access.2024.3368377"
+  },
+  {
+    "doi": "10.1109/EuroSP48549.2020.00018",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Evaluating Explanation Methods for Deep Learning in Security"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "given": "Alexander",
+        "family": "Warnecke",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Arp",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Wressnegger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Karlsruhe Institute of Technology,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Konrad",
+        "family": "Rieck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9
+        ]
+      ]
+    },
+    "venue": [
+      "2020 IEEE European Symposium on Security and Privacy (EuroS&amp;P)"
+    ],
+    "volume": null,
+    "page": "158-174",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/eurosp48549.2020.00018"
+  },
+  {
     "doi": "10.1109/ACCESS.2024.3365140",
     "registry": "crossref",
     "status": "resolved",
     "title": [
       "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection"
     ],
+    "subtitle": [],
     "authors": [
       {
         "ORCID": "https://orcid.org/0000-0001-8007-754X",
@@ -810,58 +1113,19 @@
     "url": "https://doi.org/10.1109/access.2024.3365140"
   },
   {
-    "doi": "10.1109/ACCESS.2024.3368377",
+    "doi": "10.1214/aos/1176344552",
     "registry": "crossref",
     "status": "resolved",
     "title": [
-      "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
+      "Bootstrap Methods: Another Look at the Jackknife"
     ],
+    "subtitle": [],
     "authors": [
       {
-        "ORCID": "https://orcid.org/0009-0003-0654-9344",
-        "authenticated-orcid": false,
-        "given": "Diogo",
-        "family": "Gaspar",
+        "given": "B.",
+        "family": "Efron",
         "sequence": "first",
-        "affiliation": [
-          {
-            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      },
-      {
-        "given": "Paulo",
-        "family": "Silva",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      },
-      {
-        "ORCID": "https://orcid.org/0000-0002-5656-0061",
-        "authenticated-orcid": false,
-        "given": "Catarina",
-        "family": "Silva",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Department of Informatics Engineering, CISUC/LASI &#x2013; Centre for Informatics and Systems, University of Coimbra, Coimbra, Portugal"
-          }
-        ],
+        "affiliation": [],
         "role": [
           {
             "vocabulary": "crossref",
@@ -873,135 +1137,18 @@
     "published": {
       "date-parts": [
         [
-          2024
+          1979,
+          1,
+          1
         ]
       ]
     },
     "venue": [
-      "IEEE Access"
+      "The Annals of Statistics"
     ],
-    "volume": "12",
-    "page": "30164-30175",
+    "volume": "7",
+    "page": "1-26",
     "article_number": null,
-    "url": "https://doi.org/10.1109/access.2024.3368377"
-  },
-  {
-    "doi": "10.48550/arXiv.2103.07110",
-    "registry": "datacite",
-    "status": "resolved",
-    "title": [
-      {
-        "title": "Explaining Network Intrusion Detection System Using Explainable AI Framework"
-      }
-    ],
-    "authors": [
-      {
-        "name": "Mane, Shraddha",
-        "nameType": "Personal",
-        "givenName": "Shraddha",
-        "familyName": "Mane",
-        "affiliation": [],
-        "nameIdentifiers": []
-      },
-      {
-        "name": "Rao, Dattaraj",
-        "nameType": "Personal",
-        "givenName": "Dattaraj",
-        "familyName": "Rao",
-        "affiliation": [],
-        "nameIdentifiers": []
-      }
-    ],
-    "published": "2021",
-    "url": "https://arxiv.org/abs/2103.07110"
-  },
-  {
-    "doi": "10.1109/EuroSP48549.2020.00018",
-    "registry": "crossref",
-    "status": "resolved",
-    "title": [
-      "Evaluating Explanation Methods for Deep Learning in Security"
-    ],
-    "authors": [
-      {
-        "given": "Alexander",
-        "family": "Warnecke",
-        "sequence": "first",
-        "affiliation": [
-          {
-            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      },
-      {
-        "given": "Daniel",
-        "family": "Arp",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      },
-      {
-        "given": "Christian",
-        "family": "Wressnegger",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Karlsruhe Institute of Technology,Germany"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      },
-      {
-        "given": "Konrad",
-        "family": "Rieck",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
-          }
-        ],
-        "role": [
-          {
-            "vocabulary": "crossref",
-            "role": "author"
-          }
-        ]
-      }
-    ],
-    "published": {
-      "date-parts": [
-        [
-          2020,
-          9
-        ]
-      ]
-    },
-    "venue": [
-      "2020 IEEE European Symposium on Security and Privacy (EuroS&amp;P)"
-    ],
-    "volume": null,
-    "page": "158-174",
-    "article_number": null,
-    "url": "https://doi.org/10.1109/eurosp48549.2020.00018"
+    "url": "https://doi.org/10.1214/aos/1176344552"
   }
 ]

@@ -19,6 +19,14 @@ friend-project-copy/
 local-backup-before-friend-copy-*/
 __pycache__/
 *.pyc
+# LaTeX build intermediates; retain editable sources and vector figures.
+paper/ieee/*.aux
+paper/ieee/*.log
+paper/ieee/*.out
+paper/ieee/*.fls
+paper/ieee/*.fdb_latexmk
+paper/ieee/*.synctex.gz
+paper/ieee/main.pdf
 .ipynb_checkpoints/
 # Superseded 17 Aug 2026 copy of the project, kept locally for reference
 498R/

@@ -1,0 +1,563 @@
+{
+  "checked_date": "2026-10-21",
+  "scope": "Current GeNIS/Gotham manuscript; DOI identity, cited claim review, numbering, and rendered bibliography",
+  "citation_structure": {
+    "references": 20,
+    "first_citation_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "doi_count": 14
+  },
+  "references": [
+    {
+      "number": 1,
+      "title": "GeNIS: GECAD Network Intrusion Scenarios",
+      "bibliography": "[1] M. Silva, D. Pinto, J. Vitorino, J. Gonçalves, E. Maia, and I. Praça, \"GeNIS: GECAD Network Intrusion Scenarios,\" Zenodo, ver. 1.0.0, Feb. 24, 2025, doi: <link href=\"https://doi.org/10.5281/zenodo.14919237\">10.5281/zenodo.14919237</link>.",
+      "doi": "10.5281/zenodo.14919237",
+      "registry": "datacite",
+      "registered_title": "GeNIS: GECAD Network Intrusion Scenarios",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 2,
+      "title": "GeNIS: A modular dataset for network intrusion detection and classification",
+      "bibliography": "[2] M. Silva, D. Pinto, J. Vitorino, J. Gonçalves, E. Maia, and I. Praça, \"GeNIS: A modular dataset for network intrusion detection and classification,\" <i>Data in Brief</i>, vol. 60, art. no. 111487, Jun. 2025, doi: <link href=\"https://doi.org/10.1016/j.dib.2025.111487\">10.1016/j.dib.2025.111487</link>.",
+      "doi": "10.1016/j.dib.2025.111487",
+      "registry": "crossref",
+      "registered_title": "GeNIS: A modular dataset for network intrusion detection and classification",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 3,
+      "title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+      "bibliography": "[3] O. Belarbi, T. Spyridopoulos, E. Anthi, O. Rana, P. Carnelli, and A. Khan, \"A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics,\" Zenodo, ver. v1, Feb. 5, 2025, doi: <link href=\"https://doi.org/10.5281/zenodo.14502760\">10.5281/zenodo.14502760</link>.",
+      "doi": "10.5281/zenodo.14502760",
+      "registry": "datacite",
+      "registered_title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 4,
+      "title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research",
+      "bibliography": "[4] O. Belarbi, T. Spyridopoulos, E. Anthi, O. Rana, P. Carnelli, and A. Khan, \"Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research,\" arXiv:2502.03134, ver. 1, Feb. 5, 2025, doi: <link href=\"https://doi.org/10.48550/arXiv.2502.03134\">10.48550/arXiv.2502.03134</link>.",
+      "doi": "10.48550/arXiv.2502.03134",
+      "registry": "datacite",
+      "registered_title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 5,
+      "title": "Random forests",
+      "bibliography": "[5] L. Breiman, \"Random forests,\" <i>Machine Learning</i>, vol. 45, no. 1, pp. 5-32, 2001, doi: <link href=\"https://doi.org/10.1023/A:1010933404324\">10.1023/A:1010933404324</link>.",
+      "doi": "10.1023/A:1010933404324",
+      "registry": "crossref",
+      "registered_title": "Random Forests",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 6,
+      "title": "XGBoost: A scalable tree boosting system",
+      "bibliography": "[6] T. Chen and C. Guestrin, \"XGBoost: A scalable tree boosting system,\" in <i>Proc. ACM SIGKDD</i>, 2016, pp. 785-794, doi: <link href=\"https://doi.org/10.1145/2939672.2939785\">10.1145/2939672.2939785</link>.",
+      "doi": "10.1145/2939672.2939785",
+      "registry": "crossref",
+      "registered_title": "XGBoost A Scalable Tree Boosting System",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 7,
+      "title": "A unified approach to interpreting model predictions",
+      "bibliography": "[7] S. M. Lundberg and S.-I. Lee, \"A unified approach to interpreting model predictions,\" in <i>Advances in Neural Information Processing Systems</i>, vol. 30, 2017. [Online]. Available: <link href=\"https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html\">NeurIPS proceedings</link>.",
+      "primary_record": "https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    },
+    {
+      "number": 8,
+      "title": "From local explanations to global understanding with explainable AI for trees",
+      "bibliography": "[8] S. M. Lundberg <i>et al.</i>, \"From local explanations to global understanding with explainable AI for trees,\" <i>Nature Machine Intelligence</i>, vol. 2, pp. 56-67, 2020, doi: <link href=\"https://doi.org/10.1038/s42256-019-0138-9\">10.1038/s42256-019-0138-9</link>.",
+      "doi": "10.1038/s42256-019-0138-9",
+      "registry": "crossref",
+      "registered_title": "From local explanations to global understanding with explainable AI for trees",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 9,
+      "title": "Why should I trust you?: Explaining the predictions of any classifier",
+      "bibliography": "[9] M. T. Ribeiro, S. Singh, and C. Guestrin, &quot;Why should I trust you?&quot;: Explaining the predictions of any classifier, in <i>Proc. ACM SIGKDD</i>, 2016, pp. 1135-1144, doi: <link href=\"https://doi.org/10.1145/2939672.2939778\">10.1145/2939672.2939778</link>.",
+      "doi": "10.1145/2939672.2939778",
+      "registry": "crossref",
+      "registered_title": "\"Why Should I Trust You?\" Explaining the Predictions of Any Classifier",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 10,
+      "title": "On the (in)fidelity and sensitivity of explanations",
+      "bibliography": "[10] C.-K. Yeh, C.-Y. Hsieh, A. S. Suggala, D. I. Inouye, and P. Ravikumar, \"On the (in)fidelity and sensitivity of explanations,\" in <i>Advances in Neural Information Processing Systems</i>, vol. 32, 2019. [Online]. Available: <link href=\"https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html\">NeurIPS proceedings</link>.",
+      "primary_record": "https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    },
+    {
+      "number": 11,
+      "title": "Sanity checks for saliency maps",
+      "bibliography": "[11] J. Adebayo, J. Gilmer, M. Muelly, I. Goodfellow, M. Hardt, and B. Kim, \"Sanity checks for saliency maps,\" in <i>Advances in Neural Information Processing Systems</i>, vol. 31, 2018. [Online]. Available: <link href=\"https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html\">NeurIPS proceedings</link>.",
+      "primary_record": "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    },
+    {
+      "number": 12,
+      "title": "Explainable intrusion detection systems (X-IDS): A survey of current methods, challenges, and opportunities",
+      "bibliography": "[12] S. Neupane <i>et al.</i>, \"Explainable intrusion detection systems (X-IDS): A survey of current methods, challenges, and opportunities,\" <i>IEEE Access</i>, vol. 10, pp. 112392-112415, 2022, doi: <link href=\"https://doi.org/10.1109/ACCESS.2022.3216617\">10.1109/ACCESS.2022.3216617</link>.",
+      "doi": "10.1109/ACCESS.2022.3216617",
+      "registry": "crossref",
+      "registered_title": "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 13,
+      "title": "Explaining network intrusion detection system using explainable AI framework",
+      "bibliography": "[13] S. Mane and D. Rao, \"Explaining network intrusion detection system using explainable AI framework,\" arXiv:2103.07110, ver. 1, Mar. 12, 2021, doi: <link href=\"https://doi.org/10.48550/arXiv.2103.07110\">10.48550/arXiv.2103.07110</link>.",
+      "doi": "10.48550/arXiv.2103.07110",
+      "registry": "datacite",
+      "registered_title": "Explaining Network Intrusion Detection System Using Explainable AI Framework",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 14,
+      "title": "Explainable AI for intrusion detection systems: LIME and SHAP applicability on multi-layer perceptron",
+      "bibliography": "[14] D. Gaspar, P. Silva, and C. Silva, \"Explainable AI for intrusion detection systems: LIME and SHAP applicability on multi-layer perceptron,\" <i>IEEE Access</i>, vol. 12, pp. 30164-30175, 2024, doi: <link href=\"https://doi.org/10.1109/ACCESS.2024.3368377\">10.1109/ACCESS.2024.3368377</link>.",
+      "doi": "10.1109/ACCESS.2024.3368377",
+      "registry": "crossref",
+      "registered_title": "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 15,
+      "title": "Evaluating explanation methods for deep learning in security",
+      "bibliography": "[15] A. Warnecke, D. Arp, C. Wressnegger, and K. Rieck, \"Evaluating explanation methods for deep learning in security,\" in <i>Proc. IEEE Eur. Symp. Security and Privacy (EuroS&amp;P)</i>, 2020, pp. 158-174, doi: <link href=\"https://doi.org/10.1109/EuroSP48549.2020.00018\">10.1109/EuroSP48549.2020.00018</link>.",
+      "doi": "10.1109/EuroSP48549.2020.00018",
+      "registry": "crossref",
+      "registered_title": "Evaluating Explanation Methods for Deep Learning in Security",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 16,
+      "title": "E-XAI: Evaluating black-box explainable AI frameworks for network intrusion detection",
+      "bibliography": "[16] O. Arreche, T. R. Guntur, J. W. Roberts, and M. Abdallah, \"E-XAI: Evaluating black-box explainable AI frameworks for network intrusion detection,\" <i>IEEE Access</i>, vol. 12, pp. 23954-23988, 2024, doi: <link href=\"https://doi.org/10.1109/ACCESS.2024.3365140\">10.1109/ACCESS.2024.3365140</link>.",
+      "doi": "10.1109/ACCESS.2024.3365140",
+      "registry": "crossref",
+      "registered_title": "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection",
+      "identity_check": "title matched after case/punctuation normalization; bibliographic fields manually checked"
+    },
+    {
+      "number": 17,
+      "title": "Explaining by removing: A unified framework for model explanation",
+      "bibliography": "[17] I. C. Covert, S. Lundberg, and S.-I. Lee, \"Explaining by removing: A unified framework for model explanation,\" <i>Journal of Machine Learning Research</i>, vol. 22, no. 209, pp. 1-90, 2021. [Online]. Available: <link href=\"https://jmlr.org/papers/v22/20-1316.html\">JMLR 20-1316</link>.",
+      "primary_record": "https://jmlr.org/papers/v22/20-1316.html",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    },
+    {
+      "number": 18,
+      "title": "Bootstrap methods: Another look at the jackknife",
+      "bibliography": "[18] B. Efron, \"Bootstrap methods: Another look at the jackknife,\" <i>Annals of Statistics</i>, vol. 7, no. 1, pp. 1-26, 1979, doi: <link href=\"https://doi.org/10.1214/aos/1176344552\">10.1214/aos/1176344552</link>.",
+      "doi": "10.1214/aos/1176344552",
+      "registry": "crossref",
+      "registered_title": "Bootstrap Methods: Another Look at the Jackknife",
+      "identity_check": "Publisher registration and original article scan inspected; university-hosted full text downloaded in second pass"
+    },
+    {
+      "number": 19,
+      "title": "Individual comparisons by ranking methods",
+      "bibliography": "[19] F. Wilcoxon, \"Individual comparisons by ranking methods,\" <i>Biometrics Bulletin</i>, vol. 1, no. 6, pp. 80-83, 1945. [Online]. Available: <link href=\"https://www.jstor.org/stable/3001968\">JSTOR 3001968</link>.",
+      "primary_record": "https://www.jstor.org/stable/3001968",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    },
+    {
+      "number": 20,
+      "title": "A simple sequentially rejective multiple test procedure",
+      "bibliography": "[20] S. Holm, \"A simple sequentially rejective multiple test procedure,\" <i>Scandinavian Journal of Statistics</i>, vol. 6, no. 2, pp. 65-70, 1979. [Online]. Available: <link href=\"https://www.jstor.org/stable/4615733\">JSTOR 4615733</link>.",
+      "primary_record": "https://www.jstor.org/stable/4615733",
+      "identity_check": "original proceedings/journal BibTeX or original article scan inspected"
+    }
+  ],
+  "downloads": [
+    {
+      "file": "adebayo2018.bib",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/294a8ed24b1ad22ec2e7efea049b8737-Bibtex.bib",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/294a8ed24b1ad22ec2e7efea049b8737-Bibtex.bib",
+      "status": "downloaded",
+      "bytes": 571,
+      "sha256": "6b41359f7c3fe69a8032fd535e30eee192c7ab5ef63a53e014bbcaf84237432a"
+    },
+    {
+      "file": "adebayo2018.pdf",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/294a8ed24b1ad22ec2e7efea049b8737-Paper.pdf",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/294a8ed24b1ad22ec2e7efea049b8737-Paper.pdf",
+      "status": "downloaded",
+      "bytes": 1595599,
+      "sha256": "83b8f56da10e283929fa70548cff8caa4de2a468c1685c2111c9799cc66c9fc6"
+    },
+    {
+      "file": "breiman2001.pdf",
+      "url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "final_url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "status": "downloaded",
+      "bytes": 123819,
+      "sha256": "aaa9bc464d1d63eacc807ac8251331aa93b2aeb1c9411033e58cb7e8423fb920"
+    },
+    {
+      "file": "covert2021.bib",
+      "url": "https://jmlr.org/papers/v22/20-1316.bib",
+      "final_url": "https://jmlr.org/papers/v22/20-1316.bib",
+      "status": "downloaded",
+      "bytes": 352,
+      "sha256": "750a955d1478dfc79ae3312dd8765b3776e3569022318919e36eb6d1fcefabac"
+    },
+    {
+      "file": "covert2021.pdf",
+      "url": "https://jmlr.org/papers/volume22/20-1316/20-1316.pdf",
+      "final_url": "https://jmlr.org/papers/volume22/20-1316/20-1316.pdf",
+      "status": "downloaded",
+      "bytes": 1256321,
+      "sha256": "c5de07813ea7c566c2ddf1817c9e01248dbdd466c9578c37c0da3d5db7eab30e"
+    },
+    {
+      "file": "exai2024.pdf",
+      "url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10433134",
+      "final_url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10433134",
+      "status": "downloaded",
+      "bytes": 7463905,
+      "sha256": "b53fbf8767331c88e2242f103e224bfd10b68c2efbc52c07023b77353ab2a2f9"
+    },
+    {
+      "file": "gaspar2024.pdf",
+      "url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10440604",
+      "final_url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10440604",
+      "status": "downloaded",
+      "bytes": 1477174,
+      "sha256": "4ab23d3902743dfec62ca23d01d063df4c019fb2085b3552aeda99fa05671ac1"
+    },
+    {
+      "file": "gotham2025.pdf",
+      "url": "https://arxiv.org/pdf/2502.03134",
+      "final_url": "https://arxiv.org/pdf/2502.03134",
+      "status": "downloaded",
+      "bytes": 1807178,
+      "sha256": "037ba7a1c857a7854a7eddcd6c7be5307864a44f413a37cbed06b738b7d6ac6f"
+    },
+    {
+      "file": "holm1979.pdf",
+      "url": "https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf",
+      "final_url": "https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf",
+      "status": "downloaded",
+      "bytes": 1059670,
+      "sha256": "4317a0d1555dad949dc1760605d925ba20037402827741fdf99cd8ea37e80c46"
+    },
+    {
+      "file": "mane2021.pdf",
+      "url": "https://arxiv.org/pdf/2103.07110",
+      "final_url": "https://arxiv.org/pdf/2103.07110",
+      "status": "downloaded",
+      "bytes": 965815,
+      "sha256": "fff71091323775bb0966d6c19c11b4704445aea8dab7ceaac680d27a6951a46e"
+    },
+    {
+      "file": "neupane2022.pdf",
+      "url": "https://arxiv.org/pdf/2207.06236",
+      "final_url": "https://arxiv.org/pdf/2207.06236",
+      "status": "downloaded",
+      "bytes": 595132,
+      "sha256": "b8179e9a8664347564edbcbee99fe6f42bed6a569885e09d97ee33f58d4ec260"
+    },
+    {
+      "file": "shap2017.bib",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Bibtex.bib",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Bibtex.bib",
+      "status": "downloaded",
+      "bytes": 528,
+      "sha256": "27ff4494c2979385ad874958bcfd08b66a713dcf3502349c9be4215b61d92df2"
+    },
+    {
+      "file": "shap2017.pdf",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf",
+      "status": "downloaded",
+      "bytes": 927937,
+      "sha256": "32518459c313a57876ec1646f3266d54569d3b9a70152dd4f28e742eef05a5f3"
+    },
+    {
+      "file": "warnecke2020.pdf",
+      "url": "https://www.mlsec.org/docs/2020-eurosp.pdf",
+      "final_url": "https://www.mlsec.org/docs/2020-eurosp.pdf",
+      "status": "downloaded",
+      "bytes": 417856,
+      "sha256": "6a477583fafa239698ac1164d2d2a246b230d6df1311454e86297b3005911089"
+    },
+    {
+      "file": "wilcoxon1945.pdf",
+      "url": "https://sci2s.ugr.es/keel/pdf/algorithm/articulo/wilcoxon1945.pdf",
+      "final_url": "https://sci2s.ugr.es/keel/pdf/algorithm/articulo/wilcoxon1945.pdf",
+      "status": "downloaded",
+      "bytes": 461593,
+      "sha256": "fbecae855b83edc717056b59a0e0660e907334c618b0b1928e46f175d51eb32a"
+    },
+    {
+      "file": "xgboost2016.pdf",
+      "url": "https://arxiv.org/pdf/1603.02754",
+      "final_url": "https://arxiv.org/pdf/1603.02754",
+      "status": "downloaded",
+      "bytes": 944793,
+      "sha256": "52bc282c922a239134ee4d6f4367c58bf920a9bdd53acbb3b2aa3342e2bb7214"
+    },
+    {
+      "file": "yeh2019.bib",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/a7471fdc77b3435276507cc8f2dc2569-Bibtex.bib",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/a7471fdc77b3435276507cc8f2dc2569-Bibtex.bib",
+      "status": "downloaded",
+      "bytes": 602,
+      "sha256": "d2f012ce4d76216b6a25ddaf84ae723131912508e14fba39a36023a20cf792da"
+    },
+    {
+      "file": "yeh2019.pdf",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/a7471fdc77b3435276507cc8f2dc2569-Paper.pdf",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/a7471fdc77b3435276507cc8f2dc2569-Paper.pdf",
+      "status": "downloaded",
+      "bytes": 1658658,
+      "sha256": "89cf7fba50f5bda31ad267164c0a462933193a798b5442482ad10ad13b24c8f4"
+    },
+    {
+      "file": "efron1979.pdf",
+      "url": "https://sites.stat.washington.edu/courses/stat527/s13/readings/ann_stat1979.pdf",
+      "final_url": "https://sites.stat.washington.edu/courses/stat527/s13/readings/ann_stat1979.pdf",
+      "status": "downloaded",
+      "bytes": 653475,
+      "sha256": "59466e346093b49cb61abfbef05675e77898a1aa71d382858327fc3d6ef48487"
+    }
+  ],
+  "limitations": [
+    "DOI resolution verifies identity, not every scientific claim.",
+    "The original experiments and outcomes were not rerun or modified."
+  ],
+  "second_pass": {
+    "date": "2026-10-21",
+    "fresh_publisher_records": 14,
+    "source_structure": {
+      "references": 20,
+      "first_citation_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "doi_count": 14
+    },
+    "pdf_reference_count": 20,
+    "pdf_first_citation_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "all_printed_entries_match_source": true,
+    "all_reference_links_match_source": true,
+    "checked_fields": [
+      {
+        "number": 1,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 2,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 3,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 4,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 5,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 6,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 7,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      },
+      {
+        "number": 8,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 9,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 10,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      },
+      {
+        "number": 11,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      },
+      {
+        "number": 12,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 13,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 14,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 15,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 16,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 17,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      },
+      {
+        "number": 18,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true,
+        "publisher_volume_issue_pages_checked": true,
+        "publisher_author_surnames_checked": true
+      },
+      {
+        "number": 19,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      },
+      {
+        "number": 20,
+        "printed_text_matches_source": true,
+        "pdf_links_match": true
+      }
+    ],
+    "original_efron_full_text_now_available": true,
+    "pdf_sha256": "5bc279b7913ddcd9d4a1298a336d168ccce605918f2ad008476a4cb670fb5e77",
+    "bibliography_entries_kept_together": true
+  },
+  "ieee_format": {
+    "class": "IEEEtran",
+    "options": [
+      "conference",
+      "letterpaper"
+    ],
+    "pages": 7,
+    "body_font_points": 10,
+    "bibliography_entries": 20,
+    "tables": 10,
+    "figures": 2,
+    "overfull_boxes": 0,
+    "rendered_pages_visually_checked": 7,
+    "venue_specific_certification": false,
+    "title": "Making Intrusion Detection Understandable: Evaluating SHAP and LIME for Cybersecurity",
+    "authors": [
+      "Jubayed Ahmed Sahel",
+      "Nafiul Alam Chowdhury",
+      "Shadman Shihab"
+    ]
+  }
+}

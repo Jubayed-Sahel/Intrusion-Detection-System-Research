@@ -2,6 +2,8 @@
 
 **Updated:** 14 October 2026
 
+**21 October 2026 reference revision:** The current manuscript is now seven pages with 20 references in first-citation order, 14 resolved DOI records, and six proceedings/journal/archive references without a DOI in the entry. Original Random Forest, XGBoost, removal-based explanation, bootstrap, Wilcoxon, and Holm sources are cited at their use. Full-text comparison corrections and audit evidence are recorded in `RECENT_REFERENCE_VALIDATION.md`. The test suite now passes 26 tests, including IEEE source-structure and markup-preservation checks. This supersedes earlier page-count and reference-count statements below.
+
 **17 October 2026 supplementary extension:** Completed a post-hoc two-sided sign and leave-one-connection-out sensitivity analysis across all 24 explainer contexts. All reconstructed means/counts match the primary artifacts; all corrected sign tests favor TreeSHAP, and no single connection reverses a positive mean. Methods, limits, reproduction, and a manuscript-ready paragraph are in [EXPLANATION_ROBUSTNESS.md](EXPLANATION_ROBUSTNESS.md). This supplement has not been inserted into or visually verified in the existing manuscript PDF. The full test suite now passes 21 tests.
 
 The GeNIS/Gotham 2025 experiments and local integrity checks are complete. The current manuscript is a six-page anonymous IEEE-style PDF. The items below cover the remaining writing, author review, formatting, and submission work.
@@ -45,7 +47,7 @@ Evidence: [current manuscript](output/pdf/xai_ids_recent2025_paper.pdf), [readin
 
 **Codex can complete this after the venue and metadata decisions.**
 
-- [ ] Convert the manuscript into the venue's editable LaTeX or Word template and supply its source files. The current editable builder is Python/ReportLab; no venue-template `.tex` or `.docx` manuscript has been prepared.
+- [ ] Convert the manuscript into the venue's editable LaTeX or Word template and supply its source files. The generic IEEEtran conference LaTeX source is now provided in `paper/ieee/main.tex` and compiles locally; adaptation to the selected venue remains outstanding.
 - [x] Prepare a venue-agnostic index of supplementary methods, full per-class results, statistical tables, configuration, environment record, and reproduction instructions: [SUPPLEMENTARY_INDEX.md](SUPPLEMENTARY_INDEX.md). Convert that index into the selected venue's supplement format after the venue is chosen.
 - [ ] Prepare any additional venue-required supplementary files after the destination is selected.
 - [x] Include explicit class coverage, the `Unknown` exclusion, training-only CoAP Amplification, changed class priors, and the scope of Gotham member checksum verification in the manuscript, provenance record, and supplementary index.
@@ -83,3 +85,5 @@ These are possible extensions, rather than unfinished computations in the curren
 ## Completion condition
 
 Related-work, claim-support, editorial, and metadata-wiring items that can be completed without a venue or author names are done. The paper package is complete for submission when the approved authors and venue are specified, the venue-format source/PDF/supplement are ready, and all required author and submission checks are satisfied. Submission and acceptance are separate statuses and should be recorded only when they occur.
+
+**21 October 2026 IEEE conversion:** The default manuscript build now uses the official IEEEtran conference class, with a 183-word abstract, standard typography/geometry, automatic equation numbering, and no draft footer or page numbers. The editable LaTeX project and vector figures are supplied. This completes generic IEEE template conversion; venue selection, venue-specific adaptation, and any required PDF certification remain outstanding.

@@ -6,7 +6,7 @@ The goal is to reduce the black-box nature of an IDS: show which traffic feature
 
 **Current primary study:** author-published **GeNIS2025** enterprise network flows and **Gotham2025** IoT packets, acquired from their open official Zenodo records. A documented acquisition and preparation pipeline replaces the earlier parquet inputs whose conversion history was unavailable. These are 2025 releases; this project does not claim that they are the newest datasets in every intrusion-detection domain.
 
-**Research status, 17 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 21 unit tests pass. A supplementary post-hoc sign-test and connection-influence analysis is complete. All eight saved models have generated fresh alert reports, and a separate four-model small training run completed with both explanation methods. The six-page recent manuscript includes a related-work comparison and has been visually reviewed; the new robustness supplement has not been inserted into that PDF. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
+**Research status, 21 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 26 unit tests pass. A supplementary post-hoc sign-test and connection-influence analysis is complete. All eight saved models have generated fresh alert reports, and a separate four-model small training run completed with both explanation methods. The seven-page recent manuscript uses the official IEEEtran conference class and has 20 references in first-citation order, corrected full-text comparisons, and added original model/statistics sources; all 14 cited DOIs resolve. The robustness supplement remains separate from that PDF. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
 
 ## Start here
 
@@ -66,7 +66,7 @@ python prepare_recent_datasets.py
 python run_recent_benchmark.py --config config_recent.yaml
 python run_recent_audit.py
 python summarize_recent_results.py
-python build_recent_paper.py
+python build_recent_paper.py  # requires pdflatex and IEEEtran; see below
 python -B verify_recent_benchmark.py
 # Also rehash all locally downloaded official source bytes:
 python -B verify_recent_benchmark.py --verify-raw
@@ -87,6 +87,14 @@ python -B verify_recent_benchmark.py --output outputs/recent2025_reproduction --
 ```
 
 To independently repeat source conversion as well, run `prepare_recent_datasets.py` again before retraining and compare its prepared-file hashes. A changed configuration or source version also needs a separate output directory. Frozen runtime sources and acquisition metadata have Git byte-preservation rules so line-ending conversion does not invalidate their hashes after cloning.
+
+## IEEE manuscript source and build
+
+The current manuscript uses `\documentclass[conference,letterpaper]{IEEEtran}` with standard class typography and page geometry, rather than an approximate ReportLab page layout. The editable project is [paper/ieee/main.tex](paper/ieee/main.tex), with two vector figures under `paper/ieee/figures/`. Body text is 10-point Times-style, the abstract is in the first column, section numbers are Roman, equation numbers are automatic, and references use numbered `\cite`/`\bibitem` entries. No custom draft footer or printed page numbers are added.
+
+`python build_recent_paper.py` regenerates the LaTeX source from the verified data-driven narrative and compiles it twice using `pdflatex`. A LaTeX distribution with IEEEtran, cite, amsmath, graphicx, array, booktabs, and hyperref is required in addition to the Python dependencies. LaTeX is installed on this computer; a fresh Python environment alone does not supply it. `python build_recent_paper.py --source-only` generates sources without a compiler. The `paper/ieee/` folder can also be uploaded to Overleaf with `main.tex` as the main document. Direct edits to generated LaTeX are overwritten by regeneration; update the narrative/exporter to retain edits across builds.
+
+The standard conference template is the current default because no specific venue has been selected. Page limits, author identities, anonymity rules, and PDF eXpress certification remain venue-dependent. The 20-reference audit is retained after conversion.
 
 ## Evaluation protocol
 
@@ -170,4 +178,4 @@ Those four original parquet files match the historical manifest, but their origi
 
 Connection holdout within each testbed is neither temporal generalization nor cross-organization deployment. Gotham's packet representation differs from GeNIS's flow representation; report results separately. Per-class sampling changes priors, rare classes may lack independent held-out connections, and deletion scores depend on the masking distribution. No human analyst, live deployment, production drift, or throughput study has been completed.
 
-The recent PDF is an anonymous IEEE-style research draft. Authors and supervisors must review its claims and contributions. Submission also requires a named IEEE venue, its exact template and page limit, author/affiliation metadata, and applicable disclosure and PDF checks. The research code, results, provenance, and draft manuscript were published to this repository on 14 October 2026. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and verification status.
+The recent PDF, *Making Intrusion Detection Understandable: Evaluating SHAP and LIME for Cybersecurity*, names Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab as its authors and is a research draft built with the official IEEEtran conference class. Authors and supervisors must review its claims and contributions. Submission also requires a named IEEE venue, its exact template and page limit, author/affiliation metadata, and applicable disclosure and PDF checks. The research code, results, provenance, and draft manuscript were published to this repository on 14 October 2026. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and verification status.
