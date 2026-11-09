@@ -194,7 +194,8 @@ def export(results, project=PROJECT, journal=False):
         (r"\author{\IEEEauthorblockN{" + tex_escape(author) + "}" +
          (r"\IEEEauthorblockA{" + tex_escape(affiliation) + "}" if affiliation else "") + "}"),
         r"\maketitle", r"\begin{abstract}", latex(abstract), r"\end{abstract}",
-        r"\begin{IEEEkeywords}Intrusion detection, explainable AI, TreeSHAP, LIME, explanation fidelity, provenance, group holdout.\end{IEEEkeywords}",
+        (r"\begin{IEEEkeywords}Explainable artificial intelligence, explanation fidelity, feature masking, intrusion detection, traffic shift.\end{IEEEkeywords}" if journal else
+         r"\begin{IEEEkeywords}Intrusion detection, explainable AI, TreeSHAP, LIME, explanation fidelity, provenance, group holdout.\end{IEEEkeywords}"),
         *body, r"\begin{thebibliography}{" + str(len(references)) + "}", *references,
         r"\end{thebibliography}", r"\end{document}",
     ])
