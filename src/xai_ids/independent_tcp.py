@@ -1,5 +1,6 @@
 """Verify and summarize the second external capture."""
 import json
+from pathlib import PureWindowsPath
 
 import numpy as np
 import pandas as pd
@@ -10,8 +11,14 @@ from .benchmark import sha256
 def load_independent_tcp(root):
     directory = root / "outputs/independent_tcp"
     manifest = json.loads((directory / "manifest.json").read_text())
+    inputs = {}
+    for name, digest in manifest["input_hashes"].items():
+        runner = PureWindowsPath(name)
+        if runner.is_absolute() and runner.name == "run_independent_tcp.py":
+            name = runner.name
+        inputs[root / name] = digest
     for path, expected in {
-        **{root / name: digest for name, digest in manifest["input_hashes"].items()},
+        **inputs,
         **{directory / name: digest for name, digest in manifest["outputs"].items()},
     }.items():
         if sha256(path) != expected:

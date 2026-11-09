@@ -1,5 +1,6 @@
 """Validate and summarize the GeNIS training-size experiment."""
 import json
+from pathlib import PureWindowsPath
 
 import numpy as np
 import pandas as pd
@@ -11,6 +12,9 @@ def load_training_scale(root):
     directory = root / "outputs/training_scale"
     manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
     for name, digest in manifest["inputs"].items():
+        runner = PureWindowsPath(name)
+        if runner.is_absolute() and runner.name == "run_training_scale.py":
+            name = runner.name
         if sha256(root / name) != digest:
             raise ValueError(f"Training-size input checksum differs: {name}")
     path = directory / "metrics.csv"
