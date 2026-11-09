@@ -6,7 +6,7 @@ import pandas as pd
 from .benchmark import sha256
 
 
-TITLE = "Stress Testing Explainable Intrusion Detection Under Source Shift and Feature Replacement"
+TITLE = "How Traffic Sources and Feature Masking Shape Explainable Intrusion Detection"
 
 
 def manuscript_text(root):

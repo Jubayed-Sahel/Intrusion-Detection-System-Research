@@ -9,6 +9,7 @@ import unicodedata
 from zipfile import ZipFile
 from pypdf import PdfReader
 from verify_references import audit_citation_structure, dois_from
+from src.xai_ids.journal_audit import TITLE
 
 ROOT = Path(__file__).resolve().parent
 
@@ -103,9 +104,11 @@ def main():
     journal_refs = citation_keys(journal)
     assert len(journal_refs) == 39
     assert r"\documentclass[journal,letterpaper]{IEEEtran}" in journal
-    journal_pdf = ROOT / "output/pdf/xai_ids_tdsc_draft.pdf"
-    journal_text = " ".join(page.extract_text() or "" for page in PdfReader(journal_pdf).pages)
-    assert "Stress Testing Explainable Intrusion Detection" in journal_text
+    journal_pdf = ROOT / "output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf"
+    reader = PdfReader(journal_pdf)
+    journal_text = " ".join(page.extract_text() or "" for page in reader.pages)
+    assert reader.metadata.title == TITLE
+    assert normalized(TITLE) in normalized(reader.pages[0].extract_text())
     assert "Training-size sensitivity on unseen GeNIS scenarios" in journal_text
     assert "Independent protocol-matched TCP transfer" in journal_text
     assert normalized("External explanation fidelity and analyst decisions remain untested.") in normalized(journal_text)

@@ -210,7 +210,7 @@ def main():
     parser.add_argument("--source-only", action="store_true")
     args = parser.parse_args()
     project = ROOT / "paper" / "journal" if args.journal else PROJECT
-    output = args.output or (ROOT / "output/pdf/xai_ids_tdsc_draft.pdf" if args.journal else recent_paper.OUTPUT)
+    output = args.output or (ROOT / "output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf" if args.journal else recent_paper.OUTPUT)
     source = export(args.results, project, journal=args.journal)
     if args.source_only:
         print(source)

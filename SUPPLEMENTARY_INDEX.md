@@ -6,7 +6,7 @@
 
 - `output/pdf/xai_ids_recent2025_paper.pdf` and `paper/ieee/` — extended report and editable generated IEEE source
 - `output/pdf/xai_ids_conference_review.pdf` and `paper/conference/` — anonymous conference candidate and editable source
-- `output/pdf/xai_ids_tdsc_draft.pdf` and `paper/journal/` — journal-format manuscript with protocol shortcut controls and TCP-only sensitivity
+- `output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf` and `paper/journal/` — journal-format manuscript with protocol shortcut controls and TCP-only sensitivity
 - [Training-size protocol](TRAINING_SCALE_PROTOCOL.md), [48 model results](outputs/training_scale/metrics.csv), and [experiment runner](run_training_scale.py) — 10,000, 40,000, and 160,000 training rows per model on the same eight complete GeNIS source holdouts
 - [Independent TCP protocol](INDEPENDENT_TCP_PROTOCOL.md), [error counts](outputs/independent_tcp/metrics.csv), [label coverage](outputs/independent_tcp/coverage.csv), and [acquisition and execution manifest](outputs/independent_tcp/manifest.json) — replay with `python run_independent_tcp.py` after downloading the [PDMFC v1 CSV](https://zenodo.org/records/16943481) to `data/official/16943481/labeled_cicflow_genelen.csv` and preparing the original GeNIS and OCPP inputs
 - `LITERATURE_REVIEW_20261107.md` and `literature_review_20261107.json` — 20 additional primary full-text reading notes, version/status distinctions, findings, and resulting decisions

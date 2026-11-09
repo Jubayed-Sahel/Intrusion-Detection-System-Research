@@ -14,7 +14,7 @@ Updated 9 November 2026. The current study is complete within its documented sco
 
 ## Research package
 
-- [Journal-format manuscript](output/pdf/xai_ids_tdsc_draft.pdf) and [editable LaTeX](paper/journal/main.tex)
+- [Journal-format manuscript](output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf) and [editable LaTeX](paper/journal/main.tex)
 - [Detailed report](output/pdf/xai_ids_recent2025_paper.pdf) and [anonymous review archive](output/ids_xai_anonymous_review.zip)
 - [Index of protocols, results, and rerun instructions](SUPPLEMENTARY_INDEX.md)
 - Run `python -m unittest discover -s tests` and `python verify_research_closeout.py` for the local checks. The latter replays frozen evidence from a clean checkout without raw data or fitted models. With the official GeNIS and Gotham inputs present, `--verify-raw` also rehashes the consumed source files. The verification is an internal replay of recorded evidence. It does not establish independent retraining of all experiments.
