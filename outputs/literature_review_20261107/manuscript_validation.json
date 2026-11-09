@@ -1,0 +1,187 @@
+{
+  "checked_date": "2026-11-09",
+  "scope": "Local consistency and formatting; not author approval or venue certification",
+  "citation_structure": {
+    "references": 37,
+    "first_citation_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "doi_count": 21
+  },
+  "resolved_doi_titles": [
+    {
+      "doi": "10.5281/zenodo.14919237",
+      "registered_title": "GeNIS: GECAD Network Intrusion Scenarios",
+      "title_present": true
+    },
+    {
+      "doi": "10.1016/j.dib.2025.111487",
+      "registered_title": "GeNIS: A modular dataset for network intrusion detection and classification",
+      "title_present": true
+    },
+    {
+      "doi": "10.5281/zenodo.14502760",
+      "registered_title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+      "title_present": true
+    },
+    {
+      "doi": "10.48550/arXiv.2502.03134",
+      "registered_title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research",
+      "title_present": true
+    },
+    {
+      "doi": "10.1023/A:1010933404324",
+      "registered_title": "Random Forests",
+      "title_present": true
+    },
+    {
+      "doi": "10.1145/2939672.2939785",
+      "registered_title": "XGBoost",
+      "title_present": true
+    },
+    {
+      "doi": "10.1038/s42256-019-0138-9",
+      "registered_title": "From local explanations to global understanding with explainable AI for trees",
+      "title_present": true
+    },
+    {
+      "doi": "10.1145/2939672.2939778",
+      "registered_title": "\"Why Should I Trust You?\"",
+      "title_present": true
+    },
+    {
+      "doi": "10.1109/ACCESS.2022.3216617",
+      "registered_title": "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities",
+      "title_present": true
+    },
+    {
+      "doi": "10.48550/arXiv.2103.07110",
+      "registered_title": "Explaining Network Intrusion Detection System Using Explainable AI Framework",
+      "title_present": true
+    },
+    {
+      "doi": "10.1109/ACCESS.2024.3368377",
+      "registered_title": "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron",
+      "title_present": true
+    },
+    {
+      "doi": "10.1109/EuroSP48549.2020.00018",
+      "registered_title": "Evaluating Explanation Methods for Deep Learning in Security",
+      "title_present": true
+    },
+    {
+      "doi": "10.1109/ACCESS.2024.3365140",
+      "registered_title": "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection",
+      "title_present": true
+    },
+    {
+      "doi": "10.3390/app15137329",
+      "registered_title": "Explainable AI for Forensic Analysis: A Comparative Study of SHAP and LIME in Intrusion Detection Models",
+      "title_present": true
+    },
+    {
+      "doi": "10.1007/s12243-025-01118-9",
+      "registered_title": "A versatile XAI-based framework for efficient and explainable intrusion detection systems",
+      "title_present": true
+    },
+    {
+      "doi": "10.1109/SPW53761.2021.00009",
+      "registered_title": "Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study",
+      "title_present": true
+    },
+    {
+      "doi": "10.1038/s42256-019-0048-x",
+      "registered_title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+      "title_present": true
+    },
+    {
+      "doi": "10.1145/3375627.3375830",
+      "registered_title": "Fooling LIME and SHAP",
+      "title_present": true
+    },
+    {
+      "doi": "10.1016/j.artint.2021.103502",
+      "registered_title": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+      "title_present": true
+    },
+    {
+      "doi": "10.1214/aos/1176344552",
+      "registered_title": "Bootstrap Methods: Another Look at the Jackknife",
+      "title_present": true
+    },
+    {
+      "doi": "10.21227/v1f0-9t13",
+      "registered_title": "Federated OCPP 1.6 Intrusion Detection Dataset",
+      "title_present": true
+    }
+  ],
+  "additional_full_text_reviews": 20,
+  "local_acquired_pdfs": 18,
+  "local_pdf_hashes_rechecked": 18,
+  "full_report": {
+    "pages": 10,
+    "searchable": true,
+    "embedded_fonts": true,
+    "type3_fonts": 0,
+    "font_references_checked": 38,
+    "anonymous": false,
+    "sha256": "7c9e303342f2319768fc4d790a52a4384ab8123bfa61217bb4aafdf5d6bcca45"
+  },
+  "conference_report": {
+    "pages": 6,
+    "searchable": true,
+    "embedded_fonts": true,
+    "type3_fonts": 0,
+    "font_references_checked": 25,
+    "anonymous": true,
+    "sha256": "f3d57a9b88b2b2b81e0d49b092291d7c3ed1db25b3101c60b99412ed68690f10"
+  },
+  "journal_report": {
+    "pages": 11,
+    "searchable": true,
+    "embedded_fonts": true,
+    "type3_fonts": 0,
+    "font_references_checked": 41,
+    "anonymous": false,
+    "sha256": "7894f14e96293783ac0cd3fcfc7ff08f259d25cbc83df5e3c90df76fc0df27d9"
+  },
+  "conference_references": 32,
+  "journal_references": 39,
+  "review_archive_members_verified": 28
+}

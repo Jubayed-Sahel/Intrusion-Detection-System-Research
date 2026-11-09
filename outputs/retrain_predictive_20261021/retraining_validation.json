@@ -1,0 +1,76 @@
+{
+  "completed_training_runs": 40,
+  "saved_models_reloaded_and_tested": 8,
+  "prepared_input_hashes_verified": true,
+  "connection_group_leakage": false,
+  "per_class_metrics_recomputed": true,
+  "maximum_absolute_metric_difference_from_original": 0.0,
+  "scope": "Fresh classifier training and held-out testing on the existing frozen split; not a full rerun of explanation or extended audits.",
+  "partial_explanation_run": "outputs/retrain_20261021; one full context completed before switching to classifier-only validation",
+  "summary": [
+    {
+      "dataset": "GeNIS2025",
+      "task": "binary",
+      "model": "random_forest",
+      "mean_macro_f1": 0.9998394954276432,
+      "std_macro_f1": 0.0,
+      "mean_accuracy": 0.999869349359812
+    },
+    {
+      "dataset": "GeNIS2025",
+      "task": "binary",
+      "model": "xgboost",
+      "mean_macro_f1": 0.9997752491362542,
+      "std_macro_f1": 8.791196780106446e-05,
+      "mean_accuracy": 0.9998170891037367
+    },
+    {
+      "dataset": "GeNIS2025",
+      "task": "multiclass",
+      "model": "random_forest",
+      "mean_macro_f1": 0.9996611081116047,
+      "std_macro_f1": 6.564392293432404e-05,
+      "mean_accuracy": 0.9996603083355108
+    },
+    {
+      "dataset": "GeNIS2025",
+      "task": "multiclass",
+      "model": "xgboost",
+      "mean_macro_f1": 1.0,
+      "std_macro_f1": 0.0,
+      "mean_accuracy": 1.0
+    },
+    {
+      "dataset": "Gotham2025",
+      "task": "binary",
+      "model": "random_forest",
+      "mean_macro_f1": 1.0,
+      "std_macro_f1": 0.0,
+      "mean_accuracy": 1.0
+    },
+    {
+      "dataset": "Gotham2025",
+      "task": "binary",
+      "model": "xgboost",
+      "mean_macro_f1": 0.999900498779582,
+      "std_macro_f1": 0.0,
+      "mean_accuracy": 0.9999620781190748
+    },
+    {
+      "dataset": "Gotham2025",
+      "task": "multiclass",
+      "model": "random_forest",
+      "mean_macro_f1": 0.8754505545083896,
+      "std_macro_f1": 0.0004595513904421797,
+      "mean_accuracy": 0.967599544937429
+    },
+    {
+      "dataset": "Gotham2025",
+      "task": "multiclass",
+      "model": "xgboost",
+      "mean_macro_f1": 0.8664521085529657,
+      "std_macro_f1": 0.00178642074767526,
+      "mean_accuracy": 0.9707394766780432
+    }
+  ]
+}

@@ -8,8 +8,8 @@ from verify_references import audit_citation_structure, dois_from
 class ReferenceTests(unittest.TestCase):
     def test_current_paper_has_ordered_complete_citations(self):
         result = audit_citation_structure(Path("src/xai_ids/recent_paper.py"))
-        self.assertEqual(result["references"], 20)
-        self.assertEqual(result["doi_count"], 14)
+        self.assertEqual(result["references"], 37)
+        self.assertEqual(result["doi_count"], 21)
 
     def test_rejects_wrong_order_missing_and_duplicate_references(self):
         examples = [

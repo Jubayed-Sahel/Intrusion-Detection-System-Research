@@ -1,0 +1,10 @@
+test,label,rows,seen_pair,pair_errors
+GeNIS,benign,2176,464,762
+GeNIS,bruteforce,2002,81,0
+GeNIS,dos,1480,18,638
+GeNIS,recon,1996,488,1
+OCPP,cyberattack_ocpp16_doc_idtag,883,0,0
+OCPP,cyberattack_ocpp16_dos_flooding_heartbeat,883,55,0
+OCPP,cyberattack_ocpp16_fdi_chargingprofile,883,48,1
+OCPP,cyberattack_ocpp16_unauthorized_access,883,73,4
+OCPP,normal,883,351,206

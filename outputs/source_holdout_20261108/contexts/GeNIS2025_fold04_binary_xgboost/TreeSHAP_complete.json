@@ -1,0 +1,16 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 4,
+  "task": "binary",
+  "model": "xgboost",
+  "seed": 42,
+  "explainer": "TreeSHAP",
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "output_sha256": {
+    "TreeSHAP_attributions.csv.gz": "5415288ce876e9d1f7bcbc7b2db1b803376368770b945fbcf9695d9c9d639a94",
+    "TreeSHAP_fidelity.csv": "b54d7711301698d3f1dae730b53f7a4da14bc99530fdbf42c004a18881bb64f7",
+    "TreeSHAP_timing.csv": "b1c2eb27139245182156d76068d693ad673645014b3a7a94570938956afe0674",
+    "diagnostic_selection.csv": "3e01203aa5c4cef37236860489598abf128c0be75e77ce65ab30201cce39b92d"
+  },
+  "model_sha256": "2538b4c7b09eff244bdff8dd41b36c55c49d208a7c37f864582d953e911a0735"
+}

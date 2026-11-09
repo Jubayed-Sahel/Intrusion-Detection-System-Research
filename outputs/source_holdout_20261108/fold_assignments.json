@@ -1,0 +1,171 @@
+[
+  {
+    "dataset": "GeNIS2025",
+    "fold": 1,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-1-disrupt.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 2,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 3,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-3-disrupt.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 4,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-4-disrupt.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 5,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-5-disrupt.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 6,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-6-authtest.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 7,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-7-authtest.csv"
+    ]
+  },
+  {
+    "dataset": "GeNIS2025",
+    "fold": 8,
+    "test_sources": [
+      "3-scenarios/scenarios-5-sec/scenario-8-authtest.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 1,
+    "test_sources": [
+      "processed/iotsim-building-monitor-1.csv",
+      "processed/iotsim-cooler-motor-8.csv",
+      "processed/iotsim-domotic-monitor-5.csv",
+      "processed/iotsim-combined-cycle-tls-4.csv",
+      "processed/iotsim-predictive-maintenance-12.csv",
+      "processed/iotsim-predictive-maintenance-14.csv",
+      "processed/iotsim-domotic-monitor-3.csv",
+      "processed/iotsim-predictive-maintenance-4.csv",
+      "processed/iotsim-predictive-maintenance-10.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 2,
+    "test_sources": [
+      "processed/iotsim-domotic-monitor-1.csv",
+      "processed/iotsim-building-monitor-3.csv",
+      "processed/iotsim-cooler-motor-14.csv",
+      "processed/iotsim-predictive-maintenance-11.csv",
+      "processed/iotsim-hydraulic-system-1.csv",
+      "processed/iotsim-cooler-motor-6.csv",
+      "processed/iotsim-predictive-maintenance-3.csv",
+      "processed/iotsim-hydraulic-system-14.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 3,
+    "test_sources": [
+      "processed/iotsim-city-power-1.csv",
+      "processed/iotsim-cooler-motor-7.csv",
+      "processed/iotsim-predictive-maintenance-7.csv",
+      "processed/iotsim-predictive-maintenance-6.csv",
+      "processed/iotsim-predictive-maintenance-2.csv",
+      "processed/iotsim-hydraulic-system-3.csv",
+      "processed/iotsim-cooler-motor-2.csv",
+      "processed/iotsim-hydraulic-system-6.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 4,
+    "test_sources": [
+      "processed/iotsim-combined-cycle-10.csv",
+      "processed/iotsim-combined-cycle-tls-5.csv",
+      "processed/iotsim-hydraulic-system-9.csv",
+      "processed/iotsim-hydraulic-system-5.csv",
+      "processed/iotsim-predictive-maintenance-13.csv",
+      "processed/iotsim-cooler-motor-4.csv",
+      "processed/iotsim-cooler-motor-15.csv",
+      "processed/iotsim-cooler-motor-3.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 5,
+    "test_sources": [
+      "processed/iotsim-ip-camera-museum-1.csv",
+      "processed/iotsim-combined-cycle-tls-2.csv",
+      "processed/iotsim-hydraulic-system-13.csv",
+      "processed/iotsim-cooler-motor-11.csv",
+      "processed/iotsim-predictive-maintenance-15.csv",
+      "processed/iotsim-hydraulic-system-12.csv",
+      "processed/iotsim-predictive-maintenance-1.csv",
+      "processed/iotsim-cooler-motor-10.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 6,
+    "test_sources": [
+      "processed/iotsim-ip-camera-street-1.csv",
+      "processed/iotsim-predictive-maintenance-5.csv",
+      "processed/iotsim-cooler-motor-9.csv",
+      "processed/iotsim-hydraulic-system-8.csv",
+      "processed/iotsim-predictive-maintenance-8.csv",
+      "processed/iotsim-stream-consumer-1.csv",
+      "processed/iotsim-domotic-monitor-2.csv",
+      "processed/iotsim-hydraulic-system-11.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 7,
+    "test_sources": [
+      "processed/iotsim-combined-cycle-1.csv",
+      "processed/iotsim-cooler-motor-13.csv",
+      "processed/iotsim-hydraulic-system-10.csv",
+      "processed/iotsim-combined-cycle-5.csv",
+      "processed/iotsim-ip-camera-street-2.csv",
+      "processed/iotsim-combined-cycle-tls-1.csv",
+      "processed/iotsim-predictive-maintenance-9.csv",
+      "processed/iotsim-hydraulic-system-15.csv"
+    ]
+  },
+  {
+    "dataset": "Gotham2025",
+    "fold": 8,
+    "test_sources": [
+      "processed/iotsim-air-quality-1.csv",
+      "processed/iotsim-cooler-motor-12.csv",
+      "processed/iotsim-cooler-motor-5.csv",
+      "processed/iotsim-hydraulic-system-7.csv",
+      "processed/iotsim-stream-consumer-2.csv",
+      "processed/iotsim-combined-cycle-tls-3.csv",
+      "processed/iotsim-cooler-motor-1.csv",
+      "processed/iotsim-ip-camera-museum-2.csv"
+    ]
+  }
+]

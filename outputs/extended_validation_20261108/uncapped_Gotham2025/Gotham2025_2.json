@@ -1,0 +1,5420 @@
+{
+  "results": [
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "test_rows": 2188628,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attacks": 2082068,
+      "benign": 106560,
+      "missed": 0,
+      "false_alarms": 0,
+      "attack_recall": 1.0,
+      "fpr": 0.0,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "test_rows": 2188628,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "attacks": 2082068,
+      "benign": 106560,
+      "missed": 0,
+      "false_alarms": 0,
+      "attack_recall": 1.0,
+      "fpr": 0.0,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "test_rows": 2188628,
+      "accuracy": 0.9896876033752653,
+      "macro_f1": 0.9001906045723195,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "test_rows": 2188628,
+      "accuracy": 0.9928302114383989,
+      "macro_f1": 0.9023291694927985,
+      "unseen_label_test_rows": 0
+    }
+  ],
+  "coverage": [
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-domotic-monitor-1.csv",
+      "raw": 2114866,
+      "unknown": 866,
+      "group_excluded": 23764,
+      "eligible": 2090236
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-building-monitor-3.csv",
+      "raw": 1740,
+      "unknown": 0,
+      "group_excluded": 0,
+      "eligible": 1740
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-cooler-motor-14.csv",
+      "raw": 22475,
+      "unknown": 0,
+      "group_excluded": 0,
+      "eligible": 22475
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-predictive-maintenance-11.csv",
+      "raw": 22001,
+      "unknown": 0,
+      "group_excluded": 148,
+      "eligible": 21853
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-hydraulic-system-1.csv",
+      "raw": 17432,
+      "unknown": 0,
+      "group_excluded": 3783,
+      "eligible": 13649
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-cooler-motor-6.csv",
+      "raw": 22468,
+      "unknown": 0,
+      "group_excluded": 0,
+      "eligible": 22468
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-predictive-maintenance-3.csv",
+      "raw": 13726,
+      "unknown": 0,
+      "group_excluded": 0,
+      "eligible": 13726
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "source": "processed/iotsim-hydraulic-system-14.csv",
+      "raw": 2481,
+      "unknown": 0,
+      "group_excluded": 0,
+      "eligible": 2481
+    }
+  ],
+  "confusions": [
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Attack",
+      "predicted": "Attack",
+      "count": 2082068
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Attack",
+      "predicted": "Normal",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Normal",
+      "predicted": "Attack",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Normal",
+      "predicted": "Normal",
+      "count": 106560
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Attack",
+      "predicted": "Attack",
+      "count": 2082068
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Attack",
+      "predicted": "Normal",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Normal",
+      "predicted": "Attack",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Normal",
+      "predicted": "Normal",
+      "count": 106560
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Benign",
+      "count": 106548
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Mirai GRE Flooding",
+      "count": 12
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Benign",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 72
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 10
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "CoAP Amplification",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "File Download",
+      "count": 1187
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "File Download",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Ingress Tool Transfer",
+      "count": 3656
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Telnet Brute Force",
+      "count": 22
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 9792
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 17316
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 3893
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 525804
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 1246
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 34
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 711616
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "UDP Scan",
+      "count": 256
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Benign",
+      "count": 4
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 3
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 864
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 678149
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "UDP Scan",
+      "count": 45
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Reporting",
+      "count": 72
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Reporting",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "C&C Communication",
+      "count": 8177
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Ingress Tool Transfer",
+      "count": 6
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Merlin TCP Flooding",
+      "count": 4
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Mirai C&C Communication",
+      "count": 1827
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "TCP Scan",
+      "count": 82323
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "Telnet Brute Force",
+      "count": 9870
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "TCP Scan",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "TCP Scan",
+      "count": 190
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "Telnet Brute Force",
+      "count": 25630
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "Telnet Brute Force",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "UDP Scan",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Benign",
+      "count": 106486
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Merlin C&C Communication",
+      "count": 62
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Mirai GRE Flooding",
+      "count": 12
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Benign",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 36
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 46
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "CoAP Amplification",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "File Download",
+      "count": 1187
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "File Download",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Ingress Tool Transfer",
+      "count": 3660
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "Telnet Brute Force",
+      "count": 18
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Ingress Tool Transfer",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 9791
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 1
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin ICMP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 17316
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin TCP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 3878
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 15
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Merlin UDP Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai C&C Communication",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 525804
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai GRE Flooding",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 1147
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 108
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 711709
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "TCP Scan",
+      "count": 41
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai TCP Flooding",
+      "predicted": "UDP Scan",
+      "count": 147
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 23
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Merlin UDP Flooding",
+      "count": 174
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai GRE Flooding",
+      "count": 866
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Mirai UDP Flooding",
+      "count": 677978
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Mirai UDP Flooding",
+      "predicted": "UDP Scan",
+      "count": 24
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Reporting",
+      "count": 72
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Reporting",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "C&C Communication",
+      "count": 1907
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Ingress Tool Transfer",
+      "count": 44
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Merlin TCP Flooding",
+      "count": 18
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Mirai C&C Communication",
+      "count": 940
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "TCP Scan",
+      "count": 89505
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "Telnet Brute Force",
+      "count": 9793
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "TCP Scan",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Ingress Tool Transfer",
+      "count": 20
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "TCP Scan",
+      "count": 286
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "Telnet Brute Force",
+      "count": 25514
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "Telnet Brute Force",
+      "predicted": "UDP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Benign",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "CoAP Amplification",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "File Download",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Ingress Tool Transfer",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Merlin C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Merlin ICMP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Merlin TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Merlin UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Mirai C&C Communication",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Mirai GRE Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Mirai TCP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Mirai UDP Flooding",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Reporting",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "TCP Scan",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "Telnet Brute Force",
+      "count": 0
+    },
+    {
+      "dataset": "Gotham2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "UDP Scan",
+      "predicted": "UDP Scan",
+      "count": 0
+    }
+  ],
+  "inputs": {
+    "outputs/source_holdout_20261108/models/Gotham2025_fold02_binary_random_forest.joblib": "d4ce836350609ff879b4b664bd18015d170e295c1f3dc604f958d28a221d1eda",
+    "outputs/source_holdout_20261108/models/Gotham2025_fold02_binary_xgboost.joblib": "a893b03ca78df701de5263acac90a08ffd1f762935e374d3c27076fac8b5c072",
+    "outputs/source_holdout_20261108/models/Gotham2025_fold02_multiclass_random_forest.joblib": "2641f003033de8c16f18107c10bf61512fe4f50d21dcc9897138e5c648948de6",
+    "outputs/source_holdout_20261108/models/Gotham2025_fold02_multiclass_xgboost.joblib": "618871b40e8b6258679a221e7494d7a847d0b9f82c53d345b7e36491a5bf62ee",
+    "processed/iotsim-domotic-monitor-1.csv": "507eb43773afd96e47b2df4956c9f574de6bae8c4fe14615b351ec40cfd9068b",
+    "processed/iotsim-building-monitor-3.csv": "2efc46ab4fac7d0353a6df3246038b689b60f63dd83862e9e03acc9dd5e95185",
+    "processed/iotsim-cooler-motor-14.csv": "ae651d0b17851d41d04e6bdf6943a89c63e3df364c67a19febc2814e6837e825",
+    "processed/iotsim-predictive-maintenance-11.csv": "e3da6f4a2fcd9e2c87a8738539bd3a92ef10b79fc1b2441a395ec5d62f54fa8d",
+    "processed/iotsim-hydraulic-system-1.csv": "4abbab244a466310d2dab88a60131a2058082994a45211b1ca4355a9ed90c41e",
+    "processed/iotsim-cooler-motor-6.csv": "562d7357e5bfd379a4b1b3101ef745a95fad6efa07b43d3fa0747ee99ad7b60e",
+    "processed/iotsim-predictive-maintenance-3.csv": "094cf6bda89773cccfa7094f750e1c059b90c014f38347b7fb5a9680e3f7ebd3",
+    "processed/iotsim-hydraulic-system-14.csv": "467175f2bfa9237d9f14f3a4faa8298367122f61d71d9cd73486c5e69935a04b"
+  }
+}

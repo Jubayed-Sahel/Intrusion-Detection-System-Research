@@ -1,0 +1,15 @@
+{
+  "context": "GeNIS2025_binary_xgboost_42",
+  "fingerprint": "0c5a6c03cdeec34f70d3df5b538676b59d3828e71f40ea1e4f50b42742efbb30",
+  "records": 100,
+  "groups": 93,
+  "default_width_replay_records": 100,
+  "equal_sample_neighborhoods": 100,
+  "target_reconstruction_checks": 300,
+  "outputs": {
+    "attributions.csv": "0c8126fc839877ec49a219f01a145bf319ed69b8cb46b877c186b2e7fb8185a7",
+    "deletion.csv": "42874a35daa2b2db06e77f8920862901eac654a382ebde6d6db8d4fe8c7400fa",
+    "group_endpoints.csv": "ac5abfb0449e7f2e656e8802d56dce03b3d19c5d9ad93e5e686a348135338d1a",
+    "surrogate_fit.csv": "471c5b2bf4084fb0bdc7d5691a15d8c73bd50249e1746a4c74c35f4d2041c601"
+  }
+}

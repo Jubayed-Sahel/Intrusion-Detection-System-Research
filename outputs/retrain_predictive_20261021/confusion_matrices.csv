@@ -1,0 +1,627 @@
+dataset,task,model,seed,actual_class,predicted_class,count
+GeNIS2025,binary,random_forest,42,Attack,Attack,5477
+GeNIS2025,binary,random_forest,42,Attack,Normal,1
+GeNIS2025,binary,random_forest,42,Normal,Attack,0
+GeNIS2025,binary,random_forest,42,Normal,Normal,2176
+GeNIS2025,binary,xgboost,42,Attack,Attack,5478
+GeNIS2025,binary,xgboost,42,Attack,Normal,0
+GeNIS2025,binary,xgboost,42,Normal,Attack,1
+GeNIS2025,binary,xgboost,42,Normal,Normal,2175
+GeNIS2025,multiclass,random_forest,42,benign,benign,2176
+GeNIS2025,multiclass,random_forest,42,benign,bruteforce,0
+GeNIS2025,multiclass,random_forest,42,benign,dos,0
+GeNIS2025,multiclass,random_forest,42,benign,recon,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,benign,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,bruteforce,2002
+GeNIS2025,multiclass,random_forest,42,bruteforce,dos,0
+GeNIS2025,multiclass,random_forest,42,bruteforce,recon,0
+GeNIS2025,multiclass,random_forest,42,dos,benign,0
+GeNIS2025,multiclass,random_forest,42,dos,bruteforce,1
+GeNIS2025,multiclass,random_forest,42,dos,dos,1479
+GeNIS2025,multiclass,random_forest,42,dos,recon,0
+GeNIS2025,multiclass,random_forest,42,recon,benign,1
+GeNIS2025,multiclass,random_forest,42,recon,bruteforce,0
+GeNIS2025,multiclass,random_forest,42,recon,dos,0
+GeNIS2025,multiclass,random_forest,42,recon,recon,1995
+GeNIS2025,multiclass,xgboost,42,benign,benign,2176
+GeNIS2025,multiclass,xgboost,42,benign,bruteforce,0
+GeNIS2025,multiclass,xgboost,42,benign,dos,0
+GeNIS2025,multiclass,xgboost,42,benign,recon,0
+GeNIS2025,multiclass,xgboost,42,bruteforce,benign,0
+GeNIS2025,multiclass,xgboost,42,bruteforce,bruteforce,2002
+GeNIS2025,multiclass,xgboost,42,bruteforce,dos,0
+GeNIS2025,multiclass,xgboost,42,bruteforce,recon,0
+GeNIS2025,multiclass,xgboost,42,dos,benign,0
+GeNIS2025,multiclass,xgboost,42,dos,bruteforce,0
+GeNIS2025,multiclass,xgboost,42,dos,dos,1480
+GeNIS2025,multiclass,xgboost,42,dos,recon,0
+GeNIS2025,multiclass,xgboost,42,recon,benign,0
+GeNIS2025,multiclass,xgboost,42,recon,bruteforce,0
+GeNIS2025,multiclass,xgboost,42,recon,dos,0
+GeNIS2025,multiclass,xgboost,42,recon,recon,1996
+Gotham2025,binary,random_forest,42,Attack,Attack,23558
+Gotham2025,binary,random_forest,42,Attack,Normal,0
+Gotham2025,binary,random_forest,42,Normal,Attack,0
+Gotham2025,binary,random_forest,42,Normal,Normal,2812
+Gotham2025,binary,xgboost,42,Attack,Attack,23557
+Gotham2025,binary,xgboost,42,Attack,Normal,1
+Gotham2025,binary,xgboost,42,Normal,Attack,0
+Gotham2025,binary,xgboost,42,Normal,Normal,2812
+Gotham2025,multiclass,random_forest,42,Benign,Benign,2812
+Gotham2025,multiclass,random_forest,42,Benign,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Benign,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Benign,File Download,0
+Gotham2025,multiclass,random_forest,42,Benign,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Benign,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Benign,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Benign,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Benign,Reporting,0
+Gotham2025,multiclass,random_forest,42,Benign,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Benign,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Benign,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Benign,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,C&C Communication,67
+Gotham2025,multiclass,random_forest,42,C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,File Download,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,Reporting,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,TCP Scan,15
+Gotham2025,multiclass,random_forest,42,C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,C&C Communication,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Benign,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,File Download,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Reporting,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,CoAP Amplification,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,File Download,Benign,0
+Gotham2025,multiclass,random_forest,42,File Download,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,File Download,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,File Download,File Download,2420
+Gotham2025,multiclass,random_forest,42,File Download,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,File Download,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,File Download,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,File Download,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,File Download,Reporting,0
+Gotham2025,multiclass,random_forest,42,File Download,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,File Download,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,File Download,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Benign,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,File Download,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Ingress Tool Transfer,2911
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Reporting,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,Telnet Brute Force,25
+Gotham2025,multiclass,random_forest,42,Ingress Tool Transfer,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Benign,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,File Download,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Merlin C&C Communication,3384
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Reporting,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Merlin C&C Communication,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Merlin ICMP Flooding,3
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Merlin ICMP Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Merlin TCP Flooding,2013
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Merlin TCP Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Merlin UDP Flooding,1965
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Merlin UDP Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Benign,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,C&C Communication,357
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,File Download,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Reporting,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,TCP Scan,1
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Mirai C&C Communication,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Mirai GRE Flooding,1992
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Mirai GRE Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Merlin TCP Flooding,1
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Mirai TCP Flooding,2041
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Mirai TCP Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Benign,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,File Download,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Mirai GRE Flooding,4
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Mirai UDP Flooding,1348
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Reporting,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Mirai UDP Flooding,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Reporting,Benign,0
+Gotham2025,multiclass,random_forest,42,Reporting,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Reporting,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Reporting,File Download,0
+Gotham2025,multiclass,random_forest,42,Reporting,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,Reporting,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Reporting,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Reporting,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Reporting,Reporting,80
+Gotham2025,multiclass,random_forest,42,Reporting,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,Reporting,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,Reporting,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Benign,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,C&C Communication,167
+Gotham2025,multiclass,random_forest,42,TCP Scan,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,File Download,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Mirai C&C Communication,24
+Gotham2025,multiclass,random_forest,42,TCP Scan,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,Reporting,0
+Gotham2025,multiclass,random_forest,42,TCP Scan,TCP Scan,1524
+Gotham2025,multiclass,random_forest,42,TCP Scan,Telnet Brute Force,256
+Gotham2025,multiclass,random_forest,42,TCP Scan,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Benign,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,CoAP Amplification,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,File Download,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Ingress Tool Transfer,1
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Reporting,0
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,TCP Scan,2
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,Telnet Brute Force,2143
+Gotham2025,multiclass,random_forest,42,Telnet Brute Force,UDP Scan,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Benign,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,C&C Communication,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,CoAP Amplification,1
+Gotham2025,multiclass,random_forest,42,UDP Scan,File Download,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Ingress Tool Transfer,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Merlin C&C Communication,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Merlin ICMP Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Merlin TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Merlin UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Mirai C&C Communication,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Mirai GRE Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Mirai TCP Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Mirai UDP Flooding,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Reporting,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,TCP Scan,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,Telnet Brute Force,0
+Gotham2025,multiclass,random_forest,42,UDP Scan,UDP Scan,813
+Gotham2025,multiclass,xgboost,42,Benign,Benign,2812
+Gotham2025,multiclass,xgboost,42,Benign,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Benign,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Benign,File Download,0
+Gotham2025,multiclass,xgboost,42,Benign,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Benign,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Benign,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Benign,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Benign,Reporting,0
+Gotham2025,multiclass,xgboost,42,Benign,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Benign,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Benign,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Benign,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,C&C Communication,36
+Gotham2025,multiclass,xgboost,42,C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,File Download,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,Reporting,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,TCP Scan,46
+Gotham2025,multiclass,xgboost,42,C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,C&C Communication,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Benign,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,File Download,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Reporting,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,CoAP Amplification,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,File Download,Benign,0
+Gotham2025,multiclass,xgboost,42,File Download,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,File Download,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,File Download,File Download,2420
+Gotham2025,multiclass,xgboost,42,File Download,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,File Download,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,File Download,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,File Download,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,File Download,Reporting,0
+Gotham2025,multiclass,xgboost,42,File Download,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,File Download,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,File Download,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Benign,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,File Download,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Ingress Tool Transfer,2909
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Reporting,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,Telnet Brute Force,27
+Gotham2025,multiclass,xgboost,42,Ingress Tool Transfer,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Benign,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,File Download,1
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Merlin C&C Communication,3383
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Reporting,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Merlin C&C Communication,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Merlin ICMP Flooding,3
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Merlin ICMP Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Merlin TCP Flooding,2013
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Merlin TCP Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Merlin UDP Flooding,1957
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Mirai GRE Flooding,8
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Merlin UDP Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Benign,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,C&C Communication,160
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,File Download,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Reporting,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,TCP Scan,198
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Mirai C&C Communication,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Mirai GRE Flooding,1992
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Mirai GRE Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Merlin TCP Flooding,1
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Mirai TCP Flooding,2041
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Mirai TCP Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Benign,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,File Download,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Mirai GRE Flooding,5
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Mirai UDP Flooding,1347
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Reporting,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Mirai UDP Flooding,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Reporting,Benign,6
+Gotham2025,multiclass,xgboost,42,Reporting,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Reporting,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Reporting,File Download,0
+Gotham2025,multiclass,xgboost,42,Reporting,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,Reporting,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Reporting,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Reporting,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Reporting,Reporting,59
+Gotham2025,multiclass,xgboost,42,Reporting,TCP Scan,15
+Gotham2025,multiclass,xgboost,42,Reporting,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,Reporting,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Benign,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,C&C Communication,40
+Gotham2025,multiclass,xgboost,42,TCP Scan,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,File Download,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Ingress Tool Transfer,1
+Gotham2025,multiclass,xgboost,42,TCP Scan,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Mirai C&C Communication,5
+Gotham2025,multiclass,xgboost,42,TCP Scan,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,Reporting,0
+Gotham2025,multiclass,xgboost,42,TCP Scan,TCP Scan,1676
+Gotham2025,multiclass,xgboost,42,TCP Scan,Telnet Brute Force,249
+Gotham2025,multiclass,xgboost,42,TCP Scan,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Benign,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,File Download,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Ingress Tool Transfer,1
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Mirai UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Reporting,0
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,TCP Scan,9
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,Telnet Brute Force,2136
+Gotham2025,multiclass,xgboost,42,Telnet Brute Force,UDP Scan,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Benign,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,C&C Communication,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,CoAP Amplification,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,File Download,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Ingress Tool Transfer,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Merlin C&C Communication,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Merlin ICMP Flooding,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Merlin TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Merlin UDP Flooding,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Mirai C&C Communication,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Mirai GRE Flooding,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Mirai TCP Flooding,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Mirai UDP Flooding,1
+Gotham2025,multiclass,xgboost,42,UDP Scan,Reporting,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,TCP Scan,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,Telnet Brute Force,0
+Gotham2025,multiclass,xgboost,42,UDP Scan,UDP Scan,813

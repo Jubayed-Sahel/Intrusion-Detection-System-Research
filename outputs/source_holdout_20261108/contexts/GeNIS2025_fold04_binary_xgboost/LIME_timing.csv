@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,explainer,records,connection_groups,median_explanation_ms,mean_explanation_ms,construction_and_warmup_excluded
+GeNIS2025,4,binary,xgboost,42,LIME,50,21,25.53274999996802,25.69670600000336,True

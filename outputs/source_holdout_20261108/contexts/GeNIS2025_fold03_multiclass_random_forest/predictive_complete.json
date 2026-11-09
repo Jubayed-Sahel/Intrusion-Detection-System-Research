@@ -1,0 +1,18 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 3,
+  "task": "multiclass",
+  "model": "random_forest",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "restoration_audit_sha256": "ca9e5cbd663dccff40db90121ccd9836ba14f04b2b89a7257c907146bd81dad5",
+  "split_audit_sha256": "10131ca2b74740387d736e3f617a70162a9a32e3e7b420bb25e138d75e1d5d1a",
+  "baseline_sha256": "958c7010952aafb7ac06de0fb0270e30a068627d78f1371e1d5cfb37dd62e55f",
+  "output_sha256": {
+    "predictive_metrics.csv": "10aa98fec57b52dbef738d2a2d51210a9342d557e44f64ffe10541b7b4fc0e33",
+    "per_class_metrics.csv": "04e91975c70a448699041a5a0f0ff76710010fa7c905a00d2616854c7661c5c7",
+    "confusion_matrices.csv": "02b9e60aef97e84cf5b749fa85333a5ba693358545344184f67f915671346758",
+    "predictions.csv.gz": "d91090927e1dc1a0dc88ba7efd80a7e4044a4d8c637be1b239d213345878e271"
+  },
+  "model_sha256": "a0db081e9c20b8fd424ce102da8e2388d233f26e7f8dd59bcc53aa50c92a37f3"
+}

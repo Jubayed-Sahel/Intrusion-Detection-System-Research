@@ -1,0 +1,436 @@
+{
+  "results": [
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "test_rows": 286791,
+      "accuracy": 0.9516721236022051,
+      "macro_f1": 0.9019890984149437,
+      "attacks": 251861,
+      "benign": 34930,
+      "missed": 13301,
+      "false_alarms": 559,
+      "attack_recall": 0.9471891241597548,
+      "fpr": 0.016003435442313196,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "test_rows": 286791,
+      "accuracy": 0.8897733889836152,
+      "macro_f1": 0.8101209804050453,
+      "attacks": 251861,
+      "benign": 34930,
+      "missed": 31397,
+      "false_alarms": 215,
+      "attack_recall": 0.8753399692687633,
+      "fpr": 0.006155167477812768,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "test_rows": 286791,
+      "accuracy": 0.37773500563127854,
+      "macro_f1": 0.573130840216892,
+      "unseen_label_test_rows": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "test_rows": 286791,
+      "accuracy": 0.8438270378080205,
+      "macro_f1": 0.8368309952186811,
+      "unseen_label_test_rows": 0
+    }
+  ],
+  "coverage": [
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "source": "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv",
+      "raw": 301235,
+      "unknown": 0,
+      "group_excluded": 14444,
+      "eligible": 286791
+    }
+  ],
+  "confusions": [
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Attack",
+      "predicted": "Attack",
+      "count": 238560
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Attack",
+      "predicted": "Normal",
+      "count": 13301
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Normal",
+      "predicted": "Attack",
+      "count": 559
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "random_forest",
+      "actual": "Normal",
+      "predicted": "Normal",
+      "count": 34371
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Attack",
+      "predicted": "Attack",
+      "count": 220464
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Attack",
+      "predicted": "Normal",
+      "count": 31397
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Normal",
+      "predicted": "Attack",
+      "count": 215
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "binary",
+      "model": "xgboost",
+      "actual": "Normal",
+      "predicted": "Normal",
+      "count": 34715
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "benign",
+      "predicted": "benign",
+      "count": 34028
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "benign",
+      "predicted": "bruteforce",
+      "count": 11
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "benign",
+      "predicted": "dos",
+      "count": 891
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "benign",
+      "predicted": "recon",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "bruteforce",
+      "predicted": "benign",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "bruteforce",
+      "predicted": "bruteforce",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "bruteforce",
+      "predicted": "dos",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "bruteforce",
+      "predicted": "recon",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "dos",
+      "predicted": "benign",
+      "count": 175059
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "dos",
+      "predicted": "bruteforce",
+      "count": 2497
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "dos",
+      "predicted": "dos",
+      "count": 70317
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "dos",
+      "predicted": "recon",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "recon",
+      "predicted": "benign",
+      "count": 2
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "recon",
+      "predicted": "bruteforce",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "recon",
+      "predicted": "dos",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "random_forest",
+      "actual": "recon",
+      "predicted": "recon",
+      "count": 3986
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "benign",
+      "predicted": "benign",
+      "count": 34008
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "benign",
+      "predicted": "bruteforce",
+      "count": 9
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "benign",
+      "predicted": "dos",
+      "count": 911
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "benign",
+      "predicted": "recon",
+      "count": 2
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "bruteforce",
+      "predicted": "benign",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "bruteforce",
+      "predicted": "bruteforce",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "bruteforce",
+      "predicted": "dos",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "bruteforce",
+      "predicted": "recon",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "dos",
+      "predicted": "benign",
+      "count": 42583
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "dos",
+      "predicted": "bruteforce",
+      "count": 1282
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "dos",
+      "predicted": "dos",
+      "count": 204008
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "dos",
+      "predicted": "recon",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "recon",
+      "predicted": "benign",
+      "count": 2
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "recon",
+      "predicted": "bruteforce",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "recon",
+      "predicted": "dos",
+      "count": 0
+    },
+    {
+      "dataset": "GeNIS2025",
+      "fold": 2,
+      "task": "multiclass",
+      "model": "xgboost",
+      "actual": "recon",
+      "predicted": "recon",
+      "count": 3986
+    }
+  ],
+  "inputs": {
+    "outputs/source_holdout_20261108/models/GeNIS2025_fold02_binary_random_forest.joblib": "537e017e5b4a7a783fe0c4f07ac1e2666bdff431d369b066722ee552a5f42569",
+    "outputs/source_holdout_20261108/models/GeNIS2025_fold02_binary_xgboost.joblib": "a7b8a5e703b77ca3540765b89040d8a38f0ddec3f9aaac87cca2863aa9ea8943",
+    "outputs/source_holdout_20261108/models/GeNIS2025_fold02_multiclass_random_forest.joblib": "39f41e61b90569c39bf6a700c5ec7900066205bcdb19c6a22a9270fe4374e25e",
+    "outputs/source_holdout_20261108/models/GeNIS2025_fold02_multiclass_xgboost.joblib": "96c7d3b150e05db8ae8390eb238cb5f9561bd289e6a51ea68e81b18e3a9e64ee",
+    "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv": "1013f774038b53839ac7042a70ec56c06334c83778c5adbf135dcbfebb991aa8"
+  }
+}

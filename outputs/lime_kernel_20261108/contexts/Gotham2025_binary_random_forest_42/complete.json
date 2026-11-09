@@ -1,0 +1,15 @@
+{
+  "context": "Gotham2025_binary_random_forest_42",
+  "fingerprint": "0c5a6c03cdeec34f70d3df5b538676b59d3828e71f40ea1e4f50b42742efbb30",
+  "records": 100,
+  "groups": 57,
+  "default_width_replay_records": 100,
+  "equal_sample_neighborhoods": 100,
+  "target_reconstruction_checks": 300,
+  "outputs": {
+    "attributions.csv": "0111f0ca171a3334af5390ca8810083a523084761c1a17948c11d1f008ec9025",
+    "deletion.csv": "b147ddf42f1813e7a8e38ff40cf7283b5530061175f8a3224bec64114e03d5da",
+    "group_endpoints.csv": "169e6932d00283043f3f4c4538bae87d317948ab7a544d1e6f89cefe1fe364c1",
+    "surrogate_fit.csv": "4eb5a30506d4ed2f6cda18d1d776162e8b1b42e7f6ecc2c3a79afbb6520db0c0"
+  }
+}

@@ -559,5 +559,7 @@
       "Nafiul Alam Chowdhury",
       "Shadman Shihab"
     ]
-  }
+  },
+  "historical_only": true,
+  "superseded_by": "outputs/literature_review_20261107/manuscript_validation.json"
 }

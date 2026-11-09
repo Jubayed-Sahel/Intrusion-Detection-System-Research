@@ -1,0 +1,7 @@
+# Independent protocol-matched TCP check
+
+Use the provider-published PDMFC v1 CICFlowMeter CSV (Zenodo 16943481). Check the complete file against the publisher MD5 before analysis and record its SHA-256. The uppercase `Label` column is an extractor placeholder in the inspected header sample. Use the populated lowercase `label` field, with `Normal` as benign. Report the provider's category names and counts and treat them as capture annotations. Require both classes on TCP.
+
+Rebuild the four GeNIS-only models with the original seed, train-only preprocessing, hyperparameters, weights and prediction rule. Replay their saved OCPP full-capture and TCP confusion counts before applying them to PDMFC. Score all TCP rows as the primary diagnostic. Report full-file counts for context and, separately, counts on exact unordered TCP port pairs carrying both classes if such pairs exist. Include a GeNIS-only protocol-majority baseline. Retain all labeled rows, do not tune on either target, and report macro-F1, attack recall and benign false alarms with denominators.
+
+The released data are a separate capture, selected after the original OCPP study. The primary check matches the transport protocol. Flows can share endpoints, time windows, or an attack campaign. Counts are descriptive, and this single test cannot establish production false-alarm rates, label validity, or performance of the original full-feature models.

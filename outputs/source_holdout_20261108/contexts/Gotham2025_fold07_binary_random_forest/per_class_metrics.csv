@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+Gotham2025,7,binary,random_forest,42,Attack,1.0,0.8963518336646945,0.9453433880278399,41747,74097,True
+Gotham2025,7,binary,random_forest,42,Normal,0.1361549211419445,1.0,0.23967668248111051,682,9302,True

@@ -1,0 +1,5 @@
+dataset,task,model,seed,actual_class,predicted_class,count
+Gotham2025,binary,xgboost,42,Attack,Attack,23557
+Gotham2025,binary,xgboost,42,Attack,Normal,1
+Gotham2025,binary,xgboost,42,Normal,Attack,0
+Gotham2025,binary,xgboost,42,Normal,Normal,2812

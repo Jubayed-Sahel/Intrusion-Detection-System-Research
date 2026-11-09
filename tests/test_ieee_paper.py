@@ -19,9 +19,9 @@ class IeeePaperTests(unittest.TestCase):
         self.assertIn(r'\documentclass[conference,letterpaper]{IEEEtran}', source)
         self.assertNotIn(r'\usepackage{geometry}', source)
         self.assertNotIn(r'\fontsize', source)
-        self.assertEqual(re.findall(r'\\bibitem\{ref(\d+)\}', source), [str(i) for i in range(1, 21)])
-        self.assertEqual(set(re.findall(r'\\cite\{ref(\d+)\}', source)), {str(i) for i in range(1, 21)})
-        self.assertEqual(source.count(r'\begin{table}'), 10)
+        self.assertEqual(re.findall(r'\\bibitem\{ref(\d+)\}', source), [str(i) for i in range(1, 38)])
+        self.assertEqual(set(re.findall(r'\\cite\{ref(\d+)\}', source)), {str(i) for i in range(1, 38)})
+        self.assertEqual(source.count(r'\begin{table}'), 15)
         self.assertEqual(source.count(r'\begin{figure}'), 2)
         abstract = source.split(r'\begin{abstract}')[1].split(r'\end{abstract}')[0]
         self.assertLessEqual(len(abstract.split()), 250)

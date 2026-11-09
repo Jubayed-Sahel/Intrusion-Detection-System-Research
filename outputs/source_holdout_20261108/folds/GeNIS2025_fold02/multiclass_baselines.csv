@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset
+GeNIS2025,2,multiclass,majority,42,0.0,0.0,0.0,3682,3,4,0,3682,0.0
+GeNIS2025,2,multiclass,depth5_tree,42,0.8022813688212928,0.7956864631250681,0.8426451527708559,3682,3,4,0,3682,0.7956864631250681

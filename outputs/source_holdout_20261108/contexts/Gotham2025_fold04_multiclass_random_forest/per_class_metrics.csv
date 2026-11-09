@@ -1,0 +1,18 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+Gotham2025,4,multiclass,random_forest,42,Benign,1.0,1.0,1.0,89,9895,True
+Gotham2025,4,multiclass,random_forest,42,C&C Communication,0.17355371900826447,0.23333333333333334,0.1990521327014218,90,348,True
+Gotham2025,4,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,File Download,1.0,1.0,1.0,1210,4776,True
+Gotham2025,4,multiclass,random_forest,42,Ingress Tool Transfer,0.9986120749479528,0.9903647625602202,0.9944713199723566,1453,7064,True
+Gotham2025,4,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin ICMP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,4,multiclass,random_forest,42,Mirai GRE Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,64,322,True
+Gotham2025,4,multiclass,random_forest,42,TCP Scan,0.9655469422911284,0.8134978229317852,0.8830248129184718,1378,7862,True
+Gotham2025,4,multiclass,random_forest,42,Telnet Brute Force,0.8872180451127819,0.9983079526226735,0.9394904458598726,1182,7685,True
+Gotham2025,4,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True

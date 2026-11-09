@@ -1,0 +1,161 @@
+{
+  "checked_utc": "2026-11-07T13:31:22.344568+00:00",
+  "records": [
+    {
+      "id": "kalakoti2025",
+      "url": "https://arxiv.org/pdf/2506.07882v1",
+      "path": "data/reference_papers/review_20261107/kalakoti2025.pdf",
+      "bytes": 986568,
+      "sha256": "e37f539e95fbf6a572db6c7fa7f8038a2d20fd18703625a663497edf75a29484",
+      "status": "acquired"
+    },
+    {
+      "id": "kumar2024",
+      "url": "https://arxiv.org/pdf/2408.14040v1",
+      "path": "data/reference_papers/review_20261107/kumar2024.pdf",
+      "bytes": 2593476,
+      "sha256": "85d92c20711dae669e7c32f79e039890e07cd1c40a8f814ba017c1a59c873dc3",
+      "status": "acquired"
+    },
+    {
+      "id": "forensic2025",
+      "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/9e8bfb7e-97a6-4b25-ab78-4d28d87b9904/content",
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    },
+    {
+      "id": "versatile2025",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12243-025-01118-9.pdf",
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "lxaids2025",
+      "url": "https://arxiv.org/pdf/2508.17244v1",
+      "path": "data/reference_papers/review_20261107/lxaids2025.pdf",
+      "bytes": 3413064,
+      "sha256": "3d0c3c5118b763eb2fc166b703bcb8066b7500985bc36b509d4ded6e54a572da",
+      "status": "acquired"
+    },
+    {
+      "id": "arp2022",
+      "url": "https://www.usenix.org/system/files/sec22-arp.pdf",
+      "path": "data/reference_papers/review_20261107/arp2022.pdf",
+      "bytes": 1055756,
+      "sha256": "fd71f39c2cd0f9532859c6bb5f2e3b94be97eec50b43f97aaa916e43f3f4acdb",
+      "status": "acquired"
+    },
+    {
+      "id": "tesseract2019",
+      "url": "https://www.usenix.org/system/files/sec19-pendlebury.pdf",
+      "path": "data/reference_papers/review_20261107/tesseract2019.pdf",
+      "bytes": 7692906,
+      "sha256": "ec4de197f52e024d6e55a109053204ff1fe936dff11ab06ed01fa75f1d169218",
+      "status": "acquired"
+    },
+    {
+      "id": "engelen2021",
+      "url": "https://intrusion-detection.distrinet-research.be/WTMC2021/Resources/wtmc2021_Engelen_Troubleshooting.pdf",
+      "path": "data/reference_papers/review_20261107/engelen2021.pdf",
+      "bytes": 151145,
+      "sha256": "c66cd93384d6061b413a0ce0f753ae1e923eb5ccb42d72a10225a8c229c21b1f",
+      "status": "acquired"
+    },
+    {
+      "id": "slack2020",
+      "url": "https://arxiv.org/pdf/1911.02508",
+      "path": "data/reference_papers/review_20261107/slack2020.pdf",
+      "bytes": 1211475,
+      "sha256": "8b007cf45f00c03db154a596412c145f889b9d07c5eab9a37e0706745d1c1ad1",
+      "status": "acquired"
+    },
+    {
+      "id": "hase2021",
+      "url": "https://arxiv.org/pdf/2106.00786",
+      "path": "data/reference_papers/review_20261107/hase2021.pdf",
+      "bytes": 834523,
+      "sha256": "26686f97eb5b76f0d9d2076f098ebc3ce9f2ee74375a9c61b85883dd45f296d5",
+      "status": "acquired"
+    },
+    {
+      "id": "road2022",
+      "url": "https://arxiv.org/pdf/2202.00449",
+      "path": "data/reference_papers/review_20261107/road2022.pdf",
+      "bytes": 19963710,
+      "sha256": "058c198505c97b77a5e37a0571f4af7d803907afc51614de01ad847b330f0e4e",
+      "status": "acquired"
+    },
+    {
+      "id": "openxai2022",
+      "url": "https://papers.neurips.cc/paper_files/paper/2022/file/65398a0eba88c9b4a1c38ae405b125ef-Paper-Datasets_and_Benchmarks.pdf",
+      "path": "data/reference_papers/review_20261107/openxai2022.pdf",
+      "bytes": 1018547,
+      "sha256": "ddf6a5a1b9d5a46b1338c87206ef1f5b02bc991d836a9cc237479f7caf2aab3f",
+      "status": "acquired"
+    },
+    {
+      "id": "quantus2023",
+      "url": "https://jmlr.org/papers/volume24/22-0142/22-0142.pdf",
+      "path": "data/reference_papers/review_20261107/quantus2023.pdf",
+      "bytes": 1484916,
+      "sha256": "03d9ea0a08681e49edd343a4f91e3c94db51f55b11d692e87b9409e2a1c3c5b5",
+      "status": "acquired"
+    },
+    {
+      "id": "sundararajan2020",
+      "url": "https://proceedings.mlr.press/v119/sundararajan20b/sundararajan20b.pdf",
+      "path": "data/reference_papers/review_20261107/sundararajan2020.pdf",
+      "bytes": 330641,
+      "sha256": "c8c2cafe36e8a16b520280e55a47827ecc828689041e8e1947e0a384166af680",
+      "status": "acquired"
+    },
+    {
+      "id": "aas2021",
+      "url": "https://martinjullum.com/publication/aas-2021-explaining/aas-2021-explaining.pdf",
+      "path": "data/reference_papers/review_20261107/aas2021.pdf",
+      "bytes": 1124340,
+      "sha256": "ac5b6cef71bdcf8ba4d4ec3ad16a7297094ff512c9bbdfc4bd7a4f29e55990ca",
+      "status": "acquired"
+    },
+    {
+      "id": "hooker2019",
+      "url": "https://papers.neurips.cc/paper/9167-a-benchmark-for-interpretability-methods-in-deep-neural-networks.pdf",
+      "path": "data/reference_papers/review_20261107/hooker2019.pdf",
+      "bytes": 1560705,
+      "sha256": "9d0270f92de9ebc7ef043f7de957fc00fb7aba5572a9024eae994c5a426d53eb",
+      "status": "acquired"
+    },
+    {
+      "id": "krishna2022",
+      "url": "https://arxiv.org/pdf/2202.01602v1",
+      "path": "data/reference_papers/review_20261107/krishna2022.pdf",
+      "bytes": 8170455,
+      "sha256": "ad0e4c13d38041b637bd794b959572a958b80d9c1c6524681864d232a41747bd",
+      "status": "acquired"
+    },
+    {
+      "id": "alvarez2018",
+      "url": "https://arxiv.org/pdf/1806.08049",
+      "path": "data/reference_papers/review_20261107/alvarez2018.pdf",
+      "bytes": 1789625,
+      "sha256": "f3088996fedb5864249823d73f768859f3965caba656925149c68209100d9c27",
+      "status": "acquired"
+    },
+    {
+      "id": "rudin2019",
+      "url": "https://arxiv.org/pdf/1811.10154",
+      "path": "data/reference_papers/review_20261107/rudin2019.pdf",
+      "bytes": 1353896,
+      "sha256": "cfaa96d39b6508de2ca18683fa7977fed30feaf3a0e31e97d7afe6d6d7b6792b",
+      "status": "acquired"
+    },
+    {
+      "id": "anchors2018",
+      "url": "https://homes.cs.washington.edu/~marcotcr/aaai18.pdf",
+      "path": "data/reference_papers/review_20261107/anchors2018.pdf",
+      "bytes": 2763599,
+      "sha256": "a5bd286f7801ffe656055ef1410ef3142149e6daa4f816b084f5e5417b3c287f",
+      "status": "acquired"
+    }
+  ]
+}

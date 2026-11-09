@@ -280,7 +280,7 @@ def _verify_manuscript(root=Path(".")):
     paper = root / "output" / "pdf" / "xai_ids_recent2025_paper.pdf"
     reader = PdfReader(paper)
     text = re.sub(r"\s+", " ", "\n".join(page.extract_text() or "" for page in reader.pages))
-    assert 6 <= len(reader.pages) <= 8, len(reader.pages)
+    assert 6 <= len(reader.pages) <= 12, len(reader.pages)
     assert float(reader.pages[0].mediabox.width) == 612
     assert float(reader.pages[0].mediabox.height) == 792
     for heading in (

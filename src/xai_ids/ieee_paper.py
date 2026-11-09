@@ -13,6 +13,9 @@ from reportlab.graphics.shapes import Drawing, String
 from reportlab.platypus import KeepTogether, Paragraph, Table
 
 from . import recent_paper
+from . import journal_audit
+from . import independent_tcp
+from . import training_scale
 
 
 ROOT = recent_paper.ROOT
@@ -61,9 +64,16 @@ def latex(text, citations=True):
     return "".join(parser.parts)
 
 
-def export(results, project=PROJECT):
+def export(results, project=PROJECT, journal=False):
     manifest, tables = recent_paper.load_results(results)
     identity = recent_paper.manuscript_identity()
+    if journal:
+        if results.resolve() != recent_paper.RESULTS.resolve():
+            raise ValueError("The journal audit applies to the original verified benchmark")
+        identity["title"] = journal_audit.TITLE
+        journal_abstract, journal_paragraphs = journal_audit.manuscript_text(ROOT)
+        scale_paragraphs = training_scale.manuscript_text(ROOT)
+        tcp_paragraphs = independent_tcp.manuscript_text(ROOT)
     # Reuse the exact data-driven narrative, tables and bibliography. IEEEtran
     # takes responsibility for typography and page layout instead of ReportLab.
     story = recent_paper.build_story(manifest, tables, 252, [], results)
@@ -77,6 +87,13 @@ def export(results, project=PROJECT):
                 if item.getPlainText() == "REFERENCES":
                     continue
                 title = re.sub(r"^[IVX]+\.\s*", "", item.getPlainText()).capitalize()
+                if journal and title == "Discussion and threats to validity":
+                    body.extend([r"\subsection{Training-size sensitivity on unseen GeNIS scenarios}",
+                                 *(latex(paragraph) for paragraph in scale_paragraphs),
+                                 r"\subsection{Protocol shortcut controls and base-rate sensitivity}",
+                                 *(latex(paragraph) for paragraph in journal_paragraphs),
+                                 r"\subsection{Independent protocol-matched TCP transfer}",
+                                 *(latex(paragraph) + "\n" for paragraph in tcp_paragraphs)])
                 body.append(r"\section{" + tex_escape(title) + "}")
             elif item.style.name == "Subsection":
                 title = re.sub(r"^[A-Z]\.\s*", "", item.getPlainText())
@@ -84,7 +101,27 @@ def export(results, project=PROJECT):
             elif item.style.name == "Equation":
                 body.append(r"\begin{equation} D(x,r)=\frac{1}{4}\sum_{k\in\{1,3,5,10\}} D_k(x,r).\label{eq:deletion}\end{equation}")
             else:
-                body.append(latex(item.text) + "\n")
+                content = item.text
+                if journal and "the separate reduced-feature OCPP experiment" in content:
+                    content = content.replace(
+                        "the separate reduced-feature OCPP experiment tests only binary transfer",
+                        "the separate OCPP and PDMFC captures test reduced-feature binary transfer",
+                    )
+                if journal and content.endswith("External captures, validated traffic interventions and analyst decisions remain distinct validation targets."):
+                    content = (
+                        "Source holdouts expose missed attacks that aggregate scores can hide. "
+                        "Increasing the GeNIS training cohort from 10,000 to 160,000 rows improves some "
+                        "scenarios but does not consistently improve binary detection. The reduced-feature "
+                        "detectors also flag nearly all benign TCP flows in two independent captures. "
+                        "Separately, TreeSHAP leads LIME under median/mode deletion in all 24 primary "
+                        "contexts, but retained-feature donor replacement weakens the GeNIS gaps. "
+                        "These findings concern the evaluated detectors, captures and replacement rules. "
+                        "External explanation fidelity and analyst decisions remain untested."
+                    )
+                if journal and content.startswith("<b>AI assistance disclosure:"):
+                    content = ("<b>AI assistance disclosure:</b> OpenAI Codex assisted with source acquisition "
+                               "tooling, data auditing, experiment orchestration, and manuscript drafting.")
+                body.append(latex(content) + "\n")
         elif isinstance(item, KeepTogether):
             content = item._content
             if len(content) == 1 and isinstance(content[0], Paragraph):
@@ -131,22 +168,34 @@ def export(results, project=PROJECT):
                     r"\includegraphics[width=\columnwidth]{figures/" + name + "}",
                     r"\caption{" + latex(title) + "}", r"\label{fig:" + str(figure_number) + "}",
                     r"\end{figure}"]))
-    abstract = re.sub(r"^<b>Abstract</b>-", "", recent_paper.make_abstract(tables))
+    abstract = re.sub(r"^<b>Abstract</b>-", "", recent_paper.make_abstract(
+        tables, include_original_supplements=results.resolve() == recent_paper.RESULTS.resolve()))
+    if journal:
+        abstract = journal_abstract
+        references.append(r'\bibitem{ref38} S. Axelsson, "The base-rate fallacy and the difficulty of '
+                          r'intrusion detection," \textit{ACM Trans. Inf. Syst. Secur.}, vol. 3, '
+                          r'no. 3, pp. 186--205, 2000, doi: 10.1145/357830.357849.')
+        references.append(r'\bibitem{ref39} Projecto Desenvolvimento Manuten\c{c}\~ao Forma\c{c}\~ao '
+                          r'e Consultadoria, "PDMFC Dataset," Zenodo, ver. v1, 2025, '
+                          r'doi: 10.5281/zenodo.16943481.')
     author = "Anonymous Author(s)" if identity["anonymous"] else identity["authors"]
     affiliation = "" if identity["anonymous"] else recent_paper.paper_metadata().get("affiliation", "")
     source = "\n".join([
         "% Generated from the verified recent-study artifacts; edit the Python narrative to regenerate.",
+        r"\documentclass[journal,letterpaper]{IEEEtran}" if journal else
         r"\documentclass[conference,letterpaper]{IEEEtran}",
         r"\usepackage[T1]{fontenc}", r"\usepackage[utf8]{inputenc}",
         r"\usepackage{cite,amsmath,graphicx,array,booktabs}",
         r"\usepackage[hidelinks]{hyperref}",
         r"\hypersetup{pdftitle={" + tex_escape(identity["title"]) + "},pdfauthor={" + tex_escape(author) + "}}",
         r"\begin{document}", r"\title{" + tex_escape(identity["title"]) + "}",
-        r"\author{\IEEEauthorblockN{" + tex_escape(author) + "}" +
-        (r"\IEEEauthorblockA{" + tex_escape(affiliation) + "}" if affiliation else "") + "}",
+        (r"\author{" + tex_escape(author) +
+         (r"\thanks{" + tex_escape(affiliation) + "}" if affiliation else "") + "}") if journal else
+        (r"\author{\IEEEauthorblockN{" + tex_escape(author) + "}" +
+         (r"\IEEEauthorblockA{" + tex_escape(affiliation) + "}" if affiliation else "") + "}"),
         r"\maketitle", r"\begin{abstract}", latex(abstract), r"\end{abstract}",
         r"\begin{IEEEkeywords}Intrusion detection, explainable AI, TreeSHAP, LIME, explanation fidelity, provenance, group holdout.\end{IEEEkeywords}",
-        *body, r"\begin{thebibliography}{20}", *references,
+        *body, r"\begin{thebibliography}{" + str(len(references)) + "}", *references,
         r"\end{thebibliography}", r"\end{document}",
     ])
     (project / "main.tex").write_text(source, encoding="utf-8")
@@ -156,10 +205,13 @@ def export(results, project=PROJECT):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", type=Path, default=recent_paper.RESULTS)
-    parser.add_argument("--output", type=Path, default=recent_paper.OUTPUT)
+    parser.add_argument("--output", type=Path)
+    parser.add_argument("--journal", action="store_true")
     parser.add_argument("--source-only", action="store_true")
     args = parser.parse_args()
-    source = export(args.results)
+    project = ROOT / "paper" / "journal" if args.journal else PROJECT
+    output = args.output or (ROOT / "output/pdf/xai_ids_tdsc_draft.pdf" if args.journal else recent_paper.OUTPUT)
+    source = export(args.results, project, journal=args.journal)
     if args.source_only:
         print(source)
         return
@@ -172,9 +224,9 @@ def main():
                              capture_output=True, text=True, errors="replace")
         if run.returncode:
             raise SystemExit(run.stdout[-6000:] + run.stderr[-1000:])
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(source.with_suffix(".pdf"), args.output)
-    print(args.output.resolve())
+    output.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source.with_suffix(".pdf"), output)
+    print(output.resolve())
 
 
 if __name__ == "__main__":

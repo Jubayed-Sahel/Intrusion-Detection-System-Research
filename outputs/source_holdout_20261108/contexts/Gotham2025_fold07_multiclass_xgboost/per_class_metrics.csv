@@ -1,0 +1,18 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+Gotham2025,7,multiclass,xgboost,42,Benign,0.1360191463901077,1.0,0.23946629213483145,682,9302,True
+Gotham2025,7,multiclass,xgboost,42,C&C Communication,0.28052805280528054,0.46703296703296704,0.35051546391752575,182,256,True
+Gotham2025,7,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,10000,0,False
+Gotham2025,7,multiclass,xgboost,42,File Download,0.9989842559674962,0.8275136726966765,0.9052001840773125,2377,3609,True
+Gotham2025,7,multiclass,xgboost,42,Ingress Tool Transfer,0.9987519500780031,0.9922504649721017,0.9954905924428549,3226,5321,True
+Gotham2025,7,multiclass,xgboost,42,Merlin C&C Communication,0.9991139988186651,0.9997044917257684,0.9994091580502216,3384,6616,True
+Gotham2025,7,multiclass,xgboost,42,Merlin ICMP Flooding,0.49545881616035076,1.0,0.6626178010471204,1582,6745,True
+Gotham2025,7,multiclass,xgboost,42,Merlin TCP Flooding,0.9993946731234867,1.0,0.9996972449288526,1651,8071,True
+Gotham2025,7,multiclass,xgboost,42,Merlin UDP Flooding,0.9987737584304108,0.9945054945054945,0.9966350565922301,1638,7809,True
+Gotham2025,7,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,358,716,True
+Gotham2025,7,multiclass,xgboost,42,Mirai GRE Flooding,0.5963827838827839,1.0,0.7471676466370285,2605,7395,True
+Gotham2025,7,multiclass,xgboost,42,Mirai TCP Flooding,0.9986749116607774,0.9995579133510168,0.999116217410517,2262,7735,True
+Gotham2025,7,multiclass,xgboost,42,Mirai UDP Flooding,0.28883574301554515,0.9958770614692654,0.44779641021319627,2668,7181,True
+Gotham2025,7,multiclass,xgboost,42,Reporting,1.0,1.0,1.0,152,234,True
+Gotham2025,7,multiclass,xgboost,42,TCP Scan,0.7810915597971966,0.8859945872801083,0.8302425106990015,2956,5998,True
+Gotham2025,7,multiclass,xgboost,42,Telnet Brute Force,0.8916544655929722,0.9886363636363636,0.9376443418013857,2464,6411,True
+Gotham2025,7,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,4242,0,False

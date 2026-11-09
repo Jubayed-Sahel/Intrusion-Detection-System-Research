@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,explained_records,explained_groups,TreeSHAP_mean_group_drop,LIME_mean_group_drop,TreeSHAP_minus_LIME,inference_policy
+GeNIS2025,2,binary,random_forest,42,50,49,0.16081792807410122,0.1021939592626842,0.058623968811417036,descriptive only; source folds and groups are dependent

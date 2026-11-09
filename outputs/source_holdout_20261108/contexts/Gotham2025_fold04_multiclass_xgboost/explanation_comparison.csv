@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,explained_records,explained_groups,TreeSHAP_mean_group_drop,LIME_mean_group_drop,TreeSHAP_minus_LIME,inference_policy
+Gotham2025,4,multiclass,xgboost,42,50,28,0.6966305907690143,0.42165727717621154,0.2749733135928028,descriptive only; source folds and groups are dependent

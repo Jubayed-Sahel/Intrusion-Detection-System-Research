@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset
+Gotham2025,7,multiclass,majority,42,0.016073911711329516,0.001861132753071074,0.0005085666204507774,42429,17,15,14242,28187,0.0031498608657498815
+Gotham2025,7,multiclass,depth5_tree,42,0.3234815809941314,0.25237574762987736,0.2024600732283202,42429,17,15,14242,28187,0.3924716162335615

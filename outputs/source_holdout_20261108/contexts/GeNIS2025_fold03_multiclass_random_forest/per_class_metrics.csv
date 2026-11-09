@@ -1,0 +1,5 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+GeNIS2025,3,multiclass,random_forest,42,benign,0.9992050874403816,0.9976190476190476,0.9984114376489277,1260,4729,True
+GeNIS2025,3,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,3,multiclass,random_forest,42,dos,0.9989690721649485,1.0,0.999484270242393,2907,7093,True
+GeNIS2025,3,multiclass,random_forest,42,recon,1.0,0.9986149584487535,0.9993069993069993,722,9278,True

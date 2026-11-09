@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-cooler-motor-15.csv,1328,192.168.0.3:123|192.168.19.34:33611|17,5384,Benign,Benign
+processed/iotsim-combined-cycle-10.csv,126825,192.168.20.19:49260|192.168.33.10:23|6,4945,C&C Communication,TCP Scan
+processed/iotsim-combined-cycle-10.csv,17646,192.168.20.19:57648|192.168.33.13:80|6,1553,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,16853,192.168.20.19:57648|192.168.33.13:80|6,762,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17141,192.168.20.19:57648|192.168.33.13:80|6,1048,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17504,192.168.20.19:57648|192.168.33.13:80|6,1411,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17134,192.168.20.19:57648|192.168.33.13:80|6,1041,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17454,192.168.20.19:57648|192.168.33.13:80|6,1361,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17399,192.168.20.19:57648|192.168.33.13:80|6,1306,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,16714,192.168.20.19:57648|192.168.33.13:80|6,623,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17793,192.168.20.19:57648|192.168.33.13:80|6,1700,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,16724,192.168.20.19:57648|192.168.33.13:80|6,633,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,17249,192.168.20.19:57648|192.168.33.13:80|6,1156,File Download,File Download
+processed/iotsim-combined-cycle-10.csv,60943,192.168.20.19:23|192.168.33.12:48475|6,3047,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,69575,192.168.20.19:23|192.168.33.12:48475|6,3340,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,40853,192.168.20.19:23|192.168.33.12:48475|6,2362,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,70953,192.168.20.19:23|192.168.33.12:48475|6,3377,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,109253,192.168.20.19:23|192.168.33.12:48475|6,4561,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,79784,192.168.20.19:23|192.168.33.12:48475|6,3674,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,96781,192.168.20.19:23|192.168.33.12:48475|6,4204,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,21144,192.168.20.19:23|192.168.33.12:48475|6,1817,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,92709,192.168.20.19:23|192.168.33.12:48475|6,4086,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,60510,192.168.20.19:23|192.168.33.12:48475|6,3021,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,55305,192.168.20.19:23|192.168.33.12:48475|6,2878,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,28865,192.168.20.19:23|192.168.33.12:48475|6,1969,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,105741,192.168.20.19:23|192.168.33.12:48475|6,4454,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-10.csv,90959,192.168.20.19:55228|192.168.33.11:48101|6,4009,Reporting,Reporting
+processed/iotsim-combined-cycle-10.csv,68545,192.168.19.198:23|192.168.20.19:62664|6,3307,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,91075,192.168.18.10:23|192.168.20.19:52550|6,4031,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,100788,192.168.18.248:23|192.168.20.19:62664|6,4309,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,12961,192.168.17.10:56296|192.168.20.19:23|6,398,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,99630,192.168.20.19:62664|192.168.29.10:23|6,4271,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,74639,192.168.20.19:62664|192.168.29.197:23|6,3503,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,103059,192.168.18.18:23|192.168.20.19:50372|6,4362,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,33073,192.168.17.10:60998|192.168.20.19:23|6,2102,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,29178,192.168.18.140:23|192.168.20.19:62664|6,1977,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,52166,192.168.16.105:23|192.168.20.19:62664|6,2773,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,99913,192.168.20.19:62664|192.168.29.1:23|6,4278,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,118644,192.168.20.19:62664|192.168.24.207:23|6,4829,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,65109,192.168.18.122:23|192.168.20.19:62664|6,3182,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-10.csv,57002,192.168.0.100:49576|192.168.20.19:23|6,2913,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,8771,192.168.0.100:60468|192.168.20.19:23|6,294,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,5179,192.168.0.100:39182|192.168.20.19:23|6,197,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,65944,192.168.0.100:40422|192.168.20.19:23|6,3217,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,125975,192.168.0.100:50468|192.168.20.19:23|6,4931,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,88659,192.168.0.100:52400|192.168.20.19:23|6,3936,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,24595,192.168.0.100:57114|192.168.20.19:23|6,1889,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,127376,192.168.0.100:42052|192.168.20.19:23|6,4959,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,132468,192.168.0.100:44448|192.168.20.19:23|6,5154,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-10.csv,135062,192.168.0.100:49846|192.168.20.19:23|6,5278,Telnet Brute Force,Telnet Brute Force

@@ -1,0 +1,5 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+GeNIS2025,4,multiclass,xgboost,42,benign,0.3254315897964442,0.9976303317535545,0.49077132310083543,1266,4742,True
+GeNIS2025,4,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,4,multiclass,xgboost,42,dos,0.9919354838709677,0.08589385474860335,0.15809768637532134,2864,7136,True
+GeNIS2025,4,multiclass,xgboost,42,recon,1.0,1.0,1.0,729,9271,True

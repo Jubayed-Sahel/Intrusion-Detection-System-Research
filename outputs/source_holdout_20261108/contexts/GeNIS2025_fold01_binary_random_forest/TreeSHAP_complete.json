@@ -1,0 +1,16 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 1,
+  "task": "binary",
+  "model": "random_forest",
+  "seed": 42,
+  "explainer": "TreeSHAP",
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "output_sha256": {
+    "TreeSHAP_attributions.csv.gz": "f69d4635065f92fc43fcb1c447ff40df9cb4789d5fa5885fd744ba3820af658e",
+    "TreeSHAP_fidelity.csv": "9b635ec4d8a7c418e279601a3cb0b85e2d660c9a22c5ab1ea0bf8032db1ed394",
+    "TreeSHAP_timing.csv": "bb64d3ae4d73ab34d987bc5e36b061c773616576ecd8816112e20cba40e3da20",
+    "diagnostic_selection.csv": "27abc2d400a182570ce87af652772a5a7f2dc184c385dc609cc1382bc60d343a"
+  },
+  "model_sha256": "b79a72bbe785cb19378bcd35c97f212b7b08fbb30cbea46722f1bfd4902493b7"
+}

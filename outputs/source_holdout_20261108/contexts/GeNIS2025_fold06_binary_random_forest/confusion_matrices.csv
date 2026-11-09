@@ -1,0 +1,5 @@
+dataset,fold,task,model,seed,actual_class,predicted_class,count
+GeNIS2025,6,binary,random_forest,42,Attack,Attack,920
+GeNIS2025,6,binary,random_forest,42,Attack,Normal,3643
+GeNIS2025,6,binary,random_forest,42,Normal,Attack,0
+GeNIS2025,6,binary,random_forest,42,Normal,Normal,1266

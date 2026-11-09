@@ -40,9 +40,9 @@
         ]
       },
       {
-        "name": "Vitorino, Jo\u00e3o",
+        "name": "Vitorino, João",
         "nameType": "Personal",
-        "givenName": "Jo\u00e3o",
+        "givenName": "João",
         "familyName": "Vitorino",
         "affiliation": [
           "GECAD, ISEP, Polytechnic of Porto, Portugal"
@@ -55,10 +55,10 @@
         ]
       },
       {
-        "name": "Gon\u00e7alves, Jos\u00e9",
+        "name": "Gonçalves, José",
         "nameType": "Personal",
-        "givenName": "Jos\u00e9",
-        "familyName": "Gon\u00e7alves",
+        "givenName": "José",
+        "familyName": "Gonçalves",
         "affiliation": [
           "GECAD, ISEP, Polytechnic of Porto, Portugal"
         ],
@@ -85,10 +85,10 @@
         ]
       },
       {
-        "name": "Pra\u00e7a, Isabel",
+        "name": "Praça, Isabel",
         "nameType": "Personal",
         "givenName": "Isabel",
-        "familyName": "Pra\u00e7a",
+        "familyName": "Praça",
         "affiliation": [
           "GECAD, ISEP, Polytechnic of Porto, Portugal"
         ],
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "given": "Jo\u00e3o",
+        "given": "João",
         "family": "Vitorino",
         "sequence": "additional",
         "affiliation": [],
@@ -155,8 +155,8 @@
       {
         "ORCID": "https://orcid.org/0009-0004-1038-8384",
         "authenticated-orcid": false,
-        "given": "Jos\u00e9",
-        "family": "Gon\u00e7alves",
+        "given": "José",
+        "family": "Gonçalves",
         "sequence": "additional",
         "affiliation": [],
         "role": [
@@ -180,7 +180,7 @@
       },
       {
         "given": "Isabel",
-        "family": "Pra\u00e7a",
+        "family": "Praça",
         "sequence": "additional",
         "affiliation": [],
         "role": [
@@ -1113,6 +1113,430 @@
     "url": "https://doi.org/10.1109/access.2024.3365140"
   },
   {
+    "doi": "10.3390/app15137329",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Explainable AI for Forensic Analysis: A Comparative Study of SHAP and LIME in Intrusion Detection Models"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5775-6536",
+        "authenticated-orcid": false,
+        "given": "Pamela",
+        "family": "Hermosilla",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-9384-2515",
+        "authenticated-orcid": false,
+        "given": "Sebastián",
+        "family": "Berríos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9899-0051",
+        "authenticated-orcid": false,
+        "given": "Héctor",
+        "family": "Allende-Cid",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+          },
+          {
+            "name": "Knowledge Discovery, Fraunhofer-Institute of Intelligent Analysis and Information Systems (IAIS), 53757 Sankt Augustin, Germany"
+          },
+          {
+            "name": "Lamarr Institute for Machine Learning and Artificial Intelligence, 44227 Dortmund, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ]
+    },
+    "venue": [
+      "Applied Sciences"
+    ],
+    "volume": "15",
+    "page": "7329",
+    "article_number": null,
+    "url": "https://doi.org/10.3390/app15137329"
+  },
+  {
+    "doi": "10.1007/s12243-025-01118-9",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "A versatile XAI-based framework for efficient and explainable intrusion detection systems"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "given": "Beny",
+        "family": "Nugraha",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abhishek Venkatesh",
+        "family": "Jnanashree",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Bauschert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          29
+        ]
+      ]
+    },
+    "venue": [
+      "Annals of Telecommunications"
+    ],
+    "volume": "80",
+    "page": "1095-1120",
+    "article_number": null,
+    "url": "https://doi.org/10.1007/s12243-025-01118-9"
+  },
+  {
+    "doi": "10.1109/SPW53761.2021.00009",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "given": "Gints",
+        "family": "Engelen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vera",
+        "family": "Rimmer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wouter",
+        "family": "Joosen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "venue": [
+      "2021 IEEE Security and Privacy Workshops (SPW)"
+    ],
+    "volume": null,
+    "page": "7-12",
+    "article_number": null,
+    "url": "https://doi.org/10.1109/spw53761.2021.00009"
+  },
+  {
+    "doi": "10.1038/s42256-019-0048-x",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4283-2780",
+        "authenticated-orcid": false,
+        "given": "Cynthia",
+        "family": "Rudin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ]
+    },
+    "venue": [
+      "Nature Machine Intelligence"
+    ],
+    "volume": "1",
+    "page": "206-215",
+    "article_number": null,
+    "url": "https://doi.org/10.1038/s42256-019-0048-x"
+  },
+  {
+    "doi": "10.1145/3375627.3375830",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Fooling LIME and SHAP"
+    ],
+    "subtitle": [
+      "Adversarial Attacks on Post hoc Explanation Methods"
+    ],
+    "authors": [
+      {
+        "given": "Dylan",
+        "family": "Slack",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California, Irvine, Irvine, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sophie",
+        "family": "Hilgard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emily",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sameer",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California, Irvine, Irvine, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Himabindu",
+        "family": "Lakkaraju",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          7
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+    ],
+    "volume": null,
+    "page": "180-186",
+    "article_number": null,
+    "url": "https://doi.org/10.1145/3375627.3375830"
+  },
+  {
+    "doi": "10.1016/j.artint.2021.103502",
+    "registry": "crossref",
+    "status": "resolved",
+    "title": [
+      "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values"
+    ],
+    "subtitle": [],
+    "authors": [
+      {
+        "given": "Kjersti",
+        "family": "Aas",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Jullum",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anders",
+        "family": "Løland",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "venue": [
+      "Artificial Intelligence"
+    ],
+    "volume": "298",
+    "page": "103502",
+    "article_number": "103502",
+    "url": "https://doi.org/10.1016/j.artint.2021.103502"
+  },
+  {
     "doi": "10.1214/aos/1176344552",
     "registry": "crossref",
     "status": "resolved",
@@ -1150,5 +1574,82 @@
     "page": "1-26",
     "article_number": null,
     "url": "https://doi.org/10.1214/aos/1176344552"
+  },
+  {
+    "doi": "10.21227/v1f0-9t13",
+    "registry": "datacite",
+    "status": "resolved",
+    "title": [
+      {
+        "title": "Federated OCPP 1.6 Intrusion Detection Dataset"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Dalamagkas, Christos",
+        "givenName": "Christos Dalamagkas",
+        "familyName": "Dalamagkas",
+        "affiliation": [
+          "PPC Innovation Hub"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Radoglou-Grammatikis, Panagiotis",
+        "givenName": "Panagiotis Radoglou-Grammatikis",
+        "familyName": "Radoglou-Grammatikis",
+        "affiliation": [
+          "University of Western Macedonia, MetaMind Innovations P.C."
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Bouzinis, Pavlos",
+        "givenName": "Pavlos Bouzinis",
+        "familyName": "Bouzinis",
+        "affiliation": [
+          "MetaMind Innovations P.C."
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Papadopoulos, Ioannis",
+        "givenName": "Ioannis Papadopoulos",
+        "familyName": "Papadopoulos",
+        "affiliation": [
+          "PPC Innovation Hub"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Lagkas, Thomas",
+        "givenName": "Thomas Lagkas",
+        "familyName": "Lagkas",
+        "affiliation": [
+          "Democritus University of Thrac"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Argyriou, Vasileios",
+        "givenName": "Vasileios Argyriou",
+        "familyName": "Argyriou",
+        "affiliation": [
+          "Kingston University London"
+        ],
+        "nameIdentifiers": []
+      },
+      {
+        "name": "Sarigiannidis, Panagiotis",
+        "givenName": "Panagiotis Sarigiannidis",
+        "familyName": "Sarigiannidis",
+        "affiliation": [
+          "University of Western Macedonia, MetaMind Innovations P.C."
+        ],
+        "nameIdentifiers": []
+      }
+    ],
+    "published": "2025",
+    "url": "https://ieee-dataport.org/documents/federated-ocpp-16-intrusion-detection-dataset"
   }
 ]

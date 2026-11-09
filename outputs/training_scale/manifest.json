@@ -1,0 +1,24 @@
+{
+  "archive_sha256": "8a56adc70d4400786b774012c69af1d5264d6733986d5a6d5d500e66b57cf246",
+  "members": [
+    "3-scenarios/scenarios-5-sec/scenario-1-disrupt.csv",
+    "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv",
+    "3-scenarios/scenarios-5-sec/scenario-3-disrupt.csv",
+    "3-scenarios/scenarios-5-sec/scenario-4-disrupt.csv",
+    "3-scenarios/scenarios-5-sec/scenario-5-disrupt.csv",
+    "3-scenarios/scenarios-5-sec/scenario-6-authtest.csv",
+    "3-scenarios/scenarios-5-sec/scenario-7-authtest.csv",
+    "3-scenarios/scenarios-5-sec/scenario-8-authtest.csv"
+  ],
+  "inputs": {
+    "C:/Users/User/Desktop/498R/run_training_scale.py": "92d76c8c05e817c4b5a63f16d61bea593ee7f1a7f6c084171631c9843a889f04",
+    "TRAINING_SCALE_PROTOCOL.md": "a3c4397cc84d01421f640bccfdf478b4a623ad0c41035f6b31b1422e39ec3c02",
+    "outputs/source_holdout_20261108/fold_assignments.json": "338257de54dc41844fb344283bfa4afb244d2c9a8ab9cf358fbe00f41fb1c0d1",
+    "config_recent.yaml": "1d572f4b7ca0a25f4b066bc1d7451e30edda48a998c42b8550e6b9a956821d69",
+    "src/xai_ids/benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "src/xai_ids/recent_data.py": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1",
+    "run_extended_validation.py": "3a9f19a5518791bded0e90efd47de834162ebef19e3bffb8a587f00cd3d053ae"
+  },
+  "contexts": 48,
+  "metrics_sha256": "ce23c9682890ea2d7a82b5ebf3f3fae53d3c23caa222f0ac6c8a7eebcd4ddb07"
+}

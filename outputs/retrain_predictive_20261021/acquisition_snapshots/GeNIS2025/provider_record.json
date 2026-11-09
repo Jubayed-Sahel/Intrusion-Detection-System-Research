@@ -1,0 +1,180 @@
+{
+  "created": "2025-02-24T17:30:11.112393+00:00",
+  "modified": "2026-02-05T14:49:41.702297+00:00",
+  "id": 14919237,
+  "conceptrecid": "14919236",
+  "doi": "10.5281/zenodo.14919237",
+  "conceptdoi": "10.5281/zenodo.14919236",
+  "doi_url": "https://doi.org/10.5281/zenodo.14919237",
+  "metadata": {
+    "title": "GeNIS: GECAD Network Intrusion Scenarios",
+    "doi": "10.5281/zenodo.14919237",
+    "publication_date": "2025-02-24",
+    "description": "<p>The GECAD Network Intrusion Scenarios (GeNIS) dataset contains multiple sequential attack scenarios and different types of realistic normal network activity, recorded during advanced network simulations on the Airbus CyberRange platform. <br><br>The raw network packets were analyzed to generate labelled network flows, with the computation of statistical features to represent the traffic patterns of local and remote attackers, normal users and administrators, and background traffic of an enterprise computer network. <br><br>GeNIS follows a modular design, providing raw packet capture next generation (PCAPNG) files with over 37 million packets of each intermediate attack step to enable an in-depth analysis with different flow exporters, feature extraction, and feature selection tools, as well as filtered CSV files with over 2.8 million flows created with 5, 10, 30, and 60 second flow intervals. The flows were preprocessed to provide a reliable benchmark dataset with the most relevant features for the training, validation, and testing of robust machine learning and deep learning models.<br><br>If you use this dataset, please cite the primary data article: <a href=\"https://doi.org/10.1016/j.dib.2025.111487\">https://doi.org/10.1016/j.dib.2025.111487</a></p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Silva, Miguel",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0009-0008-6630-9939"
+      },
+      {
+        "name": "Pinto, Daniela",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0009-0000-3003-6694"
+      },
+      {
+        "name": "Vitorino, Jo\u00e3o",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0000-0002-4968-3653"
+      },
+      {
+        "name": "Gon\u00e7alves, Jos\u00e9",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0009-0004-1038-8384"
+      },
+      {
+        "name": "Maia, Eva",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0000-0002-8075-531X"
+      },
+      {
+        "name": "Pra\u00e7a, Isabel",
+        "affiliation": "GECAD, ISEP, Polytechnic of Porto, Portugal",
+        "orcid": "0000-0002-2519-9859"
+      }
+    ],
+    "keywords": [
+      "Network flow",
+      "Packet capture",
+      "Attack classification",
+      "Anomaly detection",
+      "Machine learning",
+      "Cybersecurity"
+    ],
+    "version": "1.0.0",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14919236"
+          }
+        }
+      ]
+    },
+    "notes": "<p><span>This work was partially supported by the &ldquo;Cybers SeC IP&rdquo; project (NORTE-01-0145-FEDER-000044) and &ldquo;AIDA&rdquo; project (EDF-2023-DA-CYBER-DAAI, grant no. 101168202), through the European Regional Development Fund (ERDF) and European Defence Fund (EDF). This work has also received funding from UIDB/00760/2020.</span></p>"
+  },
+  "title": "GeNIS: GECAD Network Intrusion Scenarios",
+  "links": {
+    "self": "https://zenodo.org/api/records/14919237",
+    "self_html": "https://zenodo.org/records/14919237",
+    "preview_html": "https://zenodo.org/records/14919237?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14919237",
+    "self_doi": "https://doi.org/10.5281/zenodo.14919237",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14919237",
+    "reserve_doi": "https://zenodo.org/api/records/14919237/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14919236",
+    "parent_html": "https://zenodo.org/records/14919236",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14919236",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14919236",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14919237/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14919237/sequence/default",
+    "files": "https://zenodo.org/api/records/14919237/files",
+    "media_files": "https://zenodo.org/api/records/14919237/media-files",
+    "latest": "https://zenodo.org/api/records/14919237/versions/latest",
+    "latest_html": "https://zenodo.org/records/14919237/latest",
+    "versions": "https://zenodo.org/api/records/14919237/versions",
+    "draft": "https://zenodo.org/api/records/14919237/draft",
+    "access_links": "https://zenodo.org/api/records/14919237/access/links",
+    "access_grants": "https://zenodo.org/api/records/14919237/access/grants",
+    "access_users": "https://zenodo.org/api/records/14919237/access/users",
+    "access_request": "https://zenodo.org/api/records/14919237/access/request",
+    "access": "https://zenodo.org/api/records/14919237/access",
+    "communities": "https://zenodo.org/api/records/14919237/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14919237/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14919237/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14919237/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14919237/quota-increase",
+    "requests": "https://zenodo.org/api/records/14919237/requests"
+  },
+  "updated": "2026-02-05T14:49:41.702297+00:00",
+  "recid": "14919237",
+  "revision": 8,
+  "files": [
+    {
+      "id": "12d89457-767a-4606-9a02-1e960b726cf1",
+      "key": "2-flows.zip",
+      "size": 380755720,
+      "checksum": "md5:063b7a2ec6e6b73cc302151d2b3ba6d7",
+      "links": {
+        "self": "https://zenodo.org/api/records/14919237/files/2-flows.zip/content"
+      }
+    },
+    {
+      "id": "99643632-b4fb-44c5-8158-852d99081eef",
+      "key": "0-info.zip",
+      "size": 3308,
+      "checksum": "md5:432ada3813f0261ac8b5e371ea4d729e",
+      "links": {
+        "self": "https://zenodo.org/api/records/14919237/files/0-info.zip/content"
+      }
+    },
+    {
+      "id": "a3e1e4f1-8fe6-4602-ba6c-8cfcd5f514d8",
+      "key": "1-packets.zip",
+      "size": 1028741083,
+      "checksum": "md5:5afbceaadfe3c3476f54723434d59b4a",
+      "links": {
+        "self": "https://zenodo.org/api/records/14919237/files/1-packets.zip/content"
+      }
+    },
+    {
+      "id": "8e7855ac-ce52-45de-ae39-915eba6370a0",
+      "key": "3-scenarios.zip",
+      "size": 491738368,
+      "checksum": "md5:7c560f37af540c9e65abae813bdacab4",
+      "links": {
+        "self": "https://zenodo.org/api/records/14919237/files/3-scenarios.zip/content"
+      }
+    },
+    {
+      "id": "f030d7c9-700f-4af8-9bcc-23669f316a98",
+      "key": "4-preprocessed.zip",
+      "size": 599956349,
+      "checksum": "md5:1856f231354cf4928e40ba606080a9b2",
+      "links": {
+        "self": "https://zenodo.org/api/records/14919237/files/4-preprocessed.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "590859"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 2697,
+    "unique_downloads": 1502,
+    "views": 1690,
+    "unique_views": 1501,
+    "version_downloads": 2697,
+    "version_unique_downloads": 1502,
+    "version_unique_views": 1501,
+    "version_views": 1690
+  },
+  "state": "done",
+  "submitted": true
+}

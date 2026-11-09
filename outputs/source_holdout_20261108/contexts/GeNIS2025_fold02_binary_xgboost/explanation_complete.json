@@ -1,0 +1,15 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 2,
+  "task": "binary",
+  "model": "xgboost",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "model_sha256": "a7b8a5e703b77ca3540765b89040d8a38f0ddec3f9aaac87cca2863aa9ea8943",
+  "output_sha256": {
+    "explanation_comparison.csv": "73c47e403c032603d4f573d9fefb818f4445fce926ae396bd66917a8d95d68db",
+    "group_budget_drops.csv": "68565c80d002ea24e748ff9e679e05c0d234f549cc9727bf870096a60c10fe80",
+    "paired_group_drops.csv": "ee60b506ba56145013ef84eda51afb53a25e16088e5ed691ca47209791c33484",
+    "diagnostic_selection.csv": "0252443598d138c84b7a3fe99f3930f9cb4cc95426b9c4058891e0a4e1fbba3e"
+  }
+}

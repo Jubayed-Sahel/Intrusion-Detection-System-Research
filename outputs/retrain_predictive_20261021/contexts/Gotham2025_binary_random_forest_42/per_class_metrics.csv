@@ -1,0 +1,3 @@
+dataset,task,model,seed,class,precision,recall,f1,support
+Gotham2025,binary,random_forest,42,Attack,1.0,1.0,1.0,23558
+Gotham2025,binary,random_forest,42,Normal,1.0,1.0,1.0,2812

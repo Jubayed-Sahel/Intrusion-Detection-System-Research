@@ -1,0 +1,37 @@
+# Post hoc source-transfer stress-test protocol
+
+Protocol date: 8 November 2026. This extension preserves the previously frozen primary experiment and is declared before fitting its models. It is motivated by the limited transfer claims supported by a random connection-group holdout. It is not an external validation study or a prospective deployment evaluation.
+
+## Cohorts and feature restoration
+
+Use the exact union of the frozen primary training and test cohorts: 40,000 GeNIS records and 133,490 Gotham records. Keep the inherited per-label cap and known-label scope, including exclusion of Gotham Unknown records. Identify records by their provider source filename and zero-based source CSV row number. Hash-check both original parquets against their provenance records. Restore every original candidate predictor previously removed as a primary-training constant from the official CSVs, without substituting invented values. Verify each consumed official CSV's SHA-256 against the acquisition/preparation provenance; check selected row coverage and original label agreement. Preserve identifiers only as audit metadata. Save restored cohorts separately under ignored `data/prepared/source_holdout_20261108/`.
+
+For each new fold separately, remove predictors constant in that fold's training rows, fit imputation and categorical encoding using those training rows alone, and transform its test rows with that fitted preprocessor. The original primary split does not select the new fold's feature inventory. Unknown test categories receive the existing preprocessor's -1 encoding.
+
+## Fold assignment, fixed before fitting
+
+GeNIS: hold out each of the eight scenario source CSVs once, in lexical source order. Gotham: sort the eight source CSVs containing any selected attack records by the SHA-256 digest of the UTF-8 source filename (lexical filename breaks hypothetical hash ties). Sort the 57 selected benign-only source CSVs by the same rule and distribute them round-robin over the eight attack-bearing sources. Each Gotham fold therefore holds out one attack-bearing source plus its assigned benign-only sources. All 65 selected Gotham sources occur in exactly one held-out fold; 13 acquired CSVs absent from the capped cohort are not evaluated. Source ordering and the complete assignment are frozen in `fold_assignments.json` before the first fit. This rule is determined from source membership and label coverage, never model performance.
+
+In either dataset, let the test fold contain every selected row from its assigned sources. Remove from the remaining training pool **all rows whose global connection group occurs anywhere in this entire test fold**. Verify zero train/test source overlap and zero train/test group overlap. No row-random fallback, label-coverage search, or performance-driven fold replacement is permitted.
+
+## Models, metrics, and baselines
+
+For each of the 16 source folds, run binary and multiclass tasks with Random Forest and XGBoost: 64 predictive contexts. Model seed is fixed at 42; all model hyperparameters and training class-weight policies match `config_recent.yaml`. Use four model worker threads. Fit a majority predictor and an unweighted depth-five decision tree independently for each fold/task: 64 baseline results. No validation-driven retuning is performed.
+
+The principal predictive score is macro-F1 over all labels with positive test support, including labels absent from training. Never encode an unsupported test label as a negative integer and never remove it from this score. Predictions are mapped from the contiguous, local training label vocabulary back to strings before scoring. Report per-class precision, recall, F1, test support, training support, and whether the class was seen in training; also retain a complete confusion matrix over the union of training and test labels. An explicitly secondary seen-label-subset score restricts both evaluated rows and averaging labels and reports its retained row count. Report accuracy, weighted F1, binary false-positive and false-negative rates with their denominators, and counts of unseen-label test rows. Unsupported multiclass labels cannot be predicted by the trained head, so their recall must be zero and must be visible.
+
+Retain row-level predictions, class probabilities over the local training vocabulary, source identifiers, and connection groups in compressed CSVs. Save locally regenerated model bundles in ignored `outputs/source_holdout_20261108/models/` and record their hashes. Report fold-level results and descriptive dataset/task/model mean and range, without treating overlapping training folds as independent observations.
+
+## Matched explanation sensitivity
+
+After predictive completion, explain 50 matched diagnostic records per model context with TreeSHAP and LIME. Use the original deterministic class/error-stratified selection policy on actual and predicted string labels, seed 42. This is a diagnostic sample, not a prevalence sample. Unsupported actual labels retain their names; both explainers target the original **predicted** class, which always belongs to the local trained vocabulary. Use TreeSHAP's existing default tree output and LIME's probability surrogate; their output-domain distinction remains a limitation.
+
+LIME uses 350 perturbations and at most 5,000 training background rows stratified by model-predicted class. Preserve the original single-record warm-up before timing. Mask the top, bottom, or a matched seeded random ranking of features at budgets 1, 3, 5, and 10, capped at the available feature count. Use only the fold-training median/mode baseline, and measure the original target-class probability drop. Synthetic masks can be implausible and do not establish causal feature importance or operational usefulness. The random ranking for each explained row is identical between explainers because both loops reset and traverse the same RNG sequence.
+
+Retain full attribution vectors and per-record masking drops. Average records within connection group at each budget, average the four budgets, then compare equal-weight connection-group means. Report TreeSHAP-minus-LIME differences, explained groups, and direction counts/ranges descriptively. Do not pool p-values or construct an across-fold population significance claim: test connection groups can recur across source folds, training sets overlap, and the source collection is small and from one testbed. This sensitivity study supplements rather than replaces the frozen primary statistical analysis.
+
+## Reproducibility and stop conditions
+
+Freeze the protocol, runner, imported benchmark/preparation helpers, original configuration, environment, input hashes, and fold assignment separately. Completed checkpoints carry output hashes, and restart refuses changed source/configuration/input/model bytes. Restoration failures, source hash mismatches, missing row identities, invalid local class vocabularies, nonfinite metrics, or group overlap stop the run. Predictive and explanation passes are resumable; incomplete explanation work must remain explicitly incomplete. Timing is descriptive on the shared workstation. No source, fold, label, or unfavorable result is dropped after observing performance.
+
+The global class cap, previously inspected datasets, author-processed feature extraction, shared testbed, and post hoc design remain limitations even if source-transfer scores are high. Chronological, external-site, analyst-usefulness, and production claims remain unsupported.

@@ -1,0 +1,1201 @@
+dataset,task,model,model_seed,source_test_index,explanation_id,connection_group,actual_class,predicted_class,method,k,probability_drop
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,3,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,3,0.4752536476993443
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22555,0,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,TreeSHAP_saved,1,0.31917263687992137
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,TreeSHAP_saved,3,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_350,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_350,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_3500,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,23847,1,192.168.1.2:8000|192.168.17.15:25728|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,1,0.37308122740931426
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,3,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,5,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,3,0.47320896088603426
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,3,0.37308122740931426
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24181,2,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,3,0.569672107409356
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,20153,3,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,3,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,3,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,5,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,19837,4,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,3,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,3,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,5,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,22571,5,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,3,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19851,6,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,1,0.37308122740931426
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,3,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,5,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,3,0.47320896088603426
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,3,0.47320896088603426
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,24422,7,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,10,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,3,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,3,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,5,0.5010609273637319
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,5,0.569672107409356
+Gotham2025,multiclass,random_forest,42,19828,8,192.168.1.2:8000|192.168.17.15:27920|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,1,0.37308122740931426
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,3,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,5,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,TreeSHAP_saved,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,3,0.37308122740931426
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_350,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,3,0.47320896088603426
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,5,0.5862146573558136
+Gotham2025,multiclass,random_forest,42,23970,9,192.168.18.15:14588|192.168.2.2:8000|17,Benign,Benign,LIME_3500,10,0.5890666238335109
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,1,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,3,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,5,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,TreeSHAP_saved,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,3,0.35641456074264766
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_350,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,3,0.4528955968120839
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,5,0.5779459563388805
+Gotham2025,multiclass,random_forest,42,22820,10,192.168.1.2:8000|192.168.17.15:24160|17,Benign,Benign,LIME_3500,10,0.6057332905001778
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,TreeSHAP_saved,1,0.1933802724496323
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,TreeSHAP_saved,3,0.839072011160856
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,TreeSHAP_saved,5,0.8421398040389246
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,TreeSHAP_saved,10,0.8421398040389246
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_350,1,0.08679437499044718
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_350,3,0.2534070182571502
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_350,5,0.2534070182571502
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_350,10,0.8421398040389246
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_3500,1,0.08679437499044718
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_3500,3,0.08679437499044718
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_3500,5,0.8173396477712411
+Gotham2025,multiclass,random_forest,42,18007,11,192.168.18.10:40804|192.168.33.10:23|6,C&C Communication,C&C Communication,LIME_3500,10,0.8393047416131832
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.8411550337880603
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.973182402582172
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.5249980198065924
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.8210394631106671
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.8907292739639121
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.8990829714719056
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.8606198167360732
+Gotham2025,multiclass,random_forest,42,15757,12,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.7499970184116108
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.9536196637028153
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.0
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.5074889970406704
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.974152682118948
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.392824720715378
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.392824720715378
+Gotham2025,multiclass,random_forest,42,5255,13,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.8411550337880603
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.6752262653228173
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.8606198167360732
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,5373,14,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.8411550337880603
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.973182402582172
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.8606198167360732
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.8990829714719056
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,14838,15,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.8411550337880603
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.8210394631106671
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.8990829714719056
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.8990829714719056
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.5249980198065924
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,5355,16,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.7499970184116108
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.9536196637028153
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.0
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.457567754739131
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.392824720715378
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.392824720715378
+Gotham2025,multiclass,random_forest,42,15509,17,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.7499970184116108
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.9536196637028153
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.457567754739131
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.5074889970406704
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.392824720715378
+Gotham2025,multiclass,random_forest,42,15075,18,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.4318708518529857
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.8411550337880603
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.973182402582172
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.8210394631106671
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.8907292739639121
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.8990829714719056
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.5833313531399258
+Gotham2025,multiclass,random_forest,42,4723,19,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.973182402582172
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,1,0.7499970184116108
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,3,0.9536196637028153
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,5,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,TreeSHAP_saved,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,3,0.457567754739131
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,5,0.457567754739131
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_350,10,0.974152682118948
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,3,0.392824720715378
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,5,0.392824720715378
+Gotham2025,multiclass,random_forest,42,15407,20,192.168.20.19:57648|192.168.33.13:80|6,File Download,File Download,LIME_3500,10,0.9574491581561445
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.828255771792715
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8285789872030038
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.6863207651251462
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.6863207651251462
+Gotham2025,multiclass,random_forest,42,17540,21,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7442866989447887
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8659928941485387
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8691718125470076
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.23067898903334016
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.8071347728772083
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7946915200128284
+Gotham2025,multiclass,random_forest,42,16491,22,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.828255771792715
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8285789872030038
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.6863207651251462
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7219339166262168
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.7292544267502477
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.6863207651251462
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.6863207651251462
+Gotham2025,multiclass,random_forest,42,6713,23,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.826998139410927
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7714837341081323
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8659928941485387
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8691718125470076
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.8489846345707336
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.877376117655145
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7973956991720041
+Gotham2025,multiclass,random_forest,42,5684,24,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.861573277597278
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8874223400881938
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8877455554984826
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7557967138035239
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7454873334206249
+Gotham2025,multiclass,random_forest,42,16766,25,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8874223400881938
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8877455554984826
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7309335272818691
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.7985142501272301
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7454873334206249
+Gotham2025,multiclass,random_forest,42,16314,26,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7017990507339384
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.767896417757726
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.7825655557963535
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.7851719016226277
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.2551751327485451
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.2551751327485451
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.22412573949502335
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.7907698609044909
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.7017990507339384
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7282252742454612
+Gotham2025,multiclass,random_forest,42,7041,27,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.7749670208466238
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8874223400881938
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8877455554984826
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7245333218079497
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.7001735393846498
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7454873334206249
+Gotham2025,multiclass,random_forest,42,16838,28,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8874223400881938
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8877455554984826
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7309335272818691
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.8980568461962958
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.6918402060513165
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.7454873334206249
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7454873334206249
+Gotham2025,multiclass,random_forest,42,16565,29,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8861647077064058
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7714837341081323
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8659928941485387
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8691718125470076
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.4978067185009457
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7973956991720041
+Gotham2025,multiclass,random_forest,42,6030,30,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.8691718125470076
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,1,0.7714837341081323
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,3,0.8659928941485387
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,5,0.8691718125470076
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,TreeSHAP_saved,10,0.8717781583732819
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,1,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,3,0.7973956991720041
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,5,0.7973956991720041
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_350,10,0.877376117655145
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,3,0.2524926110295723
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,5,0.7973956991720041
+Gotham2025,multiclass,random_forest,42,17254,31,192.168.20.19:23|192.168.33.12:48475|6,Ingress Tool Transfer,Ingress Tool Transfer,LIME_3500,10,0.861573277597278
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.712284618493328
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.712284618493328
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.6780748477022909
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.8162167208920602
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.8162167208920602
+Gotham2025,multiclass,random_forest,42,11287,32,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.7920732659979692
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11266,33,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.6994254629931962
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.600728114959554
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.7702180034914701
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.7702180034914701
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.7270887480770767
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.600728114959554
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.600728114959554
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.7435502899355347
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.7280345133219722
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.600728114959554
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.600728114959554
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7435502899355347
+Gotham2025,multiclass,random_forest,42,13418,34,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.7716174964351085
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.5078165243753028
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.8653245512523392
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.8653245512523392
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.8659199180122163
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.5078165243753028
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.7189904825991129
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.7189904825991129
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.8659199180122163
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.5078165243753028
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.5078165243753028
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7189904825991129
+Gotham2025,multiclass,random_forest,42,13470,35,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.8653245512523392
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.712284618493328
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.712284618493328
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.6780748477022909
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.8162167208920602
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.8162167208920602
+Gotham2025,multiclass,random_forest,42,10340,36,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.8708693182130758
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.727620269425592
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.8739543380788183
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,12870,37,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.8739543380788183
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10951,38,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.6994254629931962
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.698830096233319
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,11087,39,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.698830096233319
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.712284618493328
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.712284618493328
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.6780748477022909
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.6780748477022909
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.44971058988310786
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.8162167208920602
+Gotham2025,multiclass,random_forest,42,10937,40,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.7985032623846047
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.8708693182130758
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.727620269425592
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.8745497048386954
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,13625,41,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.8739543380788183
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.6854856831572994
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.6984796977483007
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.6994254629931962
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.5362373741558812
+Gotham2025,multiclass,random_forest,42,10800,42,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.6994254629931962
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.6106407505462451
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.7801306390781612
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.7370013836637678
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.7370013836637678
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.6106407505462451
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.6106407505462451
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.7534629255222258
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.7315171525220279
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.6106407505462451
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.6106407505462451
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7534629255222258
+Gotham2025,multiclass,random_forest,42,9958,43,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.7315171525220279
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,3,0.8708693182130758
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,5,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,TreeSHAP_saved,10,0.8738865359435485
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,3,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,5,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_350,10,0.8745497048386954
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,1,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,3,0.4678869656696128
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,5,0.7412035343139749
+Gotham2025,multiclass,random_forest,42,12692,44,192.168.20.10:48026|192.168.34.10:443|6,Merlin C&C Communication,Merlin C&C Communication,LIME_3500,10,0.8708693182130758
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,TreeSHAP_saved,1,0.588587348527591
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,TreeSHAP_saved,3,0.6741834483063243
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,TreeSHAP_saved,5,0.8099402097035433
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,TreeSHAP_saved,10,0.8141506713931307
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_350,1,0.05173143146432413
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_350,3,0.5518008904923847
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_350,5,0.5684675571590513
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_350,10,0.8141506713931307
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_3500,1,0.05173143146432413
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_3500,3,0.32202518663716145
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_3500,5,0.4872673617788561
+Gotham2025,multiclass,random_forest,42,25494,45,192.168.17.15:0|192.168.18.15:2418|1,Merlin ICMP Flooding,Merlin ICMP Flooding,LIME_3500,10,0.8141506713931307
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.5818500000746462
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9143647185182022
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.9559760650136632
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9726427316803299
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,-0.0030328547838431863
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.04105517791647273
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.5736653019982831
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.9079514474996471
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.5129040507592957
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.5307946255635072
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.7039898319893306
+Gotham2025,multiclass,random_forest,42,13133,46,192.168.18.18:1163|192.168.20.10:3414|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.9079514474996471
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.5819998133129229
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9137523590888094
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.9553637055842703
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.972030372250937
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,-0.002990360539375625
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.5480529425688904
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.7644544933256547
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.9073390880702542
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.5301822661341145
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.7033774725599378
+Gotham2025,multiclass,random_forest,42,23638,47,192.168.17.15:5617|192.168.18.15:3610|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.9073390880702542
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.49194869749006637
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9906708867557671
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.8717697443937417
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9740042200891005
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.375382978697846
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.9577909033382664
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.874701104888654
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.9093129359084177
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.375382978697846
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.9661242366715997
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.874701104888654
+Gotham2025,multiclass,random_forest,42,2650,48,192.168.17.10:1990|192.168.18.10:759|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.9093129359084177
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.7461758592593921
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9456965118559504
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.9790018766769464
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9790018766769464
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.3302676704060735
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.7459408004725512
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.7376074671392179
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.7792741338058845
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.3302676704060735
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.3302676704060735
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.7376074671392179
+Gotham2025,multiclass,random_forest,42,25787,49,192.168.17.15:2725|192.168.18.15:642|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.7792741338058845
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.746807613072278
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.95410143424497
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.9790734657326327
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9790734657326327
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.3219343370727401
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.5433011265371708
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.7710123895282375
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.7710123895282375
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.3219343370727401
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.7460123895282375
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.7710123895282375
+Gotham2025,multiclass,random_forest,42,25766,50,192.168.17.15:2259|192.168.18.15:176|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.7793457228615708
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.5023483210468548
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9928574367323493
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.8741134533138227
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9761907700656827
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.3873640471347415
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.9614994858849999
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.8784096874353875
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.9114994858849998
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.3873640471347415
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.9614994858849999
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.8784096874353875
+Gotham2025,multiclass,random_forest,42,4084,51,192.168.18.18:4313|192.168.20.10:6564|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.9114994858849998
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.4921370214945903
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9912587307637213
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.8723575884016959
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9745920640970547
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.38389665751468727
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.38389665751468727
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.8752889488966082
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.9099007799163719
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.38389665751468727
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.9667120806795539
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.8752889488966082
+Gotham2025,multiclass,random_forest,42,23561,52,192.168.17.15:3244|192.168.18.15:1237|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.9167120806795539
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,1,0.7464926818611451
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,3,0.9630462063194549
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,5,0.9797128729861216
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,TreeSHAP_saved,10,0.9797128729861216
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,1,0.34699100253284076
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,3,0.7553194459287618
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,5,0.7886527792620951
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_350,10,0.7969861125954285
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,1,0.34699100253284076
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,3,0.7553194459287618
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,5,0.7886527792620951
+Gotham2025,multiclass,random_forest,42,12642,53,192.168.18.18:3546|192.168.20.10:6441|6,Merlin TCP Flooding,Merlin TCP Flooding,LIME_3500,10,0.7799851301150598
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916579100566117
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5914359988999469
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.6665109264154181
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7363632946991532
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,2156,54,192.168.17.10:2941|192.168.18.10:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.33333333333333337
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.6587596735904704
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.33333333333333337
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7518124163854571
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.800426340257137
+Gotham2025,multiclass,random_forest,42,3549,55,192.168.18.18:0|192.168.20.10:3175|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9999427030795324
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916579100566117
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5719094697412639
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.6665109264154181
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7363632946991532
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.7849772185708331
+Gotham2025,multiclass,random_forest,42,23108,56,192.168.17.15:4953|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.999930816977658
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.999930816977658
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.999930816977658
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.999930816977658
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5916666666666666
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.5916666666666666
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.7851474599252659
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7365335360535861
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.7684807932585993
+Gotham2025,multiclass,random_forest,42,22882,57,192.168.17.15:1761|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.999930816977658
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916579100566117
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5747693322332802
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.6665109264154181
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7363632946991532
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.7683105519041664
+Gotham2025,multiclass,random_forest,42,23153,58,192.168.17.15:5505|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916579100566117
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5747693322332802
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.6665109264154181
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.6095391574466567
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.7683105519041664
+Gotham2025,multiclass,random_forest,42,23120,59,192.168.17.15:5138|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,1,0.9916579100566117
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,3,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,TreeSHAP_saved,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,3,0.5719094697412639
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,5,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_350,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,1,0.30833333333333335
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,3,0.7363632946991532
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,5,0.7683105519041664
+Gotham2025,multiclass,random_forest,42,23139,60,192.168.17.15:5314|192.168.18.15:0|17,Merlin UDP Flooding,Merlin UDP Flooding,LIME_3500,10,0.9997605756232252
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,TreeSHAP_saved,1,0.8885972030305893
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,TreeSHAP_saved,3,0.84683657884889
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,TreeSHAP_saved,5,0.8926358885618281
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,TreeSHAP_saved,10,0.8829515562331199
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_350,1,0.07434285430773069
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_350,3,0.09431237309073814
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_350,5,0.8544722098222409
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_350,10,0.8697320845129661
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_3500,1,0.07434285430773069
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_3500,3,0.15999556534850057
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_3500,5,0.8544722098222409
+Gotham2025,multiclass,random_forest,42,8777,61,192.168.20.10:50878|192.168.33.10:23|6,Mirai C&C Communication,C&C Communication,LIME_3500,10,0.8781929662811233
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,1.0
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,1.0
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1858,62,192.168.17.10:18058|192.168.18.10:37332|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.55
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.975
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.55
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.55
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1908,63,192.168.17.10:48370|192.168.18.10:42872|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.975
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9333333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.975
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,1705,64,192.168.17.10:153|192.168.18.10:57008|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5333333333333333
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9583333333333334
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5333333333333333
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5333333333333333
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9166666666666666
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,21847,65,192.168.17.15:13325|192.168.18.15:8406|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,1.0
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,1.0
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.925
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9548,66,192.168.18.18:42441|192.168.20.10:31526|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,1.0
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,0.9666666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5416666666666667
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,21820,67,192.168.17.15:28860|192.168.18.15:51513|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,1.0
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.5583333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.975
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.5583333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,1.0
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.5583333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,9283,68,192.168.18.18:41839|192.168.20.10:59994|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,1.0
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,1,0.575
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,TreeSHAP_saved,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,1,0.575
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,3,0.9333333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,5,0.9333333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_350,10,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,1,0.575
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,3,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,5,0.9833333333333333
+Gotham2025,multiclass,random_forest,42,2119,69,192.168.17.10:6253|192.168.18.10:14898|47,Mirai GRE Flooding,Mirai GRE Flooding,LIME_3500,10,0.9916666666666667
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.8024028486058383
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.9024543284663158
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.7931815739047441
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.7931815739047441
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.03138574193191923
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.03138574193191923
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.03138574193191923
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.9005682709950741
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.4530900196473754
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.7510622644959827
+Gotham2025,multiclass,random_forest,42,18602,70,192.168.17.10:20825|192.168.18.10:54604|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.855769350062851
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.6480725554458586
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.8480582569951379
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.7833852370501175
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.9583500985555286
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,-0.004369831543721614
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.32691502790399485
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.8849139446393572
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.44038685477032047
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.7466924329522611
+Gotham2025,multiclass,random_forest,42,1214,71,192.168.17.10:45259|192.168.18.10:45190|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8849139446393572
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.008153876041424701
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.838143990485084
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.838143990485084
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.7631074844363643
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.0
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.6918335496271333
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.8249718027068613
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.15539620917971375
+Gotham2025,multiclass,random_forest,42,18682,72,192.168.17.10:6449|192.168.18.10:22862|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8251528954937558
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.6500000000000001
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.9827205021510759
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.9827205021510759
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.9599178597526052
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0017576807299478636
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.0017576807299478636
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.6160538354844092
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.9599178597526052
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.6500000000000001
+Gotham2025,multiclass,random_forest,42,21545,73,192.168.17.15:54265|192.168.18.15:18045|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.9827205021510759
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.7522927402534123
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.9023442201138896
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.793071465552318
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.793071465552318
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.4760679978841509
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.7391736678306527
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.855659241710425
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.7311812356581517
+Gotham2025,multiclass,random_forest,42,18579,74,192.168.17.10:51480|192.168.18.10:36218|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8725070011639862
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.6518591823375451
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.9719810641437178
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.9627406488334745
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.9627406488334745
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.8427496498968737
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.8427496498968737
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.8557900687970754
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.4864440717149331
+Gotham2025,multiclass,random_forest,42,3326,75,192.168.18.18:60321|192.168.20.10:34317|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8557900687970754
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.7935258490042117
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.8852439955313558
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.7932022926389685
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.9710739821668078
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.046183275500394805
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.22995769175849823
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.8557900687970754
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.44477740504826646
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.44477740504826646
+Gotham2025,multiclass,random_forest,42,18591,76,192.168.17.10:16263|192.168.18.10:65402|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8922556563959652
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,1,0.6891306240208448
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,3,0.9803933349573238
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,5,0.9923954928716141
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,TreeSHAP_saved,10,0.9742573592255198
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,1,0.020393885258375155
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,3,0.5056446504366521
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,5,0.4872159702179403
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_350,10,0.8589734458557874
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,3,0.5056446504366521
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,5,0.5056446504366521
+Gotham2025,multiclass,random_forest,42,1336,77,192.168.17.10:47281|192.168.18.10:19664|6,Mirai TCP Flooding,Mirai TCP Flooding,LIME_3500,10,0.8924878719760152
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,1,0.45800370746179164
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,3,0.9321241339280348
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,5,0.994720811169625
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,10,0.9924974832916542
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,1,0.4522944039401894
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,3,0.9289655586054015
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,5,0.9780911081538807
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,10,0.9924974832916542
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,1,0.4522944039401894
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,3,0.7269765085749922
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,5,0.9780911081538807
+Gotham2025,multiclass,random_forest,42,21105,78,192.168.17.15:60629|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,10,0.9924974832916542
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,1,0.40387695998298434
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,3,0.8938312207838354
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,5,0.9897981950096811
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,10,0.992804793801192
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,1,0.40387695998298434
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,3,0.8990319490709768
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,5,0.9814648616763478
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,10,0.992804793801192
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,1,0.5190253446965161
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,3,0.8990319490709768
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,5,0.9814648616763478
+Gotham2025,multiclass,random_forest,42,21145,79,192.168.17.15:41692|192.168.18.15:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,10,0.9897981950096811
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,1,0.3769622571496235
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,3,0.8919165179504747
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,5,0.9878567059993358
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,10,0.9927694114768231
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,1,0.4773586780298492
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,3,0.8721172462376161
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,5,0.9795501588429871
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,10,0.9878567059993358
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,1,0.4773586780298492
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,3,0.8721172462376161
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,5,0.9795501588429871
+Gotham2025,multiclass,random_forest,42,1105,80,192.168.17.10:18008|192.168.18.10:27015|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,10,0.9927694114768231
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,1,0.37154058400372536
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,3,0.8428344087218033
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,5,0.9876097113041338
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,10,0.9928136676971739
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,1,0.21956790288642614
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,3,0.8136589842729154
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,5,0.9503898102131788
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,10,0.9928136676971739
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,1,0.21956790288642614
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,3,0.8136589842729154
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,5,0.9503898102131788
+Gotham2025,multiclass,random_forest,42,836,81,192.168.17.10:13035|192.168.18.10:44038|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,10,0.9928136676971739
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,1,0.39935918971664675
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,3,0.875275018044374
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,5,0.987882688660445
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,TreeSHAP_saved,10,0.9927953941379323
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,1,0.510769353645557
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,3,0.871110973022427
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,5,0.9506627875694902
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_350,10,0.987882688660445
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,1,0.510769353645557
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,3,0.871110973022427
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,5,0.9506627875694902
+Gotham2025,multiclass,random_forest,42,868,82,192.168.17.10:18982|192.168.18.10:13251|17,Mirai UDP Flooding,Mirai UDP Flooding,LIME_3500,10,0.9927953941379323
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,TreeSHAP_saved,1,0.7555293699587222
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,TreeSHAP_saved,3,0.828741043520676
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,TreeSHAP_saved,5,0.7807918708917106
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,TreeSHAP_saved,10,0.7807918708917106
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_350,1,0.6239822429226516
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_350,3,0.834501816649729
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_350,5,0.834501816649729
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_350,10,0.7807918708917106
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_3500,1,0.6239822429226516
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_3500,3,0.834501816649729
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_3500,5,0.834501816649729
+Gotham2025,multiclass,random_forest,42,7582,83,192.168.20.10:57070|192.168.33.11:48101|6,Reporting,Reporting,LIME_3500,10,0.7881038056864071
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.5481357302075719
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.7411269197760195
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.9089453376953319
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.8917804748080922
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_350,1,0.5481357302075719
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_350,3,0.7986908269991514
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_350,5,0.8394279491527159
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_350,10,0.9240629723759326
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_3500,1,0.5481357302075719
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_3500,3,0.7986908269991514
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_3500,5,0.7411269197760195
+Gotham2025,multiclass,random_forest,42,528,84,192.168.17.10:43432|192.168.23.10:23|6,TCP Scan,TCP Scan,LIME_3500,10,0.8917804748080922
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.6107964438023155
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.7311154204465629
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.7898426957888219
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.7799210868850041
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_350,1,0.1691668539637915
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_350,3,0.1691668539637915
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_350,5,0.16571519232958254
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_350,10,0.6971415805064737
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_3500,3,0.0
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_3500,5,0.6854469538424237
+Gotham2025,multiclass,random_forest,42,18240,85,192.168.17.15:23|192.168.18.10:36200|6,TCP Scan,TCP Scan,LIME_3500,10,0.7678389836303113
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.6422069804637373
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.8968436672513406
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.8917804748080922
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_350,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_350,3,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_350,5,0.8394279491527159
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_350,10,0.9240629723759326
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_3500,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_3500,3,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_3500,5,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17649,86,192.168.20.19:62664|192.168.26.17:23|6,TCP Scan,TCP Scan,LIME_3500,10,0.9240629723759326
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.1504204929012758
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.6894779284567315
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.8635578541466223
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.8897671466670722
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_350,1,0.025000000000000022
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_350,3,0.5138230948138933
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_350,5,0.676497298501292
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_350,10,0.8897671466670722
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_3500,1,0.025000000000000022
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_3500,3,0.5138230948138933
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_3500,5,0.676497298501292
+Gotham2025,multiclass,random_forest,42,7744,87,192.168.16.10:26914|192.168.20.10:23|1,TCP Scan,TCP Scan,LIME_3500,10,0.8897671466670722
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.3227143775383568
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.5940127899448917
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.6136572943807511
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.6048731554605924
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_350,3,0.023943912129304357
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_350,5,0.12082423620520444
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_350,10,0.6048731554605924
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_3500,3,0.1506667636899125
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_3500,5,0.4028178435570354
+Gotham2025,multiclass,random_forest,42,24970,88,192.168.18.15:23|192.168.20.19:38268|6,TCP Scan,TCP Scan,LIME_3500,10,0.6048731554605924
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.6422069804637373
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.8968436672513406
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.8917804748080922
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_350,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_350,3,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_350,5,0.8394279491527159
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_350,10,0.9240629723759326
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_3500,1,0.5932010015904464
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_3500,3,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_3500,5,0.7200578407257328
+Gotham2025,multiclass,random_forest,42,17667,89,192.168.20.19:62664|192.168.22.180:23|6,TCP Scan,TCP Scan,LIME_3500,10,0.8917804748080922
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,1,0.2956270270663364
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,3,0.560472451771358
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,5,0.5801169562072174
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,TreeSHAP_saved,10,0.5713328172870586
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_350,3,0.11660917533134363
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_350,5,0.3647702123217515
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_350,10,0.5713328172870586
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_3500,3,0.11660917533134363
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_3500,5,0.3647702123217515
+Gotham2025,multiclass,random_forest,42,16009,90,192.168.17.10:55730|192.168.20.19:23|6,TCP Scan,TCP Scan,LIME_3500,10,0.2697758031128203
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.7265672163031909
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.9478960168390586
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.9388355216674373
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.770233081733892
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.49882580013172284
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.5071230730089555
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.8908402574385448
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.770233081733892
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.1629624363090565
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.9042355120083065
+Gotham2025,multiclass,random_forest,42,17828,91,192.168.0.100:36064|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.8734684409004808
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.8430410168448059
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.7443335645888384
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.83963483162324
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.7128996282039507
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.09404311943173405
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.10842760273065633
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.8463857780923131
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.7379605877747688
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.09404311943173405
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.10842760273065633
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.10842760273065633
+Gotham2025,multiclass,random_forest,42,18373,92,192.168.0.100:42656|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.7379605877747688
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.30259322201768096
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.40018810012027656
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.506043968829163
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.46596060919706317
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.044212893956678045
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.045166895462446455
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.2738570584667463
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.46596060919706317
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.044212893956678045
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.045166895462446455
+Gotham2025,multiclass,random_forest,42,4194,93,192.168.0.100:37662|192.168.20.19:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.506043968829163
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.331541413446669
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.33449880787536723
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.4542469366037918
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.5046865964184113
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.10974085959765012
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.11761783259382252
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.3125830456880944
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.5046865964184113
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.10974085959765012
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.11761783259382252
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.07910149441758707
+Gotham2025,multiclass,random_forest,42,252,94,192.168.0.100:51192|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.5046865964184113
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.8075795496913308
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.7134355206187587
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.8105308428861017
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.7030320418557083
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.0928656086545605
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.11012548905843755
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.8184864071654036
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.7390121192915756
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.0928656086545605
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.11012548905843755
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.8184864071654036
+Gotham2025,multiclass,random_forest,42,334,95,192.168.0.100:35616|192.168.17.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.7280930014265264
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.3197308574058661
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.32841025334823665
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.4390666186480222
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.45082139226893736
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.12635090852099262
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.12635090852099262
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.16377477235030719
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.45676279551517307
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.12635090852099262
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.12635090852099262
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.2756895961564914
+Gotham2025,multiclass,random_forest,42,7692,96,192.168.0.100:58116|192.168.20.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.4909047519010372
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.7886480819743895
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.7272334598041156
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.7576380526134275
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.6468004536449122
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.0
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.05167619661110967
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.7883850257263414
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.6718614132157303
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.0
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.05167619661110967
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.05167619661110967
+Gotham2025,multiclass,random_forest,42,58,97,192.168.0.100:45730|192.168.18.17:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.6718614132157303
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,1,0.8142772187629118
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,3,0.7454788971178476
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,5,0.8433665701533726
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,TreeSHAP_saved,10,0.7036628204117442
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,1,0.11990177975556404
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,3,0.1197735329321451
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,5,0.8336197363934095
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_350,10,0.7287237799825623
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,1,0.11990177975556404
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,3,0.11990177975556404
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,5,0.8439727469209493
+Gotham2025,multiclass,random_forest,42,17892,98,192.168.0.100:54264|192.168.18.10:23|6,Telnet Brute Force,Telnet Brute Force,LIME_3500,10,0.7287237799825623
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,TreeSHAP_saved,1,0.4833081858788747
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,TreeSHAP_saved,3,0.9790330257741543
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,TreeSHAP_saved,5,0.995699692440821
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,TreeSHAP_saved,10,0.9849916022657617
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_350,1,0.470699692440821
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_350,3,0.9790330257741543
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_350,5,0.9153895432506414
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_350,10,0.9849916022657617
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_3500,1,0.470699692440821
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_3500,3,0.7677225190043611
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_3500,5,0.9153895432506414
+Gotham2025,multiclass,random_forest,42,14310,99,192.168.20.10:47808|192.168.35.10:65197|17,UDP Scan,UDP Scan,LIME_3500,10,0.9849916022657617

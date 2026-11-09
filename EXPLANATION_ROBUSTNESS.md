@@ -1,6 +1,6 @@
 # Supplementary explanation robustness analysis
 
-Completed 17 October 2026. This is an explicitly post-hoc extension of the recent GeNIS/Gotham study. The frozen primary experiment, directional tests, and manuscript PDF remain unchanged.
+Completed 17 October 2026. This is an explicitly post-hoc extension of the recent GeNIS/Gotham study. The frozen primary experiment and directional tests remain unchanged. The 8 November manuscript revision now reports this supplement alongside a separate exact-pattern exclusion diagnostic; neither replaces the primary endpoint.
 
 ## Research question
 

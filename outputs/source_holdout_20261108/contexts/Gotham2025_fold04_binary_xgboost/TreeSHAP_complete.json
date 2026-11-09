@@ -1,0 +1,16 @@
+{
+  "dataset": "Gotham2025",
+  "fold": 4,
+  "task": "binary",
+  "model": "xgboost",
+  "seed": 42,
+  "explainer": "TreeSHAP",
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "output_sha256": {
+    "TreeSHAP_attributions.csv.gz": "dd529c3cb58c7243ad94940a4a98c3c5a154a5b798510ec3964ae8bae61f380a",
+    "TreeSHAP_fidelity.csv": "75cae68923b181a7cb634243d8181a33a2a24bb7db22955ea18e4ac8e977fea9",
+    "TreeSHAP_timing.csv": "a23e611ec0b7822e4404721ebd7c29d36bd1c1470bac5223e4099d5c2016c74a",
+    "diagnostic_selection.csv": "16a46d64d5940b3230309d82407cb4c7ab716d54eb7866d3f0cb0c5e12b7ef6a"
+  },
+  "model_sha256": "2ed86d14eed372ee22b7e0fb607ce6a0e8a5a9f5487f3a00ebefa5ae0eaa345e"
+}

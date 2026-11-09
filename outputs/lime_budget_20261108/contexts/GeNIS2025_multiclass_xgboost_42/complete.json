@@ -1,0 +1,13 @@
+{
+  "context": "GeNIS2025_multiclass_xgboost_42",
+  "run_fingerprint": "a05736955f87a1d1c8b51a013a7b5c1de442d52900e5d5079c5b732ddb0fdbfd",
+  "records": 100,
+  "groups": 95,
+  "outputs": {
+    "attributions.csv": "2259a2a8caf3524e5233be25c7c62f1beaef502dc3b1dd55dfbee45c66ea4672",
+    "background_indices.npy": "8d0b192c9f7bfe2e21eb5abc575cffc33f5b6b18b9a4e41d9dc8feccc16727ea",
+    "deletion.csv": "af38b380b68e11eb3c81db0f6d4d161b3d778de18ebdf5b17357c9e04fd17c2d",
+    "group_endpoints.csv": "e3420fbfafbb3bd6c8d83686912af3b6a0389a5a7c53abed743365f5ac10fa24",
+    "surrogate_fit.csv": "3750cbacb71d3bce6ad1dea18db2e551794361a2f0da06f78c66e7ae32d9bafc"
+  }
+}

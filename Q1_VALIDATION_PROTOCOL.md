@@ -1,0 +1,8 @@
+# Journal follow-up protocol
+
+Record these choices before executing the new baselines. This is a retrospective, exploratory audit of already inspected test captures. Keep the earlier comparison families and their inference separate.
+
+1. Fit two deterministic rules on the original verified GeNIS training cohort. Predict attack when attacks outnumber benign records for the observed protocol or, for the second rule, the exact protocol and unordered port pair. The second rule backs off to protocol on an unseen pair. Ties and unseen protocols default to benign. Use the same normalized fields and missing-port representation as the original external transfer study.
+2. Compare both rules with the frozen transfer-study results on the same GeNIS and OCPP test records. Report confusion counts and exact-pair coverage. A rule matching the trees would show that the three-field transfer result is achievable with a simple lookup under these conditions. It would not establish what features the original full models rely on.
+3. At assumed attack prevalences of 0.1%, 1%, and 5%, report positive predictive value and expected false alerts per 10,000 records using the observed class-conditional rates and a fixed decision threshold. Do not treat these as deployment forecasts. Rates may change with traffic composition, and record alerts are distinct from analyst tickets.
+4. After observing the protocol imbalance, run a second exploratory check restricted to TCP flows. Rebuild the original transfer models with the same locked source configuration and require their full-capture confusion counts to match the saved study before reporting this subset. TCP restriction is a diagnostic for this capture and does not create a fresh test set.

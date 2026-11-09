@@ -95,7 +95,7 @@ class RecentIntegrityTests(unittest.TestCase):
     def test_recent_manuscript_reads_approved_title_and_author_metadata(self):
         identity = manuscript_identity()
         self.assertIn("SHAP", identity["title"])
-        self.assertIn("Making Intrusion Detection Understandable", identity["title"])
+        self.assertIn("Sensitivity to Masking and Source Holdout", identity["title"])
         self.assertFalse(identity["anonymous"])
         self.assertEqual(identity["document_author"], "Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab")
         self.assertIn("Jubayed Ahmed Sahel", identity["author_line"])

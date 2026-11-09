@@ -1,0 +1,16 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 3,
+  "task": "binary",
+  "model": "random_forest",
+  "seed": 42,
+  "explainer": "LIME",
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "output_sha256": {
+    "LIME_attributions.csv.gz": "d72ac89ce65abb8c6fd25fb26b76d34bfd0240a1f6ca4de75f94c1b80727402b",
+    "LIME_fidelity.csv": "ee1ebb168aab1e6b2c8137d79385a36aba7abb7b025e3d27b196b5058062805f",
+    "LIME_timing.csv": "dbb74c7ef7fb1e87f51326604963a719f839a0c931b79aafdfd7aaa29d330f66",
+    "diagnostic_selection.csv": "b0de8bda7d6e3eeb591cfbe7e7c739804a9994a663f80faa920abd1d3eb0367e"
+  },
+  "model_sha256": "25c0a1fd8596ff58ef1ea9e35ee57b2821a11f9b342c1ce21c41544cc5cae309"
+}

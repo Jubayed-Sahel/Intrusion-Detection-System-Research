@@ -1,0 +1,14 @@
+protocol,label,rows
+6,Web_Attack,35888
+6,Normal,12006
+6,Reconnaissance,1129
+17,Normal,234
+6,FTP_BruteForce,204
+1,Normal,41
+0,Normal,6
+6,SQL_Injection,2
+1,Reconnaissance,1
+6,DB2_Enumeration,1
+6,RTSP_Enumeration,1
+6,SSH_BruteForce_Enumeration,1
+17,Reconnaissance,1

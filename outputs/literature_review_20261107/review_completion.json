@@ -1,0 +1,31 @@
+{
+  "completed_date": "2026-11-08",
+  "full_text_reviews": 20,
+  "manual_layout_review": {
+    "extended_pages": 8,
+    "conference_pages": 5,
+    "result": "All pages inspected; equation overflow and figure-legend overlap corrected"
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests",
+    "passed": 32,
+    "failed": 0
+  },
+  "completed_checks": [
+    "verify_recent_benchmark.py --verify-raw",
+    "verify_outputs.py",
+    "verify_research_validation.py",
+    "verify_research_validation.py --output outputs/clean_reproduction",
+    "verify_references.py",
+    "verify_manuscript_revision.py"
+  ],
+  "publication_status": "Local review drafts; no submission or acceptance; venue eligibility and author approval pending",
+  "sha256": {
+    "output/pdf/xai_ids_recent2025_paper.pdf": "5a5e11b3cd7e982646c51d62477e23ad07596fe102f47974c5f3002f6349f2f7",
+    "output/pdf/xai_ids_conference_review.pdf": "d48df039a01cd028e9aea4ac073498770c993b6ef3c5210bd85475600c631246",
+    "src/xai_ids/recent_paper.py": "9eacd84fe06370cda83bbe353c337452cfe1b2f9416243b7906c08b2b7af7a3b",
+    "src/xai_ids/ieee_paper.py": "95c8bfd87dbcd75b41908c0899838f6d22f3b15cae6121e9756f2f69b7566e76",
+    "build_conference_paper.py": "49e5cfdabd7b83d645323bc068c3bf91643a0642356dcbe411f57ac1e708e43b",
+    "run_pattern_sensitivity.py": "252a42261cf81abe9e51cfb4743e0df8ab6b02fe4a3f08954b57c9dbb3add50c"
+  }
+}

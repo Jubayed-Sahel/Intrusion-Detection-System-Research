@@ -1,0 +1,601 @@
+dataset,fold,task,model,seed,explainer,explanation_id,source_test_index,connection_group,source_file,source_row,actual_class,predicted_class,actual_seen_in_training,k,control,probability_drop,flipped
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,1,random,0.00010246038436889648,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,3,top,0.00010246038436889648,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,3,bottom,2.384185791015625e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,3,random,-3.5762786865234375e-07,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,5,top,0.01898634433746338,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,5,bottom,6.133317947387695e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,5,random,-3.5762786865234375e-07,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,10,top,0.4195530414581299,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,10,bottom,0.42619818449020386,0
+Gotham2025,8,multiclass,xgboost,42,LIME,0,2731,192.168.1.2:8000|192.168.17.18:10790|17,processed/iotsim-stream-consumer-2.csv,166796,Benign,Benign,True,10,random,0.00014013051986694336,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,3,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,3,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,5,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,10,top,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,10,bottom,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,1,2602,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1217075,Benign,Benign,True,10,random,0.4178866744041443,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,3,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,5,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,10,top,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,2,2561,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1154520,Benign,Benign,True,10,random,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,3,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,3,random,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,5,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,5,random,0.2653905749320984,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,10,top,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,3,2037,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,549374,Benign,Benign,True,10,random,0.2653905749320984,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,5,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,4,2496,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1096121,Benign,Benign,True,10,random,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,3,top,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,3,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,3,random,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,5,random,-1.3947486877441406e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,10,top,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,10,bottom,0.4261397123336792,0
+Gotham2025,8,multiclass,xgboost,42,LIME,5,2111,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,643444,Benign,Benign,True,10,random,-1.3947486877441406e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,1,random,0.00016689300537109375,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,3,top,0.02921438217163086,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,3,bottom,-2.1755695343017578e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,3,random,0.0005244016647338867,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,5,top,0.01342153549194336,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,5,bottom,0.0002751350402832031,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,5,random,0.0005244016647338867,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,10,top,0.4742008447647095,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,10,bottom,-0.0006625652313232422,0
+Gotham2025,8,multiclass,xgboost,42,LIME,6,1528,192.168.0.3:123|192.168.19.34:37415|17,processed/iotsim-cooler-motor-1.csv,155260,Benign,Benign,True,10,random,0.4017931818962097,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,1,random,2.6166439056396484e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,3,top,0.0001042485237121582,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,3,random,0.02358102798461914,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,5,top,0.020876407623291016,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,5,bottom,0.017795801162719727,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,5,random,0.02358102798461914,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,10,top,0.3973926901817322,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,10,bottom,0.4261837601661682,0
+Gotham2025,8,multiclass,xgboost,42,LIME,7,2874,192.168.1.2:8000|192.168.17.18:21476|17,processed/iotsim-stream-consumer-2.csv,327311,Benign,Benign,True,10,random,0.4601607918739319,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,3,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,5,random,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,10,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,8,2191,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,732907,Benign,Benign,True,10,random,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,1,random,-0.01779961585998535,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,3,top,-0.04806387424468994,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,3,bottom,0.8121949434280396,1
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,3,random,-0.01779961585998535,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,5,top,-0.050004780292510986,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,5,bottom,0.9426581030711532,1
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,5,random,-0.04967373609542847,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,10,top,0.24597620964050293,0
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,10,bottom,0.9324577683582902,1
+Gotham2025,8,multiclass,xgboost,42,LIME,9,1533,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,3982,Benign,Benign,True,10,random,0.5999430418014526,1
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,3,top,0.367217481136322,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,3,bottom,0.001827239990234375,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,3,random,0.367217481136322,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,5,top,0.40175795555114746,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,5,bottom,0.001827239990234375,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,5,random,0.40175795555114746,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,10,top,0.24143046140670776,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,10,bottom,-0.03328728675842285,0
+Gotham2025,8,multiclass,xgboost,42,LIME,10,2085,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,610421,Benign,Benign,True,10,random,0.3639426827430725,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,5,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,5,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,11,1712,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,157486,Benign,Benign,True,10,random,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,3,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,3,random,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,5,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,5,random,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,10,top,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,12,2210,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,753738,Benign,Benign,True,10,random,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,3,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,5,top,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,5,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,5,random,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,10,top,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,10,bottom,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,13,1985,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,477636,Benign,Benign,True,10,random,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,1,random,-0.01779961585998535,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,3,top,-0.04806387424468994,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,3,bottom,0.8121949434280396,1
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,3,random,-0.016571521759033203,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,5,top,-0.03245609998703003,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,5,bottom,0.8121949434280396,1
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,5,random,-0.016571521759033203,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,10,top,0.24597620964050293,0
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,10,bottom,0.9324577683582902,1
+Gotham2025,8,multiclass,xgboost,42,LIME,14,1542,192.168.0.4:8883|192.168.19.31:60889|6,processed/iotsim-cooler-motor-12.csv,10669,Benign,Benign,True,10,random,0.34433043003082275,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,3,top,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,3,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,5,random,0.4178866744041443,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,10,bottom,0.4261397123336792,0
+Gotham2025,8,multiclass,xgboost,42,LIME,15,2077,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,601029,Benign,Benign,True,10,random,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,3,top,0.367217481136322,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,5,top,0.367217481136322,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,5,bottom,-0.03330028057098389,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,5,random,-0.03330028057098389,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,10,top,0.3639426827430725,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,10,bottom,-0.03328728675842285,0
+Gotham2025,8,multiclass,xgboost,42,LIME,16,2423,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024100,Benign,Benign,True,10,random,0.21685761213302612,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,3,top,0.01919931173324585,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,5,top,0.015917658805847168,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,5,bottom,-1.919269561767578e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,5,random,0.01919931173324585,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,10,top,0.39747732877731323,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,10,bottom,0.00023066997528076172,0
+Gotham2025,8,multiclass,xgboost,42,LIME,17,2643,192.168.1.2:8000|192.168.17.18:8082|17,processed/iotsim-stream-consumer-2.csv,39111,Benign,Benign,True,10,random,0.42626839876174927,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,1,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,3,random,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,5,random,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,18,2613,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1230786,Benign,Benign,True,10,random,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,3,top,0.250264048576355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,3,random,0.0002747178077697754,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,5,top,0.250264048576355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,5,bottom,-4.845857620239258e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,5,random,0.0002747178077697754,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,10,top,0.39734911918640137,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,10,bottom,-4.845857620239258e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,19,1597,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,33341,Benign,Benign,True,10,random,0.0002747178077697754,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,1,random,0.026451528072357178,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,3,top,0.00018173456192016602,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,3,bottom,-0.00030553340911865234,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,3,random,0.1721588373184204,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,5,top,0.00018173456192016602,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,5,bottom,-0.00030219554901123047,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,5,random,-0.0002257823944091797,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,10,top,0.46556007862091064,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,10,bottom,0.4259628653526306,0
+Gotham2025,8,multiclass,xgboost,42,LIME,20,2992,192.168.1.2:8000|192.168.17.18:31420|17,processed/iotsim-stream-consumer-2.csv,462545,Benign,Benign,True,10,random,-7.486343383789062e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,3,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,3,bottom,0.0002754330635070801,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,3,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,5,random,0.0002474784851074219,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,10,top,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,10,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,21,2425,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1024747,Benign,Benign,True,10,random,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,1,random,0.02645176649093628,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,3,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,3,bottom,0.0005611777305603027,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,3,random,0.02645176649093628,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,5,top,0.1721590757369995,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,5,bottom,-0.0001799464225769043,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,5,random,0.19234520196914673,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,10,top,0.27465933561325073,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,10,bottom,0.3971715569496155,0
+Gotham2025,8,multiclass,xgboost,42,LIME,22,2750,192.168.1.2:8000|192.168.17.18:32458|17,processed/iotsim-stream-consumer-2.csv,186952,Benign,Benign,True,10,random,-7.510185241699219e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,1,random,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,3,random,0.00010567903518676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,5,random,-1.3947486877441406e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,10,top,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,23,2227,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,773141,Benign,Benign,True,10,random,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,3,top,0.021871984004974365,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,3,bottom,0.12369173765182495,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,3,random,0.0001227259635925293,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,5,top,0.01643270254135132,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,5,bottom,0.1391327977180481,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,5,random,0.0001227259635925293,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,10,top,0.016183793544769287,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,10,bottom,-0.0001990795135498047,0
+Gotham2025,8,multiclass,xgboost,42,LIME,24,2941,192.168.1.2:8000|192.168.17.18:27120|17,processed/iotsim-stream-consumer-2.csv,399312,Benign,Benign,True,10,random,0.4655888080596924,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,3,random,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,5,top,0.2502635717391968,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,5,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,5,random,-1.3947486877441406e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,10,top,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,25,2533,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,1127453,Benign,Benign,True,10,random,0.2748364210128784,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,3,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,3,bottom,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,3,random,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,5,top,0.25894999504089355,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,5,bottom,-4.762411117553711e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,5,random,-0.00014787912368774414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,10,top,0.3650469183921814,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,10,bottom,0.00011867284774780273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,26,1684,192.168.1.2:8000|192.168.17.16:34850|17,processed/iotsim-ip-camera-museum-2.csv,130925,Benign,Benign,True,10,random,0.39734864234924316,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.024878859519958496,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.4055153727531433,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.3113083243370056,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.8279069978743792,1
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.3113083243370056,0
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.8279069978743792,1
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,0.8163684997707605,1
+Gotham2025,8,multiclass,xgboost,42,LIME,27,169,192.168.18.17:23|192.168.33.12:58603|6,processed/iotsim-air-quality-1.csv,6616,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.8258574921637774,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,1,top,0.0007236599922180176,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,3,top,0.5879359841346741,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,3,random,0.8453909754753113,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,5,top,0.6983365118503571,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,5,random,0.6643043756484985,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,10,top,0.7138368487358093,1
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,10,bottom,0.002862215042114258,0
+Gotham2025,8,multiclass,xgboost,42,LIME,28,791,192.168.18.17:23|192.168.20.19:58248|6,processed/iotsim-air-quality-1.csv,31205,TCP Scan,TCP Scan,True,10,random,0.7138368487358093,1
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,1,top,0.016901075839996338,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,3,top,0.037654221057891846,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,3,random,0.025325536727905273,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,5,top,0.13000577688217163,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,5,random,0.8986381962895393,1
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,10,top,0.7124417424201965,1
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,10,bottom,0.3399531841278076,0
+Gotham2025,8,multiclass,xgboost,42,LIME,29,531,192.168.18.15:47640|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,21149,TCP Scan,TCP Scan,True,10,random,0.7124417424201965,1
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,1,top,0.0010049939155578613,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,3,top,0.006900668144226074,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,3,random,0.000270843505859375,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,5,top,0.7888055294752121,1
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,5,random,0.05843091011047363,0
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,10,top,0.7136222720146179,1
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,10,bottom,0.7235385179519653,1
+Gotham2025,8,multiclass,xgboost,42,LIME,30,577,192.168.18.17:23|192.168.20.10:46608|6,processed/iotsim-air-quality-1.csv,23383,TCP Scan,TCP Scan,True,10,random,0.45964211225509644,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,1,top,0.01190948486328125,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,3,top,0.23024588823318481,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,3,random,0.06818711757659912,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,5,top,0.5736304074525833,1
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,5,bottom,0.6697333231568336,1
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,5,random,0.06818711757659912,0
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,10,top,0.7651917459443212,1
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,10,bottom,0.7652126913890243,1
+Gotham2025,8,multiclass,xgboost,42,LIME,31,150,192.168.18.17:23|192.168.20.10:35622|6,processed/iotsim-air-quality-1.csv,6586,TCP Scan,Telnet Brute Force,True,10,random,0.00733792781829834,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,1,top,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,1,random,0.7140233516693115,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,3,top,0.003303229808807373,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,3,random,0.7140233516693115,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,5,top,0.7334489524364471,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,5,random,0.7334489524364471,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,10,top,0.7122805714607239,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,10,bottom,0.5809396505355835,1
+Gotham2025,8,multiclass,xgboost,42,LIME,32,291,192.168.18.17:23|192.168.20.10:45088|6,processed/iotsim-air-quality-1.csv,10212,TCP Scan,TCP Scan,True,10,random,0.8410092741250992,1
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,1,top,0.5114367753267288,1
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,3,top,0.5213576471433043,1
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,3,random,-0.002200186252593994,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,5,top,0.5237551126629114,1
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,5,random,-0.002200186252593994,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,10,top,0.513499366119504,1
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,10,bottom,-0.04998457431793213,0
+Gotham2025,8,multiclass,xgboost,42,LIME,33,688,192.168.18.10:40116|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,27973,TCP Scan,C&C Communication,True,10,random,0.422640323638916,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,1,top,0.0064244866371154785,0
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,1,random,-5.245208740234375e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9902398698031902,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,3,random,0.999396439146949,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9938090019859374,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,5,random,0.9980655646650121,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889349462464452,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.9993944020825438,1
+Gotham2025,8,multiclass,xgboost,42,LIME,34,758,192.168.0.100:38444|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,29979,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9980655646650121,1
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,1,top,0.006411135196685791,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,3,top,0.997541903750971,1
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,3,random,0.0005331635475158691,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9980522132245824,1
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,5,random,0.0005331635475158691,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889215948060155,1
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.38533514738082886,0
+Gotham2025,8,multiclass,xgboost,42,LIME,35,555,192.168.0.100:59160|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,22623,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9923126818612218,1
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,1,top,0.0003571510314941406,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,3,top,-1.1563301086425781e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,3,random,0.0057517290115356445,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9975489370990545,1
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,5,random,0.0057517290115356445,0
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,10,top,0.988928628154099,1
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.9886495703831315,1
+Gotham2025,8,multiclass,xgboost,42,LIME,36,1054,192.168.0.100:38300|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41190,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9989629774936475,1
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,1,top,0.46657389402389526,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,1,random,-5.245208740234375e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,3,top,0.995488905813545,1
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,3,random,0.0004495978355407715,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9938081675209105,1
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,5,random,0.0004495978355407715,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889341117814183,1
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.0004495978355407715,0
+Gotham2025,8,multiclass,xgboost,42,LIME,37,777,192.168.0.100:37242|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30754,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9892594190314412,1
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,1,top,0.38427895307540894,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,1,random,-0.04917949438095093,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,3,top,0.591555655002594,1
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,3,random,-0.04917949438095093,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,5,top,0.8804622581228614,1
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,5,bottom,-0.04917949438095093,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,5,random,-0.04917949438095093,0
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,10,top,0.8787377001717687,1
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.7327230870723724,1
+Gotham2025,8,multiclass,xgboost,42,LIME,38,1183,192.168.0.100:49492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,45074,Telnet Brute Force,Telnet Brute Force,True,10,random,0.10404092073440552,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,1,top,0.0064244866371154785,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,3,top,0.034416377544403076,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,3,random,0.4665747284889221,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9892602534964681,1
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,5,random,0.9978329604491591,1
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889349462464452,1
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.9978329604491591,1
+Gotham2025,8,multiclass,xgboost,42,LIME,39,767,192.168.0.100:38454|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,30357,Telnet Brute Force,Telnet Brute Force,True,10,random,0.994894181843847,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,1,top,0.44246596097946167,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9954610108397901,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,3,random,0.9996024107676931,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9937802725471556,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,5,random,0.996564714005217,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889062168076634,1
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.0006050467491149902,0
+Gotham2025,8,multiclass,xgboost,42,LIME,40,1068,192.168.0.100:47466|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,41599,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9889062168076634,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,1,top,0.46660470962524414,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9954908131621778,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,3,random,0.9994783301954158,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9954908131621778,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,5,random,0.9954908131621778,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889360191300511,1
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.0004436373710632324,0
+Gotham2025,8,multiclass,xgboost,42,LIME,41,903,192.168.0.100:38628|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,34818,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9889360191300511,1
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,1,top,0.0005540847778320312,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,1,random,-4.0531158447265625e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9804859664291143,1
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,3,random,-4.0531158447265625e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,5,top,0.995947081129998,1
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,5,random,-4.0531158447265625e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9888697983697057,1
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.9994377938564867,1
+Gotham2025,8,multiclass,xgboost,42,LIME,42,1336,192.168.0.100:45546|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,48801,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9937438541091979,1
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,1,top,0.22085994482040405,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,1,random,0.22085994482040405,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,3,top,0.5808231234550476,1
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,3,random,0.1965051293373108,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,5,top,0.42322680354118347,1
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,5,random,0.1965051293373108,0
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,10,top,0.7660504700616002,1
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.6655008047819138,1
+Gotham2025,8,multiclass,xgboost,42,LIME,43,77,192.168.0.100:35936|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,4379,Telnet Brute Force,Telnet Brute Force,True,10,random,0.008196651935577393,0
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,1,top,0.14456897974014282,0
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,1,random,0.2792964577674866,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,3,top,0.5786266848444939,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,3,random,0.6006633639335632,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,5,top,0.6717349169775844,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,5,random,0.6006633639335632,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,10,top,0.6695967437699437,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.547925129532814,1
+Gotham2025,8,multiclass,xgboost,42,LIME,44,1288,192.168.0.100:40492|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,47579,Telnet Brute Force,Telnet Brute Force,True,10,random,0.5786266848444939,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,1,top,0.22469061613082886,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,1,random,0.03865516185760498,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,3,top,0.01824963092803955,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,3,random,0.7027329951524734,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,5,top,0.8244046093896031,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,5,random,0.694090411067009,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,10,top,0.8244046093896031,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.8241255516186357,1
+Gotham2025,8,multiclass,xgboost,42,LIME,45,375,192.168.0.100:39774|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,14333,Telnet Brute Force,Telnet Brute Force,True,10,random,0.6978069692850113,1
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,1,top,-5.7220458984375e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,3,top,4.0531158447265625e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,3,random,0.0004464387893676758,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9967967148404568,1
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0003992915153503418,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,5,random,7.987022399902344e-06,0
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889201642945409,1
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.9886411065235734,1
+Gotham2025,8,multiclass,xgboost,42,LIME,46,203,192.168.0.100:52350|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,6760,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9967967148404568,1
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,1,top,0.0064108967781066895,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,1,random,2.2649765014648438e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9986155207734555,1
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,3,random,2.2649765014648438e-05,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,5,top,0.9937954121269286,1
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,5,random,0.9997928023294662,1
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,10,top,0.9889213563874364,1
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.4129549264907837,0
+Gotham2025,8,multiclass,xgboost,42,LIME,47,568,192.168.0.100:60226|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,23068,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9937954121269286,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,1,top,0.27637234330177307,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,3,top,0.5035714507102966,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,3,random,0.5409400463104248,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,5,top,0.3459751307964325,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,5,random,0.4087715744972229,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,10,top,0.6887987973168492,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.5909394323825836,1
+Gotham2025,8,multiclass,xgboost,42,LIME,48,643,192.168.0.100:58244|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,25810,Telnet Brute Force,Telnet Brute Force,True,10,random,0.6887987973168492,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,1,top,0.21900981664657593,0
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,1,random,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,3,top,0.2230333685874939,0
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,3,random,0.43122348189353943,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,5,top,0.6071483492851257,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,5,bottom,0.6624962091445923,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,5,random,0.43122348189353943,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,10,top,0.781458985991776,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.7802597898989916,1
+Gotham2025,8,multiclass,xgboost,42,LIME,49,303,192.168.0.100:53322|192.168.18.17:23|6,processed/iotsim-air-quality-1.csv,10667,Telnet Brute Force,Telnet Brute Force,True,10,random,0.5898976475000381,1

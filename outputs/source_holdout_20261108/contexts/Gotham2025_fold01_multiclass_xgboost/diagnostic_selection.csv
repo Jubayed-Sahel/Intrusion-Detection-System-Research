@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-cooler-motor-8.csv,1492,192.168.19.17:35285|192.168.3.1:1883|6,21657,Benign,Benign
+processed/iotsim-building-monitor-1.csv,117691,192.168.17.10:36422|192.168.33.10:23|6,4870,C&C Communication,C&C Communication
+processed/iotsim-building-monitor-1.csv,5716,192.168.17.10:59274|192.168.33.13:80|6,668,File Download,File Download
+processed/iotsim-building-monitor-1.csv,5972,192.168.17.10:59274|192.168.33.13:80|6,924,File Download,File Download
+processed/iotsim-building-monitor-1.csv,5709,192.168.17.10:59274|192.168.33.13:80|6,661,File Download,File Download
+processed/iotsim-building-monitor-1.csv,81635,192.168.17.10:23|192.168.33.12:54455|6,3775,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-building-monitor-1.csv,26972,192.168.17.10:23|192.168.33.12:54455|6,1978,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-building-monitor-1.csv,16934,192.168.17.10:23|192.168.33.12:54455|6,1623,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-building-monitor-1.csv,59815,192.168.17.10:23|192.168.33.12:54455|6,3109,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-building-monitor-1.csv,5510097,192.168.17.10:38496|192.168.34.10:443|6,15189,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5526788,192.168.17.10:38496|192.168.34.10:443|6,19095,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5509599,192.168.17.10:38496|192.168.34.10:443|6,15026,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5506547,192.168.17.10:38496|192.168.34.10:443|6,13979,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5538100,192.168.17.10:38496|192.168.34.10:443|6,20330,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5537496,192.168.17.10:38496|192.168.34.10:443|6,20153,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5510231,192.168.17.10:38496|192.168.34.10:443|6,15229,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-building-monitor-1.csv,5515375,192.168.17.10:-1|192.168.18.10:-1|1,16200,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-building-monitor-1.csv,5516287,192.168.17.10:-1|192.168.18.10:-1|1,16358,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-building-monitor-1.csv,5515460,192.168.17.10:-1|192.168.18.10:-1|1,16212,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-building-monitor-1.csv,5518714,192.168.17.10:-1|192.168.18.10:-1|1,16786,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-building-monitor-1.csv,5545322,192.168.17.10:4684|192.168.18.10:3453|6,20992,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-building-monitor-1.csv,5545963,192.168.17.10:5000|192.168.18.10:3769|6,21039,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-building-monitor-1.csv,5544532,192.168.17.10:4284|192.168.18.10:3053|6,20943,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-building-monitor-1.csv,5528373,192.168.17.10:3130|192.168.18.10:612|6,19303,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-building-monitor-1.csv,5525310,192.168.17.10:6492|192.168.18.10:0|17,18609,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-building-monitor-1.csv,5523289,192.168.17.10:4473|192.168.18.10:0|17,17944,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-building-monitor-1.csv,5524998,192.168.17.10:6180|192.168.18.10:0|17,18515,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-building-monitor-1.csv,5521831,192.168.17.10:3016|192.168.18.10:0|17,17470,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-building-monitor-1.csv,5504299,192.168.17.10:57234|192.168.33.10:23|6,13447,Mirai C&C Communication,TCP Scan
+processed/iotsim-building-monitor-1.csv,4519809,192.168.17.10:42568|192.168.18.10:943|47,11804,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,5112349,192.168.17.10:45203|192.168.18.10:44484|47,12809,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,4685291,192.168.17.10:42706|192.168.18.10:40662|47,12063,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,4723777,192.168.17.10:11613|192.168.18.10:31739|47,12141,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,4281822,192.168.17.10:42398|192.168.18.10:8702|47,11378,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,5139515,192.168.17.10:15256|192.168.18.10:64720|47,12854,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-building-monitor-1.csv,3076349,192.168.17.10:20737|192.168.18.10:49991|6,9416,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-building-monitor-1.csv,3891722,192.168.17.10:49830|192.168.18.10:30287|6,10697,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-building-monitor-1.csv,3149065,192.168.17.10:53991|192.168.18.10:35065|6,9518,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-building-monitor-1.csv,3961006,192.168.17.10:54414|192.168.18.10:15632|6,10803,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-building-monitor-1.csv,3647606,192.168.17.10:42747|192.168.18.10:52246|6,10292,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-building-monitor-1.csv,1282336,192.168.17.10:57890|192.168.18.10:32375|17,7121,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,1803697,192.168.17.10:49509|192.168.18.10:27015|17,7729,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,485067,192.168.17.10:26056|192.168.18.10:32314|17,6223,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,1294927,192.168.17.10:15504|192.168.18.10:42429|17,7137,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,2042359,192.168.17.10:7367|192.168.18.10:27015|17,8017,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,617603,192.168.17.10:26056|192.168.18.10:32314|17,6381,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-building-monitor-1.csv,123861,192.168.17.10:40492|192.168.33.11:48101|6,4988,Reporting,Reporting
+processed/iotsim-building-monitor-1.csv,62484,192.168.17.10:46084|192.168.20.10:23|6,3215,TCP Scan,TCP Scan
+processed/iotsim-building-monitor-1.csv,28094,192.168.17.10:23|192.168.18.15:46870|6,2018,TCP Scan,Telnet Brute Force
+processed/iotsim-building-monitor-1.csv,138977,192.168.0.100:56766|192.168.17.10:23|6,5321,Telnet Brute Force,Telnet Brute Force

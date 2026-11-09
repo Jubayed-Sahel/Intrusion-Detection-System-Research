@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "purpose": "Separate anonymous conference-length review draft",
+  "target": "Provisional IEEE MIAC 2027, Track 5; not submitted",
+  "anonymity": "No author, affiliation, identifying repository URL or PDF author metadata",
+  "references": 32,
+  "primary_unchanged": true,
+  "inputs_sha256": {
+    "build_conference_paper.py": "756dc1b9023ec1b2c8a32a9743de2ddc6b576dce5bf2747028f9c229135c0ade",
+    "paper/ieee/main.tex": "4b96f1c43561c6a4f5e80b6a58406cced36d8d68fa95a117d8ce162e1ff6386a",
+    "outputs/recent2025/run_manifest.json": "2b572a881e0d9db4b5988646233548d932162d19aa82313b3d51afedb6dc64e8",
+    "outputs/recent2025/predictive_summary.csv": "bb569333fe3c8d99f1cc945c5f7351bc0a86c42f889611bf1168f08fcc0fba79",
+    "outputs/recent2025/predictive_baselines.csv": "33bb761d5a5126c6c34bec952991e95b3f4cd966d253e0ed9a1ee09a3bcde167",
+    "outputs/recent2025/paired_comparisons.csv": "cd9fb022c3475835b0d7990b3678f7c6f1cbab7e17c5c115048284dcbbbbd0b9",
+    "outputs/pattern_sensitivity_20261107/manifest.json": "5154823adf6297588094c9d162cc4a8a27a759fe9fd32c3f4bf4d38d49048ab6",
+    "outputs/pattern_sensitivity_20261107/predictive.csv": "ed9db4198c9d7c17da23b8bddd54ad89436b26e7b4e53175e39db8f1738adcf3",
+    "outputs/pattern_sensitivity_20261107/explanatory.csv": "8e72434b58d4fafec271b993960275bc17219eb97c6647bd604eb45913591c92",
+    "outputs/explanation_robustness/manifest.json": "ffc85040868a43125d4ae4bf1105d0c028e046adc6bba7c96bafd017d41ea6be",
+    "outputs/extended_validation_20261108/external/manifest.json": "36198338f9e68096dbe72f4a8d636c89168c80d7a85e0bea9f234b3b55a77cdf",
+    "outputs/extended_validation_20261108/uncapped_GeNIS2025/manifest.json": "08906a30d70b062628b3d79f066c57535b8dfe80e677d2b153fd16370978eace",
+    "outputs/extended_validation_20261108/uncapped_Gotham2025/manifest.json": "f4534d93c0b9afe7456bed8d8f44058e396b626664dc6db1d13cd8169d350489",
+    "outputs/masking_extension_20261108/paired_comparisons.csv": "10a4cdd8a11b798a9e1717ecfa9aa7f56181faa2bd8fe6dd229a54aa81b8e56c",
+    "outputs/lime_budget_20261108/contrasts.csv": "1c815b8a425b2f1666845f6a5bd2c4c873c987bc177b6df6f3d10152c766a0ce",
+    "outputs/lime_kernel_20261108/manifest.json": "1aa1c6ac3f08d3e751153ba9d13a9cf4adeb7bf4b2864034450d2bd09277ea27",
+    "outputs/source_holdout_20261108/predictive_metrics.csv": "dad74c09287278bdaa3ada598188a33ae17607702006529d06b0528bb4cd5ca6",
+    "outputs/source_holdout_20261108/explanation_comparison.csv": "c37ecd648b08fab9451172bcc45aa7ec437a9b26290355ae276fd611cfda12ae",
+    "outputs/source_holdout_20261108/verification.json": "9cbdca7520eb3755dd30fb75a5e963f26ce7d0caa997f8af2caec1bd6f299242"
+  }
+}

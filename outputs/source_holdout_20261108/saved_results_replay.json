@@ -1,0 +1,13 @@
+{
+  "predictive_contexts_replayed": 64,
+  "explanation_contexts_replayed": 64,
+  "checkpoint_files_hashed_including_repeated_references": 1024,
+  "max_probability_sum_residual": 1.1527999999039196e-07,
+  "max_absolute_explanation_replay_residual": 2.7755575615628914e-17,
+  "no_raw_data_or_model_load": true,
+  "no_pooled_significance_test": true,
+  "summary_sha256": {
+    "predictive_metrics.csv": "dad74c09287278bdaa3ada598188a33ae17607702006529d06b0528bb4cd5ca6",
+    "explanation_comparison.csv": "c37ecd648b08fab9451172bcc45aa7ec437a9b26290355ae276fd611cfda12ae"
+  }
+}

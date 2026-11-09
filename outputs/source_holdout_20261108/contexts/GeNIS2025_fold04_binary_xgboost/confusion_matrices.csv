@@ -1,0 +1,5 @@
+dataset,fold,task,model,seed,actual_class,predicted_class,count
+GeNIS2025,4,binary,xgboost,42,Attack,Attack,731
+GeNIS2025,4,binary,xgboost,42,Attack,Normal,2862
+GeNIS2025,4,binary,xgboost,42,Normal,Attack,1
+GeNIS2025,4,binary,xgboost,42,Normal,Normal,1265

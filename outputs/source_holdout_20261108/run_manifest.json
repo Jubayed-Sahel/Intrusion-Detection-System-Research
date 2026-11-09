@@ -1,0 +1,72 @@
+{
+  "source_code": {
+    "C:/Users/User/Desktop/498R/run_source_holdout.py": "96e5eabbbdb2f61168f07a5ae123db478cc645eeaba70e8ed13586b4fcb64153",
+    "SOURCE_HOLDOUT_PROTOCOL_20261108.md": "a5f00c0440e3e47452bee27fe8c46ecca8bcc631fa3bbf2ee4b3021aafcba558",
+    "src/xai_ids/benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "src/xai_ids/recent_data.py": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1",
+    "config_recent.yaml": "1d572f4b7ca0a25f4b066bc1d7451e30edda48a998c42b8550e6b9a956821d69",
+    "requirements.txt": "2367bda4e52cab1a49be6ac22aad0a5399cf87d87543cc625fe96bfdf0c4eded"
+  },
+  "primary_inputs": {
+    "GeNIS2025": {
+      "prepared_files": {
+        "test.parquet": {
+          "sha256": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f",
+          "bytes": 1106130
+        },
+        "train.parquet": {
+          "sha256": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+          "bytes": 4459169
+        }
+      },
+      "provenance_sha256": "f772df669b8bb9615c598d7383c0df15f7e0ad7192d6e8cd294f52a7c2870013"
+    },
+    "Gotham2025": {
+      "prepared_files": {
+        "test.parquet": {
+          "sha256": "fb7636e1ff573d2a0fef78f7ca864f1e7d703a28b903749a79e7346cfa6dbf57",
+          "bytes": 531535
+        },
+        "train.parquet": {
+          "sha256": "a92f5ff86c7cf0aca15079cb339cbfc92cf0e9b05079f5ef4f367d88e7d0467e",
+          "bytes": 2022473
+        }
+      },
+      "provenance_sha256": "687b3efe7fd493e534b3d30a818104727e4fe613ef9bc7297f22201e43a261e4"
+    }
+  },
+  "fold_assignment_sha256": "338257de54dc41844fb344283bfa4afb244d2c9a8ab9cf358fbe00f41fb1c0d1",
+  "model_seed": 42,
+  "model_threads": 4,
+  "explanation_samples": 50,
+  "lime_samples": 350,
+  "background_max_rows": 5000,
+  "fidelity_budgets": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.0.2",
+      "shap": "0.47.2",
+      "lime": "0.2.0.1",
+      "matplotlib": "3.10.3",
+      "seaborn": "0.13.2",
+      "pyarrow": "20.0.0",
+      "joblib": "1.5.1",
+      "PyYAML": "6.0.2",
+      "reportlab": "4.4.1",
+      "pypdf": "5.5.0",
+      "pdfplumber": "0.11.6",
+      "python-docx": "1.1.2"
+    }
+  }
+}

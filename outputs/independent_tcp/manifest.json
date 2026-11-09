@@ -1,0 +1,27 @@
+{
+  "provider": "https://zenodo.org/records/16943481",
+  "csv_sha256": "2e1498a3f1825a2a43589a8a24a2a91d0e7144ae6725a6ab2c0840f8147bc0d5",
+  "provider_md5": "a409f9e5f840d13dbe0b62a740ddb662",
+  "input_hashes": {
+    "C:/Users/User/Desktop/498R/run_independent_tcp.py": "b1cb923a8c0077fab85e26fad517c89c7a7602280b0babfac2f9feb1b03a584f",
+    "INDEPENDENT_TCP_PROTOCOL.md": "25cc0e3e7d244c6ee78bdfe35ece00a2e4102e143fb72ee1ee4ad490d8ab57b7",
+    "config_recent.yaml": "1d572f4b7ca0a25f4b066bc1d7451e30edda48a998c42b8550e6b9a956821d69",
+    "outputs/extended_validation_20261108/external/manifest.json": "36198338f9e68096dbe72f4a8d636c89168c80d7a85e0bea9f234b3b55a77cdf",
+    "outputs/journal_audit_20261109/manifest.json": "6c9bdbb846e22d74b9c6a313294da58aab632f955b0ce59dd328d579b8d43e44",
+    "run_extended_validation.py": "3a9f19a5518791bded0e90efd47de834162ebef19e3bffb8a587f00cd3d053ae",
+    "run_journal_audit.py": "82c7bd927cfdabcf7e25b6c5b4b50c69f5ba56feb3c1b31678d8888af720ed70",
+    "src/xai_ids/benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903"
+  },
+  "historical_model_counts_replayed": 8,
+  "raw_rows": 49515,
+  "mixed_port_pair_rows": 161,
+  "original_label_values": {
+    "NeedManualLabel": 49515
+  },
+  "first_capture_timestamp": "2025-05-14 13:04:00.971935",
+  "last_capture_timestamp": "2025-05-14 13:17:10.940912",
+  "outputs": {
+    "metrics.csv": "e7d074e718335b6263c447fe64589d728326042cbeef0004397da19abd5c155f",
+    "coverage.csv": "ceb880829a32c59212e65cc237279ddcf609dbd3ebbf3d511ee1681cc5a3db47"
+  }
+}

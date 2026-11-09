@@ -1,0 +1,11 @@
+{
+  "predictive_contexts_verified": 64,
+  "explanation_contexts_verified": 64,
+  "expected_predictive_contexts": 64,
+  "expected_explanation_contexts": 64,
+  "predictive_complete": true,
+  "explanations_complete": true,
+  "verification": "all checkpoint hashes; row coverage; full-label metrics; per-class support; confusion matrices; matched masking and random controls",
+  "random_control_atol": 1e-12,
+  "independently_replayed_group_means": 64
+}

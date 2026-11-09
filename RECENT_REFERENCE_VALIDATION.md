@@ -1,5 +1,17 @@
 # Current manuscript reference and claim audit
 
+**Current revision completed:** 8 November 2026. The extended report contains **36 cited references**, numbered in first-appearance order. All **20 DOI records** resolve through Crossref or DataCite; their registered titles appear in the corresponding entries after case, accent and punctuation normalization. The separate anonymous conference draft contains **30 cited references** in its own first-appearance order. Its statistical-method citations resolve by bibliographic identity, protecting them against renumbering in the longer report.
+
+Twenty additional papers were reviewed using relevant full-text methods, results and discussion: 18 downloaded PDFs, one PDF read through the web reader and one publisher HTML full text. This was a focused narrative review, not an exhaustive systematic review or independent reproduction. Dataset records and the abstract-only 2026 lead do not count. See [the twenty reading notes](LITERATURE_REVIEW_20261107.md), [machine-readable decisions](literature_review_20261107.json), and [acquisition ledger](outputs/literature_review_20261107/acquisition.json). Sixteen especially relevant additions are cited in the extended report; other readings informed decisions without padding its bibliography.
+
+The revision distinguishes DeepExplainer, KernelSHAP and TreeSHAP, fixed-model deletion and retraining-based removal, feature agreement and fidelity, and explanation scores and analyst benefit. It acknowledges close recent IDS comparisons and makes class-specific failures explicit. The new exact-pattern exclusion and existing sign/influence checks are labelled post-hoc, with separate exploratory test families. Neither supplies external validation.
+
+Evidence: [current manuscript validation](outputs/literature_review_20261107/manuscript_validation.json) and [20 DOI records](outputs/recent2025/reference_metadata.json). Run `python verify_manuscript_revision.py` for current local checks and `python verify_references.py --offline` for citation structure. All 32 tests pass. Both PDFs contain searchable text and embedded fonts with no Type 3 fonts; all eight extended-report pages and five conference pages were visually inspected. The conference equation overflow was corrected before final review. Local checks do not establish venue certification or author approval.
+
+## Historical October audit
+
+The dated record below and `outputs/recent2025/reference_audit.json` retain the **October numbering, counts and PDF hash**. They do not describe the November PDF. Current identities and checks are in the new validation file linked above.
+
 **Checked:** 21 October 2026. **Scope:** `src/xai_ids/recent_paper.py` and the rebuilt `output/pdf/xai_ids_recent2025_paper.pdf`. The historical CIC/UNSW manuscript is outside the full claim audit; its existing DOI records were refreshed separately.
 
 The current bibliography has **20 entries**, all cited, numbered in first-appearance order. All **14 DOI references** resolve through Crossref or DataCite and their titles match after punctuation/case normalization, including publisher-supplied subtitles. The six remaining entries use official proceedings, journal, or archival records. Resolution establishes bibliographic identity, not universal scientific correctness or author approval.

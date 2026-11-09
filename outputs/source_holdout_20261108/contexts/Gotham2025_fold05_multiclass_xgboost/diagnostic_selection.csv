@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-ip-camera-museum-1.csv,928164,192.168.1.2:8000|192.168.17.15:27920|17,770,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,9486726,192.168.1.2:8000|192.168.17.15:24160|17,12763,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,9878373,192.168.1.2:8000|192.168.17.15:24160|17,17035,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,3110556,192.168.1.2:8000|192.168.17.15:17528|17,3980,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,2061868,192.168.1.2:8000|192.168.17.15:27544|17,2706,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,9156237,192.168.1.2:8000|192.168.17.15:17528|17,12461,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,415096,192.168.1.2:8000|192.168.17.15:27920|17,328,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,2035540,192.168.1.2:8000|192.168.17.15:27544|17,2566,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,430569,192.168.1.2:8000|192.168.17.15:27920|17,340,Benign,Benign
+processed/iotsim-ip-camera-museum-1.csv,1936945,192.168.17.15:23|192.168.33.12:60265|6,1845,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-ip-camera-museum-1.csv,10050791,192.168.17.15:60764|192.168.34.10:443|6,20160,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9675100,192.168.17.15:60764|192.168.34.10:443|6,13538,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,10099077,192.168.17.15:60764|192.168.34.10:443|6,20394,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9677691,192.168.17.15:60764|192.168.34.10:443|6,14437,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9696098,192.168.17.15:60764|192.168.34.10:443|6,14622,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9865495,192.168.17.15:60764|192.168.34.10:443|6,17000,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,10168109,192.168.17.15:60764|192.168.34.10:443|6,21581,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9676867,192.168.17.15:60764|192.168.34.10:443|6,14171,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,9833847,192.168.17.15:-1|192.168.18.15:-1|1,15103,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9842813,192.168.17.15:-1|192.168.18.15:-1|1,16551,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9839193,192.168.17.15:-1|192.168.18.15:-1|1,15965,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9842491,192.168.17.15:-1|192.168.18.15:-1|1,16500,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-museum-1.csv,10145689,192.168.17.15:4618|192.168.18.15:2611|6,20946,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,10044679,192.168.17.15:5675|192.168.18.15:3592|6,19768,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,10144391,192.168.17.15:4027|192.168.18.15:2020|6,20848,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,10040522,192.168.17.15:3762|192.168.18.15:1679|6,19442,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9944279,192.168.17.15:5314|192.168.18.15:0|17,18534,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9944169,192.168.17.15:5222|192.168.18.15:0|17,18504,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9943687,192.168.17.15:4810|192.168.18.15:0|17,18363,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,9944926,192.168.17.15:5878|192.168.18.15:0|17,18728,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,6444347,192.168.17.15:60590|192.168.33.10:23|6,8039,Mirai C&C Communication,Mirai C&C Communication
+processed/iotsim-ip-camera-museum-1.csv,7642207,192.168.17.15:39560|192.168.18.15:1002|47,9875,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,7443699,192.168.17.15:29621|192.168.18.15:12636|47,9572,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,8894359,192.168.17.15:56044|192.168.18.15:14699|47,12008,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,8601947,192.168.17.15:38789|192.168.18.15:38555|47,11514,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,8284447,192.168.17.15:839|192.168.18.15:36582|47,10972,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,8512252,192.168.17.15:55563|192.168.18.15:14392|47,11349,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-museum-1.csv,6439367,192.168.17.15:25074|192.168.18.15:31428|6,8028,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,7012072,192.168.17.15:50630|192.168.18.15:51034|6,8899,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,6277001,192.168.17.15:52994|192.168.18.15:35825|6,7768,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,5968496,192.168.17.15:47519|192.168.18.15:6743|6,7296,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,7198090,192.168.17.15:11099|192.168.18.15:16286|6,9182,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,5766223,192.168.17.15:46836|192.168.18.15:6190|6,7001,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-museum-1.csv,4286941,192.168.17.15:52149|192.168.18.15:12952|17,5225,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,4823035,192.168.17.15:14045|192.168.18.15:27015|17,5878,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,4572732,192.168.17.15:32562|192.168.18.15:59085|17,5572,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,5477227,192.168.17.15:38507|192.168.18.15:27015|17,6619,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,3708226,192.168.17.15:3857|192.168.18.15:55319|17,4630,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-museum-1.csv,1955266,192.168.17.15:23|192.168.18.15:47080|6,2028,TCP Scan,TCP Scan
+processed/iotsim-ip-camera-museum-1.csv,1965821,192.168.17.15:23|192.168.18.15:52422|6,2092,TCP Scan,Telnet Brute Force

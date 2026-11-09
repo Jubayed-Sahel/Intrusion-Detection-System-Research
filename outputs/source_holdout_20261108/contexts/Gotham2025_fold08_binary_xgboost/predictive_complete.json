@@ -1,0 +1,18 @@
+{
+  "dataset": "Gotham2025",
+  "fold": 8,
+  "task": "binary",
+  "model": "xgboost",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "restoration_audit_sha256": "ca9e5cbd663dccff40db90121ccd9836ba14f04b2b89a7257c907146bd81dad5",
+  "split_audit_sha256": "88ca92954402168cc4b8236b1ceffa95fb78d4bdf4c992cb74a5fbf06617747d",
+  "baseline_sha256": "ddef991313060df967c5a6eac1dcd3a5d034f853f5ae23832b0970970b44adcc",
+  "output_sha256": {
+    "predictive_metrics.csv": "e4859849fd3e32f56f11e1d3c78579074866c6ff8f0b111debd378168eb1f661",
+    "per_class_metrics.csv": "39e07530691e92cf32d0223593314a14365e575875bf3c46982834b0987a706c",
+    "confusion_matrices.csv": "4b00a670be76225e46e613574d3d7f83c2b795da32f60be2466217c966f65fe4",
+    "predictions.csv.gz": "9ca4f78220384507eff6d330ca4afc59e152fbf72ab9bc2c8791ec190497cbc5"
+  },
+  "model_sha256": "4e6cdc8b5f7f9818cda4ef36929f178d771e39fc41539b91d88de8284d3636e7"
+}

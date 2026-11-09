@@ -1,5 +1,11 @@
 # Publication Readiness Report
 
+**Current revision: 8 November 2026.** Twenty additional primary research papers were reviewed and the manuscript was revised around the resulting evidence. The extended report now has eight pages and 36 references; a separate anonymous five-page conference draft has 30 references. The new exact-pattern exclusion diagnostic and the earlier post-hoc sign/influence checks are reported without changing the frozen primary experiment. All 32 unit tests, official-source raw-byte and numerical verification, historical/clean-environment artifact checks, citation identity checks, PDF font checks and visual review pass.
+
+MIAC 2027 Track 5 is a provisional Bangladesh target, subject to the [official requirements and unresolved eligibility details](BANGLADESH_SUBMISSION_PLAN.md). Submission is still pending author/supervisor review, venue confirmation and required screening. See [the remaining-work list](PAPER_WORK_REMAINING.md) and [current manuscript validation](outputs/literature_review_20261107/manuscript_validation.json). No independent capture evaluation, analyst study, submission or acceptance is claimed.
+
+## Historical October audit
+
 **Audit date:** 14 October 2026.
 
 **Status:** the local research replacement and verification are complete: official acquisition, corrected preparation, all 40 predictive fits, 24 paired explanation contexts, 48 control comparisons, and eight extended audits. The full source/inference verifier passes with raw-byte checks, and all 18 unit tests pass. Gotham's ambiguous `Unknown` label is excluded from both supervised tasks. The six-page recent manuscript includes a related-work comparison and has been visually reviewed. Submission still requires a specific venue and author/supervisor review; this is a technical assessment, not peer review or IEEE acceptance.

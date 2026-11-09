@@ -1,0 +1,15 @@
+{
+  "dataset": "Gotham2025",
+  "fold": 7,
+  "task": "multiclass",
+  "model": "random_forest",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "model_sha256": "2dc03d15704f6aadc8f1e8f228d30ce3864dad860af2828f6d84ee7fc0491e40",
+  "output_sha256": {
+    "explanation_comparison.csv": "dcf16a73d137bed87fcfd0cf1d20527fe8ce818ea7aa041e0d8c1127cceb0ccd",
+    "group_budget_drops.csv": "d9944ec0fabbeacf9af974f2b683748b3fab01dc440f103cebae897d6b3231b6",
+    "paired_group_drops.csv": "178af961c838c96a5a2ca3147b62ca85f25c1ba8ecf22e0a0c9630a4fe9065a3",
+    "diagnostic_selection.csv": "64915b90f21eae5b02a5063a06ead62de4fc76aa11aceca9e3c575744b9521a5"
+  }
+}

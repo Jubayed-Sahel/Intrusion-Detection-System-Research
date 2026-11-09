@@ -1,0 +1,72 @@
+{
+  "train_rows": 121418,
+  "test_rows": 8548,
+  "train_groups": 52542,
+  "test_groups": 5727,
+  "purged_train_rows": 3524,
+  "purged_train_groups": 949,
+  "train_test_group_overlap": 0,
+  "train_test_source_overlap": 0,
+  "raw_train_label_support": {
+    "Benign": 9931,
+    "C&C Communication": 528,
+    "CoAP Amplification": 10000,
+    "File Download": 7196,
+    "Ingress Tool Transfer": 9956,
+    "Merlin C&C Communication": 10000,
+    "Merlin ICMP Flooding": 6748,
+    "Merlin TCP Flooding": 8085,
+    "Merlin UDP Flooding": 7797,
+    "Mirai C&C Communication": 1074,
+    "Mirai GRE Flooding": 9370,
+    "Mirai TCP Flooding": 9105,
+    "Mirai UDP Flooding": 8574,
+    "Reporting": 450,
+    "TCP Scan": 9490,
+    "Telnet Brute Force": 8872,
+    "UDP Scan": 4242
+  },
+  "raw_test_label_support": {
+    "Benign": 69,
+    "Ingress Tool Transfer": 44,
+    "Merlin ICMP Flooding": 1673,
+    "Merlin TCP Flooding": 1642,
+    "Merlin UDP Flooding": 1650,
+    "Mirai GRE Flooding": 630,
+    "Mirai TCP Flooding": 892,
+    "Mirai UDP Flooding": 520,
+    "TCP Scan": 300,
+    "Telnet Brute Force": 1128
+  },
+  "dataset": "Gotham2025",
+  "fold": 3,
+  "test_sources": [
+    "processed/iotsim-city-power-1.csv",
+    "processed/iotsim-cooler-motor-7.csv",
+    "processed/iotsim-predictive-maintenance-7.csv",
+    "processed/iotsim-predictive-maintenance-6.csv",
+    "processed/iotsim-predictive-maintenance-2.csv",
+    "processed/iotsim-hydraulic-system-3.csv",
+    "processed/iotsim-cooler-motor-2.csv",
+    "processed/iotsim-hydraulic-system-6.csv"
+  ],
+  "constant_columns_removed_using_fold_training": [
+    "ip.tos"
+  ],
+  "features": [
+    "frame.len",
+    "frame.protocols",
+    "ip.flags",
+    "ip.ttl",
+    "ip.proto",
+    "tcp.srcport",
+    "tcp.dstport",
+    "tcp.flags",
+    "tcp.window_size_value",
+    "tcp.window_size_scalefactor",
+    "tcp.pdu.size",
+    "udp.srcport",
+    "udp.dstport"
+  ],
+  "feature_count": 13
+}

@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset,normal_test_rows,attack_test_rows,false_positive_rate,false_negative_rate,training_seconds,train_rows,feature_count,purged_train_rows
+GeNIS2025,4,binary,xgboost,42,0.41078411195719283,0.40358066386634783,0.37219035729818994,4859,2,2,0,4859,0.40358066386634783,1266,3593,0.0007898894154818325,0.7965488449763429,0.4796843000000308,31149,69,3992

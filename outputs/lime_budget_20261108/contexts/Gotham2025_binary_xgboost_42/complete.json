@@ -1,0 +1,13 @@
+{
+  "context": "Gotham2025_binary_xgboost_42",
+  "run_fingerprint": "a05736955f87a1d1c8b51a013a7b5c1de442d52900e5d5079c5b732ddb0fdbfd",
+  "records": 100,
+  "groups": 57,
+  "outputs": {
+    "attributions.csv": "0a9791cbf9ef6ac8e903829743a509bc70bc5d43355b03cfa6ec87c93ef1e5f5",
+    "background_indices.npy": "66b30ad59273d12c8af3763eca94235f9c1a1243f0605acb6ad0dc61c9cedcbc",
+    "deletion.csv": "9fc81d05b8faca79bd3b11a292e7f223e43fa853e5f0549b527d995bd3524671",
+    "group_endpoints.csv": "14909c71ac98808e19ead5eb0f353955b164c9ef4a5f966e082818f20d1b7224",
+    "surrogate_fit.csv": "19b4b0fe4a9cae28aa5a34fe12cc4afecb0f968ab84e27de747763abfe5db34d"
+  }
+}

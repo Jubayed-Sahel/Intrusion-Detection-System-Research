@@ -1,0 +1,18 @@
+{
+  "dataset": "Gotham2025",
+  "fold": 8,
+  "task": "multiclass",
+  "model": "random_forest",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "restoration_audit_sha256": "ca9e5cbd663dccff40db90121ccd9836ba14f04b2b89a7257c907146bd81dad5",
+  "split_audit_sha256": "88ca92954402168cc4b8236b1ceffa95fb78d4bdf4c992cb74a5fbf06617747d",
+  "baseline_sha256": "bd01109964e093d4c1eb37a8332cacf0ecfef56a813d5bb55d4be77b61305856",
+  "output_sha256": {
+    "predictive_metrics.csv": "b784b8975659614dd45626e10e1e83405f560ad5d7386a1529f00cc7e8c3c576",
+    "per_class_metrics.csv": "fc101a3cab90dcd4234e301bfd01c217247c6d76e69e2eb41f7b392c1ab2942d",
+    "confusion_matrices.csv": "37586a52be4f61d3427ae46c44cc77fa0b5786ce23a2a9ee5aaa36041f3802f4",
+    "predictions.csv.gz": "0f35a15f939c4d7650a0a3a93363fd5ff1095a03413b4c291b6960539c7cd90d"
+  },
+  "model_sha256": "70ccb292dfcb106c85014b1c0448ddd95c53cf6d52617203951e1eb1a54b7669"
+}

@@ -27,6 +27,16 @@ paper/ieee/*.fls
 paper/ieee/*.fdb_latexmk
 paper/ieee/*.synctex.gz
 paper/ieee/main.pdf
+# Conference draft build intermediates; editable source and vector figure remain.
+paper/conference/*.aux
+paper/conference/*.log
+paper/conference/*.out
+paper/conference/main.pdf
+# Journal build intermediates
+paper/journal/*.aux
+paper/journal/*.log
+paper/journal/*.out
+paper/journal/main.pdf
 .ipynb_checkpoints/
 # Superseded 17 Aug 2026 copy of the project, kept locally for reference
 498R/

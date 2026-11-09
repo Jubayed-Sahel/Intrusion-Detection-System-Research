@@ -1,0 +1,15 @@
+split,protocol,attacks,benign
+GeNIS train,-1,0,586
+GeNIS train,1,3085,1
+GeNIS train,17,2274,3900
+GeNIS train,58,0,11
+GeNIS train,6,19163,3326
+GeNIS,-1,0,410
+GeNIS,1,44,0
+GeNIS,17,636,998
+GeNIS,58,0,3
+GeNIS,6,4798,765
+OCPP,-1,0,240
+OCPP,1,0,44
+OCPP,17,0,437
+OCPP,6,3532,162

@@ -1,0 +1,18 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 1,
+  "task": "binary",
+  "model": "xgboost",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "restoration_audit_sha256": "ca9e5cbd663dccff40db90121ccd9836ba14f04b2b89a7257c907146bd81dad5",
+  "split_audit_sha256": "9dbaac55b25c2600568b5a7d416670a4d7fa4cb151ced14b423e0ec0af0e54ba",
+  "baseline_sha256": "ce988d08b4cd4a86d438f5a0be66501bbef0a6812962d6fdd855f8f4a08d7df5",
+  "output_sha256": {
+    "predictive_metrics.csv": "2b60a5afbd0d6b4feb01a1b4b746c6ca582d32c1866e3fbe0ce49a7fe07f25ed",
+    "per_class_metrics.csv": "5511e2c7f85e6d978c382291503dad24a0eff786cabb3095cccf01fb74224e7b",
+    "confusion_matrices.csv": "5b22ba9f9f3b401fa11c9402910e963bcbfdf38f3c1042189ba69f75ee8a5810",
+    "predictions.csv.gz": "b7a85922af82b251eea34cfb57251248bcdda085d0e6fdf868ef3b5da9b2d919"
+  },
+  "model_sha256": "f84d667940551418d23119b3dab061bdd6de158ae198e02143cd568cf6bcea26"
+}

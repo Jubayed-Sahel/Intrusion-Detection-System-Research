@@ -1,0 +1,5 @@
+dataset,task,model,feature_count,macro_f1,weighted_f1,training_seconds,shap_latency_ms,selected_features
+Gotham2025,binary,random_forest,5,0.9933695068725316,0.9974852526127909,1.6949617000027501,0.97044,frame.len | frame.protocols | ip.flags | udp.srcport | ip.proto
+Gotham2025,binary,random_forest,10,1.0,1.0,1.7491842999988876,1.5386,frame.len | frame.protocols | ip.flags | udp.srcport | ip.proto | udp.dstport | tcp.dstport | tcp.srcport | ip.ttl | tcp.window_size_value
+Gotham2025,binary,random_forest,13,1.0,1.0,2.0866719000005105,2.13377,frame.len | frame.protocols | ip.flags | udp.srcport | ip.proto | udp.dstport | tcp.dstport | tcp.srcport | ip.ttl | tcp.window_size_value | tcp.window_size_scalefactor | tcp.flags | tcp.pdu.size
+Gotham2025,binary,random_forest,13,1.0,1.0,1.7720068000016909,1.7515100000000001,frame.len | frame.protocols | ip.flags | udp.srcport | ip.proto | udp.dstport | tcp.dstport | tcp.srcport | ip.ttl | tcp.window_size_value | tcp.window_size_scalefactor | tcp.flags | tcp.pdu.size

@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+GeNIS2025,4,binary,random_forest,42,Attack,0.9997216810464793,0.9997216810464793,0.9997216810464793,3593,26407,True
+GeNIS2025,4,binary,random_forest,42,Normal,0.9992101105845181,0.9992101105845181,0.9992101105845181,1266,4742,True

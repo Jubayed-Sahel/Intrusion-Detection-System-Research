@@ -1,0 +1,15 @@
+{
+  "context": "GeNIS2025_multiclass_random_forest_42",
+  "fingerprint": "0c5a6c03cdeec34f70d3df5b538676b59d3828e71f40ea1e4f50b42742efbb30",
+  "records": 100,
+  "groups": 95,
+  "default_width_replay_records": 100,
+  "equal_sample_neighborhoods": 100,
+  "target_reconstruction_checks": 300,
+  "outputs": {
+    "attributions.csv": "ee55be1d8bc98be622893e8368c5055c113ae21b1ebb04b09a457136af48942f",
+    "deletion.csv": "651c953f6cbc1584844af850f8cb355d88dfd13402a0394bde20cfeb144ba2e3",
+    "group_endpoints.csv": "cc2006e78556993a8a5022d7166b8ca654797391424228a625b38c937196f370",
+    "surrogate_fit.csv": "091ae8a05457eb4aefceac30d45c8aee0f1992ff35560dcb8e9b55047aec5fed"
+  }
+}

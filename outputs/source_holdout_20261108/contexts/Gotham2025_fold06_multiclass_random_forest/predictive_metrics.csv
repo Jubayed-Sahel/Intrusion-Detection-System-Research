@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset,training_seconds,train_rows,feature_count,purged_train_rows
+Gotham2025,6,multiclass,random_forest,42,0.9387110490190124,0.9114775419137999,0.9436020690111396,16463,13,17,0,16463,0.9114775419137999,2.1518745000000763,113122,13,3905

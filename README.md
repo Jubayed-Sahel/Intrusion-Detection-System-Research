@@ -6,9 +6,15 @@ The goal is to reduce the black-box nature of an IDS: show which traffic feature
 
 **Current primary study:** author-published **GeNIS2025** enterprise network flows and **Gotham2025** IoT packets, acquired from their open official Zenodo records. A documented acquisition and preparation pipeline replaces the earlier parquet inputs whose conversion history was unavailable. These are 2025 releases; this project does not claim that they are the newest datasets in every intrusion-detection domain.
 
-**Research status, 21 October 2026:** official-source acquisition, corrected preparation, all 40 predictive fits, all 24 paired explanation contexts, and all eight extended audits are complete. The full source/inference verifier passes, including raw-byte checks, and all 26 unit tests pass. A supplementary post-hoc sign-test and connection-influence analysis is complete. All eight saved models have generated fresh alert reports, and a separate four-model small training run completed with both explanation methods. The seven-page recent manuscript uses the official IEEEtran conference class and has 20 references in first-citation order, corrected full-text comparisons, and added original model/statistics sources; all 14 cited DOIs resolve. The robustness supplement remains separate from that PDF. Gotham's ambiguous `Unknown` labels are excluded from both supervised tasks. IEEE is the intended publisher family; a specific journal or conference has not been selected. The work has not been peer reviewed or accepted.
+**Research revision, 7 November 2026:** twenty additional papers have been reviewed through relevant full-text methods, results, and discussion; [reading notes and decisions](LITERATURE_REVIEW_20261107.md) identify the reviewed versions and distinguish 18 locally acquired PDFs from two other full texts accessed through the web. The revision strengthens comparison with prior IDS/XAI studies, separates fixed-model deletion from retraining-based evaluation, and makes failure cases and masking assumptions explicit. A new post-hoc exact-pattern exclusion evaluates eight saved seed-42 detectors and all 24 explanation contexts: after removing 379 GeNIS and 1,914 Gotham test records matching training predictors, all retained explanation means remain positive and all exploratory Holm-adjusted sign tests pass. This is a conditional sensitivity check, not a new split or independent validation. Primary experiments and frozen source snapshots remain unchanged.
+
+The [journal-format manuscript](output/pdf/xai_ids_tdsc_draft.pdf) includes uncapped held-out tests, training-size comparisons, and independent TCP checks on the EV-charging and PDMFC captures. The [research closeout](PAPER_WORK_REMAINING.md) records verification and separates completed work from questions that need new evidence. An extended report and an anonymous conference draft are retained for later review.
 
 ## Start here
+
+### Verify the frozen research results
+
+Run `python verify_research_closeout.py` in the pinned environment. It works without raw datasets or fitted models and checks the primary study, source-holdout replay, extensions and all three manuscripts. Add `--verify-raw` with the local GeNIS and Gotham files available to rehash the consumed official inputs. The [supplementary index](SUPPLEMENTARY_INDEX.md) maps results to protocols and rerun commands.
 
 ### Run locally on this Windows computer
 
@@ -25,6 +31,9 @@ If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.
 - [Step-by-step run guide](RUNNING_THE_PROJECT.md)
 - [Supplementary explanation robustness methods and results](EXPLANATION_ROBUSTNESS.md)
 - [Recent-data manuscript](output/pdf/xai_ids_recent2025_paper.pdf)
+- [Anonymous conference candidate](output/pdf/xai_ids_conference_review.pdf)
+- [Twenty additional paper reviews](LITERATURE_REVIEW_20261107.md)
+- [Bangladesh submission plan](BANGLADESH_SUBMISSION_PLAN.md)
 - [Current dataset acquisition and transformation record](RECENT_DATASET_PROVENANCE.md)
 - [Primary and historical provenance overview](DATA_PROVENANCE.md)
 - [Publication-readiness report](PUBLICATION_READINESS_REPORT.md)
@@ -66,7 +75,11 @@ python prepare_recent_datasets.py
 python run_recent_benchmark.py --config config_recent.yaml
 python run_recent_audit.py
 python summarize_recent_results.py
+python run_explanation_robustness.py
+python run_pattern_sensitivity.py  # needs the prepared inputs and eight saved seed-42 models
 python build_recent_paper.py  # requires pdflatex and IEEEtran; see below
+python build_conference_paper.py  # separate anonymous five-page draft
+python verify_manuscript_revision.py
 python -B verify_recent_benchmark.py
 # Also rehash all locally downloaded official source bytes:
 python -B verify_recent_benchmark.py --verify-raw
@@ -94,7 +107,9 @@ The current manuscript uses `\documentclass[conference,letterpaper]{IEEEtran}` w
 
 `python build_recent_paper.py` regenerates the LaTeX source from the verified data-driven narrative and compiles it twice using `pdflatex`. A LaTeX distribution with IEEEtran, cite, amsmath, graphicx, array, booktabs, and hyperref is required in addition to the Python dependencies. LaTeX is installed on this computer; a fresh Python environment alone does not supply it. `python build_recent_paper.py --source-only` generates sources without a compiler. The `paper/ieee/` folder can also be uploaded to Overleaf with `main.tex` as the main document. Direct edits to generated LaTeX are overwritten by regeneration; update the narrative/exporter to retain edits across builds.
 
-The standard conference template is the current default because no specific venue has been selected. Page limits, author identities, anonymity rules, and PDF eXpress certification remain venue-dependent. The 20-reference audit is retained after conversion.
+The extended report preserves fuller methodological detail. The separate conference candidate in `paper/conference/` targets a six-page anonymous format for the provisional MIAC plan; see [BANGLADESH_SUBMISSION_PLAN.md](BANGLADESH_SUBMISSION_PLAN.md). Venue eligibility, live submission rules, and applicable PDF certification still require confirmation. Do not add author-identifying repository links to a double-blind upload without checking the venue's artifact policy.
+
+The current extended report is eight pages with 36 references; the anonymous candidate is five pages with 30 references. Build the latter with `python build_conference_paper.py`, or add `--source-only` to export without compiling. Rebuild the full report first because the conference builder resolves shared reference identities from its generated source. `python verify_manuscript_revision.py` checks both PDFs, citation identities, anonymity and the 20-paper reading record. Both drafts use standard IEEEtran fonts and geometry; the conference draft stays within the advertised six-page maximum.
 
 ## Evaluation protocol
 
@@ -127,9 +142,12 @@ The post-hoc analysis reconstructs all 24 primary connection-level means and gro
 
 ```bash
 python run_explanation_robustness.py
+python run_pattern_sensitivity.py
 ```
 
 Methods, numerical-tie handling, assumptions, and a manuscript-ready paragraph are in [EXPLANATION_ROBUSTNESS.md](EXPLANATION_ROBUSTNESS.md). Per-context results and input/script hashes are saved under `outputs/explanation_robustness/`. This supplement is separate from the frozen primary experiment and its original hypothesis families.
+
+The November pattern-exclusion diagnostic uses exact raw prepared predictor equality, excluding labels and audit fields. It removes train-matching test records without refitting and retains the original test-supported label denominator. Gotham multiclass seed-42 macro-F1 changes from 0.8748 to 0.8639 for Random Forest and from 0.8659 to 0.8562 for XGBoost. All 24 retained explanation contexts preserve positive mean differences and pass a separate Holm-adjusted two-sided sign-test family, with 53–95 groups; no single retained group reverses a mean. Results, hashes, coverage, and limitations are under `outputs/pattern_sensitivity_20261107/`. This post-selection diagnostic does not establish external generalization or independence between groups.
 
 ## Alert reports
 
@@ -178,4 +196,4 @@ Those four original parquet files match the historical manifest, but their origi
 
 Connection holdout within each testbed is neither temporal generalization nor cross-organization deployment. Gotham's packet representation differs from GeNIS's flow representation; report results separately. Per-class sampling changes priors, rare classes may lack independent held-out connections, and deletion scores depend on the masking distribution. No human analyst, live deployment, production drift, or throughput study has been completed.
 
-The recent PDF, *Making Intrusion Detection Understandable: Evaluating SHAP and LIME for Cybersecurity*, names Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab as its authors and is a research draft built with the official IEEEtran conference class. Authors and supervisors must review its claims and contributions. Submission also requires a named IEEE venue, its exact template and page limit, author/affiliation metadata, and applicable disclosure and PDF checks. The research code, results, provenance, and draft manuscript were published to this repository on 14 October 2026. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and verification status.
+The extended report and anonymous conference candidate are research drafts built with IEEEtran. The provisional Bangladesh submission plan does not establish venue eligibility or acceptance. Authors and supervisors must review the scientific content and actual assistance history, confirm affiliations and declarations, verify the venue's live rules, obtain required screening, and authorize submission. The research code, results, provenance, and an earlier draft were published to this repository on 14 October 2026; that historical publication does not mean the November revision has been pushed. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and hosted verification status.

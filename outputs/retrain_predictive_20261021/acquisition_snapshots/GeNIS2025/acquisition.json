@@ -1,0 +1,32 @@
+{
+  "record_id": 14919237,
+  "metadata_url": "https://zenodo.org/api/records/14919237",
+  "files": [
+    {
+      "filename": "0-info.zip",
+      "url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+      "final_url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+      "acquired_utc": "2026-10-13T21:40:09.967576+00:00",
+      "bytes": 3308,
+      "provider_checksum": "md5:432ada3813f0261ac8b5e371ea4d729e",
+      "checksum_verified": true,
+      "sha256": "7ef636cc758586f18a5d9958e68eede9b85925610331283cce802f45542701bc",
+      "response_headers": {},
+      "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+    },
+    {
+      "filename": "3-scenarios.zip",
+      "url": "https://zenodo.org/api/records/14919237/files/3-scenarios.zip/content",
+      "final_url": "https://zenodo.org/records/14919237/files/3-scenarios.zip?download=1",
+      "acquired_utc": "2026-10-13T21:57:47.811116+00:00",
+      "bytes": 491738368,
+      "provider_checksum": "md5:7c560f37af540c9e65abae813bdacab4",
+      "checksum_verified": true,
+      "sha256": "8a56adc70d4400786b774012c69af1d5264d6733986d5a6d5d500e66b57cf246",
+      "response_headers": {
+        "transfer": "verified-length HTTP byte ranges; six workers"
+      },
+      "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+    }
+  ]
+}

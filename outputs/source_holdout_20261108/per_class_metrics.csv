@@ -1,0 +1,401 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+GeNIS2025,1,binary,random_forest,42,Attack,0.999429874572406,0.9820728291316526,0.9906753320146934,1785,28197,True
+GeNIS2025,1,binary,random_forest,42,Normal,0.9750972762645914,0.9992025518341308,0.9870027569909413,1254,4757,True
+GeNIS2025,1,binary,xgboost,42,Attack,1.0,0.9680672268907563,0.9837745516652434,1785,28197,True
+GeNIS2025,1,binary,xgboost,42,Normal,0.9565217391304348,1.0,0.9777777777777777,1254,4757,True
+GeNIS2025,1,multiclass,random_forest,42,benign,0.9550304878048781,0.9992025518341308,0.9766173031956352,1254,4757,True
+GeNIS2025,1,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,1,multiclass,random_forest,42,dos,1.0,0.6193181818181818,0.7649122807017544,352,9630,True
+GeNIS2025,1,multiclass,random_forest,42,recon,1.0,1.0,1.0,1433,8567,True
+GeNIS2025,1,multiclass,xgboost,42,benign,0.9200293470286134,1.0,0.9583492548719909,1254,4757,True
+GeNIS2025,1,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,1,multiclass,xgboost,42,dos,1.0,0.6647727272727273,0.7986348122866894,352,9630,True
+GeNIS2025,1,multiclass,xgboost,42,recon,1.0,1.0,1.0,1433,8567,True
+GeNIS2025,2,binary,random_forest,42,Attack,0.9932688262515776,0.9784500621632822,0.98580375782881,2413,27555,True
+GeNIS2025,2,binary,random_forest,42,Normal,0.9601532567049809,0.987391646966115,0.9735819735819736,1269,4774,True
+GeNIS2025,2,binary,xgboost,42,Attack,0.9960835509138382,0.9486116866970576,0.9717682020802377,2413,27555,True
+GeNIS2025,2,binary,xgboost,42,Normal,0.9104046242774566,0.9929078014184397,0.9498680738786279,1269,4774,True
+GeNIS2025,2,multiclass,random_forest,42,benign,0.6450777202072538,0.9810874704491725,0.7783682400750235,1269,4774,True
+GeNIS2025,2,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,2,multiclass,random_forest,42,dos,0.9107806691449815,0.26147278548559233,0.40630182421227196,937,9033,True
+GeNIS2025,2,multiclass,random_forest,42,recon,1.0,1.0,1.0,1476,8522,True
+GeNIS2025,2,multiclass,xgboost,42,benign,0.8823529411764706,0.9810874704491725,0.9291044776119403,1269,4774,True
+GeNIS2025,2,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,2,multiclass,xgboost,42,dos,0.9696586599241467,0.8185699039487727,0.8877314814814815,937,9033,True
+GeNIS2025,2,multiclass,xgboost,42,recon,1.0,1.0,1.0,1476,8522,True
+GeNIS2025,3,binary,random_forest,42,Attack,1.0,0.99972444199504,0.9998622020118506,3629,26371,True
+GeNIS2025,3,binary,random_forest,42,Normal,0.9992069785884219,1.0,0.9996033320111067,1260,4729,True
+GeNIS2025,3,binary,xgboost,42,Attack,1.0,0.19867732157619178,0.3314942528735632,3629,26371,True
+GeNIS2025,3,binary,xgboost,42,Normal,0.30230326295585414,1.0,0.4642593957258659,1260,4729,True
+GeNIS2025,3,multiclass,random_forest,42,benign,0.9992050874403816,0.9976190476190476,0.9984114376489277,1260,4729,True
+GeNIS2025,3,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,3,multiclass,random_forest,42,dos,0.9989690721649485,1.0,0.999484270242393,2907,7093,True
+GeNIS2025,3,multiclass,random_forest,42,recon,1.0,0.9986149584487535,0.9993069993069993,722,9278,True
+GeNIS2025,3,multiclass,xgboost,42,benign,0.3023758099352052,1.0,0.46434494195688225,1260,4729,True
+GeNIS2025,3,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,3,multiclass,xgboost,42,dos,0.0,0.0,0.0,2907,7093,True
+GeNIS2025,3,multiclass,xgboost,42,recon,1.0,1.0,1.0,722,9278,True
+GeNIS2025,4,binary,random_forest,42,Attack,0.9997216810464793,0.9997216810464793,0.9997216810464793,3593,26407,True
+GeNIS2025,4,binary,random_forest,42,Normal,0.9992101105845181,0.9992101105845181,0.9992101105845181,1266,4742,True
+GeNIS2025,4,binary,xgboost,42,Attack,0.9986338797814208,0.2034511550236571,0.33803468208092485,3593,26407,True
+GeNIS2025,4,binary,xgboost,42,Normal,0.3065180518536467,0.9992101105845181,0.4691266456517708,1266,4742,True
+GeNIS2025,4,multiclass,random_forest,42,benign,0.4332761578044597,0.9976303317535545,0.6041616838077015,1266,4742,True
+GeNIS2025,4,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,4,multiclass,random_forest,42,dos,0.9983539094650206,0.4235335195530726,0.5947536160823731,2864,7136,True
+GeNIS2025,4,multiclass,random_forest,42,recon,1.0,0.9986282578875172,0.9993136582017845,729,9271,True
+GeNIS2025,4,multiclass,xgboost,42,benign,0.3254315897964442,0.9976303317535545,0.49077132310083543,1266,4742,True
+GeNIS2025,4,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,4,multiclass,xgboost,42,dos,0.9919354838709677,0.08589385474860335,0.15809768637532134,2864,7136,True
+GeNIS2025,4,multiclass,xgboost,42,recon,1.0,1.0,1.0,729,9271,True
+GeNIS2025,5,binary,random_forest,42,Attack,0.991885312415472,1.0,0.9959261271048343,3667,26300,True
+GeNIS2025,5,binary,random_forest,42,Normal,1.0,0.9747474747474747,0.9872122762148338,1188,4816,True
+GeNIS2025,5,binary,xgboost,42,Attack,0.9916170903190914,1.0,0.9957909029192125,3667,26300,True
+GeNIS2025,5,binary,xgboost,42,Normal,1.0,0.9739057239057239,0.9867803837953092,1188,4816,True
+GeNIS2025,5,multiclass,random_forest,42,benign,1.0,0.9730639730639731,0.9863481228668942,1188,4816,True
+GeNIS2025,5,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,5,multiclass,random_forest,42,dos,0.9892328398384926,1.0,0.9945872801082544,2940,7028,True
+GeNIS2025,5,multiclass,random_forest,42,recon,1.0,1.0,1.0,727,9272,True
+GeNIS2025,5,multiclass,xgboost,42,benign,1.0,0.9739057239057239,0.9867803837953092,1188,4816,True
+GeNIS2025,5,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,0,10000,True
+GeNIS2025,5,multiclass,xgboost,42,dos,0.9898270600203459,0.9928571428571429,0.9913397860417728,2940,7028,True
+GeNIS2025,5,multiclass,xgboost,42,recon,0.9719251336898396,1.0,0.9857627118644068,727,9272,True
+GeNIS2025,6,binary,random_forest,42,Attack,1.0,0.20162174008327854,0.3355827101951486,4563,25437,True
+GeNIS2025,6,binary,random_forest,42,Normal,0.2578936646974944,1.0,0.4100404858299595,1266,4725,True
+GeNIS2025,6,binary,xgboost,42,Attack,1.0,0.15538023230330922,0.26896813353566007,4563,25437,True
+GeNIS2025,6,binary,xgboost,42,Normal,0.247265625,1.0,0.39649232696523645,1266,4725,True
+GeNIS2025,6,multiclass,random_forest,42,benign,0.26054590570719605,0.995260663507109,0.41297935103244837,1266,4725,True
+GeNIS2025,6,multiclass,random_forest,42,bruteforce,0.0,0.0,0.0,3853,6147,True
+GeNIS2025,6,multiclass,random_forest,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,6,multiclass,random_forest,42,recon,1.0,0.9985915492957746,0.9992952783650458,710,9290,True
+GeNIS2025,6,multiclass,xgboost,42,benign,0.24652981427174975,0.9960505529225908,0.39523585644883247,1266,4725,True
+GeNIS2025,6,multiclass,xgboost,42,bruteforce,0.0,0.0,0.0,3853,6147,True
+GeNIS2025,6,multiclass,xgboost,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,6,multiclass,xgboost,42,recon,1.0,0.9985915492957746,0.9992952783650458,710,9290,True
+GeNIS2025,7,binary,random_forest,42,Attack,0.9977671451355662,1.0,0.9988823247644899,3128,26871,True
+GeNIS2025,7,binary,random_forest,42,Normal,1.0,0.994331983805668,0.9971579374746244,1235,4799,True
+GeNIS2025,7,binary,xgboost,42,Attack,0.9992307692307693,0.41528132992327366,0.5867208672086721,3128,26871,True
+GeNIS2025,7,binary,xgboost,42,Normal,0.4028730003264773,0.9991902834008097,0.5742205677059097,1235,4799,True
+GeNIS2025,7,multiclass,random_forest,42,benign,0.7767857142857143,0.9862348178137652,0.8690688547984302,1235,4799,True
+GeNIS2025,7,multiclass,random_forest,42,bruteforce,1.0,0.4051433389544688,0.5766576657665766,2372,7628,True
+GeNIS2025,7,multiclass,random_forest,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,7,multiclass,random_forest,42,recon,1.0,1.0,1.0,756,9243,True
+GeNIS2025,7,multiclass,xgboost,42,benign,0.3481989708404803,0.9862348178137652,0.5146841326854004,1235,4799,True
+GeNIS2025,7,multiclass,xgboost,42,bruteforce,1.0,0.0387858347386172,0.07467532467532467,2372,7628,True
+GeNIS2025,7,multiclass,xgboost,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,7,multiclass,xgboost,42,recon,1.0,1.0,1.0,756,9243,True
+GeNIS2025,8,binary,random_forest,42,Attack,0.9995847750865052,1.0,0.9997923444313699,7222,22778,True
+GeNIS2025,8,binary,random_forest,42,Normal,1.0,0.9976228209191759,0.9988099960333201,1262,4804,True
+GeNIS2025,8,binary,xgboost,42,Attack,0.9997173144876325,0.9793685959567987,0.9894383437084703,7222,22778,True
+GeNIS2025,8,binary,xgboost,42,Normal,0.8942512420156139,0.9984152139461173,0.9434668663421939,1262,4804,True
+GeNIS2025,8,multiclass,random_forest,42,benign,1.0,0.9889064976228209,0.9944223107569721,1262,4804,True
+GeNIS2025,8,multiclass,random_forest,42,bruteforce,0.9997351694915254,1.0,0.9998675672096411,3775,6225,True
+GeNIS2025,8,multiclass,random_forest,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,8,multiclass,random_forest,42,recon,1.0,1.0,1.0,3447,6553,True
+GeNIS2025,8,multiclass,xgboost,42,benign,1.0,0.9904912836767037,0.9952229299363057,1262,4804,True
+GeNIS2025,8,multiclass,xgboost,42,bruteforce,0.9994704792163093,1.0,0.9997351694915254,3775,6225,True
+GeNIS2025,8,multiclass,xgboost,42,dos,0.0,0.0,0.0,0,10000,True
+GeNIS2025,8,multiclass,xgboost,42,recon,1.0,1.0,1.0,3447,6553,True
+Gotham2025,1,binary,random_forest,42,Attack,1.0,1.0,1.0,21649,98609,True
+Gotham2025,1,binary,random_forest,42,Normal,1.0,1.0,1.0,95,9904,True
+Gotham2025,1,binary,xgboost,42,Attack,1.0,1.0,1.0,21649,98609,True
+Gotham2025,1,binary,xgboost,42,Normal,1.0,1.0,1.0,95,9904,True
+Gotham2025,1,multiclass,random_forest,42,Benign,0.9693877551020408,1.0,0.9844559585492227,95,9904,True
+Gotham2025,1,multiclass,random_forest,42,C&C Communication,0.17699115044247787,0.47619047619047616,0.25806451612903225,84,444,True
+Gotham2025,1,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,1,multiclass,random_forest,42,File Download,0.9991610738255033,1.0,0.9995803608896349,1191,6005,True
+Gotham2025,1,multiclass,random_forest,42,Ingress Tool Transfer,0.9988597491448119,0.9948892674616695,0.9968705547652916,1761,8239,True
+Gotham2025,1,multiclass,random_forest,42,Merlin C&C Communication,1.0,0.9984620116887112,0.999230414037248,3251,6749,True
+Gotham2025,1,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1550,6752,True
+Gotham2025,1,multiclass,random_forest,42,Merlin TCP Flooding,0.999388379204893,1.0,0.9996940960538391,1634,8115,True
+Gotham2025,1,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1654,7799,True
+Gotham2025,1,multiclass,random_forest,42,Mirai C&C Communication,0.9565217391304348,0.12290502793296089,0.21782178217821782,358,716,True
+Gotham2025,1,multiclass,random_forest,42,Mirai GRE Flooding,0.9964342313787639,1.0,0.9982139313355824,2515,7484,True
+Gotham2025,1,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9995635093845482,0.9997817070508622,2291,7705,True
+Gotham2025,1,multiclass,random_forest,42,Mirai UDP Flooding,1.0,0.9966254218222722,0.9983098591549295,2667,7103,True
+Gotham2025,1,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,88,362,True
+Gotham2025,1,multiclass,random_forest,42,TCP Scan,0.8548972188633616,0.866421568627451,0.8606208155812538,1632,7867,True
+Gotham2025,1,multiclass,random_forest,42,Telnet Brute Force,0.8609388839681134,0.998972250770812,0.9248334919124643,973,9027,True
+Gotham2025,1,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,1,multiclass,xgboost,42,Benign,1.0,1.0,1.0,95,9904,True
+Gotham2025,1,multiclass,xgboost,42,C&C Communication,0.18376068376068377,0.5119047619047619,0.27044025157232704,84,444,True
+Gotham2025,1,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,1,multiclass,xgboost,42,File Download,1.0,1.0,1.0,1191,6005,True
+Gotham2025,1,multiclass,xgboost,42,Ingress Tool Transfer,0.9971542401821286,0.9948892674616695,0.9960204661739624,1761,8239,True
+Gotham2025,1,multiclass,xgboost,42,Merlin C&C Communication,1.0,0.9984620116887112,0.999230414037248,3251,6749,True
+Gotham2025,1,multiclass,xgboost,42,Merlin ICMP Flooding,1.0,1.0,1.0,1550,6752,True
+Gotham2025,1,multiclass,xgboost,42,Merlin TCP Flooding,0.999388379204893,1.0,0.9996940960538391,1634,8115,True
+Gotham2025,1,multiclass,xgboost,42,Merlin UDP Flooding,1.0,0.9969770253929867,0.9984862246442628,1654,7799,True
+Gotham2025,1,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,358,716,True
+Gotham2025,1,multiclass,xgboost,42,Mirai GRE Flooding,0.9944642151047846,1.0,0.9972244250594766,2515,7484,True
+Gotham2025,1,multiclass,xgboost,42,Mirai TCP Flooding,0.9991273996509599,0.9995635093845482,0.9993454069386865,2291,7705,True
+Gotham2025,1,multiclass,xgboost,42,Mirai UDP Flooding,1.0,0.9966254218222722,0.9983098591549295,2667,7103,True
+Gotham2025,1,multiclass,xgboost,42,Reporting,1.0,0.9431818181818182,0.9707602339181286,88,362,True
+Gotham2025,1,multiclass,xgboost,42,TCP Scan,0.8539458186101295,0.8884803921568627,0.8708708708708709,1632,7867,True
+Gotham2025,1,multiclass,xgboost,42,Telnet Brute Force,0.8651785714285715,0.9958890030832477,0.9259436215957955,973,9027,True
+Gotham2025,1,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,2,binary,random_forest,42,Attack,1.0,1.0,1.0,13592,106204,True
+Gotham2025,2,binary,random_forest,42,Normal,1.0,1.0,1.0,83,9896,True
+Gotham2025,2,binary,xgboost,42,Attack,1.0,1.0,1.0,13592,106204,True
+Gotham2025,2,binary,xgboost,42,Normal,1.0,1.0,1.0,83,9896,True
+Gotham2025,2,multiclass,random_forest,42,Benign,1.0,1.0,1.0,83,9896,True
+Gotham2025,2,multiclass,random_forest,42,C&C Communication,0.32,0.8780487804878049,0.46905537459283386,82,446,True
+Gotham2025,2,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,2,multiclass,random_forest,42,File Download,1.0,1.0,1.0,1187,6009,True
+Gotham2025,2,multiclass,random_forest,42,Ingress Tool Transfer,1.0,0.9952996474735605,0.9976442873969376,1702,8298,True
+Gotham2025,2,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,2,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1701,6750,True
+Gotham2025,2,multiclass,random_forest,42,Merlin TCP Flooding,0.9981916817359855,1.0,0.9990950226244344,1656,8090,True
+Gotham2025,2,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1685,7768,True
+Gotham2025,2,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,2,multiclass,random_forest,42,Mirai GRE Flooding,0.9988623435722411,1.0,0.9994308480364257,878,9121,True
+Gotham2025,2,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9972324723247232,0.9986143187066975,1084,8912,True
+Gotham2025,2,multiclass,random_forest,42,Mirai UDP Flooding,1.0,0.9987639060568603,0.9993815708101422,809,8306,True
+Gotham2025,2,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,72,378,True
+Gotham2025,2,multiclass,random_forest,42,TCP Scan,0.9872611464968153,0.7678018575851393,0.8638105189829328,1615,7931,True
+Gotham2025,2,multiclass,random_forest,42,Telnet Brute Force,0.8517952635599695,0.9946476360392507,0.9176954732510288,1121,8879,True
+Gotham2025,2,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,2,multiclass,xgboost,42,Benign,1.0,1.0,1.0,83,9896,True
+Gotham2025,2,multiclass,xgboost,42,C&C Communication,0.5070422535211268,0.43902439024390244,0.47058823529411764,82,446,True
+Gotham2025,2,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,2,multiclass,xgboost,42,File Download,1.0,1.0,1.0,1187,6009,True
+Gotham2025,2,multiclass,xgboost,42,Ingress Tool Transfer,0.9988221436984688,0.9964747356051704,0.9976470588235294,1702,8298,True
+Gotham2025,2,multiclass,xgboost,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,2,multiclass,xgboost,42,Merlin ICMP Flooding,1.0,1.0,1.0,1701,6750,True
+Gotham2025,2,multiclass,xgboost,42,Merlin TCP Flooding,0.9975903614457832,1.0,0.9987937273823885,1656,8090,True
+Gotham2025,2,multiclass,xgboost,42,Merlin UDP Flooding,1.0,0.9964391691394658,0.9982164090368609,1685,7768,True
+Gotham2025,2,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,2,multiclass,xgboost,42,Mirai GRE Flooding,0.992090395480226,1.0,0.9960294951786727,878,9121,True
+Gotham2025,2,multiclass,xgboost,42,Mirai TCP Flooding,1.0,0.996309963099631,0.9981515711645101,1084,8912,True
+Gotham2025,2,multiclass,xgboost,42,Mirai UDP Flooding,1.0,0.9987639060568603,0.9993815708101422,809,8306,True
+Gotham2025,2,multiclass,xgboost,42,Reporting,1.0,1.0,1.0,72,378,True
+Gotham2025,2,multiclass,xgboost,42,TCP Scan,0.9611111111111111,0.8569659442724458,0.9060556464811784,1615,7931,True
+Gotham2025,2,multiclass,xgboost,42,Telnet Brute Force,0.8538461538461538,0.9901873327386262,0.9169764560099133,1121,8879,True
+Gotham2025,2,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,3,binary,random_forest,42,Attack,1.0,1.0,1.0,8479,111487,True
+Gotham2025,3,binary,random_forest,42,Normal,1.0,1.0,1.0,69,9931,True
+Gotham2025,3,binary,xgboost,42,Attack,1.0,0.9824271730156858,0.9911357011124993,8479,111487,True
+Gotham2025,3,binary,xgboost,42,Normal,0.3165137614678899,1.0,0.4808362369337979,69,9931,True
+Gotham2025,3,multiclass,random_forest,42,Benign,1.0,1.0,1.0,69,9931,True
+Gotham2025,3,multiclass,random_forest,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,3,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,3,multiclass,random_forest,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,3,multiclass,random_forest,42,Ingress Tool Transfer,0.967741935483871,0.6818181818181818,0.8,44,9956,True
+Gotham2025,3,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,3,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1673,6748,True
+Gotham2025,3,multiclass,random_forest,42,Merlin TCP Flooding,0.9987834549878345,1.0,0.9993913572732805,1642,8085,True
+Gotham2025,3,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1650,7797,True
+Gotham2025,3,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,3,multiclass,random_forest,42,Mirai GRE Flooding,0.9984152139461173,1.0,0.9992069785884219,630,9370,True
+Gotham2025,3,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9966367713004485,0.9983155530600786,892,9105,True
+Gotham2025,3,multiclass,random_forest,42,Mirai UDP Flooding,1.0,1.0,1.0,520,8574,True
+Gotham2025,3,multiclass,random_forest,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,3,multiclass,random_forest,42,TCP Scan,0.9850746268656716,0.44,0.6082949308755761,300,9490,True
+Gotham2025,3,multiclass,random_forest,42,Telnet Brute Force,0.888801261829653,0.999113475177305,0.9407345575959933,1128,8872,True
+Gotham2025,3,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,3,multiclass,xgboost,42,Benign,1.0,1.0,1.0,69,9931,True
+Gotham2025,3,multiclass,xgboost,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,3,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,3,multiclass,xgboost,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,3,multiclass,xgboost,42,Ingress Tool Transfer,0.8378378378378378,0.7045454545454546,0.7654320987654321,44,9956,True
+Gotham2025,3,multiclass,xgboost,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,3,multiclass,xgboost,42,Merlin ICMP Flooding,1.0,1.0,1.0,1673,6748,True
+Gotham2025,3,multiclass,xgboost,42,Merlin TCP Flooding,0.9987819732034104,0.9987819732034104,0.9987819732034104,1642,8085,True
+Gotham2025,3,multiclass,xgboost,42,Merlin UDP Flooding,1.0,0.9975757575757576,0.9987864077669902,1650,7797,True
+Gotham2025,3,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,3,multiclass,xgboost,42,Mirai GRE Flooding,0.9905660377358491,1.0,0.995260663507109,630,9370,True
+Gotham2025,3,multiclass,xgboost,42,Mirai TCP Flooding,1.0,0.9977578475336323,0.9988776655443322,892,9105,True
+Gotham2025,3,multiclass,xgboost,42,Mirai UDP Flooding,1.0,1.0,1.0,520,8574,True
+Gotham2025,3,multiclass,xgboost,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,3,multiclass,xgboost,42,TCP Scan,0.8666666666666667,0.52,0.65,300,9490,True
+Gotham2025,3,multiclass,xgboost,42,Telnet Brute Force,0.8940986257073565,0.9804964539007093,0.9353065539112051,1128,8872,True
+Gotham2025,3,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,4,binary,random_forest,42,Attack,1.0,1.0,1.0,5377,113373,True
+Gotham2025,4,binary,random_forest,42,Normal,1.0,1.0,1.0,89,9895,True
+Gotham2025,4,binary,xgboost,42,Attack,1.0,1.0,1.0,5377,113373,True
+Gotham2025,4,binary,xgboost,42,Normal,1.0,1.0,1.0,89,9895,True
+Gotham2025,4,multiclass,random_forest,42,Benign,1.0,1.0,1.0,89,9895,True
+Gotham2025,4,multiclass,random_forest,42,C&C Communication,0.17355371900826447,0.23333333333333334,0.1990521327014218,90,348,True
+Gotham2025,4,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,File Download,1.0,1.0,1.0,1210,4776,True
+Gotham2025,4,multiclass,random_forest,42,Ingress Tool Transfer,0.9986120749479528,0.9903647625602202,0.9944713199723566,1453,7064,True
+Gotham2025,4,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin ICMP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Merlin UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,4,multiclass,random_forest,42,Mirai GRE Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Mirai UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,64,322,True
+Gotham2025,4,multiclass,random_forest,42,TCP Scan,0.9655469422911284,0.8134978229317852,0.8830248129184718,1378,7862,True
+Gotham2025,4,multiclass,random_forest,42,Telnet Brute Force,0.8872180451127819,0.9983079526226735,0.9394904458598726,1182,7685,True
+Gotham2025,4,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,4,multiclass,xgboost,42,Benign,1.0,1.0,1.0,89,9895,True
+Gotham2025,4,multiclass,xgboost,42,C&C Communication,0.6491228070175439,0.4111111111111111,0.5034013605442177,90,348,True
+Gotham2025,4,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,File Download,1.0,1.0,1.0,1210,4776,True
+Gotham2025,4,multiclass,xgboost,42,Ingress Tool Transfer,0.9986120749479528,0.9903647625602202,0.9944713199723566,1453,7064,True
+Gotham2025,4,multiclass,xgboost,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Merlin ICMP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Merlin TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Merlin UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,4,multiclass,xgboost,42,Mirai GRE Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Mirai TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Mirai UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,4,multiclass,xgboost,42,Reporting,1.0,1.0,1.0,64,322,True
+Gotham2025,4,multiclass,xgboost,42,TCP Scan,0.9530148786217698,0.8831640058055152,0.9167608286252354,1378,7862,True
+Gotham2025,4,multiclass,xgboost,42,Telnet Brute Force,0.8892261001517451,0.9915397631133672,0.9376,1182,7685,True
+Gotham2025,4,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,5,binary,random_forest,42,Attack,0.999945498146937,1.0,0.9999727483308353,18347,102086,True
+Gotham2025,5,binary,random_forest,42,Normal,1.0,0.999738425320429,0.9998691955526487,3823,6138,True
+Gotham2025,5,binary,xgboost,42,Attack,1.0,1.0,1.0,18347,102086,True
+Gotham2025,5,binary,xgboost,42,Normal,1.0,1.0,1.0,3823,6138,True
+Gotham2025,5,multiclass,random_forest,42,Benign,0.9997384937238494,1.0,0.9998692297633058,3823,6138,True
+Gotham2025,5,multiclass,random_forest,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,5,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,5,multiclass,random_forest,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,5,multiclass,random_forest,42,Ingress Tool Transfer,1.0,0.8275862068965517,0.9056603773584906,58,9942,True
+Gotham2025,5,multiclass,random_forest,42,Merlin C&C Communication,1.0,0.9964338781575037,0.9982137540934802,3365,6635,True
+Gotham2025,5,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1756,6508,True
+Gotham2025,5,multiclass,random_forest,42,Merlin TCP Flooding,0.9994165694282381,1.0,0.9997081995914794,1713,7980,True
+Gotham2025,5,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1703,7708,True
+Gotham2025,5,multiclass,random_forest,42,Mirai C&C Communication,0.9635258358662614,0.8854748603351955,0.9228529839883551,358,716,True
+Gotham2025,5,multiclass,random_forest,42,Mirai GRE Flooding,0.9981844589687727,1.0,0.9990914046883518,2749,7250,True
+Gotham2025,5,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9992340099578706,0.9996168582375479,2611,7386,True
+Gotham2025,5,multiclass,random_forest,42,Mirai UDP Flooding,1.0,0.9985390796201608,0.9992690058479532,2738,7057,True
+Gotham2025,5,multiclass,random_forest,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,5,multiclass,random_forest,42,TCP Scan,0.7484276729559748,0.4296028880866426,0.5458715596330275,277,9507,True
+Gotham2025,5,multiclass,random_forest,42,Telnet Brute Force,0.8768303186907838,0.9990186457311089,0.9339449541284404,1019,8981,True
+Gotham2025,5,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,5,multiclass,xgboost,42,Benign,1.0,1.0,1.0,3823,6138,True
+Gotham2025,5,multiclass,xgboost,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,5,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,5,multiclass,xgboost,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,5,multiclass,xgboost,42,Ingress Tool Transfer,0.9791666666666666,0.8103448275862069,0.8867924528301887,58,9942,True
+Gotham2025,5,multiclass,xgboost,42,Merlin C&C Communication,1.0,1.0,1.0,3365,6635,True
+Gotham2025,5,multiclass,xgboost,42,Merlin ICMP Flooding,1.0,1.0,1.0,1756,6508,True
+Gotham2025,5,multiclass,xgboost,42,Merlin TCP Flooding,0.9994165694282381,1.0,0.9997081995914794,1713,7980,True
+Gotham2025,5,multiclass,xgboost,42,Merlin UDP Flooding,1.0,0.9935408103347034,0.996759941089838,1703,7708,True
+Gotham2025,5,multiclass,xgboost,42,Mirai C&C Communication,0.9580838323353293,0.44692737430167595,0.6095238095238096,358,716,True
+Gotham2025,5,multiclass,xgboost,42,Mirai GRE Flooding,0.9938539407086044,1.0,0.9969174977334542,2749,7250,True
+Gotham2025,5,multiclass,xgboost,42,Mirai TCP Flooding,1.0,0.9988510149368058,0.9994251772370186,2611,7386,True
+Gotham2025,5,multiclass,xgboost,42,Mirai UDP Flooding,1.0,0.9985390796201608,0.9992690058479532,2738,7057,True
+Gotham2025,5,multiclass,xgboost,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,5,multiclass,xgboost,42,TCP Scan,0.3902439024390244,0.4620938628158845,0.4231404958677686,277,9507,True
+Gotham2025,5,multiclass,xgboost,42,Telnet Brute Force,0.8752151462994836,0.9980372914622179,0.9325997248968363,1019,8981,True
+Gotham2025,5,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,6,binary,random_forest,42,Attack,1.0,1.0,1.0,12906,106681,True
+Gotham2025,6,binary,random_forest,42,Normal,1.0,1.0,1.0,3557,6441,True
+Gotham2025,6,binary,xgboost,42,Attack,1.0,1.0,1.0,12906,106681,True
+Gotham2025,6,binary,xgboost,42,Normal,1.0,1.0,1.0,3557,6441,True
+Gotham2025,6,multiclass,random_forest,42,Benign,1.0,0.9997188642114141,0.9998594123435962,3557,6441,True
+Gotham2025,6,multiclass,random_forest,42,C&C Communication,0.3696969696969697,0.6777777777777778,0.47843137254901963,90,438,True
+Gotham2025,6,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,6,multiclass,random_forest,42,File Download,1.0,1.0,1.0,1231,5965,True
+Gotham2025,6,multiclass,random_forest,42,Ingress Tool Transfer,1.0,0.6381850324101356,0.779136690647482,1697,8303,True
+Gotham2025,6,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,6,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1738,6507,True
+Gotham2025,6,multiclass,random_forest,42,Merlin TCP Flooding,0.9994117647058823,0.9970657276995305,0.9982373678025852,1704,7991,True
+Gotham2025,6,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1670,7741,True
+Gotham2025,6,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,6,multiclass,random_forest,42,Mirai GRE Flooding,0.9904610492845787,1.0,0.9952076677316294,623,9376,True
+Gotham2025,6,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9988372093023256,0.9994182664339732,860,9137,True
+Gotham2025,6,multiclass,random_forest,42,Mirai UDP Flooding,1.0,1.0,1.0,598,8572,True
+Gotham2025,6,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,74,376,True
+Gotham2025,6,multiclass,random_forest,42,TCP Scan,0.9956822107081175,0.7645888594164456,0.8649662415603901,1508,8072,True
+Gotham2025,6,multiclass,random_forest,42,Telnet Brute Force,0.5809324253535882,0.9964061096136568,0.7339510258107214,1113,8887,True
+Gotham2025,6,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,6,multiclass,xgboost,42,Benign,1.0,0.9997188642114141,0.9998594123435962,3557,6441,True
+Gotham2025,6,multiclass,xgboost,42,C&C Communication,0.7073170731707317,0.9666666666666667,0.8169014084507042,90,438,True
+Gotham2025,6,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,6,multiclass,xgboost,42,File Download,1.0,1.0,1.0,1231,5965,True
+Gotham2025,6,multiclass,xgboost,42,Ingress Tool Transfer,0.9980582524271845,0.9086623453152622,0.9512646514497224,1697,8303,True
+Gotham2025,6,multiclass,xgboost,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,6,multiclass,xgboost,42,Merlin ICMP Flooding,1.0,1.0,1.0,1738,6507,True
+Gotham2025,6,multiclass,xgboost,42,Merlin TCP Flooding,0.9988276670574443,1.0,0.9994134897360704,1704,7991,True
+Gotham2025,6,multiclass,xgboost,42,Merlin UDP Flooding,1.0,0.9946107784431137,0.9972981086760733,1670,7741,True
+Gotham2025,6,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,6,multiclass,xgboost,42,Mirai GRE Flooding,0.9842022116903634,1.0,0.9920382165605095,623,9376,True
+Gotham2025,6,multiclass,xgboost,42,Mirai TCP Flooding,1.0,0.9976744186046511,0.9988358556461001,860,9137,True
+Gotham2025,6,multiclass,xgboost,42,Mirai UDP Flooding,1.0,1.0,1.0,598,8572,True
+Gotham2025,6,multiclass,xgboost,42,Reporting,1.0,1.0,1.0,74,376,True
+Gotham2025,6,multiclass,xgboost,42,TCP Scan,0.9829325058184639,0.8401856763925729,0.9059706828745084,1508,8072,True
+Gotham2025,6,multiclass,xgboost,42,Telnet Brute Force,0.7694463910301331,0.9865229110512129,0.8645669291338582,1113,8887,True
+Gotham2025,6,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,7,binary,random_forest,42,Attack,1.0,0.8963518336646945,0.9453433880278399,41747,74097,True
+Gotham2025,7,binary,random_forest,42,Normal,0.1361549211419445,1.0,0.23967668248111051,682,9302,True
+Gotham2025,7,binary,xgboost,42,Attack,1.0,0.8949385584592905,0.9445568084138141,41747,74097,True
+Gotham2025,7,binary,xgboost,42,Normal,0.1345698500394633,1.0,0.23721739130434782,682,9302,True
+Gotham2025,7,multiclass,random_forest,42,Benign,0.1288981288981289,1.0,0.2283609576427256,682,9302,True
+Gotham2025,7,multiclass,random_forest,42,C&C Communication,0.2243839169909209,0.9505494505494505,0.36306400839454356,182,256,True
+Gotham2025,7,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,10000,0,False
+Gotham2025,7,multiclass,random_forest,42,File Download,1.0,0.9995793016407236,0.9997896065642752,2377,3609,True
+Gotham2025,7,multiclass,random_forest,42,Ingress Tool Transfer,1.0,0.9928704277743335,0.9964224607248405,3226,5321,True
+Gotham2025,7,multiclass,random_forest,42,Merlin C&C Communication,1.0,1.0,1.0,3384,6616,True
+Gotham2025,7,multiclass,random_forest,42,Merlin ICMP Flooding,0.5408547008547009,1.0,0.7020190814288884,1582,6745,True
+Gotham2025,7,multiclass,random_forest,42,Merlin TCP Flooding,0.9987900786448881,1.0,0.9993946731234867,1651,8071,True
+Gotham2025,7,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1638,7809,True
+Gotham2025,7,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,358,716,True
+Gotham2025,7,multiclass,random_forest,42,Mirai GRE Flooding,0.5980257116620753,1.0,0.7484556816549346,2605,7395,True
+Gotham2025,7,multiclass,random_forest,42,Mirai TCP Flooding,0.997793468667255,0.9995579133510168,0.9986749116607774,2262,7735,True
+Gotham2025,7,multiclass,random_forest,42,Mirai UDP Flooding,0.289178901576944,0.9966266866566716,0.4482845823147602,2668,7181,True
+Gotham2025,7,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,152,234,True
+Gotham2025,7,multiclass,random_forest,42,TCP Scan,0.9906275468622657,0.8223951285520974,0.8987060998151571,2956,5998,True
+Gotham2025,7,multiclass,random_forest,42,Telnet Brute Force,0.8888888888888888,0.9967532467532467,0.9397359862253682,2464,6411,True
+Gotham2025,7,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,4242,0,False
+Gotham2025,7,multiclass,xgboost,42,Benign,0.1360191463901077,1.0,0.23946629213483145,682,9302,True
+Gotham2025,7,multiclass,xgboost,42,C&C Communication,0.28052805280528054,0.46703296703296704,0.35051546391752575,182,256,True
+Gotham2025,7,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,10000,0,False
+Gotham2025,7,multiclass,xgboost,42,File Download,0.9989842559674962,0.8275136726966765,0.9052001840773125,2377,3609,True
+Gotham2025,7,multiclass,xgboost,42,Ingress Tool Transfer,0.9987519500780031,0.9922504649721017,0.9954905924428549,3226,5321,True
+Gotham2025,7,multiclass,xgboost,42,Merlin C&C Communication,0.9991139988186651,0.9997044917257684,0.9994091580502216,3384,6616,True
+Gotham2025,7,multiclass,xgboost,42,Merlin ICMP Flooding,0.49545881616035076,1.0,0.6626178010471204,1582,6745,True
+Gotham2025,7,multiclass,xgboost,42,Merlin TCP Flooding,0.9993946731234867,1.0,0.9996972449288526,1651,8071,True
+Gotham2025,7,multiclass,xgboost,42,Merlin UDP Flooding,0.9987737584304108,0.9945054945054945,0.9966350565922301,1638,7809,True
+Gotham2025,7,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,358,716,True
+Gotham2025,7,multiclass,xgboost,42,Mirai GRE Flooding,0.5963827838827839,1.0,0.7471676466370285,2605,7395,True
+Gotham2025,7,multiclass,xgboost,42,Mirai TCP Flooding,0.9986749116607774,0.9995579133510168,0.999116217410517,2262,7735,True
+Gotham2025,7,multiclass,xgboost,42,Mirai UDP Flooding,0.28883574301554515,0.9958770614692654,0.44779641021319627,2668,7181,True
+Gotham2025,7,multiclass,xgboost,42,Reporting,1.0,1.0,1.0,152,234,True
+Gotham2025,7,multiclass,xgboost,42,TCP Scan,0.7810915597971966,0.8859945872801083,0.8302425106990015,2956,5998,True
+Gotham2025,7,multiclass,xgboost,42,Telnet Brute Force,0.8916544655929722,0.9886363636363636,0.9376443418013857,2464,6411,True
+Gotham2025,7,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,4242,0,False
+Gotham2025,8,binary,random_forest,42,Attack,1.0,1.0,1.0,1393,121882,True
+Gotham2025,8,binary,random_forest,42,Normal,1.0,1.0,1.0,1602,8312,True
+Gotham2025,8,binary,xgboost,42,Attack,1.0,1.0,1.0,1393,121882,True
+Gotham2025,8,binary,xgboost,42,Normal,1.0,1.0,1.0,1602,8312,True
+Gotham2025,8,multiclass,random_forest,42,Benign,1.0,1.0,1.0,1602,8312,True
+Gotham2025,8,multiclass,random_forest,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,8,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,8,multiclass,random_forest,42,Ingress Tool Transfer,1.0,0.7966101694915254,0.8867924528301887,59,9941,True
+Gotham2025,8,multiclass,random_forest,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Merlin ICMP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Merlin TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Merlin UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,8,multiclass,random_forest,42,Mirai GRE Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Mirai TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Mirai UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,random_forest,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,8,multiclass,random_forest,42,TCP Scan,0.9538461538461539,0.3712574850299401,0.5344827586206896,334,9451,True
+Gotham2025,8,multiclass,random_forest,42,Telnet Brute Force,0.8728070175438597,0.995,0.9299065420560748,1000,9000,True
+Gotham2025,8,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True
+Gotham2025,8,multiclass,xgboost,42,Benign,1.0,1.0,1.0,1602,8312,True
+Gotham2025,8,multiclass,xgboost,42,C&C Communication,0.0,0.0,0.0,0,528,True
+Gotham2025,8,multiclass,xgboost,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,File Download,0.0,0.0,0.0,0,7196,True
+Gotham2025,8,multiclass,xgboost,42,Ingress Tool Transfer,0.9787234042553191,0.7796610169491526,0.8679245283018868,59,9941,True
+Gotham2025,8,multiclass,xgboost,42,Merlin C&C Communication,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Merlin ICMP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Merlin TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Merlin UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Mirai C&C Communication,0.0,0.0,0.0,0,1074,True
+Gotham2025,8,multiclass,xgboost,42,Mirai GRE Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Mirai TCP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Mirai UDP Flooding,0.0,0.0,0.0,0,10000,True
+Gotham2025,8,multiclass,xgboost,42,Reporting,0.0,0.0,0.0,0,450,True
+Gotham2025,8,multiclass,xgboost,42,TCP Scan,0.8974358974358975,0.5239520958083832,0.6616257088846881,334,9451,True
+Gotham2025,8,multiclass,xgboost,42,Telnet Brute Force,0.8787878787878788,0.986,0.9293119698397738,1000,9000,True
+Gotham2025,8,multiclass,xgboost,42,UDP Scan,0.0,0.0,0.0,0,4242,True

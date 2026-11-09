@@ -1,0 +1,83 @@
+{
+  "protocol": "LIME_BUDGET_PROTOCOL_20261108.md",
+  "contexts": 8,
+  "diagnostic_records_per_context": 100,
+  "budgets": [
+    350,
+    3500
+  ],
+  "masking_budgets": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "tests": 16,
+  "inputs": {
+    "run_lime_budget_study.py": "e3f3017665cb76a3bfc8324a1bef49e2261d382c9bd650c30c867a4d35bf8ca9",
+    "LIME_BUDGET_PROTOCOL_20261108.md": "9f1319cca53b5e6f155e5fe1808d7c9c8aceeeab5a10c9b7ff779f8a33a70e26",
+    "src/xai_ids/benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "outputs/recent2025/run_manifest.json": "2b572a881e0d9db4b5988646233548d932162d19aa82313b3d51afedb6dc64e8",
+    "data/prepared/GeNIS2025/train.parquet": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+    "data/prepared/GeNIS2025/test.parquet": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f",
+    "data/prepared/GeNIS2025/provenance.json": "f772df669b8bb9615c598d7383c0df15f7e0ad7192d6e8cd294f52a7c2870013",
+    "data/prepared/Gotham2025/train.parquet": "a92f5ff86c7cf0aca15079cb339cbfc92cf0e9b05079f5ef4f367d88e7d0467e",
+    "data/prepared/Gotham2025/test.parquet": "fb7636e1ff573d2a0fef78f7ca864f1e7d703a28b903749a79e7346cfa6dbf57",
+    "data/prepared/Gotham2025/provenance.json": "687b3efe7fd493e534b3d30a818104727e4fe613ef9bc7297f22201e43a261e4",
+    "outputs/recent2025/models/GeNIS2025_binary_random_forest.joblib": "404f908e45bcbe3202d2f16f2d6d21b07f0426fabac21f0df28177a63f34f5fe",
+    "outputs/recent2025/contexts/GeNIS2025_binary_random_forest_42/TreeSHAP_attributions.csv": "8f3f60946179ae5057a6504687e811d3ed34527225a5fc18968c5cdae91a9810",
+    "outputs/recent2025/contexts/GeNIS2025_binary_random_forest_42/LIME_attributions.csv": "e3e91a0d636b97f673d1b21e6c97123b1cb2b612244779922df93018c7060989",
+    "outputs/recent2025/models/GeNIS2025_binary_xgboost.joblib": "7a539be9a2c934cfed4db3db906bf5ec8e3e197e0beb117b042937ebccea6257",
+    "outputs/recent2025/contexts/GeNIS2025_binary_xgboost_42/TreeSHAP_attributions.csv": "4510e9e250f991d83d12a45a941761f174e3d79686dbfb85060f6db82466bd4f",
+    "outputs/recent2025/contexts/GeNIS2025_binary_xgboost_42/LIME_attributions.csv": "c208ebae39b31b39b7d6f3a856d1ae0d4d46b7f5d6d22c974dcbe34ea870afc7",
+    "outputs/recent2025/models/GeNIS2025_multiclass_random_forest.joblib": "b0f4e5d3ec1a806bf0f96341ff03b302844d0600cfc519b51a26e3cd3f6689b4",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_random_forest_42/TreeSHAP_attributions.csv": "0727bfbaae325b8bafec9d6fa5cfbabca5fabfffa5d83291f46447d6f783599e",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_random_forest_42/LIME_attributions.csv": "e8760db93fab5eb9ee4bbe9c0911488b7ffd5aa669055b808b57bc85cafeb422",
+    "outputs/recent2025/models/GeNIS2025_multiclass_xgboost.joblib": "1d23fd6ae470f265b3695e70299d9b3a60cca55e557786047ebdbbf3f0e914fd",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_xgboost_42/TreeSHAP_attributions.csv": "3b9d6e6992afc3201b5d41b235f1ca5382953777bde91ad5cc83f93fdb7f906c",
+    "outputs/recent2025/contexts/GeNIS2025_multiclass_xgboost_42/LIME_attributions.csv": "0708ef165b5ce596a8ac94890aec6615292be598c337c66fa90bf4c9eaa90d6e",
+    "outputs/recent2025/models/Gotham2025_binary_random_forest.joblib": "048b03d82da9fbab7cf638166b450ddfce258b050343a513ed10f7617c5722af",
+    "outputs/recent2025/contexts/Gotham2025_binary_random_forest_42/TreeSHAP_attributions.csv": "75bf949616483fcc430e5e0c9b4f95d4460e219a047030bd02d63d6144b1dc29",
+    "outputs/recent2025/contexts/Gotham2025_binary_random_forest_42/LIME_attributions.csv": "91a5669c1e139c911f4d6fd0b807768087b55103f99818278e759778924a3668",
+    "outputs/recent2025/models/Gotham2025_binary_xgboost.joblib": "41b68c685de8bebcae1b05690b33598e7b127723e849b7b83e9cdc1ce8c407d6",
+    "outputs/recent2025/contexts/Gotham2025_binary_xgboost_42/TreeSHAP_attributions.csv": "8a31bd1120d085f1bec3ee2060a261406e0b3d8c97199feec5d3719896190c7a",
+    "outputs/recent2025/contexts/Gotham2025_binary_xgboost_42/LIME_attributions.csv": "95df0cee4e789edd74903a8cb25251195330ff593a6b9515750c0f2a7b27a647",
+    "outputs/recent2025/models/Gotham2025_multiclass_random_forest.joblib": "b55df764283a637ac0a0082bff6ba578b6f223473cac531588ad08f52c861e2b",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_random_forest_42/TreeSHAP_attributions.csv": "f2867f737564edd1f8f2b1baf324cb1ce411603803b701f5feeafc707dea56ec",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_random_forest_42/LIME_attributions.csv": "142aa5bbe2076af06cab5dbaa2e2ad9bdf0c787cf05331cf547305b12691268c",
+    "outputs/recent2025/models/Gotham2025_multiclass_xgboost.joblib": "71c4b4ad5a5103ad96ee67e6322d739baf0d93fd0f24c394a27a9f31dffb81ad",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_xgboost_42/TreeSHAP_attributions.csv": "4744e0571b3b281decfdfd534680485b84496e6835ba656bee350f37b27ed866",
+    "outputs/recent2025/contexts/Gotham2025_multiclass_xgboost_42/LIME_attributions.csv": "50f47b8c21cd79782d709cf49539c4cb16a3221189c4fc1dd95835ace125d61e"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.6.1",
+      "lime": "0.2.0.1",
+      "xgboost": "3.0.2",
+      "shap": "0.47.2"
+    }
+  },
+  "run_fingerprint": "a05736955f87a1d1c8b51a013a7b5c1de442d52900e5d5079c5b732ddb0fdbfd",
+  "started_utc": "2026-11-07T19:45:39.457150+00:00",
+  "status": "complete",
+  "completed_utc": "2026-11-07T19:48:26.462155+00:00",
+  "summary": {
+    "contexts": 8,
+    "controlled_lime_explanations": 1600,
+    "contrasts": 16,
+    "shap_minus_lime3500_positive": 8,
+    "shap_minus_lime3500_significant_positive": 8,
+    "lime3500_minus_350_positive": 6,
+    "lime3500_minus_350_significant_positive": 2
+  },
+  "aggregate_outputs": {
+    "contrasts.csv": "1c815b8a425b2f1666845f6a5bd2c4c873c987bc177b6df6f3d10152c766a0ce",
+    "deletion.csv": "6e82f67b77b79d2c181035c1a595bc8d983e47c879cd18373f50948b703fc7df",
+    "surrogate_fit.csv": "6a5f8b789934d8ebf540e89dc18929255a090806c609f1f32417509d356875ce",
+    "surrogate_summary.csv": "c80d6f7c2749ce10a346ec94d2903bfd2df6e2ec3835bfa11810b022a80e914a"
+  }
+}

@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,explainer,records,connection_groups,median_explanation_ms,mean_explanation_ms,construction_and_warmup_excluded
+Gotham2025,1,binary,random_forest,42,TreeSHAP,50,33,1.9020999999952437,1.9074259999979404,True

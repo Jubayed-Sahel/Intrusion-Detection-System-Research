@@ -1,0 +1,5 @@
+dataset,task,model,feature_count,macro_f1,weighted_f1,training_seconds,shap_latency_ms,selected_features
+Gotham2025,multiclass,random_forest,5,0.763000022513281,0.9118903069639038,1.878693499998917,12.96021,frame.len | frame.protocols | tcp.srcport | tcp.dstport | tcp.window_size_value
+Gotham2025,multiclass,random_forest,10,0.8242319878219819,0.9691481762599413,1.8598992000006547,13.026779999999999,frame.len | frame.protocols | tcp.srcport | tcp.dstport | tcp.window_size_value | ip.ttl | udp.dstport | ip.proto | udp.srcport | ip.flags
+Gotham2025,multiclass,random_forest,13,0.8237582825994662,0.9685496154288588,1.791969699999754,14.422270000000001,frame.len | frame.protocols | tcp.srcport | tcp.dstport | tcp.window_size_value | ip.ttl | udp.dstport | ip.proto | udp.srcport | ip.flags | tcp.flags | tcp.window_size_scalefactor | tcp.pdu.size
+Gotham2025,multiclass,random_forest,13,0.8237582825994662,0.9685496154288588,1.7489587999989453,14.58135,frame.len | frame.protocols | tcp.srcport | tcp.dstport | tcp.window_size_value | ip.ttl | udp.dstport | ip.proto | udp.srcport | ip.flags | tcp.flags | tcp.window_size_scalefactor | tcp.pdu.size

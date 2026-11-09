@@ -1,0 +1,2 @@
+dataset,fold,task,model,seed,explainer,records,connection_groups,median_explanation_ms,mean_explanation_ms,construction_and_warmup_excluded
+GeNIS2025,4,binary,random_forest,42,TreeSHAP,50,22,1.1058499999876403,1.1353559999975005,True

@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "73d63eff8c1cd2d182b52e15846a6dfc84e851695bf0e59f70f88ecd0f3e5678",
+  "members": [
+    "Balanced_OCPP16_TCP-IP_Layer/Combined/Test.csv",
+    "Balanced_OCPP16_TCP-IP_Layer/Combined/Train.csv"
+  ],
+  "rows": 4415,
+  "labels": {
+    "normal": 883,
+    "cyberattack_ocpp16_fdi_chargingprofile": 883,
+    "cyberattack_ocpp16_dos_flooding_heartbeat": 883,
+    "cyberattack_ocpp16_doc_idtag": 883,
+    "cyberattack_ocpp16_unauthorized_access": 883
+  },
+  "exact_duplicate_rows": 0,
+  "protocol_sha256": "852200882de68dd1bf90968341adcde9ba5880f1807d7ea83b34f9cf4ce2d2d1",
+  "runner_sha256": "3a9f19a5518791bded0e90efd47de834162ebef19e3bffb8a587f00cd3d053ae",
+  "geNIS_prepared": {
+    "train.parquet": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+    "test.parquet": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f"
+  },
+  "outputs": {
+    "metrics.csv": "672b6a6b3706f4104e18fcaf266adab910b8867df138e777275cfba75ea732ba",
+    "per_label.csv": "04c2b261075f77d7433bf9148f606c09922d0bd05f25007e8841c3ae00633826"
+  }
+}

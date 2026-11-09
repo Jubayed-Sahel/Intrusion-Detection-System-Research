@@ -1,0 +1,15 @@
+{
+  "dataset": "GeNIS2025",
+  "fold": 1,
+  "task": "multiclass",
+  "model": "random_forest",
+  "seed": 42,
+  "manifest_sha256": "a6bea137b2f0b510882419cf60a1d185eea433753f128210a74b88a4c6044116",
+  "model_sha256": "934aa0138ce0bef92668eb7689431b5b98c3e68c3cbc049923c17f685bea6b8f",
+  "output_sha256": {
+    "explanation_comparison.csv": "0a45e55ad46818826ebb682839e55d47673e79492f056c38fb0a9944abc40493",
+    "group_budget_drops.csv": "ef306e76dba4e3771c6e24b93ef2203733be6e575ba3316b62148d686301d9a1",
+    "paired_group_drops.csv": "67c8fa59d91abfd8c5daa983936ae2df179fe4673451de33a9867459ff4ca60e",
+    "diagnostic_selection.csv": "cfaa0cb2f99d6d76604f6c65c5aab5b2fe992fb989cd2161499c0374c74d9cdf"
+  }
+}

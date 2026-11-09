@@ -1,0 +1,349 @@
+{
+  "config": {
+    "seed": 42,
+    "output_dir": "outputs/retrain_20261021",
+    "datasets": [
+      "GeNIS2025",
+      "Gotham2025"
+    ],
+    "predictive_seeds": [
+      42,
+      52,
+      62,
+      72,
+      82
+    ],
+    "explanation_model_seeds": [
+      42,
+      52,
+      62
+    ],
+    "models": {
+      "random_forest": {
+        "n_estimators": 120,
+        "max_depth": 18,
+        "min_samples_leaf": 2
+      },
+      "xgboost": {
+        "n_estimators": 160,
+        "max_depth": 7,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85
+      }
+    },
+    "evaluation": {
+      "explanation_samples": 100,
+      "lime_samples": 350,
+      "self_stability_samples": 6,
+      "lime_repeat_seeds": 5,
+      "fidelity_k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "feature_ablation_k": [
+        5,
+        10,
+        20
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.6.1",
+      "xgboost": "3.0.2",
+      "shap": "0.47.2",
+      "lime": "0.2.0.1",
+      "matplotlib": "3.10.3",
+      "seaborn": "0.13.2",
+      "pyarrow": "20.0.0",
+      "joblib": "1.5.1",
+      "PyYAML": "6.0.2",
+      "reportlab": "4.4.1",
+      "pypdf": "5.5.0",
+      "pdfplumber": "0.11.6",
+      "python-docx": "1.1.2"
+    }
+  },
+  "sources": {
+    "GeNIS2025": {
+      "dataset": "GeNIS2025",
+      "author_record": 14919237,
+      "acquisition": {
+        "record_id": 14919237,
+        "metadata_url": "https://zenodo.org/api/records/14919237",
+        "files": [
+          {
+            "filename": "0-info.zip",
+            "url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+            "final_url": "https://zenodo.org/api/records/14919237/files/0-info.zip/content",
+            "acquired_utc": "2026-10-13T21:40:09.967576+00:00",
+            "bytes": 3308,
+            "provider_checksum": "md5:432ada3813f0261ac8b5e371ea4d729e",
+            "checksum_verified": true,
+            "sha256": "7ef636cc758586f18a5d9958e68eede9b85925610331283cce802f45542701bc",
+            "response_headers": {},
+            "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+          },
+          {
+            "filename": "3-scenarios.zip",
+            "url": "https://zenodo.org/api/records/14919237/files/3-scenarios.zip/content",
+            "final_url": "https://zenodo.org/records/14919237/files/3-scenarios.zip?download=1",
+            "acquired_utc": "2026-10-13T21:57:47.811116+00:00",
+            "bytes": 491738368,
+            "provider_checksum": "md5:7c560f37af540c9e65abae813bdacab4",
+            "checksum_verified": true,
+            "sha256": "8a56adc70d4400786b774012c69af1d5264d6733986d5a6d5d500e66b57cf246",
+            "response_headers": {
+              "transfer": "verified-length HTTP byte ranges; six workers"
+            },
+            "metadata_sha256": "32909e4c2ec2a2d320c55b5d434c5c294b6ef4e350ff9b2f4c41c49f079d005a"
+          }
+        ]
+      },
+      "license": "CC-BY-4.0",
+      "source_files": [
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-1-disrupt.csv",
+          "parsed_rows": 138400,
+          "sha256": "b677e4aae6395ef8f95aacfeaa27edd78ca37b71f4724a3b72eee7b3dc341cbd"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-2-disrupt.csv",
+          "parsed_rows": 301235,
+          "sha256": "1013f774038b53839ac7042a70ec56c06334c83778c5adbf135dcbfebb991aa8"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-3-disrupt.csv",
+          "parsed_rows": 828896,
+          "sha256": "6882cd3e417cb3326975036b04c75648f4eadf2c0dad4ba58b15dd6e3d44fea6"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-4-disrupt.csv",
+          "parsed_rows": 828886,
+          "sha256": "5f76afcc4b25f4fbb3fd783e8467aead4dd0682970287398f32dd08eeffa4f91"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-5-disrupt.csv",
+          "parsed_rows": 828888,
+          "sha256": "3adc79035d71970801a8caf9401dfaaa478e86200d5692f6d4cdf8a9db7da29b"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-6-authtest.csv",
+          "parsed_rows": 52521,
+          "sha256": "bba15e9bbb89409f418ed47aa621b69a030b33a961add41c4a11bff66446e66d"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-7-authtest.csv",
+          "parsed_rows": 49024,
+          "sha256": "b3ace87c6d2ae2dbc199c2a50410c8cc061eda7dd0c1e3bafcaad43638831fd1"
+        },
+        {
+          "member": "3-scenarios/scenarios-5-sec/scenario-8-authtest.csv",
+          "parsed_rows": 60131,
+          "sha256": "e6660c1cf1a8b26b043c9b197c18e8d455354504bdc52a518caffa6764319881"
+        }
+      ],
+      "source_label_counts": {
+        "benign": 326929,
+        "recon": 27733,
+        "dos": 2707585,
+        "bruteforce": 25734
+      },
+      "supervised_excluded_label_counts": {},
+      "label_scope": "known provider labels only; Unknown is excluded from both supervised tasks, not relabeled as Attack",
+      "sampled_label_counts": {
+        "benign": 10000,
+        "dos": 10000,
+        "recon": 10000,
+        "bruteforce": 10000
+      },
+      "per_class_cap": 10000,
+      "sampling": "global per-label lowest independent RNG priorities; all selected official members scanned",
+      "source_date_range_utc": [
+        null,
+        null
+      ],
+      "features": [
+        "Proto",
+        "Sport",
+        "Dport",
+        "Flgs",
+        "Dur",
+        "RunTime",
+        "Mean",
+        "Sum",
+        "Min",
+        "Max",
+        "sTos",
+        "dTos",
+        "sDSb",
+        "dDSb",
+        "sTtl",
+        "dTtl",
+        "sHops",
+        "dHops",
+        "Cause",
+        "TotPkts",
+        "SrcPkts",
+        "DstPkts",
+        "TotBytes",
+        "SrcBytes",
+        "DstBytes",
+        "TotAppByte",
+        "SAppBytes",
+        "DAppBytes",
+        "PCRatio",
+        "Load",
+        "SrcLoad",
+        "DstLoad",
+        "Loss",
+        "SrcLoss",
+        "DstLoss",
+        "pLoss",
+        "SrcGap",
+        "DstGap",
+        "Rate",
+        "SrcRate",
+        "DstRate",
+        "Dir",
+        "SIntPkt",
+        "SIntPktMin",
+        "SIntPktMax",
+        "SIntPktAct",
+        "SIntPktIdl",
+        "DIntPkt",
+        "DIntPktMin",
+        "DIntPktMax",
+        "DIntPktAct",
+        "DIntPktIdl",
+        "SrcJitter",
+        "SrcJitAct",
+        "DstJitter",
+        "DstJitAct",
+        "State",
+        "SrcWin",
+        "DstWin",
+        "TcpRtt",
+        "SynAck",
+        "AckDat",
+        "TcpOpt",
+        "sMeanPktSz",
+        "dMeanPktSz",
+        "sMaxPktSz",
+        "dMaxPktSz",
+        "sMinPktSz",
+        "dMinPktSz"
+      ],
+      "excluded_identifier_or_payload_columns": [
+        "AutoId",
+        "BinaryLabel",
+        "CategoryLabel",
+        "DstAddr",
+        "DstMac",
+        "DstOui",
+        "DstTCPBase",
+        "ERange",
+        "FlowID",
+        "IdleTime",
+        "Inode",
+        "LastTime",
+        "Offset",
+        "Rank",
+        "SRange",
+        "Sdaddr",
+        "Seq",
+        "SrcAddr",
+        "SrcMac",
+        "SrcOui",
+        "SrcTCPBase",
+        "Ssaddr",
+        "StartTime",
+        "SubCategoryLabel",
+        "dAS",
+        "dCo",
+        "dIpId",
+        "dMpls",
+        "dVid",
+        "dVlan",
+        "dVpri",
+        "dstUdata",
+        "iAS",
+        "sAS",
+        "sCo",
+        "sIpId",
+        "sMpls",
+        "sVid",
+        "sVlan",
+        "sVpri",
+        "srcUdata"
+      ],
+      "training_constant_columns_removed": [
+        "Trans",
+        "StdDev",
+        "NStrok",
+        "sNStrok",
+        "dNStrok",
+        "Retrans",
+        "SrcRetra",
+        "DstRetra",
+        "pRetran",
+        "SIntDist",
+        "SIntActDist",
+        "SIntIdlDist",
+        "DIntDist",
+        "DIntActDist",
+        "DIntIdlDist"
+      ],
+      "split_audit": {
+        "split": "connection-group holdout; first label-covered GroupShuffleSplit candidate",
+        "seed": 42,
+        "candidate": 0,
+        "requested_test_group_fraction": 0.2,
+        "singleton_labels_training_only": [],
+        "test_labels": [
+          "benign",
+          "bruteforce",
+          "dos",
+          "recon"
+        ],
+        "training_labels": [
+          "benign",
+          "bruteforce",
+          "dos",
+          "recon"
+        ],
+        "training_groups": 23487,
+        "testing_groups": 5872,
+        "train_rows": 32346,
+        "test_rows": 7654,
+        "overlapping_groups": 0
+      },
+      "test_feature_vectors_also_present_in_training": 379,
+      "feature_overlap_policy": "retained; independently captured equal patterns are not automatically duplicate source records; connection groups must be disjoint",
+      "conversion": "provider CSV -> known-label scope -> deterministic class cap -> group split -> training-only constant removal -> parquet; no scaling or imputation before split",
+      "preparation_source_sha256": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1",
+      "prepared_files": {
+        "test.parquet": {
+          "sha256": "082b6287de81b7f4f3d5f79df177face2abba2946d663888a6a2930e9fe5e47f",
+          "bytes": 1106130
+        },
+        "train.parquet": {
+          "sha256": "d51fe52130b41473e29cd2073f1b6cc9c251a15b588ff32c3eef79edd64376c0",
+          "bytes": 4459169
+        }
+      }
+    }
+  },
+  "source_code": {
+    "C:\\Users\\User\\Desktop\\498R\\run_recent_benchmark.py": "27e459cf7e530a35a94cb65d1a1453d68f13e1261f67f9d33c17a1833fedfdea",
+    "src\\xai_ids\\benchmark.py": "e96f8f586c160dd50786717821555ca29e484ebdf09b6c4cd4f70afdb5745903",
+    "src\\xai_ids\\recent_data.py": "7237c4b217f72616142ae74ea6231c7c0d52cc767b0ec10acad375104670e7a1"
+  }
+}

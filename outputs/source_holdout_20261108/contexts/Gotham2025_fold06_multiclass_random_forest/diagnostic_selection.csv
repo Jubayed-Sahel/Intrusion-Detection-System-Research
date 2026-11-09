@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-ip-camera-street-1.csv,2029826,192.168.18.15:21040|192.168.2.2:8000|17,7250,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,2972418,192.168.18.15:21040|192.168.2.2:8000|17,8036,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,4909883,192.168.18.15:9644|192.168.2.2:8000|17,10539,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,825318,192.168.18.15:25936|192.168.2.2:8000|17,716,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,332358,192.168.18.15:14588|192.168.2.2:8000|17,316,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,2061703,192.168.18.15:21040|192.168.2.2:8000|17,7271,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,357481,192.168.18.15:14588|192.168.2.2:8000|17,334,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,5320135,192.168.18.15:9644|192.168.2.2:8000|17,15955,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,314961,192.168.18.15:14588|192.168.2.2:8000|17,305,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,4612376,192.168.18.15:21040|192.168.2.2:8000|17,10272,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,2452517,192.168.18.15:21040|192.168.2.2:8000|17,7585,Benign,Benign
+processed/iotsim-ip-camera-street-1.csv,1282747,192.168.18.15:53656|192.168.33.10:23|6,3959,C&C Communication,C&C Communication
+processed/iotsim-ip-camera-street-1.csv,1220930,192.168.18.15:55236|192.168.33.13:80|6,1414,File Download,File Download
+processed/iotsim-ip-camera-street-1.csv,1221525,192.168.18.15:55236|192.168.33.13:80|6,1983,File Download,File Download
+processed/iotsim-ip-camera-street-1.csv,1221694,192.168.18.15:55236|192.168.33.13:80|6,2152,File Download,File Download
+processed/iotsim-ip-camera-street-1.csv,1221871,192.168.18.15:55236|192.168.33.13:80|6,2329,File Download,File Download
+processed/iotsim-ip-camera-street-1.csv,1229774,192.168.18.15:23|192.168.33.12:44255|6,2624,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-ip-camera-street-1.csv,1272859,192.168.18.15:23|192.168.33.12:44255|6,3723,Ingress Tool Transfer,Telnet Brute Force
+processed/iotsim-ip-camera-street-1.csv,1247565,192.168.18.15:23|192.168.33.12:44255|6,3051,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-ip-camera-street-1.csv,1271991,192.168.18.15:23|192.168.33.12:44255|6,3694,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-ip-camera-street-1.csv,1289942,192.168.18.15:23|192.168.33.12:44255|6,4108,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-ip-camera-street-1.csv,5075229,192.168.17.15:-1|192.168.18.15:-1|1,11897,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-street-1.csv,5075801,192.168.17.15:-1|192.168.18.15:-1|1,11996,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-street-1.csv,5069879,192.168.17.15:-1|192.168.18.15:-1|1,10966,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-street-1.csv,5070925,192.168.17.15:-1|192.168.18.15:-1|1,11159,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-street-1.csv,5074505,192.168.17.15:-1|192.168.18.15:-1|1,11775,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-ip-camera-street-1.csv,5276296,192.168.17.15:4969|192.168.18.15:2962|6,15541,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,5278526,192.168.17.15:6028|192.168.18.15:4021|6,15735,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,5275914,192.168.17.15:4793|192.168.18.15:2786|6,15511,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,5206025,192.168.17.15:4173|192.168.18.15:2090|6,14507,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,5274268,192.168.17.15:4014|192.168.18.15:2007|6,15370,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,5143870,192.168.17.15:6064|192.168.18.15:0|17,14009,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,5141784,192.168.17.15:4169|192.168.18.15:0|17,13379,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,5142858,192.168.17.15:5140|192.168.18.15:0|17,13708,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,5139656,192.168.17.15:2244|192.168.18.15:0|17,12724,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,5142503,192.168.17.15:4810|192.168.18.15:0|17,13609,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,4525912,192.168.17.15:480|192.168.18.15:36001|47,10165,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-street-1.csv,4292572,192.168.17.15:14469|192.168.18.15:43808|47,9799,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-ip-camera-street-1.csv,3863772,192.168.17.15:54503|192.168.18.15:50945|6,9132,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,4051521,192.168.17.15:60653|192.168.18.15:39805|6,9415,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,3634100,192.168.17.15:41196|192.168.18.15:65154|6,8793,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-ip-camera-street-1.csv,3411775,192.168.17.15:56364|192.168.18.15:12698|17,8530,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,3134535,192.168.17.15:3857|192.168.18.15:55319|17,8197,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-ip-camera-street-1.csv,1304999,192.168.18.15:57576|192.168.33.11:48101|6,4467,Reporting,Reporting
+processed/iotsim-ip-camera-street-1.csv,1301100,192.168.18.15:23|192.168.18.1:64139|1,4355,TCP Scan,TCP Scan
+processed/iotsim-ip-camera-street-1.csv,1336281,192.168.18.15:64139|192.168.31.176:23|6,5161,TCP Scan,TCP Scan
+processed/iotsim-ip-camera-street-1.csv,1318949,192.168.16.240:23|192.168.18.15:64139|6,4805,TCP Scan,TCP Scan
+processed/iotsim-ip-camera-street-1.csv,1376888,192.168.17.10:54534|192.168.18.15:23|6,5979,TCP Scan,Telnet Brute Force
+processed/iotsim-ip-camera-street-1.csv,1265258,192.168.18.15:64139|192.168.20.109:23|6,3538,TCP Scan,TCP Scan
+processed/iotsim-ip-camera-street-1.csv,1220270,192.168.0.100:54712|192.168.18.15:23|6,1137,Telnet Brute Force,Telnet Brute Force

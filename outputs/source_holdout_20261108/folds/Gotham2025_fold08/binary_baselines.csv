@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset,normal_test_rows,attack_test_rows,false_positive_rate,false_negative_rate
+Gotham2025,8,binary,majority,42,0.4651085141903172,0.31745670009115773,0.295303628198319,2995,2,2,0,2995,0.31745670009115773,1602,1393,1.0,0.0
+Gotham2025,8,binary,depth5_tree,42,0.9302170283806344,0.9302170283806344,0.9302170283806344,2995,2,2,0,2995,0.9302170283806344,1602,1393,0.13046192259675407,0.0

@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+Gotham2025,5,binary,xgboost,42,Attack,1.0,1.0,1.0,18347,102086,True
+Gotham2025,5,binary,xgboost,42,Normal,1.0,1.0,1.0,3823,6138,True

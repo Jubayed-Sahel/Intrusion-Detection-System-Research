@@ -1,0 +1,5 @@
+dataset,fold,task,model,seed,actual_class,predicted_class,count
+Gotham2025,7,binary,random_forest,42,Attack,Attack,37420
+Gotham2025,7,binary,random_forest,42,Attack,Normal,4327
+Gotham2025,7,binary,random_forest,42,Normal,Attack,0
+Gotham2025,7,binary,random_forest,42,Normal,Normal,682

@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-cooler-motor-14.csv,15040,192.168.0.4:8883|192.168.19.33:43251|6,7,Benign,Benign
+processed/iotsim-domotic-monitor-1.csv,126422,192.168.18.10:40804|192.168.33.10:23|6,5164,C&C Communication,C&C Communication
+processed/iotsim-domotic-monitor-1.csv,21220,192.168.18.10:57932|192.168.33.13:80|6,1150,File Download,File Download
+processed/iotsim-domotic-monitor-1.csv,21719,192.168.18.10:57932|192.168.33.13:80|6,1649,File Download,File Download
+processed/iotsim-domotic-monitor-1.csv,21213,192.168.18.10:57932|192.168.33.13:80|6,1143,File Download,File Download
+processed/iotsim-domotic-monitor-1.csv,21475,192.168.18.10:57932|192.168.33.13:80|6,1405,File Download,File Download
+processed/iotsim-domotic-monitor-1.csv,75274,192.168.18.10:23|192.168.33.12:59229|6,3577,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,98789,192.168.18.10:23|192.168.33.12:59229|6,4347,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,96827,192.168.18.10:23|192.168.33.12:59229|6,4275,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,33003,192.168.18.10:23|192.168.33.12:59229|6,2114,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,126648,192.168.18.10:23|192.168.33.12:59229|6,5173,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,101814,192.168.18.10:23|192.168.33.12:59229|6,4441,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-domotic-monitor-1.csv,2087548,192.168.17.10:-1|192.168.18.10:-1|1,10166,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2083289,192.168.17.10:-1|192.168.18.10:-1|1,9440,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2082017,192.168.17.10:-1|192.168.18.10:-1|1,9221,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2084700,192.168.17.10:-1|192.168.18.10:-1|1,9687,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2086080,192.168.17.10:-1|192.168.18.10:-1|1,9920,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2080302,192.168.17.10:-1|192.168.18.10:-1|1,8901,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-domotic-monitor-1.csv,2111269,192.168.17.10:5056|192.168.18.10:3825|6,13446,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2110710,192.168.17.10:4777|192.168.18.10:3546|6,13399,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2097950,192.168.17.10:4752|192.168.18.10:2234|6,12353,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2104754,192.168.17.10:1799|192.168.18.10:568|6,12894,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2095184,192.168.17.10:3369|192.168.18.10:851|6,12130,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2094638,192.168.17.10:3096|192.168.18.10:578|6,12083,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,2090127,192.168.17.10:4431|192.168.18.10:0|17,10887,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,2088741,192.168.17.10:3046|192.168.18.10:0|17,10406,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,2091880,192.168.17.10:6182|192.168.18.10:0|17,11469,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,2092838,192.168.17.10:7139|192.168.18.10:0|17,11797,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,2093235,192.168.17.10:7535|192.168.18.10:0|17,11926,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,2090614,192.168.17.10:4917|192.168.18.10:0|17,11043,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,1572841,192.168.17.10:61203|192.168.18.10:61541|47,7750,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-domotic-monitor-1.csv,1792313,192.168.17.10:32316|192.168.18.10:752|47,8120,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-domotic-monitor-1.csv,1812866,192.168.17.10:63888|192.168.18.10:4038|47,8148,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-domotic-monitor-1.csv,1376524,192.168.17.10:54790|192.168.18.10:7880|6,7435,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,1375186,192.168.17.10:26882|192.168.18.10:60850|6,7431,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,1498098,192.168.17.10:47367|192.168.18.10:28443|6,7627,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,1338315,192.168.17.10:14376|192.168.18.10:51515|6,7367,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-domotic-monitor-1.csv,772422,192.168.17.10:65415|192.168.18.10:27015|17,6550,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,407934,192.168.17.10:16594|192.168.18.10:59724|17,6118,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,379980,192.168.17.10:12643|192.168.18.10:7890|17,6081,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-domotic-monitor-1.csv,113659,192.168.18.10:42386|192.168.33.11:48101|6,4786,Reporting,Reporting
+processed/iotsim-domotic-monitor-1.csv,55560,192.168.18.10:57710|192.168.30.32:23|6,2937,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,37354,192.168.17.10:34612|192.168.18.10:23|6,2240,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,97989,192.168.17.15:23|192.168.18.10:41386|6,4315,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,73532,192.168.18.10:57710|192.168.21.170:2323|6,3523,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,29351,192.168.18.10:57710|192.168.19.213:23|6,2030,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,71656,192.168.18.10:57710|192.168.29.14:23|6,3456,TCP Scan,TCP Scan
+processed/iotsim-domotic-monitor-1.csv,143673,192.168.0.100:44446|192.168.18.10:23|6,5616,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-domotic-monitor-1.csv,8046,192.168.0.100:51672|192.168.18.10:23|6,235,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-domotic-monitor-1.csv,15402,192.168.18.10:23|192.168.18.15:57678|6,448,TCP Scan,Telnet Brute Force

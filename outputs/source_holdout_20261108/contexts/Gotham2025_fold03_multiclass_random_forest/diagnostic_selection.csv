@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-cooler-motor-2.csv,8924,192.168.19.11:43325|192.168.3.1:1883|6,8485,Benign,Benign
+processed/iotsim-city-power-1.csv,5184,192.168.18.18:23|192.168.33.12:34191|6,191,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-city-power-1.csv,1481689,192.168.18.18:-1|192.168.20.10:-1|1,3658,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1484912,192.168.18.18:-1|192.168.20.10:-1|1,4236,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1484976,192.168.18.18:-1|192.168.20.10:-1|1,4245,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1485804,192.168.18.18:-1|192.168.20.10:-1|1,4395,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1487012,192.168.18.18:-1|192.168.20.10:-1|1,4604,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1488955,192.168.18.18:-1|192.168.20.10:-1|1,4946,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1490175,192.168.18.18:-1|192.168.20.10:-1|1,5147,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1487387,192.168.18.18:-1|192.168.20.10:-1|1,4678,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1482732,192.168.18.18:-1|192.168.20.10:-1|1,3851,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1481747,192.168.18.18:-1|192.168.20.10:-1|1,3672,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-city-power-1.csv,1504405,192.168.18.18:4479|192.168.20.10:7374|6,7577,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1499022,192.168.18.18:1787|192.168.20.10:4682|6,7136,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1503332,192.168.18.18:3942|192.168.20.10:6837|6,7497,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1511240,192.168.18.18:2877|192.168.20.10:5128|6,8116,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1506103,192.168.18.18:309|192.168.20.10:2560|6,7732,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1504246,192.168.18.18:4399|192.168.20.10:7294|6,7565,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1512146,192.168.18.18:3330|192.168.20.10:5581|6,8186,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1508161,192.168.18.18:1337|192.168.20.10:3588|6,7892,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1502516,192.168.18.18:3534|192.168.20.10:6429|6,7443,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1514113,192.168.18.18:4313|192.168.20.10:6564|6,8353,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-city-power-1.csv,1492758,192.168.18.18:0|192.168.20.10:4381|17,5922,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1493835,192.168.18.18:0|192.168.20.10:5457|17,6305,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1490814,192.168.18.18:0|192.168.20.10:2439|17,5299,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1495232,192.168.18.18:0|192.168.20.10:6853|17,6785,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1491336,192.168.18.18:0|192.168.20.10:2961|17,5459,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1494341,192.168.18.18:0|192.168.20.10:5962|17,6472,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1492305,192.168.18.18:0|192.168.20.10:3929|17,5770,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1493909,192.168.18.18:0|192.168.20.10:5531|17,6338,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1494224,192.168.18.18:0|192.168.20.10:5846|17,6432,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1494881,192.168.18.18:0|192.168.20.10:6502|17,6659,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-city-power-1.csv,1388523,192.168.18.18:16598|192.168.20.10:52223|47,3353,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-city-power-1.csv,1364244,192.168.18.18:13480|192.168.20.10:3682|47,3313,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-city-power-1.csv,1449402,192.168.18.18:56836|192.168.20.10:49180|47,3464,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-city-power-1.csv,1247659,192.168.18.18:45836|192.168.20.10:23962|47,3115,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-city-power-1.csv,556538,192.168.18.18:47844|192.168.20.10:46818|6,2060,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-city-power-1.csv,786919,192.168.18.18:40498|192.168.20.10:45844|6,2411,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-city-power-1.csv,969772,192.168.18.18:19753|192.168.20.10:10622|6,2702,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-city-power-1.csv,723970,192.168.18.18:35366|192.168.20.10:10356|6,2322,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-city-power-1.csv,1046953,192.168.18.18:50825|192.168.20.10:6450|6,2797,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-city-power-1.csv,284800,192.168.18.18:37080|192.168.20.10:24465|17,1719,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-city-power-1.csv,151548,192.168.18.18:28036|192.168.20.10:26672|17,1590,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-city-power-1.csv,206631,192.168.18.18:63117|192.168.20.10:1825|17,1644,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-city-power-1.csv,18356,192.168.18.15:51478|192.168.18.18:23|6,495,TCP Scan,Telnet Brute Force
+processed/iotsim-city-power-1.csv,39201,192.168.18.10:36616|192.168.18.18:23|6,1088,TCP Scan,C&C Communication
+processed/iotsim-city-power-1.csv,44288,192.168.0.100:40834|192.168.18.18:23|6,1280,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-city-power-1.csv,3407,192.168.0.100:49266|192.168.18.18:23|6,112,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-city-power-1.csv,40089,192.168.0.100:59640|192.168.18.18:23|6,1117,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-city-power-1.csv,36253,192.168.0.100:42248|192.168.18.18:23|6,1017,Telnet Brute Force,Telnet Brute Force

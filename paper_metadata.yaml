@@ -1,9 +1,9 @@
 title: A Quantitative Framework for Evaluating Explainable AI in Network Intrusion Detection Systems
-recent_title: "Making Intrusion Detection Understandable: Evaluating SHAP and LIME for Cybersecurity"
+recent_title: "TreeSHAP and LIME for Intrusion Detection: Sensitivity to Masking and Source Holdout"
 authors: Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab
 affiliation: ""
 date: ""
-recent_date: "21 October 2026"
+recent_date: "8 November 2026"
 footer: Quantitative XAI for Network Intrusion Detection
 recent_footer: Research draft | official-source 2025 benchmarks | venue not selected
 anonymous_review: false

@@ -1,0 +1,18 @@
+dataset,fold,task,model,seed,class,precision,recall,f1,test_support,training_support,seen_in_training
+Gotham2025,1,multiclass,random_forest,42,Benign,0.9693877551020408,1.0,0.9844559585492227,95,9904,True
+Gotham2025,1,multiclass,random_forest,42,C&C Communication,0.17699115044247787,0.47619047619047616,0.25806451612903225,84,444,True
+Gotham2025,1,multiclass,random_forest,42,CoAP Amplification,0.0,0.0,0.0,0,10000,True
+Gotham2025,1,multiclass,random_forest,42,File Download,0.9991610738255033,1.0,0.9995803608896349,1191,6005,True
+Gotham2025,1,multiclass,random_forest,42,Ingress Tool Transfer,0.9988597491448119,0.9948892674616695,0.9968705547652916,1761,8239,True
+Gotham2025,1,multiclass,random_forest,42,Merlin C&C Communication,1.0,0.9984620116887112,0.999230414037248,3251,6749,True
+Gotham2025,1,multiclass,random_forest,42,Merlin ICMP Flooding,1.0,1.0,1.0,1550,6752,True
+Gotham2025,1,multiclass,random_forest,42,Merlin TCP Flooding,0.999388379204893,1.0,0.9996940960538391,1634,8115,True
+Gotham2025,1,multiclass,random_forest,42,Merlin UDP Flooding,1.0,1.0,1.0,1654,7799,True
+Gotham2025,1,multiclass,random_forest,42,Mirai C&C Communication,0.9565217391304348,0.12290502793296089,0.21782178217821782,358,716,True
+Gotham2025,1,multiclass,random_forest,42,Mirai GRE Flooding,0.9964342313787639,1.0,0.9982139313355824,2515,7484,True
+Gotham2025,1,multiclass,random_forest,42,Mirai TCP Flooding,1.0,0.9995635093845482,0.9997817070508622,2291,7705,True
+Gotham2025,1,multiclass,random_forest,42,Mirai UDP Flooding,1.0,0.9966254218222722,0.9983098591549295,2667,7103,True
+Gotham2025,1,multiclass,random_forest,42,Reporting,1.0,1.0,1.0,88,362,True
+Gotham2025,1,multiclass,random_forest,42,TCP Scan,0.8548972188633616,0.866421568627451,0.8606208155812538,1632,7867,True
+Gotham2025,1,multiclass,random_forest,42,Telnet Brute Force,0.8609388839681134,0.998972250770812,0.9248334919124643,973,9027,True
+Gotham2025,1,multiclass,random_forest,42,UDP Scan,0.0,0.0,0.0,0,4242,True

@@ -77,7 +77,7 @@ def fetch_json(url):
 
 
 def resolve(doi):
-    if doi.lower().startswith("10.5281/") or doi.lower().startswith("10.48550/"):
+    if doi.lower().startswith(("10.5281/", "10.48550/", "10.21227/")):
         payload = fetch_json("https://api.datacite.org/dois/" + urllib.parse.quote(doi, safe=""))
         attributes = payload["data"]["attributes"]
         return {

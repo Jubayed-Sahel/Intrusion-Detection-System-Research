@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-stream-consumer-2.csv,166796,192.168.1.2:8000|192.168.17.18:10790|17,2731,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1217075,192.168.1.2:8000|192.168.17.16:34850|17,2602,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1154520,192.168.1.2:8000|192.168.17.16:34850|17,2561,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,549374,192.168.1.2:8000|192.168.17.16:34850|17,2037,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1096121,192.168.1.2:8000|192.168.17.16:34850|17,2496,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,643444,192.168.1.2:8000|192.168.17.16:34850|17,2111,Benign,Benign
+processed/iotsim-cooler-motor-1.csv,155260,192.168.0.3:123|192.168.19.34:37415|17,1528,Benign,Benign
+processed/iotsim-stream-consumer-2.csv,327311,192.168.1.2:8000|192.168.17.18:21476|17,2874,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,732907,192.168.1.2:8000|192.168.17.16:34850|17,2191,Benign,Benign
+processed/iotsim-cooler-motor-12.csv,3982,192.168.0.4:8883|192.168.19.31:60889|6,1533,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,610421,192.168.1.2:8000|192.168.17.16:34850|17,2085,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,157486,192.168.1.2:8000|192.168.17.16:34850|17,1712,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,753738,192.168.1.2:8000|192.168.17.16:34850|17,2210,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,477636,192.168.1.2:8000|192.168.17.16:34850|17,1985,Benign,Benign
+processed/iotsim-cooler-motor-12.csv,10669,192.168.0.4:8883|192.168.19.31:60889|6,1542,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,601029,192.168.1.2:8000|192.168.17.16:34850|17,2077,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1024100,192.168.1.2:8000|192.168.17.16:34850|17,2423,Benign,Benign
+processed/iotsim-stream-consumer-2.csv,39111,192.168.1.2:8000|192.168.17.18:8082|17,2643,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1230786,192.168.1.2:8000|192.168.17.16:34850|17,2613,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,33341,192.168.1.2:8000|192.168.17.16:34850|17,1597,Benign,Benign
+processed/iotsim-stream-consumer-2.csv,462545,192.168.1.2:8000|192.168.17.18:31420|17,2992,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1024747,192.168.1.2:8000|192.168.17.16:34850|17,2425,Benign,Benign
+processed/iotsim-stream-consumer-2.csv,186952,192.168.1.2:8000|192.168.17.18:32458|17,2750,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,773141,192.168.1.2:8000|192.168.17.16:34850|17,2227,Benign,Benign
+processed/iotsim-stream-consumer-2.csv,399312,192.168.1.2:8000|192.168.17.18:27120|17,2941,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,1127453,192.168.1.2:8000|192.168.17.16:34850|17,2533,Benign,Benign
+processed/iotsim-ip-camera-museum-2.csv,130925,192.168.1.2:8000|192.168.17.16:34850|17,1684,Benign,Benign
+processed/iotsim-air-quality-1.csv,6616,192.168.18.17:23|192.168.33.12:58603|6,169,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-air-quality-1.csv,31205,192.168.18.17:23|192.168.20.19:58248|6,791,TCP Scan,TCP Scan
+processed/iotsim-air-quality-1.csv,21149,192.168.18.15:47640|192.168.18.17:23|6,531,TCP Scan,TCP Scan
+processed/iotsim-air-quality-1.csv,23383,192.168.18.17:23|192.168.20.10:46608|6,577,TCP Scan,TCP Scan
+processed/iotsim-air-quality-1.csv,6586,192.168.18.17:23|192.168.20.10:35622|6,150,TCP Scan,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,10212,192.168.18.17:23|192.168.20.10:45088|6,291,TCP Scan,TCP Scan
+processed/iotsim-air-quality-1.csv,27973,192.168.18.10:40116|192.168.18.17:23|6,688,TCP Scan,C&C Communication
+processed/iotsim-air-quality-1.csv,29979,192.168.0.100:38444|192.168.18.17:23|6,758,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,22623,192.168.0.100:59160|192.168.18.17:23|6,555,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,41190,192.168.0.100:38300|192.168.18.17:23|6,1054,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,30754,192.168.0.100:37242|192.168.18.17:23|6,777,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,45074,192.168.0.100:49492|192.168.18.17:23|6,1183,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,30357,192.168.0.100:38454|192.168.18.17:23|6,767,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,41599,192.168.0.100:47466|192.168.18.17:23|6,1068,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,34818,192.168.0.100:38628|192.168.18.17:23|6,903,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,48801,192.168.0.100:45546|192.168.18.17:23|6,1336,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,4379,192.168.0.100:35936|192.168.18.17:23|6,77,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,47579,192.168.0.100:40492|192.168.18.17:23|6,1288,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,14333,192.168.0.100:39774|192.168.18.17:23|6,375,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,6760,192.168.0.100:52350|192.168.18.17:23|6,203,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,23068,192.168.0.100:60226|192.168.18.17:23|6,568,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,25810,192.168.0.100:58244|192.168.18.17:23|6,643,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-air-quality-1.csv,10667,192.168.0.100:53322|192.168.18.17:23|6,303,Telnet Brute Force,Telnet Brute Force

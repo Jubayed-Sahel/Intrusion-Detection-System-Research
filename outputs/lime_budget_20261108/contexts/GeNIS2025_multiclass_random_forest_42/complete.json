@@ -1,0 +1,13 @@
+{
+  "context": "GeNIS2025_multiclass_random_forest_42",
+  "run_fingerprint": "a05736955f87a1d1c8b51a013a7b5c1de442d52900e5d5079c5b732ddb0fdbfd",
+  "records": 100,
+  "groups": 95,
+  "outputs": {
+    "attributions.csv": "9e9e5fa8dd8ec8b1aac8b0f8f3589933dbaf90c766cd68154c97626308fc8191",
+    "background_indices.npy": "e41d157081ddd38c7e8105ef286216a5105f4b211c90713e64c93356505eddf4",
+    "deletion.csv": "228c96a252ff066423689d34d7cef00a0b567f2d7711d7a99f100de836c254f4",
+    "group_endpoints.csv": "d6e6cc42a81f6f3f2dfa38f01633222ff151ff924023b7888e117e52a15fd52b",
+    "surrogate_fit.csv": "fa85ba11ee575cd31694e31ab0296fe4b8efa4b8ce73c620b79c7f610fdd6e66"
+  }
+}

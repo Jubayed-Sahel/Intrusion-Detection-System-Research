@@ -1,89 +1,29 @@
-# Remaining paper work
+# Research closeout and remaining work
 
-**Updated:** 14 October 2026
+Updated 9 November 2026. The current study is complete within its documented scope. Publication decisions and author approval are deferred.
 
-**21 October 2026 reference revision:** The current manuscript is now seven pages with 20 references in first-citation order, 14 resolved DOI records, and six proceedings/journal/archive references without a DOI in the entry. Original Random Forest, XGBoost, removal-based explanation, bootstrap, Wilcoxon, and Holm sources are cited at their use. Full-text comparison corrections and audit evidence are recorded in `RECENT_REFERENCE_VALIDATION.md`. The test suite now passes 26 tests, including IEEE source-structure and markup-preservation checks. This supersedes earlier page-count and reference-count statements below.
+## Completed research
 
-**17 October 2026 supplementary extension:** Completed a post-hoc two-sided sign and leave-one-connection-out sensitivity analysis across all 24 explainer contexts. All reconstructed means/counts match the primary artifacts; all corrected sign tests favor TreeSHAP, and no single connection reverses a positive mean. Methods, limits, reproduction, and a manuscript-ready paragraph are in [EXPLANATION_ROBUSTNESS.md](EXPLANATION_ROBUSTNESS.md). This supplement has not been inserted into or visually verified in the existing manuscript PDF. The full test suite now passes 21 tests.
+- Official GeNIS 2025 and Gotham 2025 data preparation, connection-group separation, training-only preprocessing, and coverage reporting. GeNIS archive and member checks and Gotham member checks retain their separate scopes. The complete Gotham archive checksum remains unverified. See [dataset provenance](RECENT_DATASET_PROVENANCE.md).
+- The primary analysis contains 40 predictive fits, 24 paired explanation comparisons, 48 random-control comparisons, and eight extended audit contexts. The [literature review](LITERATURE_REVIEW_20261107.md) records 20 additional full-text reviews and the resulting design choices.
+- The source-holdout replay covers 64 detector fits and 64 matched explanation comparisons. See [the methods and results](PUBLICATION_EXTENSION_20261108.md) and [the saved numerical replay](outputs/source_holdout_20261108/saved_results_replay.json).
+- Fixed source-held-out models scored 37,941,390 eligible records without applying a test-time class cap. A separate EV-charging capture supplied 4,415 flows for reduced-feature binary transfer. See [extended validation](EXTENDED_VALIDATION_RESULTS.md).
+- A protocol-only baseline and a TCP-only diagnostic exposed a shortcut in the EV-charging capture. Both protocol-and-port tree models falsely flagged 161 of 162 benign TCP flows. The [journal audit](Q1_JOURNAL_READINESS.md) records the baseline and prevalence sensitivity results.
+- The [training-size experiment](TRAINING_SCALE_PROTOCOL.md) tests 10,000, 40,000, and 160,000 training rows on the same complete GeNIS source holdouts. The journal draft reports the paired changes, and [fold-level results](outputs/training_scale/metrics.csv) retain both missed attacks and false alarms.
+- The [independent TCP check](INDEPENDENT_TCP_PROTOCOL.md) reproduces the OCPP false-alarm problem on PDMFC v1. The two protocol-and-port trees falsely flag 11,882 and 11,834 of 12,006 benign TCP flows. Both also flag all 52 benign flows in the exact mixed-label port-pair subset. See [all error counts](outputs/independent_tcp/metrics.csv).
 
-The GeNIS/Gotham 2025 experiments and local integrity checks are complete. The current manuscript is a six-page anonymous IEEE-style PDF. The items below cover the remaining writing, author review, formatting, and submission work.
+## Research package
 
-## Already completed
+- [Journal-format manuscript](output/pdf/xai_ids_tdsc_draft.pdf) and [editable LaTeX](paper/journal/main.tex)
+- [Detailed report](output/pdf/xai_ids_recent2025_paper.pdf) and [anonymous review archive](output/ids_xai_anonymous_review.zip)
+- [Index of protocols, results, and rerun instructions](SUPPLEMENTARY_INDEX.md)
+- Run `python -m unittest discover -s tests` and `python verify_research_closeout.py` for the local checks. The latter replays frozen evidence from a clean checkout without raw data or fitted models. With the official GeNIS and Gotham inputs present, `--verify-raw` also rehashes the consumed source files. The verification is an internal replay of recorded evidence. It does not establish independent retraining of all experiments.
 
-- [x] Acquire official datasets and document source identity, checksums, conversion, sampling, exclusions, and group separation.
-- [x] Complete 40 predictive model fits, 24 paired explanation comparisons, 48 control comparisons, and eight sensitivity-audit contexts.
-- [x] Verify raw sources, prepared inputs, frozen code, metrics, statistical calculations, and all 18 unit tests.
-- [x] Generate and visually inspect all six manuscript pages, including searchable text and embedded fonts.
+## Future evidence for broader claims
 
-Evidence: [current manuscript](output/pdf/xai_ids_recent2025_paper.pdf), [readiness report](PUBLICATION_READINESS_REPORT.md), [dataset provenance](RECENT_DATASET_PROVENANCE.md), and [experiment summary](outputs/recent2025/summary.json).
+- The two external captures support a binary diagnostic for the reduced-feature models. Additional independently repeated captures would be needed to estimate broader cross-network performance. The study measures explanation fidelity on GeNIS and Gotham under specified replacement rules. External explanation fidelity remains untested.
+- A human-analyst study would be needed to measure decisions and usability. Live drift and workload measurements would be needed to assess deployment.
 
-## 1. Finish the related work and contribution argument
+## If publication is resumed
 
-**Completed in the manuscript generator on 14 October 2026; supervisor review of the comparisons is still required.**
-
-- [x] Review relevant quantitative XAI-for-IDS research and add a substantive related-work comparison. Section II now positions the protocol against Neupane et al., Mane and Rao, Gaspar et al., Warnecke et al., and Arreche et al. (E-XAI), plus Yeh/Adebayo objective-check papers. Dataset and explainer-method sources remain [1]-[7].
-- [x] Explain the contribution in relation to the closest prior work: traceable source preparation, matched explanation records, connection-group inference, corrected controls, and explicit limitations. The manuscript states that SHAP/LIME use, perturbation testing, and metric-based comparison are not claimed as new ideas.
-- [x] Check every factual and comparative claim against its cited primary source. The recent-study record is [RECENT_REFERENCE_VALIDATION.md](RECENT_REFERENCE_VALIDATION.md); historical bibliography checks remain separate.
-- [x] Finish a full editorial pass for terminology, equations, metric definitions, figure/table references, abstract, and conclusions. Keep the claims consistent with the sampled testbed cohorts and measured masking protocol. Supervisor reading of the rebuilt PDF is still required.
-
-## 2. Choose the exact submission destination
-
-**Needs the user or supervisor's decision; Codex can research and apply the requirements.**
-
-- [ ] Select the specific IEEE journal or conference and article category. “IEEE” alone does not determine the submission format.
-- [ ] Record the official template, page/word limits, anonymity rules, submission instructions, and any required supplementary files.
-- [ ] Decide whether the current study scope is sufficient for that venue or whether a particular additional experiment is necessary.
-
-## 3. Finalize author information and disclosures
-
-**Needs factual information and approval from the authors.**
-
-- [ ] Confirm the final title, author names and order, affiliations, corresponding author, email addresses, and ORCID identifiers where required.
-- [ ] Confirm contributions, funding, acknowledgments, conflicts of interest, and any applicable ethics statements. Supply only verified information.
-- [ ] Review and finalize the AI-assistance disclosure against the actual tool-use history and the chosen venue's rules.
-- [x] Make the recent manuscript generator read the approved metadata and apply the venue's anonymity rules. `paper_metadata.yaml` now has `recent_title`, `recent_date`, `recent_footer`, and `anonymous_review`. Author names remain withheld until the authors approve them and set `anonymous_review: false`.
-
-## 4. Prepare the final manuscript and supplementary package
-
-**Codex can complete this after the venue and metadata decisions.**
-
-- [ ] Convert the manuscript into the venue's editable LaTeX or Word template and supply its source files. The generic IEEEtran conference LaTeX source is now provided in `paper/ieee/main.tex` and compiles locally; adaptation to the selected venue remains outstanding.
-- [x] Prepare a venue-agnostic index of supplementary methods, full per-class results, statistical tables, configuration, environment record, and reproduction instructions: [SUPPLEMENTARY_INDEX.md](SUPPLEMENTARY_INDEX.md). Convert that index into the selected venue's supplement format after the venue is chosen.
-- [ ] Prepare any additional venue-required supplementary files after the destination is selected.
-- [x] Include explicit class coverage, the `Unknown` exclusion, training-only CoAP Amplification, changed class priors, and the scope of Gotham member checksum verification in the manuscript, provenance record, and supplementary index.
-- [x] Rebuild after the related-work and editorial changes, check numerical claims against the verified artifacts, and inspect every rendered page again. The rebuilt PDF is six US Letter pages with searchable text and embedded fonts. Venue-template conversion remains outstanding.
-
-## 5. Complete scientific and submission checks
-
-**Requires supervisor/coauthor review and access to any venue-required services.**
-
-- [ ] Obtain supervisor/coauthor review of the methods, novelty, references, results, limitations, and approved contribution/disclosure statements.
-- [ ] Resolve their comments and obtain all authors' approval of the final manuscript.
-- [ ] Complete any required similarity screening and address attribution or overlap findings. No similarity-screening result is currently available.
-- [ ] Complete the venue's PDF compliance checks, including PDF eXpress if applicable. Local rendering/font checks are already complete; venue certification remains outstanding.
-
-## 6. Prepare the release and submit
-
-**Codex can prepare the files; account access and author authorization are needed for publication actions.**
-
-- [ ] Assemble a versioned release with the approved manuscript sources, code, configuration, verified results, provenance, and reproduction instructions. Confirm licensing and dataset attribution.
-- [x] Publish the research update to the user's GitHub. The code, artifacts, manuscript, and checklist were uploaded on 14 October 2026 in [commit 6579189](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/commit/6579189a241cf8e7eeab8792f1b988bef08d5586).
-- [x] Confirm hosted verification. The [research-integrity run](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions/runs/38556657111) passed on 14 October 2026, including all 17 unit tests and published research-artifact checks.
-- [ ] Obtain an archival DOI if required or chosen for the release, and add the approved availability statement/link while respecting anonymity rules.
-- [ ] Prepare the venue-required cover letter, submission metadata, supplementary uploads, and declarations. Confirm claims about prior publication or concurrent submission with the authors.
-- [ ] Submit through the selected venue's portal after final author authorization. Complete copyright/licensing and camera-ready steps at the applicable stage.
-
-## Additional experiments: conditional on the intended claims
-
-These are possible extensions, rather than unfinished computations in the current protocol:
-
-- [ ] Temporal, separate-capture, device, or cross-organization evaluation if claiming broader generalization.
-- [ ] Human-analyst evaluation if claiming improved analyst decisions or usability.
-- [ ] Live, drift, isolated latency, or throughput experiments if claiming operational deployment benefits.
-- [ ] A second independent recent-study retraining if claiming independent reproduction. Use a fresh output directory; resuming completed checkpoints is not another retraining.
-
-## Completion condition
-
-Related-work, claim-support, editorial, and metadata-wiring items that can be completed without a venue or author names are done. The paper package is complete for submission when the approved authors and venue are specified, the venue-format source/PDF/supplement are ready, and all required author and submission checks are satisfied. Submission and acceptance are separate statuses and should be recorded only when they occur.
-
-**21 October 2026 IEEE conversion:** The default manuscript build now uses the official IEEEtran conference class, with a 183-word abstract, standard typography/geometry, automatic equation numbering, and no draft footer or page numbers. The editable LaTeX project and vector figures are supplied. This completes generic IEEE template conversion; venue selection, venue-specific adaptation, and any required PDF certification remain outstanding.
+Confirm each author's affiliation, contributions and approval, plus the corresponding author, funding and conflicts. Confirm the chosen venue's requirements and decide how to archive the code and evidence with the coauthors. The journal and conference formats are available for review.

@@ -1,0 +1,51 @@
+__source_file,__source_row,__group,source_test_index,actual_class,predicted_class
+processed/iotsim-ip-camera-street-2.csv,44282,192.168.18.16:26680|192.168.2.2:8000|17,41807,Benign,Benign
+processed/iotsim-combined-cycle-1.csv,212260,192.168.20.10:53376|192.168.33.10:23|6,9206,C&C Communication,C&C Communication
+processed/iotsim-combined-cycle-1.csv,5965753,192.168.0.200:5683|192.168.20.10:5683|17,41503,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5722243,192.168.0.200:5683|192.168.20.10:5683|17,32607,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5817580,192.168.0.200:5683|192.168.20.10:5683|17,36075,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5876812,192.168.0.200:5683|192.168.20.10:5683|17,38287,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5899019,192.168.0.200:5683|192.168.20.10:5683|17,39105,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5724033,192.168.0.200:5683|192.168.20.10:5683|17,32690,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5932785,192.168.0.200:5683|192.168.20.10:5683|17,40328,CoAP Amplification,Benign
+processed/iotsim-combined-cycle-1.csv,5753154,192.168.0.200:5683|192.168.20.10:5683|17,33762,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5819277,192.168.0.200:5683|192.168.20.10:5683|17,36133,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5888511,192.168.0.200:5683|192.168.20.10:5683|17,38718,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5906349,192.168.0.200:5683|192.168.20.10:5683|17,39360,CoAP Amplification,Benign
+processed/iotsim-combined-cycle-1.csv,5843318,192.168.0.200:5683|192.168.20.10:5683|17,37012,CoAP Amplification,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,141092,192.168.20.10:50298|192.168.33.13:80|6,6411,File Download,File Download
+processed/iotsim-combined-cycle-1.csv,140666,192.168.20.10:50298|192.168.33.13:80|6,5985,File Download,File Download
+processed/iotsim-combined-cycle-1.csv,17824,192.168.20.19:57648|192.168.33.13:80|6,1499,File Download,File Download
+processed/iotsim-combined-cycle-1.csv,39058,192.168.20.19:23|192.168.33.12:48475|6,2343,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-1.csv,65872,192.168.20.19:23|192.168.33.12:48475|6,3263,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-1.csv,114936,192.168.20.19:23|192.168.33.12:48475|6,4802,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-1.csv,160115,192.168.20.10:23|192.168.33.12:49893|6,7410,Ingress Tool Transfer,Ingress Tool Transfer
+processed/iotsim-combined-cycle-1.csv,5652587,192.168.20.10:48026|192.168.34.10:443|6,20188,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-combined-cycle-1.csv,5682197,192.168.20.10:48026|192.168.34.10:443|6,26106,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-combined-cycle-1.csv,5665174,192.168.20.10:48026|192.168.34.10:443|6,22967,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-combined-cycle-1.csv,5651481,192.168.20.10:48026|192.168.34.10:443|6,19811,Merlin C&C Communication,Merlin C&C Communication
+processed/iotsim-combined-cycle-1.csv,5664565,192.168.18.18:-1|192.168.20.10:-1|1,22816,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-combined-cycle-1.csv,5656437,192.168.18.18:-1|192.168.20.10:-1|1,21388,Merlin ICMP Flooding,Merlin ICMP Flooding
+processed/iotsim-combined-cycle-1.csv,5690526,192.168.18.18:3998|192.168.20.10:6249|6,26851,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-combined-cycle-1.csv,5686050,192.168.18.18:1753|192.168.20.10:4004|6,26497,Merlin TCP Flooding,Merlin TCP Flooding
+processed/iotsim-combined-cycle-1.csv,5666728,192.168.18.18:0|192.168.20.10:3000|17,23472,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-combined-cycle-1.csv,5669557,192.168.18.18:0|192.168.20.10:5826|17,24397,Merlin UDP Flooding,Merlin UDP Flooding
+processed/iotsim-combined-cycle-1.csv,2654772,192.168.20.10:50878|192.168.33.10:23|6,14194,Mirai C&C Communication,C&C Communication
+processed/iotsim-combined-cycle-1.csv,4954368,192.168.18.18:36119|192.168.20.10:42991|47,17923,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-combined-cycle-1.csv,4211213,192.168.18.18:55910|192.168.20.10:63869|47,16603,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-combined-cycle-1.csv,4885756,192.168.18.18:41839|192.168.20.10:59994|47,17784,Mirai GRE Flooding,Mirai GRE Flooding
+processed/iotsim-combined-cycle-1.csv,3646138,192.168.18.18:22633|192.168.20.10:8117|6,15759,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-combined-cycle-1.csv,3742140,192.168.18.18:49155|192.168.20.10:38876|6,15900,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-combined-cycle-1.csv,4007182,192.168.18.18:45326|192.168.20.10:20060|6,16301,Mirai TCP Flooding,Mirai TCP Flooding
+processed/iotsim-combined-cycle-1.csv,2424005,192.168.18.18:27015|192.168.20.10:13450|17,13941,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,1252372,192.168.18.18:35692|192.168.20.10:32280|17,12610,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,1050248,192.168.18.18:28036|192.168.20.10:26672|17,12372,Mirai UDP Flooding,Mirai UDP Flooding
+processed/iotsim-combined-cycle-1.csv,178355,192.168.20.10:51740|192.168.33.11:48101|6,8123,Reporting,Reporting
+processed/iotsim-combined-cycle-1.csv,123288,192.168.17.15:23|192.168.20.19:53466|6,4963,TCP Scan,C&C Communication
+processed/iotsim-combined-cycle-1.csv,57047,192.168.18.104:23|192.168.20.19:62664|6,2976,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-1.csv,217485,192.168.17.50:23|192.168.20.10:26914|6,9386,TCP Scan,TCP Scan
+processed/iotsim-combined-cycle-1.csv,136291,192.168.0.100:35442|192.168.20.19:23|6,5441,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-1.csv,62132,192.168.0.100:43748|192.168.20.19:23|6,3147,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-1.csv,128290,192.168.0.100:33172|192.168.20.19:23|6,5076,Telnet Brute Force,Telnet Brute Force
+processed/iotsim-combined-cycle-1.csv,5695831,192.168.20.10:51426|192.168.35.10:22692|1,29361,UDP Scan,Mirai GRE Flooding
+processed/iotsim-combined-cycle-1.csv,5698008,192.168.20.10:65197|192.168.35.10:19075|1,31494,UDP Scan,Mirai GRE Flooding

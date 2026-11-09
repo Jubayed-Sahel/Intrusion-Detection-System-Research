@@ -1,0 +1,3 @@
+dataset,fold,task,model,seed,accuracy,macro_f1_all_test_supported_labels,weighted_f1,test_rows,test_supported_labels,training_labels,unseen_label_test_rows,seen_label_test_rows,macro_f1_seen_label_subset,normal_test_rows,attack_test_rows,false_positive_rate,false_negative_rate
+GeNIS2025,3,binary,majority,42,0.7422785845776232,0.426038976285513,0.6324792165842203,4889,2,2,0,4889,0.426038976285513,1260,3629,1.0,0.0
+GeNIS2025,3,binary,depth5_tree,42,0.4051953364696257,0.39793169732876565,0.36588782186377966,4889,2,2,0,4889,0.39793169732876565,1260,3629,0.0007936507936507937,0.8010471204188482

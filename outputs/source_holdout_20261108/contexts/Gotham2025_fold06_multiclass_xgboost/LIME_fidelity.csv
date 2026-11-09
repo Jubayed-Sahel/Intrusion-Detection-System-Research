@@ -1,0 +1,601 @@
+dataset,fold,task,model,seed,explainer,explanation_id,source_test_index,connection_group,source_file,source_row,actual_class,predicted_class,actual_seen_in_training,k,control,probability_drop,flipped
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,1,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,3,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,3,bottom,8.237361907958984e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,3,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,5,top,0.130010724067688,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,5,bottom,8.547306060791016e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,5,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,10,top,0.13005602359771729,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,10,bottom,0.1467214822769165,0
+Gotham2025,6,multiclass,xgboost,42,LIME,0,7250,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2029826,Benign,Benign,True,10,random,0.00020140409469604492,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,1,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,3,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,3,random,8.237361907958984e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,5,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,5,bottom,8.237361907958984e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,5,random,8.237361907958984e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,10,top,0.10358119010925293,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,10,bottom,0.1467214822769165,0
+Gotham2025,6,multiclass,xgboost,42,LIME,1,8036,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2972418,Benign,Benign,True,10,random,0.15116947889328003,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,1,top,0.0001481175422668457,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,3,top,0.13419300317764282,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,3,bottom,5.364418029785156e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,5,top,0.13419300317764282,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,5,bottom,8.952617645263672e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,5,random,8.20159912109375e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,10,top,0.10727590322494507,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,10,bottom,8.952617645263672e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,2,10539,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4909883,Benign,Benign,True,10,random,0.10727590322494507,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,1,top,0.00013130903244018555,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,3,top,0.00013130903244018555,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,3,random,0.11983388662338257,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,5,top,0.11185675859451294,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,5,bottom,8.022785186767578e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,5,random,0.12224560976028442,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,10,top,0.10358285903930664,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,10,bottom,0.14672315120697021,0
+Gotham2025,6,multiclass,xgboost,42,LIME,3,716,192.168.18.15:25936|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,825318,Benign,Benign,True,10,random,0.12224560976028442,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,1,top,0.00017589330673217773,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,3,top,0.00017589330673217773,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,5,top,0.1344667673110962,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,5,bottom,-2.384185791015625e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,5,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,10,top,0.10357749462127686,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,10,bottom,0.14671778678894043,0
+Gotham2025,6,multiclass,xgboost,42,LIME,4,316,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,332358,Benign,Benign,True,10,random,0.00019782781600952148,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,3,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,3,bottom,1.3113021850585938e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,3,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,5,top,0.130010724067688,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,5,bottom,8.547306060791016e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,5,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,10,top,0.10887610912322998,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,10,bottom,0.1467214822769165,0
+Gotham2025,6,multiclass,xgboost,42,LIME,5,7271,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2061703,Benign,Benign,True,10,random,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,1,random,0.00017589330673217773,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,3,top,0.00017589330673217773,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,3,random,0.00020760297775268555,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,5,top,0.00017589330673217773,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,5,bottom,8.726119995117188e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,5,random,0.00020760297775268555,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,10,top,0.10357749462127686,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,10,bottom,0.14671778678894043,0
+Gotham2025,6,multiclass,xgboost,42,LIME,6,334,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,357481,Benign,Benign,True,10,random,0.00019782781600952148,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,1,top,0.0001481175422668457,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,1,random,5.364418029785156e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,3,top,0.0001481175422668457,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,3,bottom,8.20159912109375e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,3,random,0.12224799394607544,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,5,top,0.13419300317764282,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,5,bottom,8.952617645263672e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,5,random,0.12224799394607544,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,10,top,0.130060076713562,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,10,bottom,0.14672553539276123,0
+Gotham2025,6,multiclass,xgboost,42,LIME,7,15955,192.168.18.15:9644|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,5320135,Benign,Benign,True,10,random,0.10358524322509766,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,3,top,0.00017565488815307617,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,5,top,0.00017565488815307617,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,5,bottom,8.20159912109375e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,5,random,0.15766531229019165,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,10,top,0.10357725620269775,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,10,bottom,0.17954671382904053,0
+Gotham2025,6,multiclass,xgboost,42,LIME,8,305,192.168.18.15:14588|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,314961,Benign,Benign,True,10,random,0.10357725620269775,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,1,top,0.00017112493515014648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,3,top,0.130010724067688,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,3,bottom,1.3113021850585938e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,3,random,0.12001127004623413,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,5,top,0.130010724067688,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,5,bottom,8.547306060791016e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,5,random,0.12224394083023071,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,10,top,0.10887610912322998,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,10,bottom,8.547306060791016e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,9,10272,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,4612376,Benign,Benign,True,10,random,0.1467214822769165,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,3,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,3,bottom,-0.00260007381439209,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,3,random,0.28147608041763306,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,5,top,0.28147608041763306,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,5,bottom,-0.0025696754455566406,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,5,random,0.28147608041763306,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,10,top,0.13547086715698242,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,10,bottom,0.1008099913597107,0
+Gotham2025,6,multiclass,xgboost,42,LIME,10,7585,192.168.18.15:21040|192.168.2.2:8000|17,processed/iotsim-ip-camera-street-1.csv,2452517,Benign,Benign,True,10,random,0.1008099913597107,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,1,top,0.006843090057373047,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,3,top,0.9882010640576482,1
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,3,random,0.9958009145921096,1
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,5,top,0.9905168721452355,1
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,5,random,0.975107941776514,1
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,10,top,0.9905168721452355,1
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,10,bottom,0.0011894702911376953,0
+Gotham2025,6,multiclass,xgboost,42,LIME,11,3959,192.168.18.15:53656|192.168.33.10:23|6,processed/iotsim-ip-camera-street-1.csv,1282747,C&C Communication,C&C Communication,True,10,random,0.9727263264358044,1
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,1,top,0.00783383846282959,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,3,top,0.9746076408773661,1
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,5,top,0.9979257865343243,1
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,5,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,10,top,0.9977710556704551,1
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,10,bottom,0.15262722969055176,0
+Gotham2025,6,multiclass,xgboost,42,LIME,12,1414,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1220930,File Download,File Download,True,10,random,0.983985859900713,1
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,1,top,0.07276427745819092,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,3,top,0.8262088466435671,1
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,5,top,0.8262881946284324,1
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,5,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,10,top,0.8262881946284324,1
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,10,bottom,0.02147120237350464,0
+Gotham2025,6,multiclass,xgboost,42,LIME,13,1983,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221525,File Download,File Download,True,10,random,0.82633380102925,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,1,top,0.13938838243484497,0
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,1,random,0.00783383846282959,0
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,3,top,0.8898858055472374,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,3,random,0.8898858055472374,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,5,top,0.9979257865343243,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,5,random,0.8898858055472374,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,10,top,0.9977710556704551,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,10,bottom,0.8932903409004211,1
+Gotham2025,6,multiclass,xgboost,42,LIME,14,2152,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221694,File Download,File Download,True,10,random,0.9977710556704551,1
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,1,top,0.13938838243484497,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,3,top,0.9923489685170352,1
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,3,random,0.014795839786529541,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,5,top,0.9979257865343243,1
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,5,random,0.014795839786529541,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,10,top,0.9977710556704551,1
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,10,bottom,0.7495703995227814,0
+Gotham2025,6,multiclass,xgboost,42,LIME,15,2329,192.168.18.15:55236|192.168.33.13:80|6,processed/iotsim-ip-camera-street-1.csv,1221871,File Download,File Download,True,10,random,0.9977710556704551,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.99527221347671,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,0.9948234119219705,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.9955259732960258,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0013120174407958984,0
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.9951738584786654,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.9954385104356334,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,0.0013120174407958984,0
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.9951837703119963,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.9954385104356334,1
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,6.0617923736572266e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,16,2624,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1229774,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.9906419981271029,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.03126460313796997,0
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,-0.2007555365562439,0
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.49056752026081085,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.5591029580682516,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.5696078753098845,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.5618005059659481,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.5771844852715731,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,0.5765994442626834,1
+Gotham2025,6,multiclass,xgboost,42,LIME,17,3723,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1272859,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.5659048072993755,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.995163329585921,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.9929119341541082,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.995163329585921,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.9905177820473909,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.9951968863024376,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.9905177820473909,1
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,-0.0002932548522949219,0
+Gotham2025,6,multiclass,xgboost,42,LIME,18,3051,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1247565,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.9924949952401221,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.9952669822960161,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,0.9948136128950864,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.9955183379934169,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.9948136128950864,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.992609376553446,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,-0.0005742311477661133,0
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.9948136128950864,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.9906321633607149,1
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,5.078315734863281e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,19,3694,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1271991,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.9912977544590831,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,1,top,0.99527221347671,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,1,random,0.9948234119219705,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,3,top,0.9954856739786919,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,3,random,0.995182998245582,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,5,top,0.991307589225471,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,5,random,0.995182998245582,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,10,top,0.9906419981271029,1
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,10,bottom,0.003369569778442383,0
+Gotham2025,6,multiclass,xgboost,42,LIME,20,4108,192.168.18.15:23|192.168.33.12:44255|6,processed/iotsim-ip-camera-street-1.csv,1289942,Ingress Tool Transfer,Ingress Tool Transfer,True,10,random,0.9943409168627113,1
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,top,0.366607666015625,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,random,0.0020006299018859863,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,bottom,0.0020006299018859863,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,random,0.9950419687665999,1
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,top,0.9983376495074481,1
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,bottom,0.005396723747253418,0
+Gotham2025,6,multiclass,xgboost,42,LIME,21,11897,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075229,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,random,0.9985112606082112,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,top,0.6917580366134644,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,top,0.9117390289902687,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,top,0.9812082666903734,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,random,0.9569803290069103,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,top,0.9971386424731463,1
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,bottom,0.08876597881317139,0
+Gotham2025,6,multiclass,xgboost,42,LIME,22,11996,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5075801,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,random,0.9948109905235469,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,top,0.366607666015625,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,random,0.366607666015625,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,bottom,0.0020006299018859863,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,random,0.6929570436477661,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,bottom,0.0020006299018859863,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,random,0.6929570436477661,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,top,0.9824072737246752,1
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,bottom,0.005396723747253418,0
+Gotham2025,6,multiclass,xgboost,42,LIME,23,10966,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5069879,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,random,0.9960099975578487,1
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,top,0.0015656352043151855,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,top,0.8092051148414612,1
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,top,0.9983376495074481,1
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,bottom,0.08996498584747314,0
+Gotham2025,6,multiclass,xgboost,42,LIME,24,11159,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5070925,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,random,0.30572664737701416,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,top,0.0015656352043151855,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,1,random,0.0011990070343017578,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,3,random,0.0011990070343017578,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,top,0.9874365543946624,1
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,bottom,0.0020006299018859863,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,5,random,0.6929570436477661,1
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,top,0.9983376495074481,1
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,bottom,0.005396723747253418,0
+Gotham2025,6,multiclass,xgboost,42,LIME,25,11775,192.168.17.15:-1|192.168.18.15:-1|1,processed/iotsim-ip-camera-street-1.csv,5074505,Merlin ICMP Flooding,Merlin ICMP Flooding,True,10,random,0.9966650623828173,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,1,top,0.7469080984592438,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,1,random,0.7469080984592438,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,3,top,0.8687760084867477,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,3,bottom,0.07519614696502686,0
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,3,random,0.7469080984592438,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,5,top,0.8689072877168655,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,5,bottom,0.1833171248435974,0
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,5,random,0.7593722492456436,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,10,top,0.9609489813446999,1
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,10,bottom,0.13821345567703247,0
+Gotham2025,6,multiclass,xgboost,42,LIME,26,15541,192.168.17.15:4969|192.168.18.15:2962|6,processed/iotsim-ip-camera-street-1.csv,5276296,Merlin TCP Flooding,Merlin TCP Flooding,True,10,random,0.9790745377540588,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,1,top,0.9988273494527675,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,3,top,0.9378415755927563,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,3,bottom,0.014006555080413818,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,3,random,0.015610039234161377,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,5,top,0.9378415755927563,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,5,bottom,0.11786413192749023,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,5,random,0.016721010208129883,0
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,10,top,0.9892980055883527,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,10,bottom,0.9763249326497316,1
+Gotham2025,6,multiclass,xgboost,42,LIME,27,15735,192.168.17.15:6028|192.168.18.15:4021|6,processed/iotsim-ip-camera-street-1.csv,5278526,Merlin TCP Flooding,Merlin TCP Flooding,True,10,random,0.997291426290758,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,1,top,0.9975800697211525,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,1,random,0.0164334774017334,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,3,top,0.9454983808100224,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,3,bottom,0.0164334774017334,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,3,random,0.12515759468078613,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,5,top,0.9395830556750298,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,5,bottom,0.0164334774017334,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,5,random,0.017389297485351562,0
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,10,top,0.9879282312467694,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,10,bottom,0.9743428062647581,1
+Gotham2025,6,multiclass,xgboost,42,LIME,28,15511,192.168.17.15:4793|192.168.18.15:2786|6,processed/iotsim-ip-camera-street-1.csv,5275914,Merlin TCP Flooding,Merlin TCP Flooding,True,10,random,0.9959216519491747,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,1,top,0.9258353412151337,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,3,top,0.9305109679698944,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,3,bottom,0.27519136667251587,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,3,random,0.004831850528717041,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,5,top,0.9305109679698944,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,5,bottom,0.27519136667251587,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,5,random,0.0038412809371948242,0
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,10,top,0.9880975894629955,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,10,bottom,0.9914509011432528,1
+Gotham2025,6,multiclass,xgboost,42,LIME,29,14507,192.168.17.15:4173|192.168.18.15:2090|6,processed/iotsim-ip-camera-street-1.csv,5206025,Merlin TCP Flooding,Merlin TCP Flooding,True,10,random,0.9882834972813725,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,1,top,0.9992360480755451,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,3,top,0.9412377402186394,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,3,bottom,0.048330485820770264,0
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,3,random,0.999263899622747,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,5,top,0.9710279162973166,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,5,bottom,0.9283847510814667,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,5,random,0.999263899622747,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,10,top,0.989582915790379,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,10,bottom,0.9880507998168468,1
+Gotham2025,6,multiclass,xgboost,42,LIME,30,15370,192.168.17.15:4014|192.168.18.15:2007|6,processed/iotsim-ip-camera-street-1.csv,5274268,Merlin TCP Flooding,Merlin TCP Flooding,True,10,random,0.9974033294711262,1
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,1,top,0.005154669284820557,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,3,top,0.028311610221862793,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,3,random,0.005154669284820557,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,5,top,0.1533890962600708,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,5,bottom,0.989784493111074,1
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,5,random,0.005014240741729736,0
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,10,top,0.9984389585442841,1
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,10,bottom,0.9998376759758685,1
+Gotham2025,6,multiclass,xgboost,42,LIME,31,14009,192.168.17.15:6064|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5143870,Merlin UDP Flooding,Merlin UDP Flooding,True,10,random,0.9685099124908447,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,1,top,0.006920814514160156,0
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,1,random,5.0067901611328125e-06,0
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,3,top,0.1722428798675537,0
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,3,bottom,0.9884723871946335,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,3,random,0.9890865068882704,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,5,top,0.19862204790115356,0
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,5,bottom,0.9884723871946335,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,5,random,0.9848615787923336,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,10,top,0.9684988260269165,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,10,bottom,0.9997151095885783,1
+Gotham2025,6,multiclass,xgboost,42,LIME,32,13379,192.168.17.15:4169|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5141784,Merlin UDP Flooding,Merlin UDP Flooding,True,10,random,0.9700571075081825,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,1,top,0.006919503211975098,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,3,top,0.08088868856430054,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,3,random,0.9514416866004467,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,5,top,0.07178562879562378,0
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,5,bottom,0.9997315369837452,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,5,random,0.7254432439804077,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,10,top,0.9984278720803559,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,10,bottom,0.9998249753334676,1
+Gotham2025,6,multiclass,xgboost,42,LIME,33,13708,192.168.17.15:5140|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142858,Merlin UDP Flooding,Merlin UDP Flooding,True,10,random,0.9946196088567376,1
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,1,top,0.00715714693069458,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,1,random,0.0009821653366088867,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,3,top,0.081470787525177,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,3,random,0.0009410381317138672,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,5,top,0.07237911224365234,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,5,bottom,0.951434176415205,1
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,5,random,0.0009410381317138672,0
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,10,top,0.9984203618951142,1
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,10,bottom,0.9998174651482259,1
+Gotham2025,6,multiclass,xgboost,42,LIME,34,12724,192.168.17.15:2244|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5139656,Merlin UDP Flooding,Merlin UDP Flooding,True,10,random,0.9995648585027084,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,1,top,0.006920814514160156,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,3,top,0.08089298009872437,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,3,random,0.9514416866004467,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,5,top,0.19862204790115356,0
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,5,bottom,0.9514416866004467,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,5,random,0.9915376799181104,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,10,top,0.9984278720803559,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,10,bottom,0.9998249753334676,1
+Gotham2025,6,multiclass,xgboost,42,LIME,35,13609,192.168.17.15:4810|192.168.18.15:0|17,processed/iotsim-ip-camera-street-1.csv,5142503,Merlin UDP Flooding,Merlin UDP Flooding,True,10,random,0.9998943775663065,1
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,1,top,0.920858584344387,1
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,1,random,-9.250640869140625e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,3,top,0.920858584344387,1
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,3,random,-9.250640869140625e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,5,top,0.9898839285597205,1
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,5,bottom,0.0004191398620605469,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,5,random,0.0005322694778442383,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,10,top,0.9982622157549486,1
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,10,bottom,0.006999611854553223,0
+Gotham2025,6,multiclass,xgboost,42,LIME,36,10165,192.168.17.15:480|192.168.18.15:36001|47,processed/iotsim-ip-camera-street-1.csv,4525912,Mirai GRE Flooding,Mirai GRE Flooding,True,10,random,0.9920418080873787,1
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,1,top,0.8106259703636169,1
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,1,random,0.0003186464309692383,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,3,top,0.9917806992307305,1
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,3,random,0.0003186464309692383,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,5,top,0.9920450001955032,1
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,5,bottom,-5.960464477539062e-07,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,5,random,0.0003186464309692383,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,10,top,0.9983647357439622,1
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,10,bottom,0.00023871660232543945,0
+Gotham2025,6,multiclass,xgboost,42,LIME,37,9799,192.168.17.15:14469|192.168.18.15:43808|47,processed/iotsim-ip-camera-street-1.csv,4292572,Mirai GRE Flooding,Mirai GRE Flooding,True,10,random,0.0005328655242919922,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,1,top,0.9924699780531228,1
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,1,random,-0.00029146671295166016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,3,top,0.9924699780531228,1
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,3,bottom,0.251381516456604,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,3,random,-0.00029146671295166016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,5,top,0.9922973299399018,1
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,5,bottom,0.9182753041386604,1
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,5,random,-0.00029146671295166016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,10,top,0.9677020199596882,1
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,10,bottom,0.008689820766448975,0
+Gotham2025,6,multiclass,xgboost,42,LIME,38,9132,192.168.17.15:54503|192.168.18.15:50945|6,processed/iotsim-ip-camera-street-1.csv,3863772,Mirai TCP Flooding,Mirai TCP Flooding,True,10,random,0.9992576050917705,1
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,1,top,0.9969361594412476,1
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,3,top,0.9968407901469618,1
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,3,random,0.0002727508544921875,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,5,top,0.999520593759371,1
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,5,random,0.0002449154853820801,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,10,top,0.9978698451304808,1
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,10,bottom,0.010429143905639648,0
+Gotham2025,6,multiclass,xgboost,42,LIME,39,9415,192.168.17.15:60653|192.168.18.15:39805|6,processed/iotsim-ip-camera-street-1.csv,4051521,Mirai TCP Flooding,Mirai TCP Flooding,True,10,random,0.998511605663225,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,1,top,0.45663881301879883,0
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,3,top,0.6201933324337006,0
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,3,bottom,0.9281110018491745,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,3,random,0.580905556678772,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,5,top,0.9951568306423724,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,5,bottom,0.9281110018491745,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,5,random,0.026850879192352295,0
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,10,top,0.9843645468354225,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,10,bottom,0.9884527493268251,1
+Gotham2025,6,multiclass,xgboost,42,LIME,40,8793,192.168.17.15:41196|192.168.18.15:65154|6,processed/iotsim-ip-camera-street-1.csv,3634100,Mirai TCP Flooding,Mirai TCP Flooding,True,10,random,0.9784070122987032,1
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,1,top,0.8471905142068863,1
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,3,top,0.981489036232233,1
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,3,bottom,-2.6226043701171875e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,3,random,-3.123283386230469e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,5,top,0.9994158579502255,1
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,5,bottom,-2.6226043701171875e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,5,random,-3.123283386230469e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,10,top,0.999564962927252,1
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,10,bottom,3.743171691894531e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,41,8530,192.168.17.15:56364|192.168.18.15:12698|17,processed/iotsim-ip-camera-street-1.csv,3411775,Mirai UDP Flooding,Mirai UDP Flooding,True,10,random,0.9998888739864924,1
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,1,top,0.8995931670069695,1
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,3,top,0.9633033834397793,1
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,3,random,-0.005684018135070801,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,5,top,0.9727817848324776,1
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,5,bottom,0.0009647011756896973,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,5,random,-0.005684018135070801,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,10,top,0.9922455329215154,1
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,10,bottom,0.01041722297668457,0
+Gotham2025,6,multiclass,xgboost,42,LIME,42,8197,192.168.17.15:3857|192.168.18.15:55319|17,processed/iotsim-ip-camera-street-1.csv,3134535,Mirai UDP Flooding,Mirai UDP Flooding,True,10,random,0.9835906578227878,1
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,3,top,0.99884677719092,1
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,3,random,-8.422136306762695e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,5,top,0.99884677719092,1
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,5,bottom,1.3172626495361328e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,5,random,-8.422136306762695e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,10,top,0.9980323711642995,1
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,10,bottom,3.641843795776367e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,43,4467,192.168.18.15:57576|192.168.33.11:48101|6,processed/iotsim-ip-camera-street-1.csv,1304999,Reporting,Reporting,True,10,random,3.641843795776367e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,1,top,-0.00017654895782470703,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,1,random,0.002372145652770996,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,3,top,0.0009920001029968262,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,3,random,0.4219701886177063,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,5,top,0.04366070032119751,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,5,bottom,0.001431286334991455,0
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,5,random,0.9961452579591423,1
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,10,top,0.9315928444266319,1
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,10,bottom,0.9463465437293053,1
+Gotham2025,6,multiclass,xgboost,42,LIME,44,4355,192.168.18.15:23|192.168.18.1:64139|1,processed/iotsim-ip-camera-street-1.csv,1301100,TCP Scan,TCP Scan,True,10,random,0.9615041837096214,1
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,1,random,0.000792086124420166,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,3,top,0.006258487701416016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,3,random,0.0023303627967834473,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,5,top,0.9064844250679016,1
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,5,bottom,0.0013712644577026367,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,5,random,0.00804436206817627,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,10,top,0.9321972951292992,1
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,10,bottom,0.00865030288696289,0
+Gotham2025,6,multiclass,xgboost,42,LIME,45,5161,192.168.18.15:64139|192.168.31.176:23|6,processed/iotsim-ip-camera-street-1.csv,1336281,TCP Scan,TCP Scan,True,10,random,0.05433034896850586,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,1,top,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,3,top,0.0035973787307739258,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,3,bottom,0.000792086124420166,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,3,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,5,top,0.5119751393795013,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,5,bottom,0.000792086124420166,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,5,random,0.007067441940307617,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,10,top,0.8114050328731537,1
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,10,bottom,0.05433034896850586,0
+Gotham2025,6,multiclass,xgboost,42,LIME,46,4805,192.168.16.240:23|192.168.18.15:64139|6,processed/iotsim-ip-camera-street-1.csv,1318949,TCP Scan,TCP Scan,True,10,random,0.9975678217597306,1
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,1,top,0.6221918910741806,1
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,1,random,0.11180001497268677,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,3,top,0.844295252347365,1
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,3,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,3,random,0.11180001497268677,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,5,top,0.8442485695704818,1
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,5,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,5,random,0.11180001497268677,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,10,top,0.8442485695704818,1
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,10,bottom,0.11180001497268677,0
+Gotham2025,6,multiclass,xgboost,42,LIME,47,5979,192.168.17.10:54534|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1376888,TCP Scan,Telnet Brute Force,True,10,random,0.8442485695704818,1
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,1,top,0.0035973787307739258,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,1,random,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,3,top,0.006258487701416016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,3,bottom,0.0013712644577026367,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,3,random,0.20163476467132568,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,5,top,0.006258487701416016,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,5,bottom,0.004543781280517578,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,5,random,0.9975678217597306,1
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,10,top,0.9579113200306892,1
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,10,bottom,0.00865030288696289,0
+Gotham2025,6,multiclass,xgboost,42,LIME,48,3538,192.168.18.15:64139|192.168.20.109:23|6,processed/iotsim-ip-camera-street-1.csv,1265258,TCP Scan,TCP Scan,True,10,random,0.9972921882290393,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,1,top,0.7123380601406097,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,1,bottom,0.0,0
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,1,random,0.9995507662242744,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,3,top,0.9996310045971768,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,3,bottom,-1.424551010131836e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,3,random,0.9975665328092873,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,5,top,0.996329594636336,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,5,bottom,-1.424551010131836e-05,0
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,5,random,0.9975665328092873,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,10,top,0.996329594636336,1
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,10,bottom,0.000840604305267334,0
+Gotham2025,6,multiclass,xgboost,42,LIME,49,1137,192.168.0.100:54712|192.168.18.15:23|6,processed/iotsim-ip-camera-street-1.csv,1220270,Telnet Brute Force,Telnet Brute Force,True,10,random,0.9975415447261184,1
