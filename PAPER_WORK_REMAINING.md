@@ -28,4 +28,6 @@ Editorial revision, 16 November 2026: the journal paper now states three researc
 
 ## If publication is resumed
 
+Research supervisor: Rifat Ahmed Hassan, Lecturer, Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh. The user identified him as supervisor; his designation and affiliation were verified against his [official profile](https://ece.northsouth.edu/people/mr-rifat-ahmed-hassan/) on 16 November 2026. He is credited in the journal paper's acknowledgments. This records supervision and does not establish coauthorship or author approval.
+
 Confirm each author's affiliation, contributions and approval, plus the corresponding author, funding and conflicts. Confirm the chosen venue's requirements and decide how to archive the code and evidence with the coauthors. The current journal manuscript is available for review.

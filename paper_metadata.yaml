@@ -2,13 +2,18 @@ title: A Quantitative Framework for Evaluating Explainable AI in Network Intrusi
 recent_title: "TreeSHAP and LIME for Intrusion Detection: Sensitivity to Masking and Source Holdout"
 authors: Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab
 affiliation: ""
+supervisor_name: Rifat Ahmed Hassan
+supervisor_designation: Lecturer
+supervisor_affiliation: Department of Electrical and Computer Engineering, North South University, Dhaka, Bangladesh
+supervisor_profile_url: https://ece.northsouth.edu/people/mr-rifat-ahmed-hassan/
 date: ""
 recent_date: "8 November 2026"
 footer: Quantitative XAI for Network Intrusion Detection
 recent_footer: Research draft | official-source 2025 benchmarks | venue not selected
 anonymous_review: false
 
-# Author names supplied by the user; affiliations have not been supplied.
+# Author names and supervisor identity supplied by the user; author affiliations remain unconfirmed.
+# Supervisor designation and affiliation verified against the official profile.
 # Enable anonymous_review only when preparing a double-blind submission.
 # Changing this file updates both manuscript generators.
 # Add the archival repository URL or DOI during camera-ready preparation.

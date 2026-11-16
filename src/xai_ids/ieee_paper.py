@@ -242,6 +242,15 @@ def export(results, project=PROJECT, journal=False):
                           r'doi: 10.5281/zenodo.16943481.')
     author = "Anonymous Author(s)" if identity["anonymous"] else identity["authors"]
     affiliation = "" if identity["anonymous"] else recent_paper.paper_metadata().get("affiliation", "")
+    metadata = recent_paper.paper_metadata()
+    supervisor = metadata.get("supervisor_name")
+    acknowledgments = []
+    if journal and not identity["anonymous"] and supervisor:
+        acknowledgments = [
+            r"\section*{Acknowledgment}",
+            latex(f"The authors acknowledge {supervisor}, {metadata['supervisor_designation']}, "
+                  f"{metadata['supervisor_affiliation']}, for supervising this research."),
+        ]
     source = "\n".join([
         "% Generated from the verified recent-study artifacts; edit the Python narrative to regenerate.",
         r"\documentclass[journal,letterpaper]{IEEEtran}" if journal else
@@ -258,7 +267,7 @@ def export(results, project=PROJECT, journal=False):
         r"\maketitle", r"\begin{abstract}", latex(abstract), r"\end{abstract}",
         (r"\begin{IEEEkeywords}Explainable artificial intelligence, explanation fidelity, feature masking, intrusion detection, traffic shift.\end{IEEEkeywords}" if journal else
          r"\begin{IEEEkeywords}Intrusion detection, explainable AI, TreeSHAP, LIME, explanation fidelity, provenance, group holdout.\end{IEEEkeywords}"),
-        *body, r"\begin{thebibliography}{" + str(len(references)) + "}", *references,
+        *body, *acknowledgments, r"\begin{thebibliography}{" + str(len(references)) + "}", *references,
         r"\end{thebibliography}", r"\end{document}",
     ])
     (project / "main.tex").write_text(source, encoding="utf-8")
