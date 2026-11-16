@@ -8,6 +8,7 @@ import re
 import shutil
 import subprocess
 
+import pandas as pd
 from reportlab.graphics import renderPDF
 from reportlab.graphics.shapes import Drawing, String
 from reportlab.platypus import KeepTogether, Paragraph, Table
@@ -64,6 +65,32 @@ def latex(text, citations=True):
     return "".join(parser.parts)
 
 
+def external_tcp_table(root):
+    """Compare capture-level errors using the frozen TCP diagnostic counts."""
+    pdmfc, _, _ = independent_tcp.load_independent_tcp(root)
+    ocpp = pd.read_csv(root / "outputs/journal_audit_20261109/tcp_metrics.csv")
+    rows = []
+    for capture, metrics in (("OCPP", ocpp), ("PDMFC", pdmfc[pdmfc.subset.eq("TCP")])):
+        for model, label in (("random_forest", "RF"), ("xgboost", "XGB")):
+            row = metrics[metrics.feature_set.eq("transport") & metrics.model.eq(model)].iloc[0]
+            cells = [f"{capture} / {label}",
+                     f"{int(row.false_alarms):,} / {int(row.benign):,}",
+                     f"{row.fpr:.1%}", f"{int(row.missed):,} / {int(row.attacks):,}"]
+            rows.append(" & ".join(tex_escape(cell) for cell in cells) + r" \\")
+    return "\n".join([
+        r"\begin{table}[!t]\centering",
+        r"\caption{TCP-only external transfer of protocol-and-port models}",
+        r"\label{tab:external-tcp}",
+        r"\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.10}",
+        r"\begin{tabular}{lrrr}\toprule",
+        r"\textbf{Capture / model} & \textbf{FP / benign} & \textbf{FPR} & \textbf{FN / attacks} \\\midrule",
+        *rows,
+        r"\bottomrule\end{tabular}",
+        r"\par\smallskip\parbox{\columnwidth}{\footnotesize FP: false positives; FN: false negatives; FPR: FP / benign. Counts describe each capture, not independent flow-level replications.}",
+        r"\end{table}",
+    ])
+
+
 def export(results, project=PROJECT, journal=False):
     manifest, tables = recent_paper.load_results(results)
     identity = recent_paper.manuscript_identity()
@@ -93,7 +120,13 @@ def export(results, project=PROJECT, journal=False):
                                  r"\subsection{Protocol shortcut controls and base-rate sensitivity}",
                                  *(latex(paragraph) for paragraph in journal_paragraphs),
                                  r"\subsection{Independent protocol-matched TCP transfer}",
-                                 *(latex(paragraph) + "\n" for paragraph in tcp_paragraphs)])
+                                 *(latex(paragraph) + "\n" for paragraph in tcp_paragraphs),
+                                 external_tcp_table(ROOT),
+                                 "The TCP-only comparison in Table~\\ref{tab:external-tcp} separates missed attacks "
+                                 "from false alarms using the same three-field feature set. High attack recall "
+                                 "coexists with near-universal alerts on benign TCP traffic in both captures. "
+                                 "The capture is the replication unit; these flow counts do not establish "
+                                 "precision across a population of networks.\n"])
                 body.append(r"\section{" + tex_escape(title) + "}")
             elif item.style.name == "Subsection":
                 title = re.sub(r"^[A-Z]\.\s*", "", item.getPlainText())
@@ -102,6 +135,22 @@ def export(results, project=PROJECT, journal=False):
                 body.append(r"\begin{equation} D(x,r)=\frac{1}{4}\sum_{k\in\{1,3,5,10\}} D_k(x,r).\label{eq:deletion}\end{equation}")
             else:
                 content = item.text
+                if journal and content.startswith("The research questions are "):
+                    content = (
+                        "We ask three research questions. <b>RQ1:</b> How does the paired TreeSHAP-LIME "
+                        "deletion difference depend on the replacement distribution and LIME sampling "
+                        "budget? <b>RQ2:</b> How does detector performance change when entire traffic "
+                        "sources are held out with shared connections purged, and when training size "
+                        "increases on fixed source tests? <b>RQ3:</b> Do reduced-feature classifiers "
+                        "transfer beyond protocol-label associations to independently collected traffic? "
+                        "The contributions are a matched, group-aware explanation evaluation with random "
+                        "controls; replacement and surrogate-fit sensitivity analyses; and source-transfer "
+                        "stress tests with explicit missed-attack and false-alarm counts. These studies "
+                        "address different validation targets: a strong explanation ranking does not "
+                        "establish detector transfer. Follow-up studies were designed after inspecting "
+                        "the primary results; their protocols were fixed before their own execution, "
+                        "not prospectively preregistered."
+                    )
                 if journal and "the separate reduced-feature OCPP experiment" in content:
                     content = content.replace(
                         "the separate reduced-feature OCPP experiment tests only binary transfer",
@@ -121,6 +170,16 @@ def export(results, project=PROJECT, journal=False):
                 if journal and content.startswith("<b>AI assistance disclosure:"):
                     content = ("<b>AI assistance disclosure:</b> OpenAI Codex assisted with source acquisition "
                                "tooling, data auditing, experiment orchestration, and manuscript drafting.")
+                if journal and content.startswith("A clean rerun begins "):
+                    content += (
+                        ' The public <link href="https://github.com/Jubayed-Sahel/'
+                        'Intrusion-Detection-System-Research/tree/dc61046">code and frozen evidence '
+                        'snapshot (commit dc61046)</link> includes the supplementary index, experiment '
+                        'protocols, fold-level counts and pinned requirements. Run '
+                        'python verify_research_closeout.py to replay the recorded evidence without '
+                        'raw datasets or fitted models. This internal replay verifies saved results; '
+                        'independent retraining requires the official input files.'
+                    )
                 body.append(latex(content) + "\n")
         elif isinstance(item, KeepTogether):
             content = item._content
@@ -134,6 +193,9 @@ def export(results, project=PROJECT, journal=False):
                 table = next(child for child in content if isinstance(child, Table))
                 caption = next(child for child in content if isinstance(child, Paragraph))
                 title = re.sub(r"^TABLE [IVX]+\.\s*", "", caption.getPlainText()).capitalize()
+                for term, spelling in (("treeshap", "TreeSHAP"), ("lime", "LIME"),
+                                       ("ocpp", "OCPP"), ("macro-f1", "macro-F1")):
+                    title = re.sub(r"\b" + term + r"\b", spelling, title, flags=re.I)
                 widths = table._argW
                 fractions = [width / sum(widths) for width in widths]
                 columns = "".join(r">{\centering\arraybackslash}p{\dimexpr " +

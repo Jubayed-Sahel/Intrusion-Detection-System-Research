@@ -1,6 +1,6 @@
 # Q1 journal working draft
 
-The working target is IEEE Transactions on Dependable and Secure Computing (TDSC). Its stated scope includes security evaluation, which fits this empirical audit. The 2025 SCImago-based listing reports Q1. If the institution requires a Clarivate JCR quartile, confirm the exact edition and category through the institutional subscription. The manuscript uses IEEEtran journal mode and is 10 pages. IEEE Computer Society currently defines 12 formatted pages as the regular Transactions length for overlength charges, including references and author biographies.
+The working target is IEEE Transactions on Dependable and Secure Computing (TDSC). Its stated scope includes security evaluation, which fits this empirical audit. The 2025 SCImago-based listing reports Q1. If the institution requires a Clarivate JCR quartile, confirm the exact edition and category through the institutional subscription. The manuscript uses IEEEtran journal mode and is 11 pages. IEEE Computer Society currently defines 12 formatted pages as the regular Transactions length for overlength charges, including references and author biographies.
 
 [TDSC scope and submission route](https://www.computer.org/digital-library/journals/tq/cfp-dependable-secure-computing) · [IEEE Computer Society author guidance](https://www.computer.org/publications/author-resources) · [2025 SCImago-based listing](https://scienceaijournal.com/journals/ieee-transactions-on-dependable-and-secure-computing-1545-5971)
 

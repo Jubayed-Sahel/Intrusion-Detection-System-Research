@@ -2,6 +2,8 @@
 
 Updated 9 November 2026. The current study is complete within its documented scope. Publication decisions and author approval are deferred.
 
+Editorial revision, 16 November 2026: the journal paper now states three research questions covering explanation sensitivity, source and training-size transfer, and independent-capture diagnostics. The abstract quantifies masking sensitivity and PDMFC false-alarm rates. A TCP-only comparison table derives error counts from the frozen OCPP and PDMFC results, and the reproducibility section links the public evidence snapshot at commit `dc61046`. The revised PDF is 11 pages. No new experiments or broader validation claims were added.
+
 ## Completed research
 
 - Official GeNIS 2025 and Gotham 2025 data preparation, connection-group separation, training-only preprocessing, and coverage reporting. GeNIS archive and member checks and Gotham member checks retain their separate scopes. The complete Gotham archive checksum remains unverified. See [dataset provenance](RECENT_DATASET_PROVENANCE.md).

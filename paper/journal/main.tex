@@ -10,7 +10,7 @@
 \author{Jubayed Ahmed Sahel, Nafiul Alam Chowdhury, and Shadman Shihab}
 \maketitle
 \begin{abstract}
-Intrusion detectors and their explanations can look reliable when evaluation preserves traffic-source patterns or uses a single feature replacement rule. We audit Random Forest and XGBoost detectors with TreeSHAP and LIME on the official GeNIS and Gotham 2025 releases. On a frozen connection-group split, TreeSHAP produces greater target-probability drops in all 24 paired contexts under median/mode replacement after Holm adjustment. Retained-feature donor replacement substantially reduces the GeNIS gaps, with three of four intervals including zero. Uncapped, group-purged source tests cover 37,941,390 eligible records. In one GeNIS scenario, XGBoost misses 10,003 of 11,995 attacks. On an independent EV-charging capture, a GeNIS-trained protocol-only rule reaches 0.920 macro-F1, compared with 0.865 to 0.874 for protocol-and-port trees. On TCP alone, both trees flag 161 of 162 benign flows. A second external capture reproduces the high TCP false-alarm rate. The findings distinguish evidence about detector transfer from evidence about explanation fidelity under a specified replacement rule.
+Intrusion detectors and their explanations can look reliable when evaluation preserves traffic-source patterns or uses a single feature replacement rule. We audit Random Forest and XGBoost detectors with TreeSHAP and LIME on the official GeNIS and Gotham 2025 releases. On a frozen connection-group split, TreeSHAP produces greater target-probability drops in all 24 paired contexts under median/mode replacement after Holm adjustment. At seed 42, retained-feature donor replacement reduces GeNIS mean gaps from 0.115-0.306 to 0.002-0.011, with three of four pointwise 95\% intervals including zero. Uncapped, group-purged source tests cover 37,941,390 eligible records. In one GeNIS scenario, XGBoost misses 10,003 of 11,995 attacks. On an independent EV-charging capture, a GeNIS-trained protocol-only rule reaches 0.920 macro-F1, compared with 0.865 to 0.874 for protocol-and-port trees. On TCP alone, both trees flag 161 of 162 benign flows. On PDMFC TCP traffic, the same three-field models flag 98.6-99.0\% of 12,006 benign flows. The findings distinguish evidence about detector transfer from evidence about explanation fidelity under a specified replacement rule.
 \end{abstract}
 \begin{IEEEkeywords}Explainable artificial intelligence, explanation fidelity, feature masking, intrusion detection, traffic shift.\end{IEEEkeywords}
 \section{Introduction}
@@ -18,7 +18,7 @@ An explanation ranking can appear effective because of the intervention used to 
 
 We compare Random Forest (RF) \cite{ref5} and XGBoost (XGB) \cite{ref6} under binary and multiclass targets, and compare TreeSHAP with LIME on the same selected test records for each fitted model. Section II positions this protocol against prior XAI-IDS evaluations. We do not propose a new explanation algorithm or establish analyst benefit.
 
-The research questions are how predictive and explanation results vary across fitting seeds on a frozen group split; whether top-ranked predictors outperform random rankings; and how the paired TreeSHAP-LIME difference responds to replacement schemes, a larger LIME sampling budget, and source-file holdouts with shared connections purged. The follow-up studies were designed after inspecting the primary results. They are explicitly exploratory; their protocols were fixed before their own execution, not prospectively preregistered.
+We ask three research questions. \textbf{RQ1:} How does the paired TreeSHAP-LIME deletion difference depend on the replacement distribution and LIME sampling budget? \textbf{RQ2:} How does detector performance change when entire traffic sources are held out with shared connections purged, and when training size increases on fixed source tests? \textbf{RQ3:} Do reduced-feature classifiers transfer beyond protocol-label associations to independently collected traffic? The contributions are a matched, group-aware explanation evaluation with random controls; replacement and surrogate-fit sensitivity analyses; and source-transfer stress tests with explicit missed-attack and false-alarm counts. These studies address different validation targets: a strong explanation ranking does not establish detector transfer. Follow-up studies were designed after inspecting the primary results; their protocols were fixed before their own execution, not prospectively preregistered.
 
 \section{Related work}
 SHAP represents a prediction as additive feature contributions under a specified value function \cite{ref7}, and TreeSHAP computes those contributions from a fitted tree ensemble \cite{ref8}. LIME fits an interpretable surrogate on perturbed neighbors of one input \cite{ref9}. Visual plausibility is not a sufficient test: Yeh \emph{et al.} define infidelity and sensitivity with respect to a perturbation distribution \cite{ref10}, and Adebayo \emph{et al.} show that saliency maps can remain visually convincing after model-parameter randomization \cite{ref11}.
@@ -90,7 +90,7 @@ Explainer timings measure a warmed individual explanation call, excluding constr
 Table II reports five-seed predictive results using test-supported-label macro-F1. Table III lists majority and depth-5 tree baselines on the same split. Table IV reports seed-42 multiclass recall by class.
 
 \begin{table}[!t]\centering
-\caption{Five-seed results; macro-f1 uses test-supported labels}
+\caption{Five-seed results; macro-F1 uses test-supported labels}
 \label{tab:2}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.17000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.21000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.28000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.17000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.17000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -113,7 +113,7 @@ Gotham test-supported-label macro-F1 ranges from 0.8642 to 1.0000 over the fitte
 Gotham binary error rates averaged over five seeds are RF: mean FPR 0.000000, FNR 0.000000, Attack average precision 1.000000; XGB: mean FPR 0.000000, FNR 0.000042, Attack average precision 1.000000. These denominators use the held-out capped cohort, so they do not predict alert volume under deployment prevalence.
 
 \begin{table}[!t]\centering
-\caption{Single-seed baseline test-supported-label macro-f1}
+\caption{Single-seed baseline test-supported-label macro-F1}
 \label{tab:3}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.22000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.20000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.29000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.29000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -215,7 +215,7 @@ Gotham & Multi XGB & 5.75 / 10.05 & 0.982 / 0.871 \\
 Table VII keeps each dataset/task/model context visible rather than combining correlated rows into one inferential claim. Timing excludes explainer construction and the complete IDS path, and background project-job contention was not controlled; the artifact additionally saves p90, p95, p99, throughput, top-5 overlap, and LIME repeatability. The reciprocal call-time throughput is not production IDS throughput. Neighborhood similarity depends on the chosen comparison set and representation, so it should not be called adversarial robustness.
 
 \begin{table}[!t]\centering
-\caption{Feature ablation; legacy label-union macro-f1}
+\caption{Feature ablation; legacy label-union macro-F1}
 \label{tab:8}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.16000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.24000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.15000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.15000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.15000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.15000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -248,7 +248,7 @@ Gotham XGB & 0.0000 & 0.0002 \\
 Across the eight contexts, descriptive TreeSHAP mean deletion scores under the masking alternatives are marginal training row: 0.360; nearest opposite prediction: 0.539; nearest same prediction: -0.005; training median mode: 0.423; zero: 0.290. This pooling is a sensitivity summary only. Baseline-dependent scores reinforce that the masking intervention is part of the measured construct.
 
 \begin{table}[!t]\centering
-\caption{Descriptive lime budget audit, contexts pooled}
+\caption{Descriptive LIME budget audit, contexts pooled}
 \label{tab:10}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.24000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.25000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.25000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.26000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -279,7 +279,7 @@ A second post-hoc diagnostic excludes test records with exactly matching raw pre
 The earlier five-reference audit evaluated only TreeSHAP on twelve records per context. To test the comparison itself, a new exploratory protocol reuses all 100 saved matched records, both saved rankings and the eight seed-42 models. It compares the original median/mode reference with two training-donor schemes. A fixed pool samples 5,000 training rows uniformly. Empirical replacement copies removed features jointly from 32 donors, using the same draws for both explainers and all budgets of a record. Nearest-donor replacement chooses 32 pool rows using retained predictors only: numeric distances use training IQR (standard deviation, then one, as fallbacks), are capped at one, and categorical predictors contribute mismatch indicators. Distances average retained predictors; labels and model outputs never select donors. Removed values are copied jointly and the 32 target probabilities averaged. This approximate conditioning sensitivity does not guarantee physically valid network traffic.
 
 \begin{table}[!t]\centering
-\caption{Replacement-specific mean treeshap-minus-lime deletion, seed 42}
+\caption{Replacement-specific mean TreeSHAP-minus-LIME deletion, seed 42}
 \label{tab:12}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.29000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.13000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.13000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.13000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.32000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -299,7 +299,7 @@ Original median/mode drops reproduce to a maximum absolute error of 3.33e-16. Ta
 A second exploratory extension refits LIME explanations, not detectors. On the same 100 records in each seed-42 context, it fits a fresh default-neighborhood surrogate at 350 and 3,500 perturbations using a common per-record seed and training background. Common seeds do not guarantee nested random samples. This fresh schedule differs from the original sequential warm-up and is not a reproduction of the primary 350-draw ranking. Saved TreeSHAP and both fresh LIME rankings are evaluated with the original median/mode mask. Group bootstrap intervals and exact two-sided sign tests follow the other exploratory analyses, with Holm adjustment over eight TreeSHAP-minus-LIME-3500 and eight LIME-3500-minus-LIME-350 contrasts as one separate family.
 
 \begin{table}[!t]\centering
-\caption{Controlled lime budget: query fit and group deletion}
+\caption{Controlled LIME budget: query fit and group deletion}
 \label{tab:13}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.34000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.25000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.19000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.22000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -323,7 +323,7 @@ A separate stress test partitions the union of the original prepared rows by sou
 For each of sixteen folds, the same binary/multiclass RF and XGB hyperparameters and training-weight policies are refitted at seed 42, for 64 fits; majority and depth-five trees remain baselines. Every held-out class with test support contributes to macro-F1, including labels missing from the training vocabulary. A separate seen-label score restricts both test rows and averaging labels. The two explainers process 50 matched class/error diagnostic records per refit, with the original median/mode mask, random control and 350 LIME perturbations. We report mean differences descriptively: the folds share training data and can reuse connection groups across different test sources, so the 64 contexts are not pooled for significance inference.
 
 \begin{table}[!t]\centering
-\caption{Source holdout: all-test-label macro-f1 and paired deletion}
+\caption{Source holdout: all-test-label macro-F1 and paired deletion}
 \label{tab:14}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.30000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.32000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.25000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.13000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -349,7 +349,7 @@ On the expanded GeNIS scenario 6 test, binary XGBoost misses 10,003 of 11,995 at
 For independent capture transfer, fresh binary RF and XGB models fit only the original GeNIS training partition. The official OCPP 1.6 charging-network dataset \cite{ref37} supplies 4,415 externally captured flows from both provider Combined partitions, kept entirely out of fitting and threshold selection. One fixed feature set uses protocol and unordered TCP/UDP ports; the other adds duration in seconds and total packets. Units and directions are harmonized, but Argus and CICFlowMeter may segment traffic differently. The external release is provider-balanced by category (883 benign and 3,532 attack-labeled flows); it cannot estimate operational prevalence or alert volume.
 
 \begin{table}[!t]\centering
-\caption{Independent ocpp transfer; misses of 3,532, false alarms of 883}
+\caption{Independent OCPP transfer; misses of 3,532, false alarms of 883}
 \label{tab:15}
 \footnotesize\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.10}
 \begin{tabular}{>{\centering\arraybackslash}p{\dimexpr 0.32000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.16000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.16000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.16000\columnwidth-2\tabcolsep\relax}>{\centering\arraybackslash}p{\dimexpr 0.20000\columnwidth-2\tabcolsep\relax}}\toprule
@@ -377,6 +377,21 @@ The TCP cohort contains 37,226 attack and 12,006 benign flows. Random Forest and
 
 PDMFC contributes one separately collected file with 49,515 flows. The provider labels 35,888 of its TCP attacks as Web Attack. The provider labels and error rates are descriptive of this release. Protocol matching does not control endpoints, traffic mix or capture conditions, and repeated flows within the capture are not independent replications.
 
+\begin{table}[!t]\centering
+\caption{TCP-only external transfer of protocol-and-port models}
+\label{tab:external-tcp}
+\footnotesize\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.10}
+\begin{tabular}{lrrr}\toprule
+\textbf{Capture / model} & \textbf{FP / benign} & \textbf{FPR} & \textbf{FN / attacks} \\\midrule
+OCPP / RF & 161 / 162 & 99.4\% & 5 / 3,532 \\
+OCPP / XGB & 161 / 162 & 99.4\% & 2 / 3,532 \\
+PDMFC / RF & 11,882 / 12,006 & 99.0\% & 182 / 37,226 \\
+PDMFC / XGB & 11,834 / 12,006 & 98.6\% & 123 / 37,226 \\
+\bottomrule\end{tabular}
+\par\smallskip\parbox{\columnwidth}{\footnotesize FP: false positives; FN: false negatives; FPR: FP / benign. Counts describe each capture, not independent flow-level replications.}
+\end{table}
+The TCP-only comparison in Table~\ref{tab:external-tcp} separates missed attacks from false alarms using the same three-field feature set. High attack recall coexists with near-universal alerts on benign TCP traffic in both captures. The capture is the replication unit; these flow counts do not establish precision across a population of networks.
+
 \section{Discussion and threats to validity}
 The refreshed evidence addresses the missing local conversion history by making the source-to-cohort transformation inspectable and rerunnable. It does not retrospectively recover the legacy parquet provenance. Source snapshots and hashes fix the consumed author files and executed transformations, while the narrower Gotham member-verification scope remains a declared limitation. CRC32 detects transfer or extraction inconsistency; it is not a publisher-signed cryptographic authenticity proof.
 
@@ -393,7 +408,7 @@ This work has no participant study, production monitoring, packet-capture throug
 \section{Reproducibility and reporting status}
 The executed environment uses Python 3.12.14, scikit-learn 1.6.1, XGBoost 3.0.2, SHAP 0.47.2, and LIME 0.2.0.1. The project saves author-record metadata, acquisition and per-member hashes, exclusions, source row counts, class counts, split and overlap audits, prepared parquet hashes, source snapshots, fitted seed-42 models, and per-context checkpoints. The configuration and source hashes in run\_manifest.json define this run. Artifact verification checks coverage and internal consistency; it is not independent external replication.
 
-A clean rerun begins with the official acquisition scripts, then deterministic preparation, the recent-data benchmark, and artifact verification. It requires the author data downloads and the pinned requirements. The benchmark caps are part of the experiment and should not be silently replaced with full-data or per-file caps. No repository release, archival DOI, or externally executed replication is claimed in this draft.
+A clean rerun begins with the official acquisition scripts, then deterministic preparation, the recent-data benchmark, and artifact verification. It requires the author data downloads and the pinned requirements. The benchmark caps are part of the experiment and should not be silently replaced with full-data or per-file caps. No repository release, archival DOI, or externally executed replication is claimed in this draft. The public \href{https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/tree/dc61046}{code and frozen evidence snapshot (commit dc61046)} includes the supplementary index, experiment protocols, fold-level counts and pinned requirements. Run python verify\_research\_closeout.py to replay the recorded evidence without raw datasets or fitted models. This internal replay verifies saved results; independent retraining requires the official input files.
 
 \textbf{AI assistance disclosure:} OpenAI Codex assisted with source acquisition tooling, data auditing, experiment orchestration, and manuscript drafting.
 
