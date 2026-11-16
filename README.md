@@ -8,13 +8,13 @@ The goal is to reduce the black-box nature of an IDS: show which traffic feature
 
 **Research revision, 7 November 2026:** twenty additional papers have been reviewed through relevant full-text methods, results, and discussion; [reading notes and decisions](LITERATURE_REVIEW_20261107.md) identify the reviewed versions and distinguish 18 locally acquired PDFs from two other full texts accessed through the web. The revision strengthens comparison with prior IDS/XAI studies, separates fixed-model deletion from retraining-based evaluation, and makes failure cases and masking assumptions explicit. A new post-hoc exact-pattern exclusion evaluates eight saved seed-42 detectors and all 24 explanation contexts: after removing 379 GeNIS and 1,914 Gotham test records matching training predictors, all retained explanation means remain positive and all exploratory Holm-adjusted sign tests pass. This is a conditional sensitivity check, not a new split or independent validation. Primary experiments and frozen source snapshots remain unchanged.
 
-The [journal-format manuscript](output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf) includes uncapped held-out tests, training-size comparisons, and independent TCP checks on the EV-charging and PDMFC captures. The [research closeout](PAPER_WORK_REMAINING.md) records verification and separates completed work from questions that need new evidence. An extended report and an anonymous conference draft are retained for later review.
+The [journal-format manuscript](output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf) includes uncapped held-out tests, training-size comparisons, and independent TCP checks on the EV-charging and PDMFC captures. The [research closeout](PAPER_WORK_REMAINING.md) records verification and separates completed work from questions that need new evidence. Only this latest manuscript PDF is retained; earlier generated PDFs and the anonymous review ZIP have been removed. Historical editable sources remain for reproducibility.
 
 ## Start here
 
 ### Verify the frozen research results
 
-Run `python verify_research_closeout.py` in the pinned environment. It works without raw datasets or fitted models and checks the primary study, source-holdout replay, extensions and all three manuscripts. Add `--verify-raw` with the local GeNIS and Gotham files available to rehash the consumed official inputs. The [supplementary index](SUPPLEMENTARY_INDEX.md) maps results to protocols and rerun commands.
+Run `python verify_research_closeout.py` in the pinned environment. It works without raw datasets or fitted models and checks the primary study, source-holdout replay, extensions and the current journal manuscript. Add `--verify-raw` with the local GeNIS and Gotham files available to rehash the consumed official inputs. The [supplementary index](SUPPLEMENTARY_INDEX.md) maps results to protocols and rerun commands.
 
 ### Run locally on this Windows computer
 
@@ -30,8 +30,7 @@ If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.
 
 - [Step-by-step run guide](RUNNING_THE_PROJECT.md)
 - [Supplementary explanation robustness methods and results](EXPLANATION_ROBUSTNESS.md)
-- [Recent-data manuscript](output/pdf/xai_ids_recent2025_paper.pdf)
-- [Anonymous conference candidate](output/pdf/xai_ids_conference_review.pdf)
+- [Current journal manuscript](output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf)
 - [Twenty additional paper reviews](LITERATURE_REVIEW_20261107.md)
 - [Bangladesh submission plan](BANGLADESH_SUBMISSION_PLAN.md)
 - [Current dataset acquisition and transformation record](RECENT_DATASET_PROVENANCE.md)
@@ -45,7 +44,7 @@ If local script execution is disabled, use `.\.venv-reproduction\Scripts\python.
 - [Supplementary artifact index](SUPPLEMENTARY_INDEX.md)
 - [Analyst and operational follow-up protocols](RESEARCH_NEXT_STUDIES.md)
 
-The earlier [project handbook](PROJECT_HANDBOOK.md), [notebook](PROJECT_WALKTHROUGH.ipynb), [literature traceability](LITERATURE_REQUIREMENTS_TRACEABILITY.md), and [2017/2015 manuscript](output/pdf/xai_ids_ieee_paper.pdf) describe the historical study. Use the recent commands below for the current primary study.
+The earlier [project handbook](PROJECT_HANDBOOK.md), [notebook](PROJECT_WALKTHROUGH.ipynb), [literature traceability](LITERATURE_REQUIREMENTS_TRACEABILITY.md) describe the historical study. Use the recent commands below for the current primary study.
 
 ## Official datasets and preparation
 
@@ -77,8 +76,7 @@ python run_recent_audit.py
 python summarize_recent_results.py
 python run_explanation_robustness.py
 python run_pattern_sensitivity.py  # needs the prepared inputs and eight saved seed-42 models
-python build_recent_paper.py  # requires pdflatex and IEEEtran; see below
-python build_conference_paper.py  # separate anonymous five-page draft
+python build_recent_paper.py --journal  # requires pdflatex and IEEEtran; see below
 python verify_manuscript_revision.py
 python -B verify_recent_benchmark.py
 # Also rehash all locally downloaded official source bytes:
@@ -103,13 +101,11 @@ To independently repeat source conversion as well, run `prepare_recent_datasets.
 
 ## IEEE manuscript source and build
 
-The current manuscript uses `\documentclass[conference,letterpaper]{IEEEtran}` with standard class typography and page geometry, rather than an approximate ReportLab page layout. The editable project is [paper/ieee/main.tex](paper/ieee/main.tex), with two vector figures under `paper/ieee/figures/`. Body text is 10-point Times-style, the abstract is in the first column, section numbers are Roman, equation numbers are automatic, and references use numbered `\cite`/`\bibitem` entries. No custom draft footer or printed page numbers are added.
+The current manuscript uses `\documentclass[journal,letterpaper]{IEEEtran}`. The editable project is [paper/journal/main.tex](paper/journal/main.tex), with two vector figures under `paper/journal/figures/`.
 
-`python build_recent_paper.py` regenerates the LaTeX source from the verified data-driven narrative and compiles it twice using `pdflatex`. A LaTeX distribution with IEEEtran, cite, amsmath, graphicx, array, booktabs, and hyperref is required in addition to the Python dependencies. LaTeX is installed on this computer; a fresh Python environment alone does not supply it. `python build_recent_paper.py --source-only` generates sources without a compiler. The `paper/ieee/` folder can also be uploaded to Overleaf with `main.tex` as the main document. Direct edits to generated LaTeX are overwritten by regeneration; update the narrative/exporter to retain edits across builds.
+`python build_recent_paper.py --journal` regenerates the journal LaTeX source from the verified research artifacts and compiles it using `pdflatex`. A LaTeX distribution with IEEEtran, cite, amsmath, graphicx, array, booktabs, and hyperref is required in addition to the Python dependencies. Add `--source-only` to generate sources without compiling. The `paper/journal/` folder can also be uploaded to Overleaf with `main.tex` as the main document. Direct edits to generated LaTeX are overwritten by regeneration; update the narrative/exporter to retain edits across builds.
 
-The extended report preserves fuller methodological detail. The separate conference candidate in `paper/conference/` targets a six-page anonymous format for the provisional MIAC plan; see [BANGLADESH_SUBMISSION_PLAN.md](BANGLADESH_SUBMISSION_PLAN.md). Venue eligibility, live submission rules, and applicable PDF certification still require confirmation. Do not add author-identifying repository links to a double-blind upload without checking the venue's artifact policy.
-
-The current extended report is eight pages with 36 references; the anonymous candidate is five pages with 30 references. Build the latter with `python build_conference_paper.py`, or add `--source-only` to export without compiling. Rebuild the full report first because the conference builder resolves shared reference identities from its generated source. `python verify_manuscript_revision.py` checks both PDFs, citation identities, anonymity and the 20-paper reading record. Both drafts use standard IEEEtran fonts and geometry; the conference draft stays within the advertised six-page maximum.
+`python verify_manuscript_revision.py` checks the retained journal PDF, citation identities and the 20-paper reading record. Historical extended-report and conference sources remain in `paper/ieee/` and `paper/conference/`; their generated PDFs and review ZIP are no longer distributed.
 
 ## Evaluation protocol
 
@@ -173,7 +169,7 @@ tests/                        leakage, grouping, reporting, and preparation chec
 data/official/                local official sources and acquisition records (ignored)
 data/prepared/                local prepared inputs and preparation snapshots (ignored)
 outputs/recent2025/           current results, source snapshots, and provenance manifest
-output/pdf/                   generated current and historical manuscripts
+output/pdf/                   current journal manuscript PDF
 config_recent.yaml            fixed recent-data experiment configuration
 fetch_recent_datasets.py      complete-archive acquisition with provider checksum checks
 fetch_gotham_members.py        official processed-member acquisition and CRC32 checks
@@ -196,4 +192,4 @@ Those four original parquet files match the historical manifest, but their origi
 
 Connection holdout within each testbed is neither temporal generalization nor cross-organization deployment. Gotham's packet representation differs from GeNIS's flow representation; report results separately. Per-class sampling changes priors, rare classes may lack independent held-out connections, and deletion scores depend on the masking distribution. No human analyst, live deployment, production drift, or throughput study has been completed.
 
-The extended report and anonymous conference candidate are research drafts built with IEEEtran. The provisional Bangladesh submission plan does not establish venue eligibility or acceptance. Authors and supervisors must review the scientific content and actual assistance history, confirm affiliations and declarations, verify the venue's live rules, obtain required screening, and authorize submission. The research code, results, provenance, and an earlier draft were published to this repository on 14 October 2026; that historical publication does not mean the November revision has been pushed. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and hosted verification status.
+The retained journal manuscript is a research draft built with IEEEtran. The provisional Bangladesh submission plan does not establish venue eligibility or acceptance. Authors and supervisors must review the scientific content and actual assistance history, confirm affiliations and declarations, verify the venue's live rules, obtain required screening, and authorize submission. The research code, results, provenance, and an earlier draft were published to this repository on 14 October 2026; that historical publication does not mean the November revision has been pushed. See [remaining paper work](PAPER_WORK_REMAINING.md) and [GitHub Actions](https://github.com/Jubayed-Sahel/Intrusion-Detection-System-Research/actions) for completion and hosted verification status.

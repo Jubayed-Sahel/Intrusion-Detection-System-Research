@@ -2,7 +2,6 @@ from pathlib import Path
 import json
 
 import pandas as pd
-from pypdf import PdfReader
 
 
 root = Path(__file__).resolve().parent
@@ -102,40 +101,5 @@ balancing = pd.read_csv(outputs / "extended" / "balancing_ablation.csv")
 assert balancing["seed"].nunique() == 1
 assert balancing["seed"].iloc[0] == manifest["config"]["seed"]
 
-paper = root / "output" / "pdf" / "xai_ids_ieee_paper.pdf"
-reader = PdfReader(paper)
-text = "\n".join(page.extract_text() or "" for page in reader.pages)
-assert len(reader.pages) == 6
-assert float(reader.pages[0].mediabox.width) == 612
-assert float(reader.pages[0].mediabox.height) == 792
-for heading in (
-    "INTRODUCTION",
-    "METHODOLOGY",
-    "EXPERIMENTAL RESULTS",
-    "THREATS TO VALIDITY",
-    "REPRODUCIBILITY",
-    "CONCLUSION",
-    "REFERENCES",
-):
-    assert heading in text
-assert "Ethics and Artifact Availability" in text
-assert "ACKNOWLEDGMENT" in text and "Codex assisted" in text
-assert "[16]" in text
-assert "explanation fidelity" in (reader.metadata.keywords or "")
-
-# IEEE Xplore requires every font resource to be embedded or subset. TrueType
-# resources expose /FontDescriptor directly; composite fonts expose it through
-# /DescendantFonts.
-for page in reader.pages:
-    for font_ref in page.get("/Resources", {}).get("/Font", {}).values():
-        font = font_ref.get_object()
-        descriptor = font.get("/FontDescriptor")
-        if font.get("/DescendantFonts"):
-            descendant = font["/DescendantFonts"][0].get_object()
-            descriptor = descendant.get("/FontDescriptor") or descriptor
-        descriptor = descriptor.get_object() if descriptor else {}
-        embedded = any(descriptor.get(key) for key in ("/FontFile", "/FontFile2", "/FontFile3"))
-        assert embedded, font.get("/BaseFont")
-for forbidden in ("temporal UNSW", "preregistered", "CSE 498R Research Project"):
-    assert forbidden not in text
-print("All output, manifest, and paper checks passed.")
+# The retained journal PDF is checked by verify_manuscript_revision.py.
+print("All historical output and manifest checks passed.")

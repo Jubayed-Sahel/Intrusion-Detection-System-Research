@@ -154,24 +154,6 @@
   "additional_full_text_reviews": 20,
   "local_acquired_pdfs": 18,
   "local_pdf_hashes_rechecked": 18,
-  "full_report": {
-    "pages": 10,
-    "searchable": true,
-    "embedded_fonts": true,
-    "type3_fonts": 0,
-    "font_references_checked": 38,
-    "anonymous": false,
-    "sha256": "7c9e303342f2319768fc4d790a52a4384ab8123bfa61217bb4aafdf5d6bcca45"
-  },
-  "conference_report": {
-    "pages": 6,
-    "searchable": true,
-    "embedded_fonts": true,
-    "type3_fonts": 0,
-    "font_references_checked": 25,
-    "anonymous": true,
-    "sha256": "f3d57a9b88b2b2b81e0d49b092291d7c3ed1db25b3101c60b99412ed68690f10"
-  },
   "journal_report": {
     "pages": 11,
     "searchable": true,
@@ -182,6 +164,5 @@
     "sha256": "887f3e9baf4e4e50756a2133757cbf4c8f4b055dc9d5b4758ad8a114a7214858"
   },
   "conference_references": 32,
-  "journal_references": 39,
-  "review_archive_members_verified": 28
+  "journal_references": 39
 }

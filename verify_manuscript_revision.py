@@ -6,7 +6,6 @@ import hashlib
 import json
 import re
 import unicodedata
-from zipfile import ZipFile
 from pypdf import PdfReader
 from verify_references import audit_citation_structure, dois_from
 from src.xai_ids.journal_audit import TITLE
@@ -50,21 +49,6 @@ def citation_keys(source):
                           for key in block.split(","))
     assert list(cited) == re.findall(r"\\bibitem\{([^}]+)\}", source)
     return list(cited)
-
-
-def review_archive_checks():
-    with ZipFile(ROOT / "output/ids_xai_anonymous_review.zip") as archive:
-        hashes = json.loads(archive.read("SHA256.json"))
-        assert sorted(archive.namelist()) == sorted([*hashes, "SHA256.json"])
-        for name, digest in hashes.items():
-            assert hashlib.sha256(archive.read(name)).hexdigest() == digest, name
-        for member, path in {
-            "latex/main.tex": "paper/conference/main.tex",
-            "latex/figures/mask_sensitivity.pdf": "paper/conference/figures/mask_sensitivity.pdf",
-            "manuscript.pdf": "output/pdf/xai_ids_conference_review.pdf",
-        }.items():
-            assert archive.read(member) == (ROOT / path).read_bytes(), member
-        return len(hashes)
 
 
 def main():
@@ -116,16 +100,13 @@ def main():
     result = dict(checked_date="2026-11-09", scope="Local consistency and formatting; not author approval or venue certification",
         citation_structure=structure, resolved_doi_titles=checked,
         additional_full_text_reviews=20, local_acquired_pdfs=18, local_pdf_hashes_rechecked=local_checked,
-        full_report=pdf_checks(ROOT / "output/pdf/xai_ids_recent2025_paper.pdf", 12),
-        conference_report=pdf_checks(ROOT / "output/pdf/xai_ids_conference_review.pdf", 6, anonymous=True),
         journal_report=pdf_checks(journal_pdf, 12),
-        conference_references=len(cited), journal_references=len(journal_refs),
-        review_archive_members_verified=review_archive_checks())
+        conference_references=len(cited), journal_references=len(journal_refs))
     output = ROOT / "outputs/literature_review_20261107/manuscript_validation.json"
     output.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps({k: result[k] for k in ("additional_full_text_reviews", "citation_structure",
                                              "conference_references", "journal_references")}, indent=2))
-    print("All three manuscripts: searchable text, embedded fonts, no Type 3 fonts; conference identity removed.")
+    print("Current journal manuscript: searchable text, embedded fonts, no Type 3 fonts; historical source citations checked.")
 
 
 if __name__ == "__main__":

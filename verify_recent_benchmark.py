@@ -277,7 +277,7 @@ def _verify_audit(output, manifest, predictions, contexts, local_frames):
 
 
 def _verify_manuscript(root=Path(".")):
-    paper = root / "output" / "pdf" / "xai_ids_recent2025_paper.pdf"
+    paper = root / "output" / "pdf" / "xai_ids_traffic_sources_and_feature_masking.pdf"
     reader = PdfReader(paper)
     text = re.sub(r"\s+", " ", "\n".join(page.extract_text() or "" for page in reader.pages))
     assert 6 <= len(reader.pages) <= 12, len(reader.pages)

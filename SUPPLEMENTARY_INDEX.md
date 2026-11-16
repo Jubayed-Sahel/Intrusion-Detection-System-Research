@@ -1,11 +1,10 @@
 # Supplementary package index
 
-**Updated:** 9 November 2026. Internal index of the research record. The journal draft, extended report and anonymous conference draft are separate files.
+**Updated:** 9 November 2026. Internal index of the research record. Only the latest journal manuscript PDF is distributed. Historical manuscript sources remain for reproducibility.
 
 ## Manuscripts, literature, and venue preparation
 
-- `output/pdf/xai_ids_recent2025_paper.pdf` and `paper/ieee/` — extended report and editable generated IEEE source
-- `output/pdf/xai_ids_conference_review.pdf` and `paper/conference/` — anonymous conference candidate and editable source
+- `paper/ieee/` and `paper/conference/` — historical editable sources; superseded PDFs and the anonymous review ZIP have been removed
 - `output/pdf/xai_ids_traffic_sources_and_feature_masking.pdf` and `paper/journal/` — journal-format manuscript with protocol shortcut controls and TCP-only sensitivity
 - [Training-size protocol](TRAINING_SCALE_PROTOCOL.md), [48 model results](outputs/training_scale/metrics.csv), and [experiment runner](run_training_scale.py) — 10,000, 40,000, and 160,000 training rows per model on the same eight complete GeNIS source holdouts
 - [Independent TCP protocol](INDEPENDENT_TCP_PROTOCOL.md), [error counts](outputs/independent_tcp/metrics.csv), [label coverage](outputs/independent_tcp/coverage.csv), and [acquisition and execution manifest](outputs/independent_tcp/manifest.json) — replay with `python run_independent_tcp.py` after downloading the [PDMFC v1 CSV](https://zenodo.org/records/16943481) to `data/official/16943481/labeled_cicflow_genelen.csv` and preparing the original GeNIS and OCPP inputs
@@ -13,7 +12,7 @@
 - `outputs/literature_review_20261107/acquisition.json` — acquisition successes, failed local PDF requests, and hashes of 18 acquired PDFs; two other full texts were read through the web
 - `BANGLADESH_SUBMISSION_PLAN.md` — provisional venue fit, official requirements, date conflict, and eligibility questions
 - `RECENT_REFERENCE_VALIDATION.md` — reference and claim-support audit
-- `outputs/literature_review_20261107/manuscript_validation.json` — reference counts, DOI title matching for the full report, local literature hashes, PDF fonts and conference anonymity checks
+- `outputs/literature_review_20261107/manuscript_validation.json` — reference counts, DOI title matching for the full report, local literature hashes, current journal PDF font checks
 - `verify_manuscript_revision.py` — repeatable local manuscript checks without network or raw datasets
 
 Locally acquired reference PDFs are excluded from Git and from the submission package. Bibliographic links are supplied instead.
