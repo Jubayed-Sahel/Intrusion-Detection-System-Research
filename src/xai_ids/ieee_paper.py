@@ -17,6 +17,7 @@ from . import recent_paper
 from . import journal_audit
 from . import independent_tcp
 from . import training_scale
+from . import journal_revision
 
 
 ROOT = recent_paper.ROOT
@@ -180,6 +181,8 @@ def export(results, project=PROJECT, journal=False):
                         'raw datasets or fitted models. This internal replay verifies saved results; '
                         'independent retraining requires the official input files.'
                     )
+                if journal:
+                    content = journal_revision.revise_paragraph(content)
                 body.append(latex(content) + "\n")
         elif isinstance(item, KeepTogether):
             content = item._content
@@ -240,6 +243,8 @@ def export(results, project=PROJECT, journal=False):
         references.append(r'\bibitem{ref39} Projecto Desenvolvimento Manuten\c{c}\~ao Forma\c{c}\~ao '
                           r'e Consultadoria, "PDMFC Dataset," Zenodo, ver. v1, 2025, '
                           r'doi: 10.5281/zenodo.16943481.')
+    if journal:
+        references = [journal_revision.revise_reference(reference) for reference in references]
     author = "Anonymous Author(s)" if identity["anonymous"] else identity["authors"]
     affiliation = "" if identity["anonymous"] else recent_paper.paper_metadata().get("affiliation", "")
     metadata = recent_paper.paper_metadata()

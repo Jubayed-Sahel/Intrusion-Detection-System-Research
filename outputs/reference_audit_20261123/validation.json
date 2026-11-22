@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-22T19:27:36.087378+00:00",
+  "scope": "Citation structure and bibliographic identity; not plagiarism clearance or author approval",
+  "bibliography_count": 39,
+  "all_cited": true,
+  "first_citation_order": true,
+  "pdf_citation_presence": true,
+  "source_sha256": "d606060e665ad64649437f424145ee3f4ff3c6bdfb35357703a184e3c6d860e3",
+  "pdf_sha256": "bf15d72d197671a854fb772da6d378fda1dcb12b7c24802bf6d43f484e474c17",
+  "doi_records": 24,
+  "verified_doi_titles": 24,
+  "verified_doi_identities": 24,
+  "non_doi_entries": 15,
+  "identity_exceptions": [],
+  "claim_reviews": 39,
+  "claim_review_scope": "Targeted reading with explicit source-access limits; see claim_review.json"
+}

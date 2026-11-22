@@ -301,7 +301,7 @@ def _verify_manuscript(root=Path(".")):
         "Neupane",
         "Gaspar",
         "Warnecke",
-        "does not claim SHAP/LIME use",
+        "rather than a new explanation algorithm",
         "D(x,r)",
         "[14]",
         "TABLE I",

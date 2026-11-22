@@ -1,0 +1,209 @@
+{
+  "checked_at_utc": "2026-11-22T19:28:01.783272+00:00",
+  "prose_tokens_sha256": "7b2b7ca12d001e58633fc13ad101eca3529cc75b222f0346583ef18d0a4a4a0b",
+  "scope": "Literal 12-word windows against machine-readable text in local reference PDFs only; bibliography and tables excluded",
+  "limitations": "No OCR of image-only pages. Not Turnitin/iThenticate, not an AI detector, not a global similarity percentage; neither absence nor presence proves plagiarism",
+  "minimum_words": 12,
+  "source_files": [
+    {
+      "path": "data/reference_papers/adebayo2018.pdf",
+      "sha256": "83b8f56da10e283929fa70548cff8caa4de2a468c1685c2111c9799cc66c9fc6",
+      "pages": 11,
+      "pages_with_at_least_12_extracted_words": 11
+    },
+    {
+      "path": "data/reference_papers/breiman2001.pdf",
+      "sha256": "aaa9bc464d1d63eacc807ac8251331aa93b2aeb1c9411033e58cb7e8423fb920",
+      "pages": 33,
+      "pages_with_at_least_12_extracted_words": 32
+    },
+    {
+      "path": "data/reference_papers/covert2021.pdf",
+      "sha256": "c5de07813ea7c566c2ddf1817c9e01248dbdd466c9578c37c0da3d5db7eab30e",
+      "pages": 90,
+      "pages_with_at_least_12_extracted_words": 90
+    },
+    {
+      "path": "data/reference_papers/efron1979.pdf",
+      "sha256": "59466e346093b49cb61abfbef05675e77898a1aa71d382858327fc3d6ef48487",
+      "pages": 27,
+      "pages_with_at_least_12_extracted_words": 27
+    },
+    {
+      "path": "data/reference_papers/exai2024.pdf",
+      "sha256": "b53fbf8767331c88e2242f103e224bfd10b68c2efbc52c07023b77353ab2a2f9",
+      "pages": 35,
+      "pages_with_at_least_12_extracted_words": 35
+    },
+    {
+      "path": "data/reference_papers/gaspar2024.pdf",
+      "sha256": "4ab23d3902743dfec62ca23d01d063df4c019fb2085b3552aeda99fa05671ac1",
+      "pages": 12,
+      "pages_with_at_least_12_extracted_words": 12
+    },
+    {
+      "path": "data/reference_papers/gotham2025.pdf",
+      "sha256": "037ba7a1c857a7854a7eddcd6c7be5307864a44f413a37cbed06b738b7d6ac6f",
+      "pages": 16,
+      "pages_with_at_least_12_extracted_words": 16
+    },
+    {
+      "path": "data/reference_papers/holm1979.pdf",
+      "sha256": "4317a0d1555dad949dc1760605d925ba20037402827741fdf99cd8ea37e80c46",
+      "pages": 7,
+      "pages_with_at_least_12_extracted_words": 7
+    },
+    {
+      "path": "data/reference_papers/mane2021.pdf",
+      "sha256": "fff71091323775bb0966d6c19c11b4704445aea8dab7ceaac680d27a6951a46e",
+      "pages": 10,
+      "pages_with_at_least_12_extracted_words": 10
+    },
+    {
+      "path": "data/reference_papers/neupane2022.pdf",
+      "sha256": "b8179e9a8664347564edbcbee99fe6f42bed6a569885e09d97ee33f58d4ec260",
+      "pages": 25,
+      "pages_with_at_least_12_extracted_words": 25
+    },
+    {
+      "path": "data/reference_papers/review_20261107/aas2021.pdf",
+      "sha256": "ac5b6cef71bdcf8ba4d4ec3ad16a7297094ff512c9bbdfc4bd7a4f29e55990ca",
+      "pages": 24,
+      "pages_with_at_least_12_extracted_words": 24
+    },
+    {
+      "path": "data/reference_papers/review_20261107/alvarez2018.pdf",
+      "sha256": "f3088996fedb5864249823d73f768859f3965caba656925149c68209100d9c27",
+      "pages": 6,
+      "pages_with_at_least_12_extracted_words": 6
+    },
+    {
+      "path": "data/reference_papers/review_20261107/anchors2018.pdf",
+      "sha256": "a5bd286f7801ffe656055ef1410ef3142149e6daa4f816b084f5e5417b3c287f",
+      "pages": 9,
+      "pages_with_at_least_12_extracted_words": 9
+    },
+    {
+      "path": "data/reference_papers/review_20261107/arp2022.pdf",
+      "sha256": "fd71f39c2cd0f9532859c6bb5f2e3b94be97eec50b43f97aaa916e43f3f4acdb",
+      "pages": 19,
+      "pages_with_at_least_12_extracted_words": 19
+    },
+    {
+      "path": "data/reference_papers/review_20261107/engelen2021.pdf",
+      "sha256": "c66cd93384d6061b413a0ce0f753ae1e923eb5ccb42d72a10225a8c229c21b1f",
+      "pages": 6,
+      "pages_with_at_least_12_extracted_words": 6
+    },
+    {
+      "path": "data/reference_papers/review_20261107/hase2021.pdf",
+      "sha256": "26686f97eb5b76f0d9d2076f098ebc3ce9f2ee74375a9c61b85883dd45f296d5",
+      "pages": 25,
+      "pages_with_at_least_12_extracted_words": 25
+    },
+    {
+      "path": "data/reference_papers/review_20261107/hooker2019.pdf",
+      "sha256": "9d0270f92de9ebc7ef043f7de957fc00fb7aba5572a9024eae994c5a426d53eb",
+      "pages": 12,
+      "pages_with_at_least_12_extracted_words": 12
+    },
+    {
+      "path": "data/reference_papers/review_20261107/kalakoti2025.pdf",
+      "sha256": "e37f539e95fbf6a572db6c7fa7f8038a2d20fd18703625a663497edf75a29484",
+      "pages": 15,
+      "pages_with_at_least_12_extracted_words": 15
+    },
+    {
+      "path": "data/reference_papers/review_20261107/krishna2022.pdf",
+      "sha256": "ad0e4c13d38041b637bd794b959572a958b80d9c1c6524681864d232a41747bd",
+      "pages": 45,
+      "pages_with_at_least_12_extracted_words": 45
+    },
+    {
+      "path": "data/reference_papers/review_20261107/kumar2024.pdf",
+      "sha256": "85d92c20711dae669e7c32f79e039890e07cd1c40a8f814ba017c1a59c873dc3",
+      "pages": 16,
+      "pages_with_at_least_12_extracted_words": 16
+    },
+    {
+      "path": "data/reference_papers/review_20261107/lxaids2025.pdf",
+      "sha256": "3d0c3c5118b763eb2fc166b703bcb8066b7500985bc36b509d4ded6e54a572da",
+      "pages": 52,
+      "pages_with_at_least_12_extracted_words": 52
+    },
+    {
+      "path": "data/reference_papers/review_20261107/openxai2022.pdf",
+      "sha256": "ddf6a5a1b9d5a46b1338c87206ef1f5b02bc991d836a9cc237479f7caf2aab3f",
+      "pages": 16,
+      "pages_with_at_least_12_extracted_words": 16
+    },
+    {
+      "path": "data/reference_papers/review_20261107/quantus2023.pdf",
+      "sha256": "03d9ea0a08681e49edd343a4f91e3c94db51f55b11d692e87b9409e2a1c3c5b5",
+      "pages": 11,
+      "pages_with_at_least_12_extracted_words": 11
+    },
+    {
+      "path": "data/reference_papers/review_20261107/road2022.pdf",
+      "sha256": "058c198505c97b77a5e37a0571f4af7d803907afc51614de01ad847b330f0e4e",
+      "pages": 26,
+      "pages_with_at_least_12_extracted_words": 26
+    },
+    {
+      "path": "data/reference_papers/review_20261107/rudin2019.pdf",
+      "sha256": "cfaa96d39b6508de2ca18683fa7977fed30feaf3a0e31e97d7afe6d6d7b6792b",
+      "pages": 20,
+      "pages_with_at_least_12_extracted_words": 20
+    },
+    {
+      "path": "data/reference_papers/review_20261107/slack2020.pdf",
+      "sha256": "8b007cf45f00c03db154a596412c145f889b9d07c5eab9a37e0706745d1c1ad1",
+      "pages": 7,
+      "pages_with_at_least_12_extracted_words": 7
+    },
+    {
+      "path": "data/reference_papers/review_20261107/sundararajan2020.pdf",
+      "sha256": "c8c2cafe36e8a16b520280e55a47827ecc828689041e8e1947e0a384166af680",
+      "pages": 11,
+      "pages_with_at_least_12_extracted_words": 11
+    },
+    {
+      "path": "data/reference_papers/review_20261107/tesseract2019.pdf",
+      "sha256": "ec4de197f52e024d6e55a109053204ff1fe936dff11ab06ed01fa75f1d169218",
+      "pages": 19,
+      "pages_with_at_least_12_extracted_words": 19
+    },
+    {
+      "path": "data/reference_papers/shap2017.pdf",
+      "sha256": "32518459c313a57876ec1646f3266d54569d3b9a70152dd4f28e742eef05a5f3",
+      "pages": 10,
+      "pages_with_at_least_12_extracted_words": 10
+    },
+    {
+      "path": "data/reference_papers/warnecke2020.pdf",
+      "sha256": "6a477583fafa239698ac1164d2d2a246b230d6df1311454e86297b3005911089",
+      "pages": 17,
+      "pages_with_at_least_12_extracted_words": 17
+    },
+    {
+      "path": "data/reference_papers/wilcoxon1945.pdf",
+      "sha256": "fbecae855b83edc717056b59a0e0660e907334c618b0b1928e46f175d51eb32a",
+      "pages": 5,
+      "pages_with_at_least_12_extracted_words": 1
+    },
+    {
+      "path": "data/reference_papers/xgboost2016.pdf",
+      "sha256": "52bc282c922a239134ee4d6f4367c58bf920a9bdd53acbb3b2aa3342e2bb7214",
+      "pages": 13,
+      "pages_with_at_least_12_extracted_words": 13
+    },
+    {
+      "path": "data/reference_papers/yeh2019.pdf",
+      "sha256": "89cf7fba50f5bda31ad267164c0a462933193a798b5442482ad10ad13b24c8f4",
+      "pages": 12,
+      "pages_with_at_least_12_extracted_words": 12
+    }
+  ],
+  "flags": [],
+  "normalized_source_sha256": "a7b395fc3b671e064fc181c67bb88a99a7ebb326d9db1de94159c0dddd48407f"
+}

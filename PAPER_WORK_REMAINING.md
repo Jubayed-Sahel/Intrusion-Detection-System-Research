@@ -1,8 +1,10 @@
 # Research closeout and remaining work
 
-Updated 9 November 2026. The current study is complete within its documented scope. Publication decisions and author approval are deferred.
+Updated 23 November 2026. The documented research and current editorial/reference checks are complete within their stated scopes. Author and submission details are reserved for the final step at the user’s request.
 
 Editorial revision, 16 November 2026: the journal paper now states three research questions covering explanation sensitivity, source and training-size transfer, and independent-capture diagnostics. The abstract quantifies masking sensitivity and PDMFC false-alarm rates. A TCP-only comparison table derives error counts from the frozen OCPP and PDMFC results, and the reproducibility section links the public evidence snapshot at commit `dc61046`. The revised PDF is 11 pages. No new experiments or broader validation claims were added.
+
+Reference and writing revision, 23 November 2026: all 39 journal citations were checked for coverage/order and reviewed against their sources with access limits recorded. The bibliography now includes 24 DOI references and 15 non-DOI entries. Published-version metadata, source links, the E-XAI statistical comparison and the OpenXAI title variant were addressed. The prose was revised for clarity while retaining accurate AI-assistance disclosure. Local 12-word overlap screening found no matches against 33 available reference PDFs; this is not commercial similarity or AI-detector clearance. See [the current audit](RECENT_REFERENCE_VALIDATION.md).
 
 ## Completed research
 

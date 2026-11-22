@@ -1,6 +1,6 @@
 # Supplementary package index
 
-**Updated:** 9 November 2026. Internal index of the research record. Only the latest journal manuscript PDF is distributed. Historical manuscript sources remain for reproducibility.
+**Updated:** 23 November 2026. Internal index of the research record. Only the latest journal manuscript PDF is distributed. Historical manuscript sources remain for reproducibility.
 
 ## Manuscripts, literature, and venue preparation
 
@@ -11,7 +11,9 @@
 - `LITERATURE_REVIEW_20261107.md` and `literature_review_20261107.json` — 20 additional primary full-text reading notes, version/status distinctions, findings, and resulting decisions
 - `outputs/literature_review_20261107/acquisition.json` — acquisition successes, failed local PDF requests, and hashes of 18 acquired PDFs; two other full texts were read through the web
 - `BANGLADESH_SUBMISSION_PLAN.md` — provisional venue fit, official requirements, date conflict, and eligibility questions
-- `RECENT_REFERENCE_VALIDATION.md` — reference and claim-support audit
+- `RECENT_REFERENCE_VALIDATION.md` — current 39-entry journal reference/claim-support audit
+- `outputs/reference_audit_20261123/` — current registry identities, claim-review scopes and context hashes, validation and limited local-overlap record
+- `audit_journal_references.py` — repeatable actual-journal citation and identity checks
 - `outputs/literature_review_20261107/manuscript_validation.json` — reference counts, DOI title matching for the full report, local literature hashes, current journal PDF font checks
 - `verify_manuscript_revision.py` — repeatable local manuscript checks without network or raw datasets
 

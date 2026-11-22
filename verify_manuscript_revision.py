@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 import unicodedata
+from datetime import datetime, timedelta, timezone
 from pypdf import PdfReader
 from verify_references import audit_citation_structure, dois_from
 from src.xai_ids.journal_audit import TITLE
@@ -97,7 +98,7 @@ def main():
     assert "Independent protocol-matched TCP transfer" in journal_text
     assert normalized("External explanation fidelity and analyst decisions remain untested.") in normalized(journal_text)
     assert re.search(r"161\s+of\s+162", journal_text)
-    result = dict(checked_date="2026-11-09", scope="Local consistency and formatting; not author approval or venue certification",
+    result = dict(checked_date=datetime.now(timezone(timedelta(hours=6))).date().isoformat(), scope="Local consistency and formatting; not author approval or venue certification",
         citation_structure=structure, resolved_doi_titles=checked,
         additional_full_text_reviews=20, local_acquired_pdfs=18, local_pdf_hashes_rechecked=local_checked,
         journal_report=pdf_checks(journal_pdf, 12),

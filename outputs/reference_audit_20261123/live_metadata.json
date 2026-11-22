@@ -1,0 +1,2180 @@
+{
+  "checked_at_utc": "2026-11-22T19:25:24.740114+00:00",
+  "records": [
+    {
+      "key": "ref1",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "M. Silva, D. Pinto, J. Vitorino, J. Gonçalves, E. Maia, and I. Praça, \"GeNIS: GECAD Network Intrusion Scenarios,\" Zenodo, ver. 1.0.0, Feb. 24, 2025, doi: \\href{https://doi.org/10.5281/zenodo.14919237}{10.5281/zenodo.14919237}.",
+      "registered_title": "GeNIS: GECAD Network Intrusion Scenarios",
+      "metadata": {
+        "doi": "10.5281/zenodo.14919237",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "GeNIS: GECAD Network Intrusion Scenarios"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Silva, Miguel",
+            "nameType": "Personal",
+            "givenName": "Miguel",
+            "familyName": "Silva",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0009-0008-6630-9939",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Pinto, Daniela",
+            "nameType": "Personal",
+            "givenName": "Daniela",
+            "familyName": "Pinto",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0009-0000-3003-6694",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Vitorino, João",
+            "nameType": "Personal",
+            "givenName": "João",
+            "familyName": "Vitorino",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0002-4968-3653",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Gonçalves, José",
+            "nameType": "Personal",
+            "givenName": "José",
+            "familyName": "Gonçalves",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0009-0004-1038-8384",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Maia, Eva",
+            "nameType": "Personal",
+            "givenName": "Eva",
+            "familyName": "Maia",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0002-8075-531X",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Praça, Isabel",
+            "nameType": "Personal",
+            "givenName": "Isabel",
+            "familyName": "Praça",
+            "affiliation": [
+              "GECAD, ISEP, Polytechnic of Porto, Portugal"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0002-2519-9859",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          }
+        ],
+        "published": "2025",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.14919237"
+      }
+    },
+    {
+      "key": "ref2",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "M. Silva, D. Pinto, J. Vitorino, J. Gonçalves, E. Maia, and I. Praça, \"GeNIS: A modular dataset for network intrusion detection and classification,\" \\emph{Data in Brief}, vol. 60, art. no. 111487, Jun. 2025, doi: \\href{https://doi.org/10.1016/j.dib.2025.111487}{10.1016/j.dib.2025.111487}.",
+      "registered_title": "GeNIS: A modular dataset for network intrusion detection and classification",
+      "metadata": {
+        "doi": "10.1016/j.dib.2025.111487",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "GeNIS: A modular dataset for network intrusion detection and classification"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-6630-9939",
+            "authenticated-orcid": false,
+            "given": "Miguel",
+            "family": "Silva",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-3003-6694",
+            "authenticated-orcid": false,
+            "given": "Daniela",
+            "family": "Pinto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "João",
+            "family": "Vitorino",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-1038-8384",
+            "authenticated-orcid": false,
+            "given": "José",
+            "family": "Gonçalves",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eva",
+            "family": "Maia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Isabel",
+            "family": "Praça",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "venue": [
+          "Data in Brief"
+        ],
+        "volume": "60",
+        "page": "111487",
+        "article_number": "111487",
+        "url": "https://doi.org/10.1016/j.dib.2025.111487"
+      }
+    },
+    {
+      "key": "ref3",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "O. Belarbi, T. Spyridopoulos, E. Anthi, O. Rana, P. Carnelli, and A. Khan, \"A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics,\" Zenodo, ver. v1, Feb. 5, 2025, doi: \\href{https://doi.org/10.5281/zenodo.14502760}{10.5281/zenodo.14502760}.",
+      "registered_title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics",
+      "metadata": {
+        "doi": "10.5281/zenodo.14502760",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "A Device-Level IoT Network Traffic Dataset with Distributed Capture and Non-IID Characteristics"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Belarbi, Othmane",
+            "nameType": "Personal",
+            "givenName": "Othmane",
+            "familyName": "Belarbi",
+            "affiliation": [
+              "Cardiff University"
+            ],
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0002-6106-7669",
+                "nameIdentifierScheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "name": "Spyridopoulos, Theodoros",
+            "nameType": "Personal",
+            "givenName": "Theodoros",
+            "familyName": "Spyridopoulos",
+            "affiliation": [
+              "Cardiff University"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Anthi, Eirini",
+            "nameType": "Personal",
+            "givenName": "Eirini",
+            "familyName": "Anthi",
+            "affiliation": [
+              "Cardiff University"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Rana, Omer",
+            "nameType": "Personal",
+            "givenName": "Omer",
+            "familyName": "Rana",
+            "affiliation": [
+              "Cardiff University"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Carnelli, Pietro",
+            "nameType": "Personal",
+            "givenName": "Pietro",
+            "familyName": "Carnelli",
+            "affiliation": [
+              "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Khan, Aftab",
+            "nameType": "Personal",
+            "givenName": "Aftab",
+            "familyName": "Khan",
+            "affiliation": [
+              "Toshiba Europe Limited, Bristol Research & Innovation Laboratory"
+            ],
+            "nameIdentifiers": []
+          }
+        ],
+        "published": "2025",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.14502760"
+      }
+    },
+    {
+      "key": "ref4",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "O. Belarbi, T. Spyridopoulos, E. Anthi, O. Rana, P. Carnelli, and A. Khan, \"Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research,\" arXiv:2502.03134, ver. 1, Feb. 5, 2025, doi: \\href{https://doi.org/10.48550/arXiv.2502.03134}{10.48550/arXiv.2502.03134}.",
+      "registered_title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research",
+      "metadata": {
+        "doi": "10.48550/arXiv.2502.03134",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "Gotham Dataset 2025: A Reproducible Large-Scale IoT Network Dataset for Intrusion Detection and Security Research"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Belarbi, Othmane",
+            "nameType": "Personal",
+            "givenName": "Othmane",
+            "familyName": "Belarbi",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Spyridopoulos, Theodoros",
+            "nameType": "Personal",
+            "givenName": "Theodoros",
+            "familyName": "Spyridopoulos",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Anthi, Eirini",
+            "nameType": "Personal",
+            "givenName": "Eirini",
+            "familyName": "Anthi",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Rana, Omer",
+            "nameType": "Personal",
+            "givenName": "Omer",
+            "familyName": "Rana",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Carnelli, Pietro",
+            "nameType": "Personal",
+            "givenName": "Pietro",
+            "familyName": "Carnelli",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Khan, Aftab",
+            "nameType": "Personal",
+            "givenName": "Aftab",
+            "familyName": "Khan",
+            "affiliation": [],
+            "nameIdentifiers": []
+          }
+        ],
+        "published": "2025",
+        "url": "https://arxiv.org/abs/2502.03134"
+      }
+    },
+    {
+      "key": "ref5",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "L. Breiman, \"Random forests,\" \\emph{Machine Learning}, vol. 45, no. 1, pp. 5-32, 2001, doi: \\href{https://doi.org/10.1023/A:1010933404324}{10.1023/A:1010933404324}.",
+      "registered_title": "Random Forests",
+      "metadata": {
+        "doi": "10.1023/A:1010933404324",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Random Forests"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Leo",
+            "family": "Breiman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2001,
+              10
+            ]
+          ]
+        },
+        "venue": [
+          "Machine Learning"
+        ],
+        "volume": "45",
+        "page": "5-32",
+        "article_number": null,
+        "url": "https://doi.org/10.1023/a:1010933404324"
+      }
+    },
+    {
+      "key": "ref6",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "T. Chen and C. Guestrin, \"XGBoost: A scalable tree boosting system,\" in \\emph{Proc. ACM SIGKDD}, 2016, pp. 785-794, doi: \\href{https://doi.org/10.1145/2939672.2939785}{10.1145/2939672.2939785}.",
+      "registered_title": "XGBoost: A Scalable Tree Boosting System",
+      "metadata": {
+        "doi": "10.1145/2939672.2939785",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "XGBoost"
+        ],
+        "subtitle": [
+          "A Scalable Tree Boosting System"
+        ],
+        "authors": [
+          {
+            "given": "Tianqi",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carlos",
+            "family": "Guestrin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              13
+            ]
+          ]
+        },
+        "venue": [
+          "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+        ],
+        "volume": null,
+        "page": "785-794",
+        "article_number": null,
+        "url": "https://doi.org/10.1145/2939672.2939785"
+      }
+    },
+    {
+      "key": "ref7",
+      "status": "non_doi_source",
+      "entry": "S. M. Lundberg and S.-I. Lee, \"A unified approach to interpreting model predictions,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 30, 2017. [Online]. Available: \\href{https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+      ]
+    },
+    {
+      "key": "ref8",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "S. M. Lundberg \\emph{et al.}, \"From local explanations to global understanding with explainable AI for trees,\" \\emph{Nature Machine Intelligence}, vol. 2, pp. 56-67, 2020, doi: \\href{https://doi.org/10.1038/s42256-019-0138-9}{10.1038/s42256-019-0138-9}.",
+      "registered_title": "From local explanations to global understanding with explainable AI for trees",
+      "metadata": {
+        "doi": "10.1038/s42256-019-0138-9",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "From local explanations to global understanding with explainable AI for trees"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Scott M.",
+            "family": "Lundberg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8741-131X",
+            "authenticated-orcid": false,
+            "given": "Gabriel",
+            "family": "Erion",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hugh",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alex",
+            "family": "DeGrave",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jordan M.",
+            "family": "Prutkin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bala",
+            "family": "Nair",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ronit",
+            "family": "Katz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jonathan",
+            "family": "Himmelfarb",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nisha",
+            "family": "Bansal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5833-5215",
+            "authenticated-orcid": false,
+            "given": "Su-In",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              17
+            ]
+          ]
+        },
+        "venue": [
+          "Nature Machine Intelligence"
+        ],
+        "volume": "2",
+        "page": "56-67",
+        "article_number": null,
+        "url": "https://doi.org/10.1038/s42256-019-0138-9"
+      }
+    },
+    {
+      "key": "ref9",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "M. T. Ribeiro, S. Singh, and C. Guestrin, \"Why should I trust you?\": Explaining the predictions of any classifier, in \\emph{Proc. ACM SIGKDD}, 2016, pp. 1135-1144, doi: \\href{https://doi.org/10.1145/2939672.2939778}{10.1145/2939672.2939778}.",
+      "registered_title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+      "metadata": {
+        "doi": "10.1145/2939672.2939778",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "\"Why Should I Trust You?\""
+        ],
+        "subtitle": [
+          "Explaining the Predictions of Any Classifier"
+        ],
+        "authors": [
+          {
+            "given": "Marco Tulio",
+            "family": "Ribeiro",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sameer",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carlos",
+            "family": "Guestrin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Washington, Seattle, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              13
+            ]
+          ]
+        },
+        "venue": [
+          "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+        ],
+        "volume": null,
+        "page": "1135-1144",
+        "article_number": null,
+        "url": "https://doi.org/10.1145/2939672.2939778"
+      }
+    },
+    {
+      "key": "ref10",
+      "status": "non_doi_source",
+      "entry": "C.-K. Yeh, C.-Y. Hsieh, A. S. Suggala, D. I. Inouye, and P. Ravikumar, \"On the (in)fidelity and sensitivity of explanations,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 32, 2019. [Online]. Available: \\href{https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html"
+      ]
+    },
+    {
+      "key": "ref11",
+      "status": "non_doi_source",
+      "entry": "J. Adebayo, J. Gilmer, M. Muelly, I. Goodfellow, M. Hardt, and B. Kim, \"Sanity checks for saliency maps,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 31, 2018. [Online]. Available: \\href{https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html"
+      ]
+    },
+    {
+      "key": "ref12",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "S. Neupane \\emph{et al.}, \"Explainable intrusion detection systems (X-IDS): A survey of current methods, challenges, and opportunities,\" \\emph{IEEE Access}, vol. 10, pp. 112392-112415, 2022, doi: \\href{https://doi.org/10.1109/ACCESS.2022.3216617}{10.1109/ACCESS.2022.3216617}.",
+      "registered_title": "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities",
+      "metadata": {
+        "doi": "10.1109/ACCESS.2022.3216617",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Explainable Intrusion Detection Systems (X-IDS): A Survey of Current Methods, Challenges, and Opportunities"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9260-3914",
+            "authenticated-orcid": false,
+            "given": "Subash",
+            "family": "Neupane",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jesse",
+            "family": "Ables",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "William",
+            "family": "Anderson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9151-8347",
+            "authenticated-orcid": false,
+            "given": "Sudip",
+            "family": "Mittal",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shahram",
+            "family": "Rahimi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5206-1436",
+            "authenticated-orcid": false,
+            "given": "Ioana",
+            "family": "Banicescu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Mississippi State University, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Maria",
+            "family": "Seale",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "U.S. Army Engineer Research and Development Center, Vicksburg, Mississippi, MS, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "venue": [
+          "IEEE Access"
+        ],
+        "volume": "10",
+        "page": "112392-112415",
+        "article_number": null,
+        "url": "https://doi.org/10.1109/access.2022.3216617"
+      }
+    },
+    {
+      "key": "ref13",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "S. Mane and D. Rao, \"Explaining network intrusion detection system using explainable AI framework,\" arXiv:2103.07110, ver. 1, Mar. 12, 2021, doi: \\href{https://doi.org/10.48550/arXiv.2103.07110}{10.48550/arXiv.2103.07110}.",
+      "registered_title": "Explaining Network Intrusion Detection System Using Explainable AI Framework",
+      "metadata": {
+        "doi": "10.48550/arXiv.2103.07110",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "Explaining Network Intrusion Detection System Using Explainable AI Framework"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Mane, Shraddha",
+            "nameType": "Personal",
+            "givenName": "Shraddha",
+            "familyName": "Mane",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Rao, Dattaraj",
+            "nameType": "Personal",
+            "givenName": "Dattaraj",
+            "familyName": "Rao",
+            "affiliation": [],
+            "nameIdentifiers": []
+          }
+        ],
+        "published": "2021",
+        "url": "https://arxiv.org/abs/2103.07110"
+      }
+    },
+    {
+      "key": "ref14",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "D. Gaspar, P. Silva, and C. Silva, \"Explainable AI for intrusion detection systems: LIME and SHAP applicability on multi-layer perceptron,\" \\emph{IEEE Access}, vol. 12, pp. 30164-30175, 2024, doi: \\href{https://doi.org/10.1109/ACCESS.2024.3368377}{10.1109/ACCESS.2024.3368377}.",
+      "registered_title": "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron",
+      "metadata": {
+        "doi": "10.1109/ACCESS.2024.3368377",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Explainable AI for Intrusion Detection Systems: LIME and SHAP Applicability on Multi-Layer Perceptron"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-0654-9344",
+            "authenticated-orcid": false,
+            "given": "Diogo",
+            "family": "Gaspar",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paulo",
+            "family": "Silva",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laborat&#x00F3;rio de Inform&#x00E1;tica e Sistemas (LIS), Instituto Pedro Nunes, Coimbra, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5656-0061",
+            "authenticated-orcid": false,
+            "given": "Catarina",
+            "family": "Silva",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Informatics Engineering, CISUC/LASI &#x2013; Centre for Informatics and Systems, University of Coimbra, Coimbra, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "venue": [
+          "IEEE Access"
+        ],
+        "volume": "12",
+        "page": "30164-30175",
+        "article_number": null,
+        "url": "https://doi.org/10.1109/access.2024.3368377"
+      }
+    },
+    {
+      "key": "ref15",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "A. Warnecke, D. Arp, C. Wressnegger, and K. Rieck, \"Evaluating explanation methods for deep learning in security,\" in \\emph{Proc. IEEE Eur. Symp. Security and Privacy (EuroS\\&P)}, 2020, pp. 158-174, doi: \\href{https://doi.org/10.1109/EuroSP48549.2020.00018}{10.1109/EuroSP48549.2020.00018}.",
+      "registered_title": "Evaluating Explanation Methods for Deep Learning in Security",
+      "metadata": {
+        "doi": "10.1109/EuroSP48549.2020.00018",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Evaluating Explanation Methods for Deep Learning in Security"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Alexander",
+            "family": "Warnecke",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Daniel",
+            "family": "Arp",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christian",
+            "family": "Wressnegger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Karlsruhe Institute of Technology,Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Konrad",
+            "family": "Rieck",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technische Universit&#x00E4;t Braunschweig,Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              9
+            ]
+          ]
+        },
+        "venue": [
+          "2020 IEEE European Symposium on Security and Privacy (EuroS&amp;P)"
+        ],
+        "volume": null,
+        "page": "158-174",
+        "article_number": null,
+        "url": "https://doi.org/10.1109/eurosp48549.2020.00018"
+      }
+    },
+    {
+      "key": "ref16",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "O. Arreche, T. R. Guntur, J. W. Roberts, and M. Abdallah, \"E-XAI: Evaluating black-box explainable AI frameworks for network intrusion detection,\" \\emph{IEEE Access}, vol. 12, pp. 23954-23988, 2024, doi: \\href{https://doi.org/10.1109/ACCESS.2024.3365140}{10.1109/ACCESS.2024.3365140}.",
+      "registered_title": "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection",
+      "metadata": {
+        "doi": "10.1109/ACCESS.2024.3365140",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "E-XAI: Evaluating Black-Box Explainable AI Frameworks for Network Intrusion Detection"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8007-754X",
+            "authenticated-orcid": false,
+            "given": "Osvaldo",
+            "family": "Arreche",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-5196-7973",
+            "authenticated-orcid": false,
+            "given": "Tanish R.",
+            "family": "Guntur",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer and Information Science, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-7529-7526",
+            "authenticated-orcid": false,
+            "given": "Jack W.",
+            "family": "Roberts",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer and Information Technology, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9554-9260",
+            "authenticated-orcid": false,
+            "given": "Mustafa",
+            "family": "Abdallah",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer and Information Technology, Purdue School of Engineering and Technology, Indiana University&#x2013;Purdue University Indianapolis (IUPUI), Indianapolis, IN, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "venue": [
+          "IEEE Access"
+        ],
+        "volume": "12",
+        "page": "23954-23988",
+        "article_number": null,
+        "url": "https://doi.org/10.1109/access.2024.3365140"
+      }
+    },
+    {
+      "key": "ref17",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "R. Kalakoti, R. Vaarandi, H. Bahsi, and S. Nomm, \"Evaluating explainable AI for deep learning-based network intrusion detection system alert classification,\" in \\emph{Proc. 11th Int. Conf. Information Systems Security and Privacy (ICISSP)}, vol. 1, 2025, pp. 47--58, doi: \\href{https://doi.org/10.5220/0013180700003899}{10.5220/0013180700003899}. [Online]. Accepted version: \\href{https://arxiv.org/abs/2506.07882v1}{arXiv:2506.07882v1}.",
+      "registered_title": "Evaluating Explainable AI for Deep Learning-Based Network Intrusion Detection System Alert Classification: ",
+      "metadata": {
+        "doi": "10.5220/0013180700003899",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Evaluating Explainable AI for Deep Learning-Based Network Intrusion Detection System Alert Classification"
+        ],
+        "subtitle": [
+          ""
+        ],
+        "authors": [
+          {
+            "given": "Rajesh",
+            "family": "Kalakoti",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Software Science, Tallinn University of Technology, Tallinn, Estonia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Risto",
+            "family": "Vaarandi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Software Science, Tallinn University of Technology, Tallinn, Estonia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hayretdin",
+            "family": "Bahşi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Software Science, Tallinn University of Technology, Tallinn, Estonia"
+              },
+              {
+                "name": "School of Informatics, Computing, and Cyber Systems, Northern Arizona University, U.S.A."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sven",
+            "family": "Nõmm",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Software Science, Tallinn University of Technology, Tallinn, Estonia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "venue": [
+          "Proceedings of the 11th International Conference on Information Systems Security and Privacy"
+        ],
+        "volume": null,
+        "page": "47-58",
+        "article_number": null,
+        "url": "https://doi.org/10.5220/0013180700003899"
+      }
+    },
+    {
+      "key": "ref18",
+      "status": "non_doi_source",
+      "entry": "A. Kumar and V. L. L. Thing, \"Evaluating the explainability of state-of-the-art machine learning-based IoT network intrusion detection systems,\" arXiv:2408.14040, ver. 1, 2024. [Online]. Available: \\href{https://arxiv.org/abs/2408.14040v1}{arXiv preprint}.",
+      "urls": [
+        "https://arxiv.org/abs/2408.14040v1"
+      ]
+    },
+    {
+      "key": "ref19",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "P. Hermosilla, S. Berrios, and H. Allende-Cid, \"Explainable AI for forensic analysis: A comparative study of SHAP and LIME in intrusion detection models,\" \\emph{Applied Sciences}, vol. 15, no. 13, art. 7329, 2025, doi: \\href{https://doi.org/10.3390/app15137329}{10.3390/app15137329}.",
+      "registered_title": "Explainable AI for Forensic Analysis: A Comparative Study of SHAP and LIME in Intrusion Detection Models",
+      "metadata": {
+        "doi": "10.3390/app15137329",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Explainable AI for Forensic Analysis: A Comparative Study of SHAP and LIME in Intrusion Detection Models"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5775-6536",
+            "authenticated-orcid": false,
+            "given": "Pamela",
+            "family": "Hermosilla",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-9384-2515",
+            "authenticated-orcid": false,
+            "given": "Sebastián",
+            "family": "Berríos",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9899-0051",
+            "authenticated-orcid": false,
+            "given": "Héctor",
+            "family": "Allende-Cid",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, Valparaíso 2362807, Chile"
+              },
+              {
+                "name": "Knowledge Discovery, Fraunhofer-Institute of Intelligent Analysis and Information Systems (IAIS), 53757 Sankt Augustin, Germany"
+              },
+              {
+                "name": "Lamarr Institute for Machine Learning and Artificial Intelligence, 44227 Dortmund, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              30
+            ]
+          ]
+        },
+        "venue": [
+          "Applied Sciences"
+        ],
+        "volume": "15",
+        "page": "7329",
+        "article_number": null,
+        "url": "https://doi.org/10.3390/app15137329"
+      }
+    },
+    {
+      "key": "ref20",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "B. Nugraha, A. V. Jnanashree, and T. Bauschert, \"A versatile XAI-based framework for efficient and explainable intrusion detection systems,\" \\emph{Annals of Telecommunications}, vol. 80, pp. 1095-1120, 2025, doi: \\href{https://doi.org/10.1007/s12243-025-01118-9}{10.1007/s12243-025-01118-9}.",
+      "registered_title": "A versatile XAI-based framework for efficient and explainable intrusion detection systems",
+      "metadata": {
+        "doi": "10.1007/s12243-025-01118-9",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "A versatile XAI-based framework for efficient and explainable intrusion detection systems"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Beny",
+            "family": "Nugraha",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Abhishek Venkatesh",
+            "family": "Jnanashree",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas",
+            "family": "Bauschert",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              29
+            ]
+          ]
+        },
+        "venue": [
+          "Annals of Telecommunications"
+        ],
+        "volume": "80",
+        "page": "1095-1120",
+        "article_number": null,
+        "url": "https://doi.org/10.1007/s12243-025-01118-9"
+      }
+    },
+    {
+      "key": "ref21",
+      "status": "non_doi_source",
+      "entry": "D. Arp \\emph{et al.}, \"Dos and don'ts of machine learning in computer security,\" in \\emph{Proc. USENIX Security}, 2022, pp. 3971-3988. [Online]. Available: \\href{https://www.usenix.org/conference/usenixsecurity22/presentation/arp}{USENIX proceedings}.",
+      "urls": [
+        "https://www.usenix.org/conference/usenixsecurity22/presentation/arp"
+      ]
+    },
+    {
+      "key": "ref22",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "G. Engelen, V. Rimmer, and W. Joosen, \"Troubleshooting an intrusion detection dataset: The CICIDS2017 case study,\" in \\emph{Proc. IEEE Security and Privacy Workshops}, 2021, pp. 7-12, doi: \\href{https://doi.org/10.1109/SPW53761.2021.00009}{10.1109/SPW53761.2021.00009}.",
+      "registered_title": "Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study",
+      "metadata": {
+        "doi": "10.1109/SPW53761.2021.00009",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Troubleshooting an Intrusion Detection Dataset: the CICIDS2017 Case Study"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Gints",
+            "family": "Engelen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Vera",
+            "family": "Rimmer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wouter",
+            "family": "Joosen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              5
+            ]
+          ]
+        },
+        "venue": [
+          "2021 IEEE Security and Privacy Workshops (SPW)"
+        ],
+        "volume": null,
+        "page": "7-12",
+        "article_number": null,
+        "url": "https://doi.org/10.1109/spw53761.2021.00009"
+      }
+    },
+    {
+      "key": "ref23",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "C. Rudin, \"Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead,\" \\emph{Nature Machine Intelligence}, vol. 1, pp. 206-215, 2019, doi: \\href{https://doi.org/10.1038/s42256-019-0048-x}{10.1038/s42256-019-0048-x}.",
+      "registered_title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+      "metadata": {
+        "doi": "10.1038/s42256-019-0048-x",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4283-2780",
+            "authenticated-orcid": false,
+            "given": "Cynthia",
+            "family": "Rudin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              13
+            ]
+          ]
+        },
+        "venue": [
+          "Nature Machine Intelligence"
+        ],
+        "volume": "1",
+        "page": "206-215",
+        "article_number": null,
+        "url": "https://doi.org/10.1038/s42256-019-0048-x"
+      }
+    },
+    {
+      "key": "ref24",
+      "status": "non_doi_source",
+      "entry": "S. Krishna, T. Han, A. Gu, J. Pombra, S. Jabbari, S. Wu, and H. Lakkaraju, \"The disagreement problem in explainable machine learning: A practitioner's perspective,\" arXiv:2202.01602, ver. 1, 2022. [Online]. Available: \\href{https://arxiv.org/abs/2202.01602v1}{arXiv preprint}.",
+      "urls": [
+        "https://arxiv.org/abs/2202.01602v1"
+      ]
+    },
+    {
+      "key": "ref25",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "D. Slack, S. Hilgard, E. Jia, S. Singh, and H. Lakkaraju, \"Fooling LIME and SHAP: Adversarial attacks on post hoc explanation methods,\" in \\emph{Proc. AAAI/ACM AIES}, 2020, pp. 180-186, doi: \\href{https://doi.org/10.1145/3375627.3375830}{10.1145/3375627.3375830}.",
+      "registered_title": "Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods",
+      "metadata": {
+        "doi": "10.1145/3375627.3375830",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Fooling LIME and SHAP"
+        ],
+        "subtitle": [
+          "Adversarial Attacks on Post hoc Explanation Methods"
+        ],
+        "authors": [
+          {
+            "given": "Dylan",
+            "family": "Slack",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of California, Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sophie",
+            "family": "Hilgard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University, Cambridge, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Emily",
+            "family": "Jia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University, Cambridge, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sameer",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California, Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Himabindu",
+            "family": "Lakkaraju",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University, Cambridge, MA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              7
+            ]
+          ]
+        },
+        "venue": [
+          "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+        ],
+        "volume": null,
+        "page": "180-186",
+        "article_number": null,
+        "url": "https://doi.org/10.1145/3375627.3375830"
+      }
+    },
+    {
+      "key": "ref26",
+      "status": "non_doi_source",
+      "entry": "P. Hase, H. Xie, and M. Bansal, \"The out-of-distribution problem in explainability and search methods for feature importance explanations,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 34, 2021. [Online]. Available: \\href{https://proceedings.neurips.cc/paper_files/paper/2021/hash/1def1713ebf17722cbe300cfc1c88558-Abstract.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/1def1713ebf17722cbe300cfc1c88558-Abstract.html"
+      ]
+    },
+    {
+      "key": "ref27",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "K. Aas, M. Jullum, and A. L{\\o}land, \"Explaining individual predictions when features are dependent: More accurate approximations to Shapley values,\" \\emph{Artificial Intelligence}, vol. 298, art. 103502, 2021, doi: \\href{https://doi.org/10.1016/j.artint.2021.103502}{10.1016/j.artint.2021.103502}.",
+      "registered_title": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+      "metadata": {
+        "doi": "10.1016/j.artint.2021.103502",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Kjersti",
+            "family": "Aas",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Jullum",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anders",
+            "family": "Løland",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "venue": [
+          "Artificial Intelligence"
+        ],
+        "volume": "298",
+        "page": "103502",
+        "article_number": "103502",
+        "url": "https://doi.org/10.1016/j.artint.2021.103502"
+      }
+    },
+    {
+      "key": "ref28",
+      "status": "non_doi_source",
+      "entry": "M. Sundararajan and A. Najmi, \"The many Shapley values for model explanation,\" in \\emph{Proc. ICML}, PMLR, vol. 119, 2020, pp. 9269-9278. [Online]. Available: \\href{https://proceedings.mlr.press/v119/sundararajan20b.html}{PMLR proceedings}.",
+      "urls": [
+        "https://proceedings.mlr.press/v119/sundararajan20b.html"
+      ]
+    },
+    {
+      "key": "ref29",
+      "status": "non_doi_source",
+      "entry": "C. Agarwal \\emph{et al.}, \"OpenXAI: Towards a transparent evaluation of model explanations,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 35, 2022. [Online]. Available: \\href{https://papers.neurips.cc/paper_files/paper/2022/hash/65398a0eba88c9b4a1c38ae405b125ef-Abstract-Datasets_and_Benchmarks.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://papers.neurips.cc/paper_files/paper/2022/hash/65398a0eba88c9b4a1c38ae405b125ef-Abstract-Datasets_and_Benchmarks.html"
+      ]
+    },
+    {
+      "key": "ref30",
+      "status": "non_doi_source",
+      "entry": "A. Hedstrom \\emph{et al.}, \"Quantus: An explainable AI toolkit for responsible evaluation of neural network explanations and beyond,\" \\emph{Journal of Machine Learning Research}, vol. 24, no. 34, pp. 1-11, 2023. [Online]. Available: \\href{https://jmlr.org/papers/v24/22-0142.html}{JMLR article}.",
+      "urls": [
+        "https://jmlr.org/papers/v24/22-0142.html"
+      ]
+    },
+    {
+      "key": "ref31",
+      "status": "non_doi_source",
+      "entry": "S. Hooker, D. Erhan, P.-J. Kindermans, and B. Kim, \"A benchmark for interpretability methods in deep neural networks,\" in \\emph{Advances in Neural Information Processing Systems}, vol. 32, 2019. [Online]. Available: \\href{https://proceedings.neurips.cc/paper_files/paper/2019/hash/fe4b8556000d0f0cae99daa5c5c5a410-Abstract.html}{NeurIPS proceedings}.",
+      "urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2019/hash/fe4b8556000d0f0cae99daa5c5c5a410-Abstract.html"
+      ]
+    },
+    {
+      "key": "ref32",
+      "status": "non_doi_source",
+      "entry": "Y. Rong, T. Leemann, V. Borisov, G. Kasneci, and E. Kasneci, \"A consistent and efficient evaluation strategy for attribution methods,\" in \\emph{Proc. ICML}, PMLR, vol. 162, 2022, pp. 18770-18795. [Online]. Available: \\href{https://proceedings.mlr.press/v162/rong22a.html}{PMLR proceedings}.",
+      "urls": [
+        "https://proceedings.mlr.press/v162/rong22a.html"
+      ]
+    },
+    {
+      "key": "ref33",
+      "status": "non_doi_source",
+      "entry": "I. C. Covert, S. Lundberg, and S.-I. Lee, \"Explaining by removing: A unified framework for model explanation,\" \\emph{Journal of Machine Learning Research}, vol. 22, no. 209, pp. 1-90, 2021. [Online]. Available: \\href{https://jmlr.org/papers/v22/20-1316.html}{JMLR 20-1316}.",
+      "urls": [
+        "https://jmlr.org/papers/v22/20-1316.html"
+      ]
+    },
+    {
+      "key": "ref34",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "B. Efron, \"Bootstrap methods: Another look at the jackknife,\" \\emph{Annals of Statistics}, vol. 7, no. 1, pp. 1-26, 1979, doi: \\href{https://doi.org/10.1214/aos/1176344552}{10.1214/aos/1176344552}.",
+      "registered_title": "Bootstrap Methods: Another Look at the Jackknife",
+      "metadata": {
+        "doi": "10.1214/aos/1176344552",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "Bootstrap Methods: Another Look at the Jackknife"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "B.",
+            "family": "Efron",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1979,
+              1,
+              1
+            ]
+          ]
+        },
+        "venue": [
+          "The Annals of Statistics"
+        ],
+        "volume": "7",
+        "page": "1-26",
+        "article_number": null,
+        "url": "https://doi.org/10.1214/aos/1176344552"
+      }
+    },
+    {
+      "key": "ref35",
+      "status": "non_doi_source",
+      "entry": "F. Wilcoxon, \"Individual comparisons by ranking methods,\" \\emph{Biometrics Bulletin}, vol. 1, no. 6, pp. 80-83, 1945. [Online]. Available: \\href{https://www.jstor.org/stable/3001968}{JSTOR 3001968}.",
+      "urls": [
+        "https://www.jstor.org/stable/3001968"
+      ]
+    },
+    {
+      "key": "ref36",
+      "status": "non_doi_source",
+      "entry": "S. Holm, \"A simple sequentially rejective multiple test procedure,\" \\emph{Scandinavian Journal of Statistics}, vol. 6, no. 2, pp. 65-70, 1979. [Online]. Available: \\href{https://www.jstor.org/stable/4615733}{JSTOR 4615733}.",
+      "urls": [
+        "https://www.jstor.org/stable/4615733"
+      ]
+    },
+    {
+      "key": "ref37",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "C. Dalamagkas \\emph{et al.}, \"Federated OCPP 1.6 Intrusion Detection Dataset,\" IEEE DataPort, 2025, doi: \\href{https://doi.org/10.21227/v1f0-9t13}{10.21227/v1f0-9t13}. [Online]. Mirror: \\href{https://zenodo.org/records/14887131}{Zenodo record 14887131}.",
+      "registered_title": "Federated OCPP 1.6 Intrusion Detection Dataset",
+      "metadata": {
+        "doi": "10.21227/v1f0-9t13",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "Federated OCPP 1.6 Intrusion Detection Dataset"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Dalamagkas, Christos",
+            "givenName": "Christos Dalamagkas",
+            "familyName": "Dalamagkas",
+            "affiliation": [
+              "PPC Innovation Hub"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Radoglou-Grammatikis, Panagiotis",
+            "givenName": "Panagiotis Radoglou-Grammatikis",
+            "familyName": "Radoglou-Grammatikis",
+            "affiliation": [
+              "University of Western Macedonia, MetaMind Innovations P.C."
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Bouzinis, Pavlos",
+            "givenName": "Pavlos Bouzinis",
+            "familyName": "Bouzinis",
+            "affiliation": [
+              "MetaMind Innovations P.C."
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Papadopoulos, Ioannis",
+            "givenName": "Ioannis Papadopoulos",
+            "familyName": "Papadopoulos",
+            "affiliation": [
+              "PPC Innovation Hub"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Lagkas, Thomas",
+            "givenName": "Thomas Lagkas",
+            "familyName": "Lagkas",
+            "affiliation": [
+              "Democritus University of Thrac"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Argyriou, Vasileios",
+            "givenName": "Vasileios Argyriou",
+            "familyName": "Argyriou",
+            "affiliation": [
+              "Kingston University London"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Sarigiannidis, Panagiotis",
+            "givenName": "Panagiotis Sarigiannidis",
+            "familyName": "Sarigiannidis",
+            "affiliation": [
+              "University of Western Macedonia, MetaMind Innovations P.C."
+            ],
+            "nameIdentifiers": []
+          }
+        ],
+        "published": "2025",
+        "url": "https://ieee-dataport.org/documents/federated-ocpp-16-intrusion-detection-dataset"
+      }
+    },
+    {
+      "key": "ref38",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "S. Axelsson, \"The base-rate fallacy and the difficulty of intrusion detection,\" \\textit{ACM Trans. Inf. Syst. Secur.}, vol. 3, no. 3, pp. 186--205, 2000, doi: \\href{https://doi.org/10.1145/357830.357849}{10.1145/357830.357849}.",
+      "registered_title": "The base-rate fallacy and the difficulty of intrusion detection",
+      "metadata": {
+        "doi": "10.1145/357830.357849",
+        "registry": "crossref",
+        "status": "resolved",
+        "title": [
+          "The base-rate fallacy and the difficulty of intrusion detection"
+        ],
+        "subtitle": [],
+        "authors": [
+          {
+            "given": "Stefan",
+            "family": "Axelsson",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ericsson Mobile Data Design AB"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2000,
+              8
+            ]
+          ]
+        },
+        "venue": [
+          "ACM Transactions on Information and System Security"
+        ],
+        "volume": "3",
+        "page": "186-205",
+        "article_number": null,
+        "url": "https://doi.org/10.1145/357830.357849",
+        "publisher_abstract": "<jats:p>\n                    Many different demands can be made of intrusion detection systems. An important requirement is that an intrusion detection system be\n                    <jats:italic>effective</jats:italic>\n                    ; that is, it should detect a substantial percentage of intrusions into the supervised system, while still keeping the false alarm rate at an acceptable level. This article demonstrates that, for a reasonable set of assumptions, the false alarm rate is the limiting factor for the performance of an intrusion detection system. This is due to the base-rate fallacy phenomenon, that in order to achieve substantial values of the Bayesian detection rate\n                    <jats:italic>P(Intrusion***Alarm)</jats:italic>\n                    , we have to achieve a (perhaps in some cases unattainably) low false alarm rate. A selection of reports of intrusion detection performance are reviewed,  and the conclusion is reached that there are indications that at least some types of intrusion detection have far to go before they can attain such low false alarm rates.\n                  </jats:p>"
+      }
+    },
+    {
+      "key": "ref39",
+      "status": "verified",
+      "title_match": true,
+      "listed_author_surnames_match": true,
+      "volume_match": true,
+      "page_or_article_match": true,
+      "entry": "Projecto Desenvolvimento Manuten\\c{c}\\~ao Forma\\c{c}\\~ao e Consultadoria, \"PDMFC Dataset,\" Zenodo, ver. v1, 2025, doi: \\href{https://doi.org/10.5281/zenodo.16943481}{10.5281/zenodo.16943481}.",
+      "registered_title": "PDMFC Dataset",
+      "metadata": {
+        "doi": "10.5281/zenodo.16943481",
+        "registry": "datacite",
+        "status": "resolved",
+        "title": [
+          {
+            "title": "PDMFC Dataset"
+          }
+        ],
+        "authors": [
+          {
+            "name": "Projecto Desenvolvimento Manutenção Formação e Consultadoria",
+            "nameType": "Organizational",
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "02mfpez21",
+                "nameIdentifierScheme": "ROR"
+              }
+            ],
+            "affiliation": []
+          }
+        ],
+        "published": "2025",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.16943481"
+      }
+    }
+  ]
+}

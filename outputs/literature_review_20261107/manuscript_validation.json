@@ -1,5 +1,5 @@
 {
-  "checked_date": "2026-11-09",
+  "checked_date": "2026-11-23",
   "scope": "Local consistency and formatting; not author approval or venue certification",
   "citation_structure": {
     "references": 37,
@@ -159,9 +159,9 @@
     "searchable": true,
     "embedded_fonts": true,
     "type3_fonts": 0,
-    "font_references_checked": 41,
+    "font_references_checked": 40,
     "anonymous": false,
-    "sha256": "ccdf5ba5f77fd2a899ee569fcf69e8f6990471af21f25757262a2e354cb111a2"
+    "sha256": "bf15d72d197671a854fb772da6d378fda1dcb12b7c24802bf6d43f484e474c17"
   },
   "conference_references": 32,
   "journal_references": 39

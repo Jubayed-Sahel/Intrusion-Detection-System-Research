@@ -1,0 +1,421 @@
+{
+  "review_date_local": "2026-11-23",
+  "timezone": "Asia/Dhaka",
+  "scope": "Targeted claim-support and identity review of all 39 journal references; not a full-text review of every source or independent experimental reproduction",
+  "limitations": [
+    "The Axelsson publisher full text was not obtained; the broad claim is limited to base-rate sensitivity.",
+    "No commercial similarity database or AI detector was accessed.",
+    "Author approvals and declarations remain deferred at the user request."
+  ],
+  "records": [
+    {
+      "key": "ref1",
+      "claim_checked": "GeNIS release identity, version and source-file provenance.",
+      "source_url": "https://zenodo.org/records/14919237",
+      "reading_scope": "provider_record",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Provider record; file use and hashes checked in project provenance.",
+      "citation_context_sha256": "ab5fd0608bc1c096846da9708c773911e8792bcc1683e0a337f40a21b0db2623"
+    },
+    {
+      "key": "ref2",
+      "claim_checked": "Enterprise simulation and multiple exported flow intervals.",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2352340925002197",
+      "reading_scope": "publisher_abstract",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Publisher abstract and registered authors/volume/article number; no claim about reproducing their generation pipeline.",
+      "citation_context_sha256": "ab5fd0608bc1c096846da9708c773911e8792bcc1683e0a337f40a21b0db2623"
+    },
+    {
+      "key": "ref3",
+      "claim_checked": "Gotham official release and distributed device traffic.",
+      "source_url": "https://zenodo.org/records/14502760",
+      "reading_scope": "provider_record",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Provider record and version; the full-archive checksum remains unverified.",
+      "citation_context_sha256": "0fcef0f05fcb21adcb0967d46a11c2a55a32ec8c8b8a01f04b25be9f74132ad6"
+    },
+    {
+      "key": "ref4",
+      "claim_checked": "78 emulated IoT devices and packet-to-CSV extraction.",
+      "source_url": "https://arxiv.org/abs/2502.03134v1",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Dataset description and methods; explicitly the cited version.",
+      "local_source": "data/reference_papers/gotham2025.pdf",
+      "local_sha256": "037ba7a1c857a7854a7eddcd6c7be5307864a44f413a37cbed06b738b7d6ac6f",
+      "citation_context_sha256": "0fcef0f05fcb21adcb0967d46a11c2a55a32ec8c8b8a01f04b25be9f74132ad6"
+    },
+    {
+      "key": "ref5",
+      "claim_checked": "Random Forest model attribution.",
+      "source_url": "https://doi.org/10.1023/A:1010933404324",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Foundational model paper; this project supplies its own hyperparameters and results.",
+      "local_source": "data/reference_papers/breiman2001.pdf",
+      "local_sha256": "aaa9bc464d1d63eacc807ac8251331aa93b2aeb1c9411033e58cb7e8423fb920",
+      "citation_context_sha256": "bfddc825954a090c39344c22d1f36fc611a862a30569c313988a8d3794df0c23"
+    },
+    {
+      "key": "ref6",
+      "claim_checked": "XGBoost model attribution.",
+      "source_url": "https://doi.org/10.1145/2939672.2939785",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Foundational model paper; no transferred numerical claims.",
+      "local_source": "data/reference_papers/xgboost2016.pdf",
+      "local_sha256": "52bc282c922a239134ee4d6f4367c58bf920a9bdd53acbb3b2aa3342e2bb7214",
+      "citation_context_sha256": "bfddc825954a090c39344c22d1f36fc611a862a30569c313988a8d3794df0c23"
+    },
+    {
+      "key": "ref7",
+      "claim_checked": "SHAP additive feature attribution.",
+      "source_url": "https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Additive attribution formulation; not causal attack indicators.",
+      "local_source": "data/reference_papers/shap2017.pdf",
+      "local_sha256": "32518459c313a57876ec1646f3266d54569d3b9a70152dd4f28e742eef05a5f3",
+      "citation_context_sha256": "18c62815b3e816117b8744b89f5c49d7790bfe28c23b592e566ce934d44357e7"
+    },
+    {
+      "key": "ref8",
+      "claim_checked": "TreeExplainer for fitted tree models.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7326367/",
+      "reading_scope": "author_manuscript_abstract_and_record",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Author-manuscript record and abstract; implementation settings are project choices, not validated by this citation.",
+      "citation_context_sha256": "18c62815b3e816117b8744b89f5c49d7790bfe28c23b592e566ce934d44357e7"
+    },
+    {
+      "key": "ref9",
+      "claim_checked": "LIME local surrogate around a prediction.",
+      "source_url": "https://arxiv.org/abs/1602.04938",
+      "reading_scope": "author_abstract",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Author abstract and publisher DOI metadata; study-specific perturbation counts are reported separately.",
+      "citation_context_sha256": "18c62815b3e816117b8744b89f5c49d7790bfe28c23b592e566ce934d44357e7"
+    },
+    {
+      "key": "ref10",
+      "claim_checked": "Infidelity and sensitivity depend on the perturbation distribution.",
+      "source_url": "https://proceedings.neurips.cc/paper/2019/hash/a7471fdc77b3435276507cc8f2dc2569-Abstract.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Definitions and abstract; not numerical equivalence with our deletion endpoint.",
+      "local_source": "data/reference_papers/yeh2019.pdf",
+      "local_sha256": "89cf7fba50f5bda31ad267164c0a462933193a798b5442482ad10ad13b24c8f4",
+      "citation_context_sha256": "18c62815b3e816117b8744b89f5c49d7790bfe28c23b592e566ce934d44357e7"
+    },
+    {
+      "key": "ref11",
+      "claim_checked": "Visual similarity can persist despite saliency randomization tests.",
+      "source_url": "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Randomization tests; scope is image saliency rather than our IDS validation.",
+      "local_source": "data/reference_papers/adebayo2018.pdf",
+      "local_sha256": "83b8f56da10e283929fa70548cff8caa4de2a468c1685c2111c9799cc66c9fc6",
+      "citation_context_sha256": "18c62815b3e816117b8744b89f5c49d7790bfe28c23b592e566ce934d44357e7"
+    },
+    {
+      "key": "ref12",
+      "claim_checked": "X-IDS stakeholder needs and evaluation challenges.",
+      "source_url": "https://doi.org/10.1109/ACCESS.2022.3216617",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Survey evaluation and stakeholder discussion.",
+      "local_source": "data/reference_papers/neupane2022.pdf",
+      "local_sha256": "b8179e9a8664347564edbcbee99fe6f42bed6a569885e09d97ee33f58d4ec260",
+      "citation_context_sha256": "1092084a0c48b9d31e1020e94ee6657d2017d9ed93ff562ec31526f2cfb238bd"
+    },
+    {
+      "key": "ref13",
+      "claim_checked": "SHAP and LIME demonstrations for a deep IDS on NSL-KDD.",
+      "source_url": "https://arxiv.org/abs/2103.07110v1",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Methods and dataset description; retained as cited preprint version.",
+      "local_source": "data/reference_papers/mane2021.pdf",
+      "local_sha256": "fff71091323775bb0966d6c19c11b4704445aea8dab7ceaac680d27a6951a46e",
+      "citation_context_sha256": "1092084a0c48b9d31e1020e94ee6657d2017d9ed93ff562ec31526f2cfb238bd"
+    },
+    {
+      "key": "ref14",
+      "claim_checked": "ADFA-LD-derived system calls, random call replacement, perceived-interpretability survey.",
+      "source_url": "https://doi.org/10.1109/ACCESS.2024.3368377",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Sections IV-V; random replacements change input values, not ranking permutations; survey is perceived interpretability.",
+      "local_source": "data/reference_papers/gaspar2024.pdf",
+      "local_sha256": "4ab23d3902743dfec62ca23d01d063df4c019fb2085b3552aeda99fa05671ac1",
+      "citation_context_sha256": "a6e67352f261c46b460e4da1da2debe9119dc0ddc202575b65f55d2d46e36816"
+    },
+    {
+      "key": "ref15",
+      "claim_checked": "Security explanation criteria on malware and vulnerability tasks.",
+      "source_url": "https://doi.org/10.1109/EuroSP48549.2020.00018",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Evaluation framework and security tasks; not an IDS effect estimate.",
+      "local_source": "data/reference_papers/warnecke2020.pdf",
+      "local_sha256": "6a477583fafa239698ac1164d2d2a246b230d6df1311454e86297b3005911089",
+      "citation_context_sha256": "1092084a0c48b9d31e1020e94ee6657d2017d9ed93ff562ec31526f2cfb238bd"
+    },
+    {
+      "key": "ref16",
+      "claim_checked": "E-XAI metrics, removal from training/evaluation, and detector-accuracy Wilcoxon comparisons.",
+      "source_url": "https://doi.org/10.1109/ACCESS.2024.3365140",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Section VI-A states fewer features in training and evaluation. Statistical analysis compares AI-model accuracy samples, not our paired explanation endpoint.",
+      "local_source": "data/reference_papers/exai2024.pdf",
+      "local_sha256": "b53fbf8767331c88e2242f103e224bfd10b68c2efbc52c07023b77353ab2a2f9",
+      "citation_context_sha256": "1092084a0c48b9d31e1020e94ee6657d2017d9ed93ff562ec31526f2cfb238bd"
+    },
+    {
+      "key": "ref17",
+      "claim_checked": "LSTM SOC alert prioritization, DeepExplainer and analyst-selected features.",
+      "source_url": "https://doi.org/10.5220/0013180700003899",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Sections 3.1-3.4 and results. Cite ICISSP 2025 pp. 47-58; identify accepted arXiv v1 as the version read.",
+      "local_source": "data/reference_papers/review_20261107/kalakoti2025.pdf",
+      "local_sha256": "e37f539e95fbf6a572db6c7fa7f8038a2d20fd18703625a663497edf75a29484",
+      "citation_context_sha256": "162e1b2a3949fcd64115771a43d5e9bf2e512e10ed926e23939180b8c647ed0a"
+    },
+    {
+      "key": "ref18",
+      "claim_checked": "TRUSTEE/SHAP disagreement and inductive bias in online IoT detectors.",
+      "source_url": "https://arxiv.org/abs/2408.14040v1",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Methods and conclusions in v1; do not substitute a differently titled later work.",
+      "local_source": "data/reference_papers/review_20261107/kumar2024.pdf",
+      "local_sha256": "85d92c20711dae669e7c32f79e039890e07cd1c40a8f814ba017c1a59c873dc3",
+      "citation_context_sha256": "162e1b2a3949fcd64115771a43d5e9bf2e512e10ed926e23939180b8c647ed0a"
+    },
+    {
+      "key": "ref19",
+      "claim_checked": "SHAP/LIME on XGBoost and TabNet using UNSW-NB15.",
+      "source_url": "https://www.mdpi.com/2076-3417/15/13/7329",
+      "reading_scope": "publisher_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Sections 3.3-3.4, 4.4 and discussion. KernelSHAP and their scores differ from this study.",
+      "citation_context_sha256": "162e1b2a3949fcd64115771a43d5e9bf2e512e10ed926e23939180b8c647ed0a"
+    },
+    {
+      "key": "ref20",
+      "claim_checked": "ANOVA/SHAP selection, refitting and local explanations on DDoS, IoT and 5G traces.",
+      "source_url": "https://link.springer.com/article/10.1007/s12243-025-01118-9",
+      "reading_scope": "publisher_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Methods and experiments; comparisons concern methods, not incompatible numerical league tables.",
+      "citation_context_sha256": "162e1b2a3949fcd64115771a43d5e9bf2e512e10ed926e23939180b8c647ed0a"
+    },
+    {
+      "key": "ref21",
+      "claim_checked": "Spurious correlations, lab-only security evaluation and base-rate pitfalls.",
+      "source_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Pitfalls and evaluation recommendations; no claim to have reproduced their review.",
+      "local_source": "data/reference_papers/review_20261107/arp2022.pdf",
+      "local_sha256": "fd71f39c2cd0f9532859c6bb5f2e3b94be97eec50b43f97aaa916e43f3f4acdb",
+      "citation_context_sha256": "9683a561c17b7503b4ec2fb7e350e0440d41e97a03e2eb9641b9b0251a9c1b8d"
+    },
+    {
+      "key": "ref22",
+      "claim_checked": "CICIDS2017 reconstruction changes class-specific findings.",
+      "source_url": "https://doi.org/10.1109/SPW53761.2021.00009",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Reconstruction and evaluation; motivates retaining per-class failures.",
+      "local_source": "data/reference_papers/review_20261107/engelen2021.pdf",
+      "local_sha256": "c66cd93384d6061b413a0ce0f753ae1e923eb5ccb42d72a10225a8c229c21b1f",
+      "citation_context_sha256": "9683a561c17b7503b4ec2fb7e350e0440d41e97a03e2eb9641b9b0251a9c1b8d"
+    },
+    {
+      "key": "ref23",
+      "claim_checked": "Interpretable models are relevant alternatives in consequential decisions.",
+      "source_url": "https://doi.org/10.1038/s42256-019-0048-x",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Argument for interpretable alternatives; no assertion of our analyst benefit.",
+      "local_source": "data/reference_papers/review_20261107/rudin2019.pdf",
+      "local_sha256": "cfaa96d39b6508de2ca18683fa7977fed30feaf3a0e31e97d7afe6d6d7b6792b",
+      "citation_context_sha256": "9683a561c17b7503b4ec2fb7e350e0440d41e97a03e2eb9641b9b0251a9c1b8d"
+    },
+    {
+      "key": "ref24",
+      "claim_checked": "Feature identity, ordering and sign are different forms of explanation disagreement.",
+      "source_url": "https://arxiv.org/abs/2202.01602v1",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Disagreement definitions and practitioner study in the cited v1.",
+      "local_source": "data/reference_papers/review_20261107/krishna2022.pdf",
+      "local_sha256": "ad0e4c13d38041b637bd794b959572a958b80d9c1c6524681864d232a41747bd",
+      "citation_context_sha256": "9683a561c17b7503b4ec2fb7e350e0440d41e97a03e2eb9641b9b0251a9c1b8d"
+    },
+    {
+      "key": "ref25",
+      "claim_checked": "Perturbation-based explanations can be manipulated by real-versus-synthetic discrimination.",
+      "source_url": "https://doi.org/10.1145/3375627.3375830",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Scaffolding attack; does not establish that this attack was tested on our tree explainers.",
+      "local_source": "data/reference_papers/review_20261107/slack2020.pdf",
+      "local_sha256": "8b007cf45f00c03db154a596412c145f889b9d07c5eab9a37e0706745d1c1ad1",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref26",
+      "claim_checked": "Feature replacement changes distribution and explanation evaluation.",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/1def1713ebf17722cbe300cfc1c88558-Abstract.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Replacement functions and OOD analysis; text experiments do not validate physical traffic masks.",
+      "local_source": "data/reference_papers/review_20261107/hase2021.pdf",
+      "local_sha256": "26686f97eb5b76f0d9d2076f098ebc3ce9f2ee74375a9c61b85883dd45f296d5",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref27",
+      "claim_checked": "Dependent predictors affect Shapley approximations.",
+      "source_url": "https://doi.org/10.1016/j.artint.2021.103502",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Dependent-feature methods; our donor sensitivity is not their conditional-SHAP estimator.",
+      "local_source": "data/reference_papers/review_20261107/aas2021.pdf",
+      "local_sha256": "ac5b6cef71bdcf8ba4d4ec3ad16a7297094ff512c9bbdfc4bd7a4f29e55990ca",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref28",
+      "claim_checked": "Different model-explanation value functions produce different Shapley explanations.",
+      "source_url": "https://proceedings.mlr.press/v119/sundararajan20b.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Operationalizations and axioms; no universal-correctness claim.",
+      "local_source": "data/reference_papers/review_20261107/sundararajan2020.pdf",
+      "local_sha256": "c8c2cafe36e8a16b520280e55a47827ecc828689041e8e1947e0a384166af680",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref29",
+      "claim_checked": "OpenXAI separates faithfulness, stability and fairness metrics.",
+      "source_url": "https://papers.neurips.cc/paper_files/paper/2022/hash/65398a0eba88c9b4a1c38ae405b125ef-Abstract-Datasets_and_Benchmarks.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Proceedings landing title omits Post hoc while PDF includes it. Same authors, year, venue and paper hash; journal entry now follows the official catalogue title.",
+      "local_source": "data/reference_papers/review_20261107/openxai2022.pdf",
+      "local_sha256": "ddf6a5a1b9d5a46b1338c87206ef1f5b02bc991d836a9cc237479f7caf2aab3f",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref30",
+      "claim_checked": "Quantus organizes multiple explanation-evaluation dimensions.",
+      "source_url": "https://jmlr.org/papers/v24/22-0142.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Evaluation categories and metric parameterization; not a single ground-truth explanation score.",
+      "local_source": "data/reference_papers/review_20261107/quantus2023.pdf",
+      "local_sha256": "03d9ea0a08681e49edd343a4f91e3c94db51f55b11d692e87b9409e2a1c3c5b5",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref31",
+      "claim_checked": "ROAR removes features and retrains models.",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/fe4b8556000d0f0cae99daa5c5c5a410-Abstract.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "ROAR definition and experiments; distinct from fixed-model deletion.",
+      "local_source": "data/reference_papers/review_20261107/hooker2019.pdf",
+      "local_sha256": "9d0270f92de9ebc7ef043f7de957fc00fb7aba5572a9024eae994c5a426d53eb",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref32",
+      "claim_checked": "ROAD addresses image-mask confounding without retraining.",
+      "source_url": "https://proceedings.mlr.press/v162/rong22a.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Masking-confound analysis and framework; not evidence for network-field physical validity.",
+      "local_source": "data/reference_papers/review_20261107/road2022.pdf",
+      "local_sha256": "058c198505c97b77a5e37a0571f4af7d803907afc51614de01ad847b330f0e4e",
+      "citation_context_sha256": "0b7480674aff47eb7879843fb1a51549faebce3a0eda4e2ce5f7d0f5c34dd640"
+    },
+    {
+      "key": "ref33",
+      "claim_checked": "Removal mechanism, model behavior and influence summary define different explanation methods.",
+      "source_url": "https://jmlr.org/papers/v22/20-1316.html",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Removal-based framework definitions; our endpoint remains explicitly specified.",
+      "local_source": "data/reference_papers/covert2021.pdf",
+      "local_sha256": "c5de07813ea7c566c2ddf1817c9e01248dbdd466c9578c37c0da3d5db7eab30e",
+      "citation_context_sha256": "754be458e350aedff7224bbef81835a31511f46be2b113d7b1ca308c6d0d454f"
+    },
+    {
+      "key": "ref34",
+      "claim_checked": "Bootstrap resampling attribution.",
+      "source_url": "https://doi.org/10.1214/aos/1176344552",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "General bootstrap principle; not evidence that this project has independent connection groups.",
+      "local_source": "data/reference_papers/efron1979.pdf",
+      "local_sha256": "59466e346093b49cb61abfbef05675e77898a1aa71d382858327fc3d6ef48487",
+      "citation_context_sha256": "b4949847b994b2cd90f662c753c568f6b8263ab17533267072547aaf70f809fd"
+    },
+    {
+      "key": "ref35",
+      "claim_checked": "Signed-rank test attribution.",
+      "source_url": "https://www.jstor.org/stable/3001968",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Original article scan and first-page identity; not a direct test of a mean difference.",
+      "local_source": "data/reference_papers/wilcoxon1945.pdf",
+      "local_sha256": "fbecae855b83edc717056b59a0e0660e907334c618b0b1928e46f175d51eb32a",
+      "citation_context_sha256": "b4949847b994b2cd90f662c753c568f6b8263ab17533267072547aaf70f809fd"
+    },
+    {
+      "key": "ref36",
+      "claim_checked": "Sequential familywise hypothesis correction.",
+      "source_url": "https://www.jstor.org/stable/4615733",
+      "reading_scope": "targeted_full_text",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Original article scan and identity; does not make pointwise bootstrap intervals simultaneous.",
+      "local_source": "data/reference_papers/holm1979.pdf",
+      "local_sha256": "4317a0d1555dad949dc1760605d925ba20037402827741fdf99cd8ea37e80c46",
+      "citation_context_sha256": "b4949847b994b2cd90f662c753c568f6b8263ab17533267072547aaf70f809fd"
+    },
+    {
+      "key": "ref37",
+      "claim_checked": "Independent OCPP 1.6 capture identity and balanced TCP/IP partitions.",
+      "source_url": "https://zenodo.org/records/14887131",
+      "reading_scope": "provider_record",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Dataset creator/instructions/files checked; IEEE DataPort DOI is mirrored on Zenodo. Counts are our artifacts, not borrowed dataset performance.",
+      "citation_context_sha256": "05629cc813a9d920ed0584b1791301245692e7d5948c0a1ce27418807e747aa8"
+    },
+    {
+      "key": "ref38",
+      "claim_checked": "Attack prevalence affects predictive value at fixed conditional error rates.",
+      "source_url": "https://doi.org/10.1145/357830.357849",
+      "reading_scope": "registry_identity_and_independent_calculation",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Crossref identity and publisher-deposited abstract where available. Publisher full-text access was unavailable; the paper uses the broad base-rate concept and its own explicit conditional calculation, not a detailed literature result.",
+      "citation_context_sha256": "8a94450804f5c77bd9119d99cc7d618683c499d17d003907567b306c9d2823b6"
+    },
+    {
+      "key": "ref39",
+      "claim_checked": "PDMFC v1 pfSense capture converted using CICFlowMeter.",
+      "source_url": "https://zenodo.org/records/16943481",
+      "reading_scope": "provider_record",
+      "judgment": "supports_the_stated_scope",
+      "review_note": "Provider description, corporate creator, version and CSV checksum; our per-label/TCP counts come from frozen artifacts.",
+      "citation_context_sha256": "8a94450804f5c77bd9119d99cc7d618683c499d17d003907567b306c9d2823b6"
+    }
+  ]
+}

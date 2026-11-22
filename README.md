@@ -78,6 +78,7 @@ python run_explanation_robustness.py
 python run_pattern_sensitivity.py  # needs the prepared inputs and eight saved seed-42 models
 python build_recent_paper.py --journal  # requires pdflatex and IEEEtran; see below
 python verify_manuscript_revision.py
+python audit_journal_references.py  # journal citation coverage, saved identities and reviewed claim contexts
 python -B verify_recent_benchmark.py
 # Also rehash all locally downloaded official source bytes:
 python -B verify_recent_benchmark.py --verify-raw

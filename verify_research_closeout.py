@@ -13,6 +13,7 @@ from src.xai_ids.publication_extensions import kernel_paragraph, lime_budget_res
 from src.xai_ids.training_scale import load_training_scale
 from verify_manuscript_revision import main as verify_manuscripts
 from verify_recent_benchmark import main as verify_primary
+from audit_journal_references import audit as verify_journal_references
 
 
 ROOT = Path(__file__).resolve().parent
@@ -80,6 +81,7 @@ def main():
                    cwd=ROOT, check=True)
     checked = verify_extensions()
     verify_manuscripts()
+    verify_journal_references()
     print(f"Research closeout passed. Checked {checked} extension hash references "
           "plus the uncapped, journal, primary and source-holdout verifiers.")
 

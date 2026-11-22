@@ -1,12 +1,35 @@
-# Current manuscript reference and claim audit
+# Current journal reference and attribution audit
 
-**Current revision completed:** 8 November 2026. The extended report contains **36 cited references**, numbered in first-appearance order. All **20 DOI records** resolve through Crossref or DataCite; their registered titles appear in the corresponding entries after case, accent and punctuation normalization. The separate anonymous conference draft contains **30 cited references** in its own first-appearance order. Its statistical-method citations resolve by bibliographic identity, protecting them against renumbering in the longer report.
+**Checked:** 23 November 2026 (Asia/Dhaka). This active audit covers the retained 39-reference journal manuscript. Earlier counts and PDF descriptions below are historical records.
 
-Twenty additional papers were reviewed using relevant full-text methods, results and discussion: 18 downloaded PDFs, one PDF read through the web reader and one publisher HTML full text. This was a focused narrative review, not an exhaustive systematic review or independent reproduction. Dataset records and the abstract-only 2026 lead do not count. See [the twenty reading notes](LITERATURE_REVIEW_20261107.md), [machine-readable decisions](literature_review_20261107.json), and [acquisition ledger](outputs/literature_review_20261107/acquisition.json). Sixteen especially relevant additions are cited in the extended report; other readings informed decisions without padding its bibliography.
+All 39 entries are cited, with contiguous labels in first-appearance order. Fresh Crossref/DataCite records identify 24 DOI entries; registered titles, listed author surnames, available volumes and page/article numbers were compared with the bibliography. The other 15 entries were checked against official proceedings, journal, arXiv or archival records and available original PDFs. These checks cover the actual journal source and searchable PDF, rather than only the historical Python bibliography.
 
-The revision distinguishes DeepExplainer, KernelSHAP and TreeSHAP, fixed-model deletion and retraining-based removal, feature agreement and fidelity, and explanation scores and analyst benefit. It acknowledges close recent IDS comparisons and makes class-specific failures explicit. The new exact-pattern exclusion and existing sign/influence checks are labelled post-hoc, with separate exploratory test families. Neither supplies external validation.
+The [reference-by-reference claim review](outputs/reference_audit_20261123/claim_review.json) records the claim, primary source, reading scope, available local-file hash and limitations for each entry. Targeted full-text reading, publisher HTML, abstracts and dataset records are distinguished. Publisher full-text access to Axelsson was unavailable; its broad base-rate concept is supported by the publisher-deposited abstract, and the paper's prevalence calculation uses its own measured conditional rates. This is not a claim that every source was read in full or independently reproduced.
 
-Evidence: [current manuscript validation](outputs/literature_review_20261107/manuscript_validation.json) and [20 DOI records](outputs/recent2025/reference_metadata.json). Run `python verify_manuscript_revision.py` for current local checks and `python verify_references.py --offline` for citation structure. All 32 tests pass. Both PDFs contain searchable text and embedded fonts with no Type 3 fonts; all eight extended-report pages and five conference pages were visually inspected. The conference equation overflow was corrected before final review. Local checks do not establish venue certification or author approval.
+## Corrections and qualifications
+
+- Reference 17 now cites the published ICISSP 2025 paper, volume 1, pages 47-58, DOI `10.5220/0013180700003899`, and identifies the accepted arXiv version used for reading.
+- E-XAI's Wilcoxon comparison concerns detector accuracy samples. The related-work text now distinguishes that analysis from this project's paired explanation-induced probability drops. Its feature-removal curves use fewer predictors in training and evaluation.
+- OpenXAI's proceedings landing page omits “Post hoc” from the title while its linked PDF includes it. The journal entry follows the official catalogue title; the review records the PDF variant and same-paper identity.
+- Hase and Hooker now link directly to their NeurIPS proceedings records. The OCPP dataset entry identifies IEEE DataPort and its Zenodo mirror. Previously plain DOI strings in references 38 and 39 are clickable. Løland's surname is rendered with its original diacritic.
+- The introduction and related-work synthesis now state the study's specific questions and distinguish earlier methods without repeating a long novelty checklist. The discussion separates signed-rank tests, bootstrap mean intervals and Holm hypothesis adjustment.
+- AI assistance remains disclosed. Editing improved clarity and attribution; it was not used to hide the assistance history.
+
+## Originality screening and limits
+
+A local screen compared the manuscript's prose against the machine-readable text of all 33 PDFs available under `data/reference_papers/`, excluding the manuscript's bibliography and tables. No exact 12-word windows were found. The [screening record](outputs/reference_audit_20261123/local_overlap.json) lists its source coverage and hashes. It is a limited lexical check, not a Turnitin/iThenticate report, a plagiarism clearance, a global similarity percentage or an AI-detector result. It does not OCR image-only pages and cannot detect all paraphrase overlap or compare against inaccessible sources.
+
+Author and supervisor reading, approval and any institution-required similarity review remain necessary. Author affiliations, corresponding author/email, contributions, funding, conflicts, supervisor authorship and venue choice are deferred to the very last step at the user's request.
+
+## Repeatable checks
+
+- `python audit_journal_references.py` validates citation coverage/order in the actual LaTeX and PDF, saved registry records and the claim-review context hashes.
+- `python audit_journal_references.py --refresh` fetches current DOI identities without changing frozen experiment evidence.
+- `python audit_journal_references.py --scan-overlap` repeats the limited local PDF comparison when the local reference files are available.
+- `python verify_research_closeout.py` includes the current journal reference audit and the saved experimental checks.
+- `python -m unittest discover -s tests` includes malformed-citation and stale-claim-context tests.
+
+Evidence: [live registry records](outputs/reference_audit_20261123/live_metadata.json), [validation](outputs/reference_audit_20261123/validation.json), and [current manuscript formatting checks](outputs/literature_review_20261107/manuscript_validation.json).
 
 ## Historical October audit
 
